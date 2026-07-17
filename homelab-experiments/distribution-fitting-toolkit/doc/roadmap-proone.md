@@ -42,6 +42,8 @@ Creates `proone/script/` for the first time, per the on-demand convention in `..
 - PDF/CDF value comparison on a point grid, tolerance ~`1e-9`
 - Fitted-parameter recovery on synthetic data from known ground truth, looser tolerance for small n
 - This must pass before moving to the service layer
+- Run via `python3 ../proone/script/run_validate.py` (or `python3 run_validate.py` from inside
+  `script/`) — works from any working directory, no `-m` module invocation needed
 
 ## 4. Build the API
 
