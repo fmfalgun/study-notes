@@ -41,7 +41,9 @@ implementation sketch, deployment, analysis). Nothing below restates anything fr
 - **Live-deployment daemon output**, all inside `script/results/` (never outside the transferred
   folder): `samples.jsonl` (one line per raw tick), `baseline.json` (the established baseline fit),
   `anomalies.jsonl` (one line per batch that drifted beyond the Test-section threshold),
-  `errors.log` (caught per-iteration exceptions — see § Explicitly out of scope, resilience).
+  `errors.log` (caught per-iteration exceptions — see § Explicitly out of scope, resilience),
+  `status.json` (current state, overwritten atomically every tick — not an append log like the
+  others, it's a live snapshot for `script/run_monitor.py`'s dashboard to poll).
 - End of the deployment window: a results write-up (see `plan.md` § What gets analyzed at the end).
 
 ## Database / dataset

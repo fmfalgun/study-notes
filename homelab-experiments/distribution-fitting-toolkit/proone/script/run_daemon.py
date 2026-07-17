@@ -10,6 +10,9 @@ To survive a closed terminal on ProOne, launch it with your shell's own backgrou
 
 Stop it with `kill <pid>` (SIGTERM) or Ctrl+C (SIGINT) — both are handled for a clean shutdown
 rather than an abrupt kill mid-write.
+
+To watch it live, run `python3 run_monitor.py` in a separate terminal at any time — it's fully
+decoupled from this process (polls results/status.json, doesn't talk to the daemon directly).
 """
 
 import argparse

@@ -12,10 +12,16 @@ Resilience: every iteration's work is wrapped in try/except so one bad reading, 
 /proc read failure, or any other single-iteration error never kills the process — it's logged to
 errors.log and the loop continues. This is the entire reason this file exists separately from a
 plain script: the loop body assumes it WILL occasionally fail and is built to keep going anyway.
+
+Live view: this process only ever writes files, never a live display (it's meant to run
+detached, e.g. under nohup, with no terminal to draw to). status.json is overwritten atomically
+every tick specifically so a separate, decoupled run_monitor.py can poll it and render a live
+dashboard whenever you want to attach one — see that file.
 """
 
 import json
 import math
+import os
 import signal
 import time
 import traceback
@@ -32,6 +38,7 @@ SAMPLES_LOG = RESULTS_DIR / "samples.jsonl"
 ANOMALIES_LOG = RESULTS_DIR / "anomalies.jsonl"
 ERRORS_LOG = RESULTS_DIR / "errors.log"
 BASELINE_FILE = RESULTS_DIR / "baseline.json"
+STATUS_FILE = RESULTS_DIR / "status.json"
 
 DEFAULT_INTERVAL_SECONDS = 60
 BASELINE_BATCH_COUNT = 10  # samples per batch — both the baseline batch and every batch after it
@@ -80,6 +87,15 @@ class Sampler:
 def append_jsonl(path: Path, record: dict) -> None:
     with path.open("a") as f:
         f.write(json.dumps(record) + "\n")
+
+
+def write_status(status: dict) -> None:
+    """Atomic write (write-then-rename) so run_monitor.py never reads a half-written file —
+    os.replace is atomic on POSIX, unlike a plain write to STATUS_FILE directly.
+    """
+    tmp_path = STATUS_FILE.with_name(STATUS_FILE.name + ".tmp")
+    tmp_path.write_text(json.dumps(status))
+    os.replace(tmp_path, STATUS_FILE)
 
 
 def fit_batch(samples: list[dict]) -> dict:
@@ -147,25 +163,37 @@ def run(interval_seconds: float) -> None:
     current_batch: list[dict] = []
     baseline_fit = json.loads(BASELINE_FILE.read_text()) if BASELINE_FILE.exists() else None
 
+    started_at = time.time()
+    counters = {"total_samples": 0, "total_batches": 0, "total_anomalies": 0, "total_errors": 0}
+    last_sample: dict | None = None
+    last_batch_fit: dict | None = None
+    last_drift: list[str] | None = None
+
     print(f"Starting telemetry daemon: interval={interval_seconds}s, results -> {RESULTS_DIR}")
 
     while not _shutdown_requested:
         try:
             record = sampler.sample()
             if record is not None:
+                counters["total_samples"] += 1
+                last_sample = record
                 append_jsonl(SAMPLES_LOG, record)
                 current_batch.append(record)
 
                 if len(current_batch) >= BASELINE_BATCH_COUNT:
+                    counters["total_batches"] += 1
                     batch_fit = fit_batch(current_batch)
+                    last_batch_fit = batch_fit
                     if baseline_fit is None:
                         baseline_fit = batch_fit
                         BASELINE_FILE.write_text(json.dumps(baseline_fit))
-                        print("Baseline established:", baseline_fit)
+                        last_drift = []
                     else:
                         batch_se = standard_errors(batch_fit)
                         drifted = check_drift(baseline_fit, batch_fit, batch_se)
+                        last_drift = drifted
                         if drifted:
+                            counters["total_anomalies"] += 1
                             append_jsonl(ANOMALIES_LOG, {
                                 "timestamp": time.time(),
                                 "drifted_metrics": drifted,
@@ -174,7 +202,24 @@ def run(interval_seconds: float) -> None:
                             })
                     current_batch = []
         except Exception as exc:  # the resilience boundary — must never propagate out of the loop
+            counters["total_errors"] += 1
             log_error("sample_loop", exc)
+
+        # Written every tick (not just every batch) so a monitor polling this file always has
+        # fresh liveness info, even between batch completions.
+        write_status({
+            "pid": os.getpid(),
+            "started_at": started_at,
+            "last_tick_at": time.time(),
+            "interval_seconds": interval_seconds,
+            "batch_size": BASELINE_BATCH_COUNT,
+            "batch_progress": len(current_batch),
+            "counters": counters,
+            "last_sample": last_sample,
+            "baseline_fit": baseline_fit,
+            "last_batch_fit": last_batch_fit,
+            "last_drift": last_drift,
+        })
 
         # Sleep in 1s slices so a shutdown signal is noticed promptly even with a long interval,
         # instead of blocking for the full interval on a single time.sleep() call.

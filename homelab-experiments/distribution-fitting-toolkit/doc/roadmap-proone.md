@@ -74,6 +74,11 @@ Creates `proone/script/` for the first time, per the on-demand convention in `..
 - Verified locally (25s run, 1s interval): baseline established after batch 1, batch 2 correctly
   flagged a real Poisson drift, clean SIGTERM shutdown, zero uncaught errors.
 - Let it run 1–2 weeks, accumulating the logs above.
+- **Watch it live**: `python3 run_monitor.py`, in a separate terminal, any time — polls
+  `results/status.json` every 1s and renders a btop-style dashboard (curses, stdlib only). Fully
+  decoupled from the daemon: attach/detach whenever, works whether the daemon is foreground or
+  backgrounded, closing the monitor never affects the running daemon. Flags the daemon as `STALE`
+  if `status.json` hasn't updated in 3+ intervals.
 
 ## 7. Analyze results at the end
 
