@@ -60,12 +60,21 @@ of the service**, not raw throughput:
 
 ## Deployment
 
-Run the service continuously on the ProOne for **1–2 weeks**. During that window:
-- Feed it synthetic batches (known ground-truth Normal/Binomial/Poisson samples at varying sample
-  sizes: n = 10, 100, 1000, 10000, 100000) on a daily cron-style loop to build up a log of
-  fit-accuracy-vs-n over time, rather than a single one-shot validation run.
-- If/when another experiment on this machine needs distribution fitting, point it at this service
-  instead of reimplementing — that's the intended integration point.
+Run the service continuously on the ProOne for **1–2 weeks**. This happens in two phases — see
+`scope.md` § Input/Database/Test for the exact contract each phase operates under:
+
+- **Phase 1 (this iteration)**: correctness validation (§ Implementation plan, `validate.py`) stays
+  on synthetic, known-ground-truth data — that's the only way to check "did `fit()` recover the
+  right answer," and real telemetry has no ground truth to check against. Once validated, the *live*
+  deployed service is fed **real system telemetry** instead of synthetic batches (source per
+  distribution still being decided — candidates tracked in `../../garuda-utilities.md` and
+  `doc/roadmap-proone.md`'s data-source step), sampled at an interval the service decides
+  dynamically/at runtime rather than a fixed daily cron.
+- **Phase 2 (future iteration, not built now)**: explore validating the distribution math itself
+  against real-world data directly, without a known ground truth to check against — deferred.
+
+If/when another experiment on this machine needs distribution fitting, point it at this service
+instead of reimplementing — that's the intended integration point.
 
 ## What gets analyzed at the end
 

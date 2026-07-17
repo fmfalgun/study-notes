@@ -1,3 +1,7 @@
 # Personal/identifying material — photos of own exam attempts, notebooks, etc.
 topics/isro-prev-attempt-1/
 topics/isro-prev-attempt-topics-1/
+
+# Python
+__pycache__/
+*.pyc
