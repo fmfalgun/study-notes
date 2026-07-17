@@ -66,10 +66,13 @@ Run the service continuously on the ProOne for **1–2 weeks**. This happens in 
 - **Phase 1 (this iteration)**: correctness validation (§ Implementation plan, `validate.py`) stays
   on synthetic, known-ground-truth data — that's the only way to check "did `fit()` recover the
   right answer," and real telemetry has no ground truth to check against. Once validated, the *live*
-  deployed service is fed **real system telemetry** instead of synthetic batches (source per
-  distribution still being decided — candidates tracked in `../../garuda-utilities.md` and
-  `doc/roadmap-proone.md`'s data-source step), sampled at an interval the service decides
-  dynamically/at runtime rather than a fixed daily cron.
+  deployed daemon (`script/sampling_daemon.py` + `script/telemetry_source.py`) is fed **real system
+  telemetry read directly from `/proc`** (stdlib only, no psutil/numpy/scipy at runtime — see
+  `../../garuda-utilities.md` for why): CPU busy% → Normal, interrupts/interval → Poisson, per-core
+  busy count → Binomial. Sampling interval is a runtime flag (`--interval`, default 60s), not a
+  fixed daily cron. Resilience is a self-restarting loop inside the daemon itself (every iteration's
+  errors are caught and logged, never propagated) rather than systemd — see `doc/roadmap-proone.md`
+  Step 6.
 - **Phase 2 (future iteration, not built now)**: explore validating the distribution math itself
   against real-world data directly, without a known ground truth to check against — deferred.
 

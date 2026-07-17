@@ -27,24 +27,30 @@ implementation sketch, deployment, analysis). Nothing below restates anything fr
 - **Validation-phase input** (unchanged, Phase 1): synthetic data only, drawn in-process from known
   ground-truth parameters. Sample sizes: n ∈ {10, 100, 1000, 10000, 100000}, swept across all three
   distributions.
-- **Live-deployment input** (Phase 1, real data): real system telemetry — exact metric-to-source
-  mapping pending brainstorm (see `../doc/roadmap-proone.md`; candidate sources in
-  `../../garuda-utilities.md`). Sampling interval is decided dynamically by the service/script at
-  runtime, not fixed in advance.
+- **Live-deployment input** (Phase 1, real data): real system telemetry read directly from `/proc`
+  (no psutil/numpy/scipy dependency at runtime — see `../../garuda-utilities.md`): CPU busy% →
+  Normal, interrupts/interval → Poisson, per-core busy count (n = core count) → Binomial. Sampling
+  interval is a runtime flag (`--interval`, default 60s per `doc/roadmap-proone.md` Step 6), not
+  fixed in advance.
 
 ## Output
 
-- `POST /fit` → `{params: {...}, log_likelihood: number}`
-- `GET /pdf`, `GET /cdf` → `{value: number}`
-- Per-request line in the flat-file log: timestamp, distribution, sample size, result.
+- `POST /fit` → `{params: {...}, log_likelihood: number}` (service layer — not yet built, see
+  `doc/roadmap-proone.md` Step 4)
+- `GET /pdf`, `GET /cdf` → `{value: number}` (service layer — not yet built)
+- **Live-deployment daemon output**, all inside `script/results/` (never outside the transferred
+  folder): `samples.jsonl` (one line per raw tick), `baseline.json` (the established baseline fit),
+  `anomalies.jsonl` (one line per batch that drifted beyond the Test-section threshold),
+  `errors.log` (caught per-iteration exceptions — see § Explicitly out of scope, resilience).
 - End of the deployment window: a results write-up (see `plan.md` § What gets analyzed at the end).
 
 ## Database / dataset
 
 **No persistent database, either phase.** Validation (Phase 1) generates every sample in-process
 from known ground-truth parameters — no external dataset. Live deployment (Phase 1, real data) reads
-real-time system telemetry directly from the OS at sample time — nothing is ingested from a stored
-dataset there either. The only durable artifact in both cases is the flat-file request log.
+real-time system telemetry directly from `/proc` at sample time — nothing is ingested from a stored
+dataset there either. The only durable artifacts are the flat files under `script/results/` listed
+above.
 
 ## Timespan
 
@@ -80,4 +86,7 @@ dataset there either. The only durable artifact in both cases is the flat-file r
 
 - **Service reliability**: zero unplanned restarts and zero gaps in the request log over the full
   1–2 week deployment window count as passing; any crash or log gap gets investigated, not silently
-  waived.
+  waived. The daemon's resilience mechanism is a self-restarting loop inside the process itself
+  (per-iteration errors are caught, logged to `script/results/errors.log`, and the loop continues) —
+  not systemd — so "zero unplanned restarts" here means zero *process exits*, not zero caught
+  errors; a caught-and-logged error is expected occasionally and isn't itself a failure.

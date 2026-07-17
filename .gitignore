@@ -5,3 +5,6 @@ topics/isro-prev-attempt-topics-1/
 # Python
 __pycache__/
 *.pyc
+
+# Runtime output from experiment daemons — generated on the target machine, not source
+homelab-experiments/*/*/script/results/
