@@ -28,7 +28,7 @@ Syllabus names 4 sub-parts (Discrete Mathematics, Linear Algebra, Calculus, Prob
 
 **Calculus** *(Q75 — the "triple integral" Complex question; mean value theorem and integration are named syllabus items)*: [Limits](https://www.geeksforgeeks.org/maths/limits/) · [Continuity](https://www.geeksforgeeks.org/maths/continuity-of-functions/) · [Differentiability](https://www.geeksforgeeks.org/maths/differentiability-of-a-function-class-12-maths/) · [Lagrange's MVT](https://www.geeksforgeeks.org/engineering-mathematics/lagranges-mean-value-theorem/) · [Absolute Minima and Maxima](https://www.geeksforgeeks.org/maths/absolute-minima-and-maxima/) · [Indefinite Integrals](https://www.geeksforgeeks.org/maths/indefinite-integrals/)
 
-**Probability & Statistics** *(Q87)*: [Random Variable](https://www.geeksforgeeks.org/random-variable/) · [Normal Distribution](https://www.geeksforgeeks.org/maths/normal-distribution/) · [Binomial Distribution](https://www.geeksforgeeks.org/maths/binomial-distribution/) · [Mean, Median and Mode](https://www.geeksforgeeks.org/mean-median-and-mode/) · [Conditional Probability](https://www.geeksforgeeks.org/maths/conditional-probability/) · [Bayes's Formula](https://www.geeksforgeeks.org/maths/bayes-theorem/)
+**Probability & Statistics** *(Q87)*: [Random Variable](https://www.geeksforgeeks.org/random-variable/) · [Normal Distribution](https://www.geeksforgeeks.org/maths/normal-distribution/) · [Binomial Distribution](https://www.geeksforgeeks.org/maths/binomial-distribution/) · [Mean, Median and Mode](https://www.geeksforgeeks.org/maths/mean-median-mode/) · [Conditional Probability](https://www.geeksforgeeks.org/maths/conditional-probability/) · [Bayes's Formula](https://www.geeksforgeeks.org/maths/bayes-theorem/)
 
 ---
 

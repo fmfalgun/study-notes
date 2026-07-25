@@ -2,6 +2,9 @@
 topics/isro-prev-attempt-1/
 topics/isro-prev-attempt-topics-1/
 
+# Practice-question DB is derived from the (gitignored) exam-attempt photos above
+practice/practice.db
+
 # Python
 __pycache__/
 *.pyc
