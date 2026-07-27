@@ -1,22 +1,27 @@
-"""Shells out to the `claude` CLI in one-shot mode (`claude -p`) to generate
-a short explanation for a practice question, for when the stored hints
-aren't enough. One-shot, not an interactive session -- a single subprocess
-call with no tool use, billed the same as any other Claude Code usage under
-the logged-in account. Results are cached by db.py's ai_explanations table
-so a question is only ever sent to the model once.
+"""Shells out to the `claude` CLI in one-shot mode (`claude -p`) for
+interactive, per-question Q&A during practice -- when hints alone aren't
+enough, you can ask a free-form question at any point (cold, or after
+hint 1/2/3, or with the link shown). One-shot, not an interactive session:
+a single subprocess call with no tool use, billed the same as any other
+Claude Code usage under the logged-in account.
+
+Every turn is logged by db.py into ai_chat_log, and each new ask passes the
+prior logged thread back in as context so answers build on what was
+already discussed for that question instead of repeating it.
 """
 import json
 import subprocess
 
 MODEL = "haiku"
 TIMEOUT_S = 60
+DEFAULT_QUERY = "Explain the reasoning/method needed to solve this."
 
 
 class ExplainError(Exception):
     pass
 
 
-def _build_prompt(row, hints):
+def _question_context(row):
     lines = [
         f"Question ({row['topic']}" + (f" - {row['subtopic']})" if row["subtopic"] else ")"),
         row["question_text"],
@@ -28,19 +33,27 @@ def _build_prompt(row, hints):
     if row["correct_answer"]:
         correct_opt = row[f"option_{row['correct_answer']}"]
         lines.append(f"Correct answer: ({row['correct_answer']}) {correct_opt}")
-    if hints:
-        lines.append("Hints already shown: " + " | ".join(h["hint_text"] for h in hints))
-    lines.append(
-        "In 3-5 sentences, explain the reasoning/method needed to solve this, "
-        "building on the hints already shown rather than repeating them. "
-        "Plain text only -- no markdown, no URLs or links."
-    )
     return "\n".join(lines)
 
 
-def generate(row, hints):
-    """Returns the explanation text, or raises ExplainError."""
-    prompt = _build_prompt(row, hints)
+def _build_prompt(row, revealed_hints, thread, user_query):
+    parts = [_question_context(row)]
+    if revealed_hints:
+        parts.append("Hints shown so far: " + " | ".join(h["hint_text"] for h in revealed_hints))
+    if thread:
+        parts.append("Conversation so far on this question:")
+        for t in thread:
+            speaker = "Learner" if t["role"] == "user" else "You"
+            parts.append(f"{speaker}: {t['message']}")
+    parts.append(f"Learner: {user_query or DEFAULT_QUERY}")
+    parts.append("Reply in 2-5 sentences, plain text only -- no markdown, no URLs or links.")
+    return "\n".join(parts)
+
+
+def ask(row, revealed_hints, thread, user_query):
+    """thread: prior ai_chat_log rows for this question, oldest first.
+    Returns the reply text, or raises ExplainError."""
+    prompt = _build_prompt(row, revealed_hints, thread, user_query)
     try:
         proc = subprocess.run(
             ["claude", "-p", prompt, "--output-format", "json", "--model", MODEL],

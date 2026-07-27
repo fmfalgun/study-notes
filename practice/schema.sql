@@ -65,13 +65,19 @@ CREATE TABLE IF NOT EXISTS session_state (
     batch_ids       TEXT NOT NULL
 );
 
--- Cached AI-generated explanation per question, produced on demand by
--- shelling out to the `claude` CLI (see ai_explain.py) the first time a
--- learner asks for one. Cached so every later encounter with the same
--- question is a free DB read instead of a re-query of the model.
-CREATE TABLE IF NOT EXISTS ai_explanations (
-    question_id     INTEGER PRIMARY KEY REFERENCES questions(id),
-    explanation     TEXT NOT NULL,
-    model           TEXT,
+-- Freeform Q&A thread per question, produced by shelling out to the
+-- `claude` CLI (see ai_explain.py) whenever a learner asks something at
+-- any point -- cold, or after hint 1/2/3, or with the link shown. Every
+-- turn is appended (never overwritten), tagged with the stage it was
+-- asked at, and ordered by id so a question can build up a full serial
+-- conversation across many practice sessions, not just one cached answer.
+CREATE TABLE IF NOT EXISTS ai_chat_log (
+    id              INTEGER PRIMARY KEY AUTOINCREMENT,
+    question_id     INTEGER NOT NULL REFERENCES questions(id),
+    stage           TEXT NOT NULL,   -- 'cold' / 'hint1' / 'hint2' / 'hint3' / 'link'
+    role            TEXT NOT NULL CHECK(role IN ('user','assistant')),
+    message         TEXT NOT NULL,
     created_at      TEXT DEFAULT CURRENT_TIMESTAMP
 );
+
+CREATE INDEX IF NOT EXISTS idx_ai_chat_log_question ON ai_chat_log(question_id);

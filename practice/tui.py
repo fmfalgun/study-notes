@@ -207,8 +207,46 @@ def show_lines(screen, title, lines, help_extra=""):
             return
 
 
-def _question_lines(row, w, revealed_hints, show_link, link_row, show_explain, explanation_row,
-                     explain_error, feedback):
+def prompt_text(screen, label):
+    """Blocking single-line text input on the footer row. Enter submits
+    (blank allowed), Esc cancels and returns None."""
+    h, w, body_top, body_h, footer_row = screen.layout()
+    buf = ""
+    curses.curs_set(1)
+    try:
+        while True:
+            line = (label + buf)[: max(0, w - 1)]
+            screen.addstr(footer_row, 0, line + " " * max(0, w - 1 - len(line)))
+            screen.stdscr.move(footer_row, min(w - 1, len(label) + len(buf)))
+            screen.stdscr.refresh()
+            ch = screen.stdscr.get_wch()
+            if isinstance(ch, str):
+                if ch in ("\n", "\r"):
+                    return buf.strip()
+                if ch == "\x1b":
+                    return None
+                if ch in ("\x7f", "\b"):
+                    buf = buf[:-1]
+                elif ch.isprintable():
+                    buf += ch
+            else:
+                if ch == curses.KEY_ENTER:
+                    return buf.strip()
+                if ch == curses.KEY_BACKSPACE:
+                    buf = buf[:-1]
+    finally:
+        curses.curs_set(0)
+
+
+def _current_stage(hint_level, show_link):
+    if hint_level > 0:
+        return f"hint{hint_level}"
+    if show_link:
+        return "link"
+    return "cold"
+
+
+def _question_lines(row, w, revealed_hints, show_link, link_row, thread, feedback):
     lines = []
     sub = f" — {row['subtopic']}" if row["subtopic"] else ""
     lines.append(f"[#{row['id']}] {row['topic']}{sub}")
@@ -237,14 +275,13 @@ def _question_lines(row, w, revealed_hints, show_link, link_row, show_explain, e
             lines.append(f"Link: {link_row['link']}")
         else:
             lines.append("(No reference link on file for this topic.)")
-    if show_explain:
+    if thread:
         lines.append("")
-        if explanation_row:
-            lines.append("AI explanation:")
-            for wline in _wrap(explanation_row["explanation"], w - 1):
+        for t in thread:
+            who = "You" if t["role"] == "user" else "AI"
+            prefix = f"[{t['stage']}] {who}: "
+            for wline in _wrap(prefix + t["message"], w - 1):
                 lines.append(wline)
-        elif explain_error:
-            lines.append(f"(Could not get an explanation: {explain_error})")
     if feedback:
         lines.append("")
         lines.append(feedback)
@@ -260,8 +297,6 @@ def question_view(screen, conn, row):
                         # left over from dismissing the previous one
     hint_level = 0
     show_link = False
-    show_explain = False
-    explain_error = None
     feedback = None
     scroll = 0
     while True:
@@ -269,9 +304,8 @@ def question_view(screen, conn, row):
         screen.set_header(f"practice.py -- #{row['id']}  ({row['topic']})")
         hints = db.fetch_hints(conn, row["id"], hint_level) if hint_level else []
         link_row = db.fetch_link(conn, row["topic"]) if show_link else None
-        explanation_row = db.fetch_ai_explanation(conn, row["id"]) if show_explain else None
-        lines = _question_lines(row, w, hints, show_link, link_row, show_explain, explanation_row,
-                                 explain_error, feedback)
+        thread = db.fetch_ai_thread(conn, row["id"])
+        lines = _question_lines(row, w, hints, show_link, link_row, thread, feedback)
 
         if row["correct_answer"]:
             help_text = "a/b/c/d: answer  h: hint  l: link  e: explain  s: skip  esc: back to menu  Q: quit"
@@ -314,21 +348,24 @@ def question_view(screen, conn, row):
         elif key in (ord("l"), ord("L")):
             show_link = not show_link
         elif key in (ord("e"), ord("E")):
-            if show_explain:
-                show_explain = False
-            else:
-                if db.fetch_ai_explanation(conn, row["id"]) is None:
-                    screen.addstr(footer_row, 0, "Asking Claude for an explanation (few seconds)...",
-                                  screen.attr(COLOR_DIM, curses.A_DIM))
+            query = prompt_text(screen, "Ask (blank = general explanation, esc = cancel)> ")
+            curses.flushinp()
+            if query is not None:
+                stage = _current_stage(hint_level, show_link)
+                screen.addstr(footer_row, 0, "Asking Claude (few seconds)...",
+                              screen.attr(COLOR_DIM, curses.A_DIM))
+                screen.stdscr.refresh()
+                all_hints = db.fetch_hints(conn, row["id"], level=3)
+                try:
+                    answer = ai_explain.ask(row, all_hints, thread, query)
+                    db.append_ai_message(conn, row["id"], stage, "user", query or ai_explain.DEFAULT_QUERY)
+                    db.append_ai_message(conn, row["id"], stage, "assistant", answer)
+                except ai_explain.ExplainError as err:
+                    feedback_line = f"(AI ask failed: {err})"
+                    screen.addstr(footer_row, 0, feedback_line[: max(0, w - 1)],
+                                  screen.attr(COLOR_BAD, curses.A_BOLD))
                     screen.stdscr.refresh()
-                    all_hints = db.fetch_hints(conn, row["id"], level=3)
-                    try:
-                        explanation = ai_explain.generate(row, all_hints)
-                        db.save_ai_explanation(conn, row["id"], explanation, ai_explain.MODEL)
-                        explain_error = None
-                    except ai_explain.ExplainError as err:
-                        explain_error = str(err)
-                show_explain = True
+                    screen.stdscr.getch()
         elif key in (ord("s"), ord("S")):
             db.record_attempt(conn, row["id"], None, "skipped")
             feedback = "Skipped."

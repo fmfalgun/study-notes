@@ -85,19 +85,19 @@ def fetch_link(conn, topic):
     return conn.execute("SELECT link FROM topic_links WHERE topic = ?", (topic,)).fetchone()
 
 
-def fetch_ai_explanation(conn, question_id):
+def fetch_ai_thread(conn, question_id):
+    """Full logged Q&A thread for a question, oldest first."""
     return conn.execute(
-        "SELECT explanation, model, created_at FROM ai_explanations WHERE question_id = ?",
+        "SELECT stage, role, message, created_at FROM ai_chat_log "
+        "WHERE question_id = ? ORDER BY id ASC",
         (question_id,),
-    ).fetchone()
+    ).fetchall()
 
 
-def save_ai_explanation(conn, question_id, explanation, model):
+def append_ai_message(conn, question_id, stage, role, message):
     conn.execute(
-        "INSERT INTO ai_explanations (question_id, explanation, model) VALUES (?, ?, ?) "
-        "ON CONFLICT(question_id) DO UPDATE SET "
-        "explanation = excluded.explanation, model = excluded.model, created_at = CURRENT_TIMESTAMP",
-        (question_id, explanation, model),
+        "INSERT INTO ai_chat_log (question_id, stage, role, message) VALUES (?, ?, ?, ?)",
+        (question_id, stage, role, message),
     )
     conn.commit()
 

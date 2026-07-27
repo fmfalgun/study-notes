@@ -110,19 +110,22 @@ def cmd_explain(args):
     if row is None:
         print(f"No question #{args.question_id}")
         return
-    cached = None if args.refresh else db.fetch_ai_explanation(conn, args.question_id)
-    if cached:
-        print(cached["explanation"])
-        return
+
+    thread = db.fetch_ai_thread(conn, args.question_id)
+    for t in thread:
+        who = "You" if t["role"] == "user" else "AI"
+        print(f"[{t['stage']}] {who}: {t['message']}")
+
     print("Asking Claude (few seconds)...")
     hints = db.fetch_hints(conn, args.question_id, level=3)
     try:
-        explanation = ai_explain.generate(row, hints)
+        answer = ai_explain.ask(row, hints, thread, args.query)
     except ai_explain.ExplainError as e:
-        print(f"Could not get an explanation: {e}")
+        print(f"Could not get an answer: {e}")
         return
-    db.save_ai_explanation(conn, args.question_id, explanation, ai_explain.MODEL)
-    print(explanation)
+    db.append_ai_message(conn, args.question_id, args.stage, "user", args.query or ai_explain.DEFAULT_QUERY)
+    db.append_ai_message(conn, args.question_id, args.stage, "assistant", answer)
+    print(f"[{args.stage}] AI: {answer}")
 
 
 def cmd_stats(args):
@@ -171,9 +174,10 @@ def main():
     p_link = sub.add_parser("link", help="Show the topic reference link for a question")
     p_link.add_argument("question_id", type=int)
 
-    p_explain = sub.add_parser("explain", help="Get (and cache) an AI-generated explanation for a question")
+    p_explain = sub.add_parser("explain", help="Ask AI about a question; logs the whole thread")
     p_explain.add_argument("question_id", type=int)
-    p_explain.add_argument("--refresh", action="store_true", help="Regenerate even if already cached")
+    p_explain.add_argument("query", nargs="?", default=None, help="Your question (omit for a general explanation)")
+    p_explain.add_argument("--stage", default="cold", help="Tag for this ask: cold/hint1/hint2/hint3/link")
 
     args = parser.parse_args()
     {
