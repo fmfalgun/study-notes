@@ -2,77 +2,29 @@
 """CLI practice-problem server, backed by practice/practice.db.
 
 Never dumps the full question bank at the terminal — `next` always returns a
-small batch. See practice/README.md for the workflow.
+small batch. Run with no arguments in an interactive terminal to launch the
+curses TUI (tui.py); any subcommand below still works as a scriptable
+fallback, same behavior as before the TUI existed.
 """
 import argparse
-import random
-import sqlite3
-from pathlib import Path
+import sys
 
-DB_PATH = Path(__file__).parent / "practice.db"
-SCHEMA_PATH = Path(__file__).parent / "schema.sql"
-
-TIER_RANK = {"1": 0, "2": 1, "3": 2, "shadow": 3}
-DIFF_RANK = {"Complex": 0, "Medium": 1, "Easy": 2}
-OUTCOME_RANK = {None: 0, "wrong": 0, "needed_hint": 1, "skipped": 2, "solved_cold": 5}
-
-
-def connect():
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    conn.execute("PRAGMA foreign_keys = ON")
-    return conn
+import ai_explain
+import db
 
 
 def cmd_init(args):
-    conn = connect()
-    conn.executescript(SCHEMA_PATH.read_text())
-    conn.commit()
-    print(f"Initialized {DB_PATH}")
-
-
-def _last_outcome_map(conn):
-    rows = conn.execute(
-        """
-        SELECT question_id, outcome, attempted_at
-        FROM attempts
-        ORDER BY attempted_at ASC
-        """
-    ).fetchall()
-    last = {}
-    counts = {}
-    for r in rows:
-        last[r["question_id"]] = r["outcome"]
-        counts[r["question_id"]] = counts.get(r["question_id"], 0) + 1
-    return last, counts
+    conn = db.connect()
+    db.init_db(conn)
+    print(f"Initialized {db.DB_PATH}")
 
 
 def cmd_next(args):
-    conn = connect()
-    q = "SELECT * FROM questions WHERE 1=1"
-    params = []
-    if args.topic:
-        q += " AND topic LIKE ?"
-        params.append(f"%{args.topic}%")
-    rows = conn.execute(q, params).fetchall()
-    if not rows:
-        print("No questions match." if args.topic else "Question bank is empty — run `load` first.")
+    conn = db.connect()
+    batch = db.fetch_next_batch(conn, topic=args.topic, n=args.n)
+    if not batch:
+        print("No questions match." if args.topic else "Question bank is empty — run `init` first.")
         return
-
-    last, counts = _last_outcome_map(conn)
-
-    def score(row):
-        outcome = last.get(row["id"])
-        return (
-            OUTCOME_RANK.get(outcome, 0),
-            TIER_RANK.get(row["tier"], 4),
-            DIFF_RANK.get(row["difficulty"], 3),
-            counts.get(row["id"], 0),
-            random.random(),
-        )
-
-    rows = sorted(rows, key=score)
-    batch = rows[: args.n]
 
     for row in batch:
         print(f"[#{row['id']}] {row['topic']}" + (f" — {row['subtopic']}" if row["subtopic"] else ""))
@@ -84,12 +36,13 @@ def cmd_next(args):
             if opt:
                 print(f"      ({letter}) {opt}")
         print()
-    print(f"Answer with: practice.py answer <id> <a|b|c|d|correct|incorrect|hint|skip>")
+    print("Answer with: practice.py answer <id> <a|b|c|d|correct|incorrect|hint|skip>")
+    print("Stuck? practice.py hint <id> [--level 2|3]   /   practice.py link <id>   /   practice.py explain <id>")
 
 
 def cmd_answer(args):
-    conn = connect()
-    row = conn.execute("SELECT * FROM questions WHERE id = ?", (args.question_id,)).fetchone()
+    conn = db.connect()
+    row = db.fetch_question(conn, args.question_id)
     if row is None:
         print(f"No question #{args.question_id}")
         return
@@ -101,11 +54,7 @@ def cmd_answer(args):
             print(f"Re-run as: practice.py answer {args.question_id} correct   (or) incorrect")
             return
         outcome = "solved_cold" if val == row["correct_answer"] else "wrong"
-        conn.execute(
-            "INSERT INTO attempts (question_id, selected_answer, outcome) VALUES (?, ?, ?)",
-            (args.question_id, val, outcome),
-        )
-        conn.commit()
+        db.record_attempt(conn, args.question_id, val, outcome)
         if outcome == "solved_cold":
             print("Correct.")
         else:
@@ -115,54 +64,90 @@ def cmd_answer(args):
                 print(f"Note: {row['answer_notes']}")
     elif val in ("correct", "incorrect"):
         outcome = "solved_cold" if val == "correct" else "wrong"
-        conn.execute(
-            "INSERT INTO attempts (question_id, selected_answer, outcome, notes) VALUES (?, NULL, ?, ?)",
-            (args.question_id, outcome, "self-reported"),
-        )
-        conn.commit()
+        db.record_attempt(conn, args.question_id, None, outcome, notes="self-reported")
         print(f"Logged as {outcome} (self-reported).")
     elif val in ("hint", "skip"):
         outcome = "needed_hint" if val == "hint" else "skipped"
-        conn.execute(
-            "INSERT INTO attempts (question_id, selected_answer, outcome) VALUES (?, NULL, ?)",
-            (args.question_id, outcome),
-        )
-        conn.commit()
+        db.record_attempt(conn, args.question_id, None, outcome)
         print(f"Logged as {outcome}.")
     else:
         print("Value must be one of: a b c d correct incorrect hint skip")
 
 
+def cmd_hint(args):
+    conn = db.connect()
+    row = db.fetch_question(conn, args.question_id)
+    if row is None:
+        print(f"No question #{args.question_id}")
+        return
+    level = max(1, min(3, args.level))
+    hints = db.fetch_hints(conn, args.question_id, level)
+    if not hints:
+        print(f"No hints on file for #{args.question_id}.")
+        return
+    for h in hints:
+        print(f"Hint {h['hint_order']}: {h['hint_text']}")
+    if level < 3 and len(hints) == level:
+        print(f"(Re-run with --level {level + 1} for the next hint.)")
+
+
+def cmd_link(args):
+    conn = db.connect()
+    row = db.fetch_question(conn, args.question_id)
+    if row is None:
+        print(f"No question #{args.question_id}")
+        return
+    link = db.fetch_link(conn, row["topic"])
+    if not link:
+        print(f"No reference link on file for topic '{row['topic']}'.")
+        return
+    print(f"{row['topic']}: {link['link']}")
+
+
+def cmd_explain(args):
+    conn = db.connect()
+    row = db.fetch_question(conn, args.question_id)
+    if row is None:
+        print(f"No question #{args.question_id}")
+        return
+    cached = None if args.refresh else db.fetch_ai_explanation(conn, args.question_id)
+    if cached:
+        print(cached["explanation"])
+        return
+    print("Asking Claude (few seconds)...")
+    hints = db.fetch_hints(conn, args.question_id, level=3)
+    try:
+        explanation = ai_explain.generate(row, hints)
+    except ai_explain.ExplainError as e:
+        print(f"Could not get an explanation: {e}")
+        return
+    db.save_ai_explanation(conn, args.question_id, explanation, ai_explain.MODEL)
+    print(explanation)
+
+
 def cmd_stats(args):
-    conn = connect()
-    q = """
-        SELECT
-            q.topic,
-            COUNT(DISTINCT q.id) AS total,
-            COUNT(DISTINCT a.question_id) AS attempted,
-            SUM(CASE WHEN a.outcome = 'solved_cold' THEN 1 ELSE 0 END) AS solved_cold,
-            SUM(CASE WHEN a.outcome = 'wrong' THEN 1 ELSE 0 END) AS wrong,
-            SUM(CASE WHEN a.outcome = 'needed_hint' THEN 1 ELSE 0 END) AS needed_hint,
-            SUM(CASE WHEN a.outcome = 'skipped' THEN 1 ELSE 0 END) AS skipped
-        FROM questions q
-        LEFT JOIN attempts a ON a.question_id = q.id
-    """
-    params = []
-    if args.topic:
-        q += " WHERE q.topic LIKE ?"
-        params.append(f"%{args.topic}%")
-    q += " GROUP BY q.topic ORDER BY q.topic"
-    rows = conn.execute(q, params).fetchall()
+    conn = db.connect()
+    rows = db.fetch_stats(conn, topic=args.topic)
     if not rows:
         print("No data.")
         return
-    print(f"{'Topic':<32}{'Total':>7}{'Attempted':>11}{'Cold':>7}{'Wrong':>7}{'Hint':>7}{'Skip':>7}")
+    width = max(len(r["topic"]) for r in rows)
+    width = max(width, len("Topic")) + 2
+    print(f"{'Topic':<{width}}{'Total':>7}{'Attempted':>11}{'Cold':>7}{'Wrong':>7}{'Hint':>7}{'Skip':>7}")
     for r in rows:
-        print(f"{r['topic']:<32}{r['total']:>7}{r['attempted'] or 0:>11}{r['solved_cold'] or 0:>7}"
+        print(f"{r['topic']:<{width}}{r['total']:>7}{r['attempted'] or 0:>11}{r['solved_cold'] or 0:>7}"
               f"{r['wrong'] or 0:>7}{r['needed_hint'] or 0:>7}{r['skipped'] or 0:>7}")
 
 
 def main():
+    if len(sys.argv) == 1:
+        import tui
+        if tui.available():
+            tui.run()
+            return
+        print("Not an interactive terminal -- use a subcommand instead (practice.py -h).")
+        return
+
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="cmd", required=True)
 
@@ -179,8 +164,22 @@ def main():
     p_stats = sub.add_parser("stats", help="Print progress stats")
     p_stats.add_argument("--topic", type=str, default=None)
 
+    p_hint = sub.add_parser("hint", help="Show stored hint(s) for a question")
+    p_hint.add_argument("question_id", type=int)
+    p_hint.add_argument("--level", type=int, default=1, help="Reveal hints 1..level (default 1)")
+
+    p_link = sub.add_parser("link", help="Show the topic reference link for a question")
+    p_link.add_argument("question_id", type=int)
+
+    p_explain = sub.add_parser("explain", help="Get (and cache) an AI-generated explanation for a question")
+    p_explain.add_argument("question_id", type=int)
+    p_explain.add_argument("--refresh", action="store_true", help="Regenerate even if already cached")
+
     args = parser.parse_args()
-    {"init": cmd_init, "next": cmd_next, "answer": cmd_answer, "stats": cmd_stats}[args.cmd](args)
+    {
+        "init": cmd_init, "next": cmd_next, "answer": cmd_answer, "stats": cmd_stats,
+        "hint": cmd_hint, "link": cmd_link, "explain": cmd_explain,
+    }[args.cmd](args)
 
 
 if __name__ == "__main__":
