@@ -115,3 +115,36 @@ they diverge:
 *existing* chapter directory as the next `link-NN` — don't assume a new source domain means a new
 `ch-NN`. Confirm with whoever's directing the work if it's ambiguous.
 
+## Convention for gnu.org / GNU manual-sourced links
+
+A third source type, distinct from both above: official GNU software manuals (e.g. the Coreutils
+manual). Same point-per-claim/exercise philosophy, with these adjustments:
+
+**A "landing page" link is not the manual.** `gnu.org/software/<pkg>/manual/` is typically an
+index page with download links, not the content itself. Check for the real manual before writing
+anything — usually `<pkg>.html`/`<pkg>.txt` alongside official `.pdf`/`.info.tar.gz`/`.texi.tar.gz`
+downloads.
+
+**Prefer the official plain-text release over scraping HTML.** GNU manuals publish a `.txt.gz` as
+a first-class distributable format — download and read that (`curl -O .../<pkg>.txt.gz`) rather
+than stripping tags from the HTML version, since it's already clean and it's what the project
+itself considers a canonical export.
+
+**These manuals are frequently too large for one link to cover in full.** A single GNU manual can
+span dozens of chapters and ~100 documented commands/topics — treat "one link given" as "the
+manual as a whole," not "one notes/exercise pair automatically." When a link points at something
+this large, stop and confirm actual scope before writing anything: a curated subset (named
+commands/sections) is the default expectation unless told otherwise. Once scope is confirmed, that
+subset still becomes one `link-NN` pair (not one-per-command) — only expand into multiple `link-NN`
+entries for a large agreed-upon scope (e.g. covering the whole manual) if asked to.
+
+**One-level-deep still applies**, same as the other two conventions — when a covered section
+explicitly delegates real detail elsewhere in the *same* manual (e.g. Coreutils' `chmod` section
+pointing at the separate "File permissions" chapter for MODE syntax), pull that referenced section
+in too, not just the entry point.
+
+**Cross-reference other sources when a topic doesn't belong to this manual at all** — e.g. `ps`
+isn't GNU coreutils (it's `procps-ng`); verify with a quick search of the downloaded text plus a
+check of the project's own package index before assuming coverage, and route it to the correct
+convention (man7.org, in that case) instead of forcing it in.
+
