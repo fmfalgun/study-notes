@@ -7,7 +7,7 @@ outcomes so future batches adapt to your progress.
 ## Files
 
 - `schema.sql` — DB schema: `questions` (one row per real question, sourced
-  from `topics/isro-prev-attempt-1/`) and `attempts` (one row per time you
+  from `../../tracks/isro/topics/isro-prev-attempt-1/`) and `attempts` (one row per time you
   answer a question).
 - `practice.py` — CLI: `init`, `next`, `answer`, `stats`, `hint`, `link`, `explain`.
 - `ai_explain.py` — shells out to the `claude` CLI (`claude -p`, one-shot,

@@ -4,7 +4,7 @@
 **Field**: Data Science / AI (3rd priority)
 **Character**: strongest CPU of the three idle machines, stationary and always-on — best suited as a continuously-running data pipeline / classical-ML service. No discrete GPU, so deep learning stays in `garuda-gpu.md`; this file is classical ML, statistics, classical computer vision, and CPU-heavy data engineering.
 
-Every idea below is inspired by `../topics/gfg-isro-topic-map.md` and `../topics/gfg-gate-topic-map.md`. Each carries exactly one reference link. Ideas run as dev → deploy (days to 1-2 weeks) → analyze cycles.
+Every idea below is inspired by `../../tracks/isro/topics/gfg-isro-topic-map.md` and `../../tracks/gate/topics/gfg-gate-topic-map.md`. Each carries exactly one reference link. Ideas run as dev → deploy (days to 1-2 weeks) → analyze cycles.
 
 The Databases section here is the **heaviest CPU-only tier** of a topic whose lighter versions live in `rpi5-cs-eng.md` (Tier 1) and `probook-cybersec.md` (Tier 2).
 

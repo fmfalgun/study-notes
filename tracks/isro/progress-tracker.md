@@ -9,7 +9,7 @@ Track, in order, exactly which links from `exam-priority-report.md` have been co
 Default: **move to the next link already listed for that section in `exam-priority-report.md`.** The priority report was curated with depth already built in — a section with 4 links (e.g. Combinatorics) needs 4 links, not extra wandering.
 
 Only branch into a page's own Practice tab / Related Articles / tag page when **both**:
-1. The topic has a **Complex**-tagged question in `exam-analysis-report.md` (only Math, OS, Networks, DB qualify), **and**
+1. The topic has a **Complex**-tagged question in `topics/exam-analysis-report.md` (only Math, OS, Networks, DB qualify), **and**
 2. After reading, a problem of that type still can't be solved cold (numerical/procedural gap, not just "want to read more").
 
 If both hold: do 2–3 practice problems from that same page's Practice tab, log it below, then return to the next listed link. Do not branch for any other reason.

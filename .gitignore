@@ -1,13 +1,14 @@
-# Personal/identifying material — photos of own exam attempts, notebooks, etc.
-topics/isro-prev-attempt-1/
-topics/isro-prev-attempt-topics-1/
+# Personal/identifying material — photos of own exam attempts, notebooks, admit cards, etc.
+tracks/isro/topics/isro-prev-attempt-1/
+tracks/isro/topics/isro-prev-attempt-topics-1/
+tracks/isro/fm_admit_card.pdf
 
 # Practice-question DB is derived from the (gitignored) exam-attempt photos above
-practice/practice.db
+tools/practice/practice.db
 
 # Python
 __pycache__/
 *.pyc
 
 # Runtime output from experiment daemons — generated on the target machine, not source
-homelab-experiments/*/*/script/results/
+tools/homelab-experiments/*/*/script/results/

@@ -1,6 +1,6 @@
 # ISRO Exam Priority Report — Highest-Priority Links by Tier
 
-Extends `exam-analysis-report.md`. Rather than just ranking topics, this lists the **actual highest-priority links per subject**, filtered down from the full lists in `gfg-isro-topic-map.md`, based on which specific sub-areas the previous paper's questions (and its Complex-question cluster) actually hit. Everything not listed here still exists in `gfg-isro-topic-map.md` — it's just lower priority, not deleted.
+Extends `topics/exam-analysis-report.md`. Rather than just ranking topics, this lists the **actual highest-priority links per subject**, filtered down from the full lists in `topics/gfg-isro-topic-map.md`, based on which specific sub-areas the previous paper's questions (and its Complex-question cluster) actually hit. Everything not listed here still exists in `topics/gfg-isro-topic-map.md` — it's just lower priority, not deleted.
 
 ## Methodology
 
@@ -8,7 +8,7 @@ Topics are grouped into tiers by:
 ```
 score = weightage% (share of Part A, 80 Qs) + (complex-question count × 1.5)
 ```
-Within each topic, sub-section links are filtered to what the prior paper's question-mix and Complex-question cluster (Banker's algorithm, IPSec/Hamming/TCP math, triple integral, planar graphs, concurrency/isolation, etc. — per `exam-analysis-report.md`) actually points to. One exam's data — treat as a starting filter, not a ceiling; the full link sets remain in `gfg-isro-topic-map.md` for once these priority links are done.
+Within each topic, sub-section links are filtered to what the prior paper's question-mix and Complex-question cluster (Banker's algorithm, IPSec/Hamming/TCP math, triple integral, planar graphs, concurrency/isolation, etc. — per `topics/exam-analysis-report.md`) actually points to. One exam's data — treat as a starting filter, not a ceiling; the full link sets remain in `topics/gfg-isro-topic-map.md` for once these priority links are done.
 
 **Role-difference caveat**: the previous paper was for a different role/posting than the one being prepped for now — same core 11-topic syllabus, but "shadow topics" (Software Engineering, Big Data, Compiler Design, Cloud/Virtualization) are more likely an artifact of that role's paper-setter. Kept separate below, not blended into the tiers.
 
@@ -48,7 +48,7 @@ Syllabus names 4 sub-parts (Discrete Mathematics, Linear Algebra, Calculus, Prob
 
 **Transport Layer** *(Q71 Complex — "TCP window math")*: [TCP 3-Way Handshake](https://www.geeksforgeeks.org/computer-networks/tcp-3-way-handshake-process/) · [TCP Congestion Control](https://www.geeksforgeeks.org/computer-networks/tcp-congestion-control/) · [Flow Control in Data Link Layer](https://www.geeksforgeeks.org/computer-networks/flow-control-in-data-link-layer/)
 
-**Network Layer** *(Q9, Q28, Q40, Q70 — Medium spread; "IPSec" was named in methodology but has no dedicated GFG page in `gfg-isro-topic-map.md` yet — flagged, needs separate lookup)*: [IP Addressing (Classful/Classless)](https://www.geeksforgeeks.org/computer-networks/introduction-of-classful-ip-addressing/) · [Classless Inter-Domain Routing (CIDR)](https://www.geeksforgeeks.org/computer-networks/classless-inter-domain-routing-cidr/) · [Subnetting/Supernetting](https://www.geeksforgeeks.org/computer-networks/introduction-to-subnetting/) · [NAT](https://www.geeksforgeeks.org/computer-networks/network-address-translation-nat/) · [Routing Algorithms](https://www.geeksforgeeks.org/computer-networks/classification-of-routing-algorithms/)
+**Network Layer** *(Q9, Q28, Q40, Q70 — Medium spread; "IPSec" was named in methodology but has no dedicated GFG page in `topics/gfg-isro-topic-map.md` yet — flagged, needs separate lookup)*: [IP Addressing (Classful/Classless)](https://www.geeksforgeeks.org/computer-networks/introduction-of-classful-ip-addressing/) · [Classless Inter-Domain Routing (CIDR)](https://www.geeksforgeeks.org/computer-networks/classless-inter-domain-routing-cidr/) · [Subnetting/Supernetting](https://www.geeksforgeeks.org/computer-networks/introduction-to-subnetting/) · [NAT](https://www.geeksforgeeks.org/computer-networks/network-address-translation-nat/) · [Routing Algorithms](https://www.geeksforgeeks.org/computer-networks/classification-of-routing-algorithms/)
 
 ---
 
@@ -70,7 +70,7 @@ Syllabus names 4 sub-parts (Discrete Mathematics, Linear Algebra, Calculus, Prob
 
 **Incident Response**: [The-Art-of-Hacking/h4cker — `cybersecurity-domains/defensive-security`](https://github.com/The-Art-of-Hacking/h4cker/tree/master/cybersecurity-domains/defensive-security)
 
-*(Full secondary list — `pFarb/awesome-crypto-papers`, `infoslack/awesome-web-hacking`, `brootware/awesome-cyber-security-university` — still in `gfg-isro-topic-map.md` §11 if the above four leave gaps.)*
+*(Full secondary list — `pFarb/awesome-crypto-papers`, `infoslack/awesome-web-hacking`, `brootware/awesome-cyber-security-university` — still in `topics/gfg-isro-topic-map.md` §11 if the above four leave gaps.)*
 
 ---
 
@@ -90,7 +90,7 @@ Syllabus names 4 sub-parts (Discrete Mathematics, Linear Algebra, Calculus, Prob
 
 ### 9. AI and Machine Learning (score 6.25 — all Easy)
 
-*(Q4, Q5, Q62, Q63, Q64 — all Easy, definitional level; same priority pick already flagged in `gfg-isro-topic-map.md` §10)*: [Linear Regression](https://www.geeksforgeeks.org/machine-learning/linear-regression-python-implementation/) · [Logistic Regression](https://www.geeksforgeeks.org/machine-learning/understanding-logistic-regression/) · [K-Nearest Neighbor](https://www.geeksforgeeks.org/machine-learning/k-nearest-neighbours/) · [Naive Bayes Classifier](https://www.geeksforgeeks.org/machine-learning/naive-bayes-classifiers/) · [K-Means/K-Medoid](https://www.geeksforgeeks.org/machine-learning/ml-k-medoids-clustering-with-example/) · [BFS](https://www.geeksforgeeks.org/dsa/breadth-first-search-or-bfs-for-a-graph/) · [DFS](https://www.geeksforgeeks.org/dsa/depth-first-search-or-dfs-for-a-graph/) · [A* Search](https://www.geeksforgeeks.org/dsa/a-search-algorithm/)
+*(Q4, Q5, Q62, Q63, Q64 — all Easy, definitional level; same priority pick already flagged in `topics/gfg-isro-topic-map.md` §10)*: [Linear Regression](https://www.geeksforgeeks.org/machine-learning/linear-regression-python-implementation/) · [Logistic Regression](https://www.geeksforgeeks.org/machine-learning/understanding-logistic-regression/) · [K-Nearest Neighbor](https://www.geeksforgeeks.org/machine-learning/k-nearest-neighbours/) · [Naive Bayes Classifier](https://www.geeksforgeeks.org/machine-learning/naive-bayes-classifiers/) · [K-Means/K-Medoid](https://www.geeksforgeeks.org/machine-learning/ml-k-medoids-clustering-with-example/) · [BFS](https://www.geeksforgeeks.org/dsa/breadth-first-search-or-bfs-for-a-graph/) · [DFS](https://www.geeksforgeeks.org/dsa/depth-first-search-or-dfs-for-a-graph/) · [A* Search](https://www.geeksforgeeks.org/dsa/a-search-algorithm/)
 
 ---
 
@@ -102,7 +102,7 @@ Syllabus names 4 sub-parts (Discrete Mathematics, Linear Algebra, Calculus, Prob
 
 ### 11. Image and Vision Processing (score 0 — zero Qs, but explicit page-1 syllabus item — a wildcard, not a true zero)
 
-No GFG/GATE coverage exists (gap, per `gfg-isro-topic-map.md` §9). Do not front-load time here; if time allows, look up a general (non-GATE) image-processing source directly rather than pulling from these two topic-map files.
+No GFG/GATE coverage exists (gap, per `topics/gfg-isro-topic-map.md` §9). Do not front-load time here; if time allows, look up a general (non-GATE) image-processing source directly rather than pulling from these two topic-map files.
 
 ---
 
@@ -114,7 +114,7 @@ Absent from the official syllabus PDF; per the role-difference caveat, secondary
 
 **Big Data** *(6.25%, all Easy)*: [Hadoop Tutorial](https://www.geeksforgeeks.org/big-data/hadoop-tutorial/) · [HDFS Introduction](https://www.geeksforgeeks.org/big-data/introduction-to-hadoop-distributed-file-systemhdfs/) · [MapReduce in Hadoop](https://www.geeksforgeeks.org/big-data/map-reduce-in-hadoop/)
 
-**Compiler Design** *(3.75%, all Easy)*: see `gfg-isro-topic-map.md` Bonus section.
+**Compiler Design** *(3.75%, all Easy)*: see `topics/gfg-isro-topic-map.md` Bonus section.
 
 **Cloud Computing / Virtualization** *(2.5%, smallest shadow topic)*: [Cloud Computing Tutorial](https://www.geeksforgeeks.org/cloud-computing-tutorial/) · [Virtualization in Cloud Computing and Types](https://www.geeksforgeeks.org/cloud-computing/virtualization-cloud-computing-types/)
 
@@ -127,4 +127,4 @@ Absent from the official syllabus PDF; per the role-difference caveat, secondary
 3. **Tier 3** — Programming Language → Image/Vision Processing
 4. **Shadow topics** — Software Engineering → Big Data → Compiler Design → Cloud/Virtualization
 
-Once every priority link above is done, fall back to the full, unfiltered lists in `gfg-isro-topic-map.md` for the same topics, in the same order.
+Once every priority link above is done, fall back to the full, unfiltered lists in `topics/gfg-isro-topic-map.md` for the same topics, in the same order.

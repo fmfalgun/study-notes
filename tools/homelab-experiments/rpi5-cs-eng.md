@@ -4,7 +4,7 @@
 **Field**: Computer Science Engineering (top priority)
 **Character**: low-power, always-on, embedded-native — the natural continuation of the ble-monitor-public lineage (Debian packaging, protocol-level work), but scoped to fresh topics rather than extending that project.
 
-Every idea below is inspired by `../topics/gfg-isro-topic-map.md` and `../topics/gfg-gate-topic-map.md`. Each carries exactly one reference link (GFG article, a starred GitHub repo, or a link already present in those two files). Ideas are meant to run as dev → deploy (days to 1-2 weeks) → analyze cycles, not one-shot scripts.
+Every idea below is inspired by `../../tracks/isro/topics/gfg-isro-topic-map.md` and `../../tracks/gate/topics/gfg-gate-topic-map.md`. Each carries exactly one reference link (GFG article, a starred GitHub repo, or a link already present in those two files). Ideas are meant to run as dev → deploy (days to 1-2 weeks) → analyze cycles, not one-shot scripts.
 
 Some categories here are the **lightest tier** of a topic that also appears in `probook-cybersec.md` and/or `proone-dsai.md` at heavier compute tiers (noted inline where relevant).
 

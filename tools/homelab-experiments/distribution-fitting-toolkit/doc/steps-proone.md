@@ -5,8 +5,8 @@ is a hub/index page, not an article — it doesn't itself contain any PDF/PMF/CD
 content. This doc goes through that page's actual links, plus a separate search for Maximum
 Likelihood Estimation (which the hub page doesn't cover at all), and orders everything into a
 reading path assuming **zero prior knowledge** of probability distributions or MLE — same approach
-as `../../../topics/math-crossover-analysis.md` and the tiering used in `../../../topics/gfg-gate-topic-map.md` /
-`../../../topics/gfg-isro-topic-map.md`.
+as `../../../../subjects/math-crossover-analysis.md` and the tiering used in `../../../../tracks/gate/topics/gfg-gate-topic-map.md` /
+`../../../../tracks/isro/topics/gfg-isro-topic-map.md`.
 
 Only links that actually feed the toolkit's scope (Normal, Binomial, Poisson — PDF/PMF, CDF, MLE
 `fit`) are placed in the required tiers. Everything else on the hub page is listed at the bottom as

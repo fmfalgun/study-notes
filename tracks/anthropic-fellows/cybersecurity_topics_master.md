@@ -39,6 +39,6 @@ FastAPI/Flask REST API design · SQLite/MySQL schema migration & persistence · 
 
 ---
 
-**Source data**: full per-file topic breakdown (874 lines, one per file) is at
-`/tmp/claude-1000/-home-fmf/f8121e98-c59f-4acc-b889-36af91250bc2/scratchpad/topics_progress.log`
-— note this is a session-scoped scratchpad path and may not persist; ask if you want that raw file copied somewhere permanent too.
+**Source data**: full per-file topic breakdown (874 lines, one per file) was compiled from a
+session-scoped scratchpad that no longer exists — ask if you want the raw per-file breakdown
+regenerated somewhere permanent.

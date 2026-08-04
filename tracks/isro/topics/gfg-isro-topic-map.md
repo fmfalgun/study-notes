@@ -1,6 +1,6 @@
 # Foundation Topic Map — ISRO Syllabus Structure (GeeksforGeeks)
 
-Sourced from [GATE Corner](https://www.geeksforgeeks.org/gate/gate-corner-2-gq/) and [GATE CS Notes](https://www.geeksforgeeks.org/gate/gate-cs-notes-gq/), regrouped under the 11 official ISRO SC (Post Code 07/08) syllabus topics + Part B General Aptitude. Sub-topic level. See `gfg-gate-topic-map.md` for the same content in GATE's native structure.
+Sourced from [GATE Corner](https://www.geeksforgeeks.org/gate/gate-corner-2-gq/) and [GATE CS Notes](https://www.geeksforgeeks.org/gate/gate-cs-notes-gq/), regrouped under the 11 official ISRO SC (Post Code 07/08) syllabus topics + Part B General Aptitude. Sub-topic level. See `../../gate/topics/gfg-gate-topic-map.md` for the same content in GATE's native structure.
 
 Gaps are flagged explicitly where GFG's GATE-track pages don't cover an ISRO syllabus topic at all — those need a different source.
 

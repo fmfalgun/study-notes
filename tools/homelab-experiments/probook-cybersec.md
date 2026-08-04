@@ -4,7 +4,7 @@
 **Field**: Cybersecurity (2nd priority)
 **Scope**: coding/analysis side of security — cryptography & math, digital forensics, blockchain, and the low-level fundamentals malware analysis leans on. Explicitly **not** offensive/hacking practice — nothing here targets a real device or node on any network. Every target is self-generated, self-compiled, or a public dataset/sample used for static reference only.
 
-Every idea below is inspired by `../topics/gfg-isro-topic-map.md` and `../topics/gfg-gate-topic-map.md`. Each carries exactly one reference link. Ideas run as dev → deploy (days to 1-2 weeks) → analyze cycles.
+Every idea below is inspired by `../../tracks/isro/topics/gfg-isro-topic-map.md` and `../../tracks/gate/topics/gfg-gate-topic-map.md`. Each carries exactly one reference link. Ideas run as dev → deploy (days to 1-2 weeks) → analyze cycles.
 
 Some categories here are a **heavier compute tier** of a topic whose lightest version lives in `rpi5-cs-eng.md` (noted inline).
 

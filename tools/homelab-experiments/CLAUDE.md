@@ -10,8 +10,9 @@ Python helper (`select.py`) to browse them. There is no build, lint, or test sui
 is `select.py` itself.
 
 This folder is scoped to *experiments* — the actual scripts/analysis/results once a topic is picked.
-The parent directory (`../`) holds ISRO/GATE exam-prep material (`../topics/gfg-isro-topic-map.md`,
-`../topics/gfg-gate-topic-map.md`) which every experiment idea here traces back to by design.
+It lives under `tools/` in the repo root; two levels up (`../../`) holds the ISRO/GATE exam-prep
+material (`../../tracks/isro/topics/gfg-isro-topic-map.md`, `../../tracks/gate/topics/gfg-gate-topic-map.md`)
+which every experiment idea here traces back to by design.
 
 ## Running select.py
 
@@ -36,12 +37,12 @@ always stays in sync with them — never hardcode menu content into the script.
     ideas pulled from the other three that genuinely need a discrete GPU)
 - Field priority order is strict: CS-Engineering > Cybersecurity > DS/AI.
 - Categories are shared across files and mirror the 11-topic structure in
-  `../topics/gfg-isro-topic-map.md`. The same category can appear in multiple files when a topic
-  naturally splits by compute tier (e.g. Databases: Tier 1 on the Pi, Tier 2 on the ProBook, Tier 3
-  on the ProOne) — tier notes are inline in each file's section headers.
+  `../../tracks/isro/topics/gfg-isro-topic-map.md`. The same category can appear in multiple files
+  when a topic naturally splits by compute tier (e.g. Databases: Tier 1 on the Pi, Tier 2 on the
+  ProBook, Tier 3 on the ProOne) — tier notes are inline in each file's section headers.
 - Every topic bullet carries **exactly one** reference link (a GFG article, a starred GitHub repo, or
-  a link already present in the two topic-map files under `../topics/`). Preserve this when
-  adding/editing topics.
+  a link already present in the two topic-map files under `../../tracks/{isro,gate}/topics/`).
+  Preserve this when adding/editing topics.
 - Topic bullet format `select.py` depends on: `- **Title** — description text`. Category headers must
   be `## Category Name`. Breaking either format breaks the parser.
 

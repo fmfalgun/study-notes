@@ -3,7 +3,7 @@
 **Machine**: Ryzen 7 7445HS (12 threads @ 3.2GHz), **NVIDIA RTX 4050 Max-Q (discrete GPU)**, AMD Radeon 740M integrated, Garuda Linux — your daily driver.
 **Field**: overflow/advanced — not a fixed field of its own. This file only holds ideas pulled out of CS-Engineering, Cybersecurity, or DS/AI that genuinely need a GPU to be worth doing; nothing GPU-agnostic belongs here (e.g. Databases has no entry in this file — per your own call, a GPU makes no real difference there).
 
-Every idea below is inspired by `../topics/gfg-isro-topic-map.md` and `../topics/gfg-gate-topic-map.md`. Each carries exactly one reference link. Ideas run as dev → deploy (days to 1-2 weeks) → analyze cycles — understanding this machine is your daily driver, so "deploy" here more often means a bounded multi-day training/benchmark run rather than a permanent background service.
+Every idea below is inspired by `../../tracks/isro/topics/gfg-isro-topic-map.md` and `../../tracks/gate/topics/gfg-gate-topic-map.md`. Each carries exactly one reference link. Ideas run as dev → deploy (days to 1-2 weeks) → analyze cycles — understanding this machine is your daily driver, so "deploy" here more often means a bounded multi-day training/benchmark run rather than a permanent background service.
 
 ---
 

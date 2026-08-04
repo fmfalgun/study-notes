@@ -1,6 +1,6 @@
 # Foundation Topic Map — GATE Structure (GeeksforGeeks)
 
-Sourced from [GATE Corner](https://www.geeksforgeeks.org/gate/gate-corner-2-gq/) and [GATE CS Notes](https://www.geeksforgeeks.org/gate/gate-cs-notes-gq/). Organized in GATE's native section structure (12 sections). Sub-topic level — complete each link to build the full foundation for that section. This is the GATE-exam-oriented cut; see `gfg-isro-topic-map.md` for the same content regrouped under the ISRO syllabus's 11 topics.
+Sourced from [GATE Corner](https://www.geeksforgeeks.org/gate/gate-corner-2-gq/) and [GATE CS Notes](https://www.geeksforgeeks.org/gate/gate-cs-notes-gq/). Organized in GATE's native section structure (12 sections). Sub-topic level — complete each link to build the full foundation for that section. This is the GATE-exam-oriented cut; see `../../isro/topics/gfg-isro-topic-map.md` for the same content regrouped under the ISRO syllabus's 11 topics.
 
 **Audit note**: Cross-checked against the ISRO syllabus PDF's literal wording. Added gaps found during that pass: Median/Mode, Python (GATE CS itself doesn't test Python, but ISRO's syllabus does), Context-Free Grammars & Push-Down Automata, CPU Scheduling, Disk Scheduling, File Systems, Data Warehouse, NoSQL, CIDR, Flow Control, and Firewall/SFTP/Compression in the Application Layer.
 

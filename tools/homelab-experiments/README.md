@@ -1,10 +1,11 @@
 # Homelab Experiments
 
 Independent research/learning projects run across four machines, one task per machine at a time.
-This folder is where the actual scripts, analysis, and results live once a topic is picked —
-`isroprep/` above it is your ISRO/GATE exam-prep material, kept separate. These experiments still
-count toward exam prep indirectly: most of the CS-Eng/Cybersecurity/DS-AI foundations below overlap
-with the syllabus topics in `../topics/`.
+This folder is where the actual scripts, analysis, and results live once a topic is picked — it's a
+`tools/` subdirectory of `study-notes/`, whose `subjects/` and `tracks/` hold the actual ISRO/GATE
+exam-prep material, kept separate. These experiments still count toward exam prep indirectly: most
+of the CS-Eng/Cybersecurity/DS-AI foundations below overlap with the syllabus topics in
+`../../tracks/isro/topics/` and `../../tracks/gate/topics/`.
 
 ## The four machines
 
@@ -20,7 +21,7 @@ Field priority order (strict): **CS-Engineering > Cybersecurity > DS/AI**. `garu
 GPU (mostly deep learning; a couple of crypto/DB entries too). If a category doesn't need a GPU
 (e.g. Databases in general), it has no entry there.
 
-Categories are shared across all four files and match `../topics/gfg-isro-topic-map.md`'s 11-topic
+Categories are shared across all four files and match `../../tracks/isro/topics/gfg-isro-topic-map.md`'s 11-topic
 structure (Mathematics, Computer Organization & Architecture, Programming Languages, DSA, Theory of
 Computation, Operating Systems, Databases, Computer Networks, Image/Vision, AI/ML, Cyber Security).
 A category can appear in more than one file when its ideas naturally split by compute tier — e.g.
@@ -33,8 +34,8 @@ scanning, exploiting, or otherwise targeting a real device/node on any network. 
 `probook-cybersec.md` is self-generated or a public dataset used for static reference.
 
 Every idea in every file carries exactly one reference link — a GeeksforGeeks article, a starred
-GitHub repo, or a link already present in `../topics/gfg-isro-topic-map.md` /
-`../topics/gfg-gate-topic-map.md`.
+GitHub repo, or a link already present in `../../tracks/isro/topics/gfg-isro-topic-map.md` /
+`../../tracks/gate/topics/gfg-gate-topic-map.md`.
 
 ## Prefer real-time system data over synthetic where it fits
 
@@ -56,6 +57,11 @@ machine, what's confirmed missing, and the check command to re-verify. Before pr
 source for a new topic, check that device's file first — only investigate what's still unknown or
 look for a better alternative, don't re-discover from scratch every time. Update the file whenever
 a topic's work turns up something new about that machine's available tooling.
+
+**Telemetry claims**: before writing a new topic's `scope.md` Input section, check
+[`TELEMETRY-CLAIMS.md`](TELEMETRY-CLAIMS.md) — it tracks which real-system metric/signal is already
+being read and analyzed by which topic, so no two topics independently consume the same source. Add
+a row there in the same commit that adds a real-telemetry Input to a `scope.md`.
 
 ## Workflow: picking and scoping a task
 
@@ -102,7 +108,7 @@ this is a hard rule, not a style preference, because these docs drift out of syn
 |---|---|---|
 | `plan.md` | The full narrative: what's being built, why, hardware fit, implementation sketch, deployment, end-of-run analysis. | "What is this experiment, in full?" |
 | `scope.md` | A sharpened boundary pulled from `plan.md`: in scope / explicitly out of scope, plus the concrete contract `plan.md` only gestures at loosely — **Input**, **Output**, **Database/dataset** (what it reads/writes, or "none"), **Timespan** (build phase vs. deployment/running duration), and **Test/pass-threshold** (the concrete criteria the script's output must clear, derived from theory where possible rather than an arbitrary number). | "Where exactly is the line, and what does pass/fail actually mean?" |
-| `doc/steps-<device-key>.md` | A tiered reading list, built by walking the plan's reference link (and its sub-links) outward, assuming zero prior knowledge. Same tiering style as `../topics/math-crossover-analysis.md` and the topic maps in `../topics/`. | "What do I need to read first?" |
+| `doc/steps-<device-key>.md` | A tiered reading list, built by walking the plan's reference link (and its sub-links) outward, assuming zero prior knowledge. Same tiering style as `../../subjects/math-crossover-analysis.md` and the topic maps in `../../tracks/{isro,gate}/topics/`. | "What do I need to read first?" |
 | `doc/roadmap-<device-key>.md` | The concrete build sequence (scaffold → implement → validate → deploy → analyze), assuming the reading in `steps-<device-key>.md` is done. | "What do I build, in what order?" |
 
 - `plan.md` and `scope.md` sit directly under `<device-key>/`, as siblings of `script/` — not nested
@@ -119,7 +125,7 @@ this is a hard rule, not a style preference, because these docs drift out of syn
 ### Claude Code session convention
 
 Every Claude Code chat working on a task here must be run with `homelab-experiments/` (this
-directory) as the working directory — never `isroprep/` root or anywhere else.
+directory) as the working directory — never `study-notes/` root or anywhere else.
 
 Rename each such session (`/rename`) to:
 
