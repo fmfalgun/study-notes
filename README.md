@@ -14,5 +14,10 @@ plus the tools built to support them.
   above), `practice/` (a SQLite-backed practice-question tool), and `homelab-experiments/` (an
   independent menu of homelab research projects that trace back to the subjects/tracks material
   by design — see its own `CLAUDE.md`).
+- **[`sets/`](sets/)** — curated topic/mastery lists and synthesized study docs (currently
+  VPN/Tor/SIEM).
+- **[`prepclash/`](prepclash/)** — study log for material worked through on
+  [prepclash](https://fmfalgun.github.io/prepclash/), mirrored as act → chapter → per-link
+  notes/exercise file pairs.
 
 See each subdirectory's own README for specifics.
