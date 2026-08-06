@@ -12,3 +12,6 @@ __pycache__/
 
 # Runtime output from experiment daemons — generated on the target machine, not source
 tools/homelab-experiments/*/*/script/results/
+
+# Real generated key material from the key-generation study exercise — never commit private keys
+sets/cybersecurity-developer-vpn-tor-siem/00-prerequisite-foundations/generated-keys/
