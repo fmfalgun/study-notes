@@ -111,3 +111,23 @@ sudo mount -o remount,hidepid=0 /proc   # put it back
    `/proc`?
 2. Why would a shared university/lab server want `hidepid=2`?
 3. Why does `cat /proc/self/cmdline` look broken without `tr '\000' '\n'`?
+
+**Answers given, with corrections**:
+
+1. Given answer: "pid is for process id and tid is for thread id." Correct definition, but misses
+   the actual question — *visibility*, not naming. `/proc/<pid>` dirs **show up** in `ls /proc`;
+   `/proc/<tid>` dirs (non-leader threads) do **not** show up in a listing, but still work by exact
+   path — hidden from browsing, not actually inaccessible.
+2. Given answer: "to separate resources n maintain confidentiality/access-control." Right instinct,
+   slightly off reasoning — it's not resource separation (that's cgroups/quotas' job).
+   `hidepid=2` specifically **hides one user's running processes from other users** on the same
+   box: without it, any user can read everyone else's `cmdline`/`environ` (which can leak
+   passwords typed as arguments) and even just see *that* a given program is running — a real
+   privacy leak on a shared, mutually-untrusting-users server.
+3. Given answer: "coz it is one line with trailing \000 which represent new line." The mechanism is
+   backwards — `\000` does **not** represent a newline. It's the opposite: an *invisible,
+   non-printing* control character. The terminal renders it as nothing at all — no space, no
+   break — so the separate arguments just get jammed together with zero visible separation.
+   `tr '\000' '\n'` works by *replacing* each invisible null with an actual, visible newline; it's
+   a substitution of one separator for a different (visible) one, not decoding something that
+   already "represents" a newline.
