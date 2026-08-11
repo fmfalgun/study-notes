@@ -209,3 +209,42 @@ for this link, would need its own link entry).
 **Simple explanation**: don't assume changing UID in one thread of a multithreaded program is
 instantly safe/atomic across all threads at the kernel level — it's glibc doing the syncing work,
 not the kernel itself.
+
+---
+
+## Session findings — hands-on gotchas from running this exercise
+
+Practical discoveries made while actually running the exercise commands, worth keeping for future
+reference (mostly fish-shell- and tooling-specific, not `credentials(7)` claims themselves):
+
+1. **fish has no `$$`/`$PPID`** — always use `$fish_pid`, and read PPID via
+   `ps -o ppid= -p $fish_pid | string trim`, not a shell variable.
+2. **`ps -o` vs `-p` are easy to swap by mistake** — `-o` takes the column list right after it,
+   `-p` takes a PID list; mixing them up produces a parser error, not a silent misread.
+3. **`pstree <pid>` shows descendants, not ancestors** — despite reading like it traces "the
+   parent chain," by default it only shows the given process's children/threads. Use
+   `pstree -s <pid>` to include ancestors up to PID 1.
+4. **Backgrounded pipelines finish too fast to observe reliably** — `ls | wc -l &` typically
+   completes before a follow-up `ps`/`jobs -p` can see it; this is a timing race, not a broken
+   PGID-sharing claim.
+5. **A stopped process holds ordinary signals pending, not delivered** — sending `SIGTERM` to a
+   `T`-state (stopped) job does *not* terminate it; the signal stays queued until the process is
+   resumed (`SIGCONT`). Only `SIGKILL` (`kill -9`) acts immediately regardless of stop state.
+6. **fish's glob does not support `[0-9]`-style bracket character classes** —
+   `ls -d /proc/[0-9]*` fails with "No matches for wildcard" even though matching dirs exist; use
+   `string match -r` or filter with `grep` instead.
+7. **A grid-style `ls` breaks line-based filters** — piping `ls /proc | string match -r
+   '^[0-9]+$'` can return zero matches even though many numeric dirs exist, if `ls` packs multiple
+   entries per line; force one-per-line first (`ls -1`).
+8. **`/proc/self` and `/proc/thread-self` always resolve to whoever is currently reading them** —
+   each new process (even a one-off `readlink` call) gets a different resolved PID; that's
+   expected, not inconsistent behavior.
+9. **A normal-user shell effectively holds zero live capabilities** — `CapPrm`/`CapEff`/`CapAmb`
+   all-zero is the norm; only `CapInh` may have a bit set, and inheritable-only means unusable
+   until a privileged-aware child actually picks it up. Confirms "root = UID 0 + capabilities,"
+   not UID 0 alone.
+10. **Setuid confirmed on `passwd`** — owner-execute bit shows `s`, owned by root; explains how an
+    unprivileged user can invoke it to edit `/etc/shadow`.
+11. **`dumpable` observed directly via ownership** — with `dumpable=1` (default for a normal,
+    non-setuid process), `/proc/<pid>` is owned by the invoking user, not root — matches the
+    notes' claim that ownership is only forced to root for non-dumpable processes.
