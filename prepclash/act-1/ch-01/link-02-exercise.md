@@ -23,7 +23,7 @@ from the notes — most desktop systems run with neither set, i.e. `hidepid=0` d
 ```fish
 echo $fish_pid
 readlink -f /proc/self
-ls -di /proc/self /proc/$fish_pid | awk '{print $1}'   # same inode number either way
+ls -di /proc/self /proc/$fish_pid | awk '{print $1}'   # expect DIFFERENT inode numbers -- see below
 ```
 bash/sh:
 ```bash
@@ -32,7 +32,11 @@ readlink -f /proc/self
 ls -di /proc/self /proc/$$ | awk '{print $1}'
 ```
 Confirms `/proc/self` is a magic symlink that always resolves to *whoever's reading it* — not a
-fixed target.
+fixed target. **Correction**: because `ls` is itself a separate process from your shell, `/proc/self`
+inside that one `ls` invocation resolves to `ls`'s own PID, not your shell's — so the two inode
+numbers you get back are expected to be *different*, not the same. If you want a same-process
+comparison instead, you'd need something that reads both paths from within the shell itself (no
+external command in between).
 
 ### 3. Threads: `/proc/self/task/`
 

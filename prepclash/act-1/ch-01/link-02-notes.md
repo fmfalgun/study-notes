@@ -175,3 +175,46 @@ head -5 /proc/meminfo
 cat /proc/loadavg
 head -1 /proc/cpuinfo
 ```
+
+---
+
+## Session findings — hands-on gotchas from running this exercise
+
+Practical discoveries made while actually running the exercise commands, worth keeping for future
+reference (mostly tooling-specific consequences of the "`/proc/self` resolves to whoever's
+currently reading it" claim above, not new claims about `proc(5)` itself).
+
+1. **`/proc/self` inside a glob is a trap once a *different* process opens the expanded path** —
+   the shell expands `/proc/self/task/*` using its own view of `self` (so it lists its own
+   threads), but the literal word `self` survives into the resulting path text unresolved. A
+   second, separate process (e.g. a pager) that later opens those exact paths gets *its own*
+   `self`, not the shell's — producing "No such file or directory" for paths that look perfectly
+   valid. Fix: substitute a real, fixed PID (`$fish_pid`) before globbing, so there's nothing left
+   for a later process to misinterpret.
+2. **The same trap breaks an "inode of `/proc/self` should match `/proc/<shell's own pid>`" check
+   when run through an external command** — `ls` is a separate process from the shell, so
+   `/proc/self` inside that one `ls` invocation resolves to `ls`'s own PID, not the shell's;
+   expect two genuinely *different* inode numbers, not matching ones (see the corrected comment in
+   the exercise file).
+3. **`/proc/self` is safe and consistent *within* one process's own threads**, unlike the two
+   points above — a background thread inside the *same* process reading `/proc/self/task/` still
+   sees that whole process's full thread list correctly, because `self` means "the process," not
+   "this specific thread." The failure mode above is strictly a cross-*process* issue, not a
+   cross-thread one.
+4. **A pager/viewer can render some `/proc` files fine and silently print nothing for others** —
+   smaller files (`loadavg`, `cmdline`, `environ`) rendered correctly through the same tool and
+   style flags that produced empty output for `/proc/meminfo`. Suspected cause: such tools may
+   trust the file's *reported* size for buffering decisions, and procfs files report `0` bytes
+   regardless of actual content — `cat` remains the reliable fallback for `/proc` content when a
+   fancier viewer goes silent.
+5. **A themed shell prompt's red/error indicator can reflect the *previous* command's exit status,
+   not the one about to run** — a `grep`/pattern-match that legitimately finds zero matches exits
+   non-zero (normal, expected behavior for "not found"), and that status can display as an error
+   marker one line later, looking like the *next* typed command failed when it didn't.
+6. **`head -l` vs `head -1`** — lowercase L and the digit one are easy to mistype and look near-
+   identical in many fonts; `-l` isn't a valid `head` flag and errors immediately. A typo, not a
+   conceptual mistake.
+7. **`hidepid=2` remount concretely and sharply reduces the visible `/proc` directory-entry count**
+   for a normal (non-root) listing compared to `hidepid=0` — dropped to roughly a quarter of the
+   entries in this run, then fully restored after remounting back to `hidepid=0`. Confirms the
+   notes' claim with a real before/after count, not just the option's description.
