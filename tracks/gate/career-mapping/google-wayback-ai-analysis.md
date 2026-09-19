@@ -1,4 +1,4 @@
-# Google AI roles, 2018–2026: what changed and what stayed
+# Google AI roles, 2019–2026: what changed and what stayed
 
 Companion to `google-wayback-analysis.md` (the cybersecurity write-up) and built the same way: Wayback Machine's archive of Google's individual job-posting pages — **18,188 distinct postings** (URL = job ID + title slug; capture date = it was live then), of which **1,385 are AI/ML by the strict rule**.
 
@@ -179,7 +179,7 @@ Every figure here is from **one sample, judged by the classifier's own author, u
 
 ## What changed / what stayed
 
-**Changed:** a step up in AI share in 2024 (4.2% → 11.1%); wording moved from "machine learning" to "AI"/"Aiml"/GenAI (generative/GenAI 0% to 2022, 4% in 2023, 12% in 2024; Gemini 7%% in 2024; agentic/agent from 2022, 5% in 2026; Vertex only from 2025); AI × security titles from 2025; analytics titles rising; a supported lead that AI became a team label for non-AI functions in 2025.
+**Changed:** a step up in AI share in 2024 (4.2% → 11.1%); wording moved from "machine learning" to "AI"/"Aiml"/GenAI (generative/GenAI 0% to 2022, 4% in 2023, 12% in 2024; Gemini 7% in 2024; agentic/agent from 2022, 5% in 2026; Vertex only from 2025); AI × security titles from 2025; analytics titles rising; a supported lead that AI became a team label for non-AI functions in 2025.
 **Stayed:** ML/AI engineering is the largest family every year; sales/consulting/go-to-market is a steady 7–22% of AI titles; product/program management 7–9%; AI safety small.
 
 ## What the data cannot say — and the sensible next step
@@ -236,3 +236,36 @@ Titles cannot show skills, seniority mix or whether roles were retitled rather t
 ## Appendix B — how to reproduce
 
 `plugins/job_search/wayback_google_ai.py`, op `google_wayback_ai_trends(domain, data_repo_path)` (analyze kind, no network, ~2 s) regenerates every table in this file except the hand-check block, the precision/recall samples and the data-driven token comparison (`google-ai/c4_generate.py`). Rules version `google-ai-rules/v2 (2026-09-19)`; tests in `tests/test_google_wayback_ai.py` (41). Registration in `plugins/job_search/__init__.py` is left to the maintainer (`google-ai/PLUGIN_NOTES.md`).
+
+## Checkpoint 5 addendum — cross-checks and what remains unknown
+
+*(Appended after the main analysis; the sections above are unchanged apart from two edits: the title now says 2019–2026 because the archive holds no AI posting before 2019, and a typo "7%%" became "7%".)*
+
+### Direction cross-check against the archived front-page snapshots
+
+The front-page snapshots are a separate, much smaller source: 79 parseable Wayback snapshots of Google's careers search page (5 more captures were unparseable), each showing 18–20 listings that the site chose to display (a **small, relevance-sorted sample**, not the whole board; the same listing can appear in several snapshots, so these are not independent postings and the intervals below are optimistic). The strict CORE rule (same `classify_ai_title`) was applied to those listing titles. Only the *direction* is compared, not the level.
+
+| year | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 (to Sep) |
+|---|---|---|---|---|---|---|---|---|
+| snapshots | 3 | 8 | 12 | 12 | 12 | 12 | 11 | 9 |
+| listings (denominator) | 60 | 160 | 240 | 240 | 231 | 240 | 220 | 179 |
+| strict-CORE listings (k) | 1 | 4 | 2 | 7 | 16 | 29 | 23 | 28 |
+| front-page share | 1.7% | 2.5% | 0.8% | 2.9% | 6.9% | 12.1% | 10.5% | 15.6% |
+| Wilson 95% interval (optimistic) | 0.3–8.9 | 1.0–6.3 | 0.2–3.0 | 1.4–5.9 | 4.3–11.0 | 8.5–16.8 | 7.1–15.2 | 11.0–21.7 |
+| posting-list share (main table) | 1.9% | 3.3% | 2.5% | 3.0% | 4.2% | 11.1% | 9.8% | 12.4% |
+
+Reading it: **the shape agrees** — low (about 1–3%) through 2022, higher from 2023, a clear step by 2024 (12.1%), no further rise in 2025 (10.5%, intervals overlap 2024), and the highest value in 2026 (15.6%). Two differences: the front page already shows 6.9% in 2023 (posting list 4.2%; the intervals just overlap), so on the front page the rise looks more gradual, and its 2026 level (15.6%) is above the posting list's (12.4%) though inside its interval. Small years (2019, 2020) have k < 5 listings and mean nothing. Levels are not expected to match: the front page shows what Google ranked first, not what was live. Both sources are limited to what Wayback archived, so agreement in shape is corroboration of direction, not independent proof.
+
+### Cross-check against the cybersecurity analysis (AI × security)
+
+- The posting-list crossover here (strict CORE title that also carries the security tag) is 0 before 2025, 18 in 2025 (17 after removing one false positive, "Aiml Engineer, National Security, Public Sector") and 5 in 2026 — i.e. 17 of 322 security-tagged postings (5.3%) in 2025 and 5 of 118 (4.2%) in 2026 (small n, noisy). As a share of strict CORE postings: 18/671 (2.7%) and 5/239 (2.1%) raw.
+- `google-wayback-analysis.md` reports AI in security titles as 0% in every year to 2024, then 6% (2025) and 4% (2026) by its broader rule; after the parent's edit it quotes the same 17/322 and 5/118. The two analyses agree on timing (nothing before 2025) and on size (roughly 4–6% of security postings).
+- The front-page sample gives no crossover listing in any year (0 of 220 in 2025, 0 of 179 in 2026); with only 7 (2025) and 10 (2026) security-tagged listings, 0 is what a ~5% rate would produce (expected about 0.4 and 0.5), so it neither supports nor contradicts the posting result.
+
+### What this data cannot say, and the next step
+
+- **Skills.** Titles show role types, not skills; knowing whether "AI Engineer" work changed needs job descriptions.
+- **Hiring versus archive density.** Archived postings per year swing from 269 to 6,824. Shares partly cancel that, but "more AI roles hired" cannot be separated from "Wayback captured more AI-related pages" (or the reverse) from this data.
+- **Renamed versus new.** A title change is not a new job; the renaming finding is about wording.
+- **Next step.** The job-description worker (per the parent) is already recovering descriptions for postings archived from mid-2023; joining those to the AI flags in `google-wayback-ai-trends.json` (by `job_id`) is the sensible way to test skills and the "AI as team label" lead. This replaces the earlier note above that descriptions "have not been requested". An independent second reader of Appendix A remains the cheapest upgrade for the lead.
+
