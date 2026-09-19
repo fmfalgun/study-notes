@@ -14,7 +14,7 @@ then each group's generate block from inside `generated-keys/`.
 ### Setup — cd into the output directory and tighten the umask
 
 ```
-cd ~/Projects/study-notes/sets/cybersecurity-developer-vpn-tor-siem/00-prerequisite-foundations/generated-keys
+cd ./sets/cybersecurity-developer-vpn-tor-siem/00-prerequisite-foundations/generated-keys
 umask 077
 ```
 

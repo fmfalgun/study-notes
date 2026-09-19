@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """bluff.py -- study-notes activity monitor.
 
-Structural inspiration: ~/Projects/bluff/all-versions/lab.sh (the multi-pane
+Structural inspiration: ../bluff/all-versions/lab.sh (the multi-pane
 "workstation simulator" concept -- each pane is a worker loop that keeps
 picking an operation from its own list and rendering output) and
-~/Projects/iot-proxy-recon/scripts/cam-finder-v3.py (curses TUI structure:
+../iot-proxy-recon/scripts/cam-finder-v3.py (curses TUI structure:
 header/footer band, bordered scrollable panels). No tmux here -- a single
 curses process renders a grid of panels, each driven by its own background
 thread appending to its own line buffer; the main thread only touches curses

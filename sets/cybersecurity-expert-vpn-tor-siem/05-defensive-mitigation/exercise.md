@@ -141,7 +141,7 @@ would incur real cost and requires a live paid cloud account, out of scope per t
        process: sudo
        message|contains: "a password is required"
      filter_known_admin:
-       user: fmf
+       user: USER
      condition: selection and not filter_known_admin | count() by user > 5
    fields:
      - user

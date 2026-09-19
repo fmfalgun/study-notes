@@ -222,7 +222,7 @@ detection:
     process: sudo
     message|contains: "a password is required"
   filter_known_admin:
-    user: fmf
+    user: USER
   condition: selection and not filter_known_admin | count() by user > 5
 fields:
   - user

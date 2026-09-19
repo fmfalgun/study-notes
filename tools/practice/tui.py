@@ -1,7 +1,7 @@
 """Curses TUI for practice.py's interactive loop -- takes UX inspiration
-from ~/Projects/web-scrap's ig_scraper/tui.py (persistent header/footer
+from ../web-scrap's ig_scraper/tui.py (persistent header/footer
 Screen, pick_one arrow/vim-key picker, colored rows) and
-~/Projects/iot-proxy-recon's cam-finder-v3.py (scrollable list navigation).
+../iot-proxy-recon's cam-finder-v3.py (scrollable list navigation).
 
 Much simpler than ig_scraper's version: practice.py has no background
 work (no scrapes, no forked workers, no live log stream), just synchronous

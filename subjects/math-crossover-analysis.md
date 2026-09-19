@@ -1,6 +1,6 @@
 # Math Topic Crossover — ISRO Syllabus vs. BLE/ZigBee/HackRF Work
 
-Cross-analysis of mathematics appearing in `~/Downloads/intern/` (ble_receiver_complete_guide.md, zigbee.pdf, FM FINAL UPDATED (1).pdf, hackrf_configuration.md) against the ISRO SC syllabus Math section and the previous-attempt exam analysis (`exam-analysis-report.md`). GATE CS topic structure sourced from GeeksforGeeks GATE CS Notes and GATE CSE Syllabus pages.
+Cross-analysis of mathematics appearing in `../../Downloads/intern/` (ble_receiver_complete_guide.md, zigbee.pdf, FM FINAL UPDATED (1).pdf, hackrf_configuration.md) against the ISRO SC syllabus Math section and the previous-attempt exam analysis (`exam-analysis-report.md`). GATE CS topic structure sourced from GeeksforGeeks GATE CS Notes and GATE CSE Syllabus pages.
 
 ## Math actually present in the 4 docs
 
