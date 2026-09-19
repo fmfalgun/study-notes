@@ -14,7 +14,8 @@
     "incident response",
     "penetration testing",
     "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "140694610140635846": {
    "job_id": "140694610140635846",
@@ -30,13 +31,14 @@
     "threat",
     "penetration testing",
     "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "96517503173173958": {
    "job_id": "96517503173173958",
    "title": "Security Engineer, Product, Cloud CISO",
    "org": "Google",
-   "location": "M\u00e1laga, Spain",
+   "location": "Málaga, Spain",
    "theme": "security_engineering",
    "first_seen_utc": "2026-09-19T12:29:32+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/96517503173173958-security-engineer-product-cloud-ciso",
@@ -46,7 +48,8 @@
     "threat",
     "vulnerability",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": false
   },
   "106089667794739910": {
    "job_id": "106089667794739910",
@@ -63,7 +66,8 @@
     "vulnerability",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "100008844507128518": {
    "job_id": "100008844507128518",
@@ -78,7 +82,8 @@
     "threat",
     "incident response",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "125414626182472390": {
    "job_id": "125414626182472390",
@@ -95,7 +100,8 @@
     "malware",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "139129176165622470": {
    "job_id": "139129176165622470",
@@ -109,7 +115,8 @@
     "security",
     "threat",
     "malware"
-   ]
+   ],
+   "remote_eligible": false
   },
   "94308684170961606": {
    "job_id": "94308684170961606",
@@ -123,7 +130,8 @@
     "security",
     "threat",
     "malware"
-   ]
+   ],
+   "remote_eligible": false
   },
   "73177450879558342": {
    "job_id": "73177450879558342",
@@ -139,7 +147,8 @@
     "threat",
     "vulnerability",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": false
   },
   "81819018058441414": {
    "job_id": "81819018058441414",
@@ -157,7 +166,8 @@
     "vulnerability",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "107980810614645446": {
    "job_id": "107980810614645446",
@@ -174,7 +184,8 @@
     "vulnerability",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "128617590527271622": {
    "job_id": "128617590527271622",
@@ -190,7 +201,8 @@
     "threat",
     "red team",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": false
   },
   "92588037594063558": {
    "job_id": "92588037594063558",
@@ -206,7 +218,8 @@
     "threat",
     "penetration testing",
     "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "112966455896482502": {
    "job_id": "112966455896482502",
@@ -224,7 +237,8 @@
     "malware",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "143703294861025990": {
    "job_id": "143703294861025990",
@@ -239,7 +253,8 @@
     "cybersecurity",
     "threat",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": false
   },
   "123324367068111558": {
    "job_id": "123324367068111558",
@@ -255,7 +270,8 @@
     "threat",
     "vulnerability",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": false
   },
   "142106050210734790": {
    "job_id": "142106050210734790",
@@ -272,7 +288,8 @@
     "vulnerability",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "136535844847526598": {
    "job_id": "136535844847526598",
@@ -287,7 +304,8 @@
     "cybersecurity",
     "threat",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": false
   },
   "72194026949747398": {
    "job_id": "72194026949747398",
@@ -303,7 +321,8 @@
     "threat",
     "penetration testing",
     "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "88359377076921030": {
    "job_id": "88359377076921030",
@@ -319,7 +338,8 @@
     "threat",
     "incident response",
     "malware"
-   ]
+   ],
+   "remote_eligible": false
   },
   "82883055403836102": {
    "job_id": "82883055403836102",
@@ -335,7 +355,8 @@
     "red team",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "100095164759843526": {
    "job_id": "100095164759843526",
@@ -351,7 +372,8 @@
     "threat",
     "vulnerability",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": false
   },
   "108836916245209798": {
    "job_id": "108836916245209798",
@@ -370,7 +392,8 @@
     "red team",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "110426251176354502": {
    "job_id": "110426251176354502",
@@ -384,7 +407,8 @@
     "security",
     "threat",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "100929004743074502": {
    "job_id": "100929004743074502",
@@ -400,7 +424,8 @@
     "threat",
     "incident response",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "117841477853160134": {
    "job_id": "117841477853160134",
@@ -416,13 +441,14 @@
     "threat",
     "vulnerability",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": false
   },
   "109401147709498054": {
    "job_id": "109401147709498054",
    "title": "Security Consultant, SOAR, Mandiant, Google Cloud",
    "org": "Google",
-   "location": "Austin, TX, USA; United Stateslaptop_windowsRemote eligible",
+   "location": "Austin, TX, USA; United States",
    "theme": "sales_and_consulting",
    "first_seen_utc": "2026-09-19T12:32:14+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/109401147709498054-security-consultant-soar-mandiant-google-cloud",
@@ -431,7 +457,8 @@
     "cybersecurity",
     "threat",
     "incident response"
-   ]
+   ],
+   "remote_eligible": true
   },
   "92833852531057350": {
    "job_id": "92833852531057350",
@@ -448,7 +475,8 @@
     "malware",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "85522153893438150": {
    "job_id": "85522153893438150",
@@ -464,7 +492,8 @@
     "vulnerability",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "136826798817059526": {
    "job_id": "136826798817059526",
@@ -476,13 +505,14 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/136826798817059526-security-engineering-intern-bsms-summer-2027",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "137476408325612230": {
    "job_id": "137476408325612230",
    "title": "Principal Security Consultant, Intelligence Services",
    "org": "Google",
-   "location": "North Carolina, USAlaptop_windowsRemote eligible",
+   "location": "North Carolina, USA",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:32:14+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/137476408325612230-principal-security-consultant-intelligence-services",
@@ -493,7 +523,8 @@
     "incident response",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "93001248881418950": {
    "job_id": "93001248881418950",
@@ -511,7 +542,8 @@
     "red team",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "110751614276379334": {
    "job_id": "110751614276379334",
@@ -529,7 +561,8 @@
     "red team",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "91280470234276550": {
    "job_id": "91280470234276550",
@@ -546,7 +579,8 @@
     "incident response",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "102124438022955718": {
    "job_id": "102124438022955718",
@@ -564,7 +598,8 @@
     "red team",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "82648814329963206": {
    "job_id": "82648814329963206",
@@ -579,7 +614,8 @@
     "threat",
     "incident response",
     "vulnerability"
-   ]
+   ],
+   "remote_eligible": false
   },
   "136707779904578246": {
    "job_id": "136707779904578246",
@@ -596,7 +632,8 @@
     "malware",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "90690015310291654": {
    "job_id": "90690015310291654",
@@ -610,7 +647,8 @@
     "security",
     "threat",
     "incident response"
-   ]
+   ],
+   "remote_eligible": false
   },
   "132304125239927494": {
    "job_id": "132304125239927494",
@@ -625,7 +663,8 @@
     "cybersecurity",
     "threat",
     "vulnerability"
-   ]
+   ],
+   "remote_eligible": false
   },
   "132534755320046278": {
    "job_id": "132534755320046278",
@@ -641,13 +680,14 @@
     "threat",
     "vulnerability",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": false
   },
   "99523482064167622": {
    "job_id": "99523482064167622",
    "title": "Senior Security Engineer, Serving Layer and Platform Security, DeepMind",
    "org": "DeepMind",
-   "location": "Mountain View, CA, USA; New York, NY, USADeepMind | Mountain View, CA, USA; New York, NY, USAMinimum qualifications Bachelor's degree in Computer Science, Cybersecurity, Electrical/Computer Engineering, or equivalent practical experience. 5 years of experience in security engineering, platform security, infrastructure hardening, network protocols, or systems security architecture. 5 years of experience in security operations (e.g., operational security monitoring, incident response, vulnerability triage, rotational on-call duty, or threat hunting). 5 years of coding experience in one or more systems programming languages (e.g., C, C++). Learn moreshareShare Senior Security Engineer, Serving Layer and Platform Security, DeepMind linkCopy linkemailEmail a friendSenior Strategic Security Consultant, Mandiant, Google Cloudcorporate_fareGoogleplaceAtlanta, GA, USA; Georgia, USAlaptop_windowsRemote eligible",
+   "location": "Mountain View, CA, USA; New York, NY, USA",
    "theme": "security_engineering",
    "first_seen_utc": "2026-09-19T12:33:49+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/99523482064167622-senior-security-engineer-serving-layer-and-platform-security-deepmind",
@@ -658,13 +698,14 @@
     "incident response",
     "vulnerability",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": true
   },
   "139186367950136006": {
    "job_id": "139186367950136006",
    "title": "Senior Security Engineer, Security Research",
    "org": "Google",
-   "location": "Munich, Germany; Germanylaptop_windowsRemote eligible",
+   "location": "Munich, Germany; Germany",
    "theme": "security_engineering",
    "first_seen_utc": "2026-09-19T12:33:49+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/139186367950136006-senior-security-engineer-security-research",
@@ -673,7 +714,8 @@
     "cybersecurity",
     "vulnerability",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": true
   },
   "130384199696687814": {
    "job_id": "130384199696687814",
@@ -689,7 +731,8 @@
     "threat",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "118291244680913606": {
    "job_id": "118291244680913606",
@@ -706,7 +749,8 @@
     "penetration testing",
     "detection",
     "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "79773935020712646": {
    "job_id": "79773935020712646",
@@ -723,7 +767,8 @@
     "incident response",
     "vulnerability",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": false
   },
   "97606019684672198": {
    "job_id": "97606019684672198",
@@ -740,7 +785,8 @@
     "vulnerability",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "84432797715833542": {
    "job_id": "84432797715833542",
@@ -752,25 +798,14 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/84432797715833542-capacity-delivery-area-security-manager",
    "terms": [
     "security"
-   ]
-  },
-  "title:Go-To-Market Security Lead, Google Cloud (Japanese)|Tokyo, Japan": {
-   "job_id": "title:Go-To-Market Security Lead, Google Cloud (Japanese)|Tokyo, Japan",
-   "title": "Go-To-Market Security Lead, Google Cloud (Japanese)",
-   "org": "Google",
-   "location": "Tokyo, Japan",
-   "theme": "other_security",
-   "first_seen_utc": "2026-09-19T12:33:49+00:00",
-   "url": null,
-   "terms": [
-    "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "93649969331741382": {
    "job_id": "93649969331741382",
    "title": "Senior Incident Response Security Consultant, Mandiant",
    "org": "Google",
-   "location": "Mexico; Brazil; +2 more; +1 morelaptop_windowsRemote eligible",
+   "location": "Mexico; Brazil; +2 more; +1 more",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:33:49+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/93649969331741382-senior-incident-response-security-consultant-mandiant",
@@ -783,13 +818,14 @@
     "malware",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "115904481962402502": {
    "job_id": "115904481962402502",
    "title": "Senior Cloud Security Architect, Mandiant, Cloud and Infrastructure",
    "org": "Google",
-   "location": "Riyadh Saudi Arabia; Saudi Arabialaptop_windowsRemote eligible",
+   "location": "Riyadh Saudi Arabia; Saudi Arabia",
    "theme": "security_engineering",
    "first_seen_utc": "2026-09-19T12:33:49+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/115904481962402502-senior-cloud-security-architect-mandiant-cloud-and-infrastructure",
@@ -798,13 +834,14 @@
     "cybersecurity",
     "incident response",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": true
   },
   "75888188450579142": {
    "job_id": "75888188450579142",
    "title": "Senior Incident Response Security Consultant, Mandiant, Google Cloud",
    "org": "Google",
-   "location": "United Kingdomlaptop_windowsRemote eligible",
+   "location": "United Kingdom",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:33:49+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/75888188450579142-senior-incident-response-security-consultant-mandiant-google-cloud",
@@ -816,20 +853,8 @@
     "malware",
     "penetration testing",
     "detection"
-   ]
-  },
-  "title:Senior Security Engineer, AI/ML, National Security, Public Sector|Washington D.C., DC, USA; Maryland, USAlaptop_windowsRemote eligible": {
-   "job_id": "title:Senior Security Engineer, AI/ML, National Security, Public Sector|Washington D.C., DC, USA; Maryland, USAlaptop_windowsRemote eligible",
-   "title": "Senior Security Engineer, AI/ML, National Security, Public Sector",
-   "org": "Google",
-   "location": "Washington D.C., DC, USA; Maryland, USAlaptop_windowsRemote eligible",
-   "theme": "security_engineering",
-   "first_seen_utc": "2026-09-19T12:33:49+00:00",
-   "url": null,
-   "terms": [
-    "security",
-    "penetration testing"
-   ]
+   ],
+   "remote_eligible": true
   },
   "123372786381923014": {
    "job_id": "123372786381923014",
@@ -844,7 +869,8 @@
     "threat",
     "vulnerability",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "102457761844863686": {
    "job_id": "102457761844863686",
@@ -861,7 +887,8 @@
     "incident response",
     "vulnerability",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "134113105335460550": {
    "job_id": "134113105335460550",
@@ -876,7 +903,8 @@
     "red team",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "141371780454326982": {
    "job_id": "141371780454326982",
@@ -889,7 +917,8 @@
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "80747767315473094": {
    "job_id": "80747767315473094",
@@ -902,7 +931,8 @@
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "135080147286926022": {
    "job_id": "135080147286926022",
@@ -918,7 +948,8 @@
     "threat",
     "malware",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": false
   },
   "86474414714954438": {
    "job_id": "86474414714954438",
@@ -931,7 +962,8 @@
    "terms": [
     "security",
     "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "95653551711101638": {
    "job_id": "95653551711101638",
@@ -943,7 +975,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/95653551711101638-senior-software-engineer-cloud-and-third-party-platform-security",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "72866347708490438": {
    "job_id": "72866347708490438",
@@ -955,7 +988,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/72866347708490438-technical-program-manager-security-engineering",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "131545462216762054": {
    "job_id": "131545462216762054",
@@ -972,20 +1006,22 @@
     "penetration testing",
     "detection",
     "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "82356853190599366": {
    "job_id": "82356853190599366",
    "title": "Security Sales Specialist, SLED, Google Public Sector",
    "org": "Google",
-   "location": "Cambridge, MA, USA; Massachusetts, USA; +2 more; +1 morelaptop_windowsRemote eligible",
+   "location": "Cambridge, MA, USA; Massachusetts, USA; +2 more; +1 more",
    "theme": "sales_and_consulting",
    "first_seen_utc": "2026-09-19T12:34:52+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/82356853190599366-security-sales-specialist-sled-google-public-sector",
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": true
   },
   "130800413166183110": {
    "job_id": "130800413166183110",
@@ -998,7 +1034,8 @@
    "terms": [
     "security",
     "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "101929225316901574": {
    "job_id": "101929225316901574",
@@ -1012,7 +1049,8 @@
     "security",
     "threat",
     "incident response"
-   ]
+   ],
+   "remote_eligible": false
   },
   "123180935024648902": {
    "job_id": "123180935024648902",
@@ -1025,7 +1063,8 @@
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "88807737302885062": {
    "job_id": "88807737302885062",
@@ -1039,7 +1078,8 @@
     "security",
     "threat",
     "incident response"
-   ]
+   ],
+   "remote_eligible": false
   },
   "title:Software Engineering Manager, Cloud and Third-Party Platform Security|Singapore": {
    "job_id": "title:Software Engineering Manager, Cloud and Third-Party Platform Security|Singapore",
@@ -1051,13 +1091,15 @@
    "url": null,
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false,
+   "id_missing": true
   },
   "118452897586258630": {
    "job_id": "118452897586258630",
    "title": "Senior Software Engineer, Product Security, DeepMind",
    "org": "DeepMind",
-   "location": "Mountain View, CA, USA; New York, NY, USADeepMind | Mountain View, CA, USA; New York, NY, USAMinimum qualifications Bachelor's degree in Computer Science, Cybersecurity, Computer Engineering, or equivalent practical experience. 8 years of coding experience in general-purpose languages (e.g., JavaScript/TypeScript, Java/Kotlin, Swift, Python, Go, C++). 5 years of experience in application security engineering (web application security, mobile client security, web API security, or client-side cryptography). 5 years of experience in security operations (e.g., vulnerability management, bug bounty triage, penetration testing, red team engagement, or operational incident handling). 5 years of experience testing, and launching software products. Learn moreshareShare Senior Software Engineer, Product Security, DeepMind linkCopy linkemailEmail a friendData Center Security Manager, Compliance, Safety, and Risk Managementcorporate_fareGoogleplacePryor, OK 74361, USA",
+   "location": "Mountain View, CA, USA; New York, NY, USA",
    "theme": "security_engineering",
    "first_seen_utc": "2026-09-19T12:34:52+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/118452897586258630-senior-software-engineer-product-security-deepmind",
@@ -1070,7 +1112,8 @@
     "red team",
     "penetration testing",
     "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "125308106698564294": {
    "job_id": "125308106698564294",
@@ -1086,13 +1129,14 @@
     "threat",
     "incident response",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": false
   },
   "74966354788000454": {
    "job_id": "74966354788000454",
    "title": "Senior Red Team Security Consultant, Mandiant, Google Cloud (English)",
    "org": "Google",
-   "location": "Addison, TX, USA; United Stateslaptop_windowsRemote eligible",
+   "location": "Addison, TX, USA; United States",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:34:52+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/74966354788000454-senior-red-team-security-consultant-mandiant-google-cloud-english",
@@ -1103,7 +1147,8 @@
     "incident response",
     "red team",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "97063119712330438": {
    "job_id": "97063119712330438",
@@ -1115,7 +1160,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/97063119712330438-national-security-capture-manager-google-public-sector",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "110090775575831238": {
    "job_id": "110090775575831238",
@@ -1128,7 +1174,8 @@
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "86585993670337222": {
    "job_id": "86585993670337222",
@@ -1141,7 +1188,8 @@
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "99859834911761094": {
    "job_id": "99859834911761094",
@@ -1159,13 +1207,14 @@
     "red team",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "117765278690878150": {
    "job_id": "117765278690878150",
    "title": "Senior Incident Response Security Consultant, Mandiant, Google Cloud (English)",
    "org": "Google",
-   "location": "Italy; Denmarklaptop_windowsRemote eligible",
+   "location": "Italy; Denmark",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:34:52+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/117765278690878150-senior-incident-response-security-consultant-mandiant-google-cloud-english",
@@ -1176,7 +1225,8 @@
     "malware",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "117557131690812102": {
    "job_id": "117557131690812102",
@@ -1189,13 +1239,14 @@
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "101921079911424710": {
    "job_id": "101921079911424710",
    "title": "Senior Incident Response Security Consultant, Mandiant, Google Cloud",
    "org": "Google",
-   "location": "Ontario, CA; Alberta, CA; +3 more; +2 morelaptop_windowsRemote eligible",
+   "location": "Ontario, CA; Alberta, CA; +3 more; +2 more",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:36:16+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/101921079911424710-senior-incident-response-security-consultant-mandiant-google-cloud",
@@ -1207,7 +1258,8 @@
     "malware",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "87148527548801734": {
    "job_id": "87148527548801734",
@@ -1220,13 +1272,14 @@
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "83907252632593094": {
    "job_id": "83907252632593094",
    "title": "Senior Red Team Security Consultant, Mandiant (English)",
    "org": "Google",
-   "location": "Mexico; Argentina; +4 more; +3 morelaptop_windowsRemote eligible",
+   "location": "Mexico; Argentina; +4 more; +3 more",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:36:16+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/83907252632593094-senior-red-team-security-consultant-mandiant-english",
@@ -1238,7 +1291,8 @@
     "red team",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "129492676155187910": {
    "job_id": "129492676155187910",
@@ -1251,13 +1305,14 @@
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "87459777386291910": {
    "job_id": "87459777386291910",
    "title": "Senior Incident Response Security Consultant, Mandiant, Google Cloud",
    "org": "Google",
-   "location": "Arizona, USA; California, USA; +2 more; +1 morelaptop_windowsRemote eligible",
+   "location": "Arizona, USA; California, USA; +2 more; +1 more",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:36:16+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/87459777386291910-senior-incident-response-security-consultant-mandiant-google-cloud",
@@ -1269,13 +1324,14 @@
     "malware",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "95127721549406918": {
    "job_id": "95127721549406918",
    "title": "Senior Offensive Security Consultant, Mandiant, Google Cloud",
    "org": "Google",
-   "location": "Boulder, CO, USA; New York, NY, USA; +7 more; +6 morelaptop_windowsRemote eligible",
+   "location": "Boulder, CO, USA; New York, NY, USA; +7 more; +6 more",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:36:16+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/95127721549406918-senior-offensive-security-consultant-mandiant-google-cloud",
@@ -1285,13 +1341,14 @@
     "threat",
     "red team",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "73518950809248454": {
    "job_id": "73518950809248454",
    "title": "Offensive Security Consultant, Mandiant Consulting, Google Cloud",
    "org": "Google",
-   "location": "United States; New York, USAlaptop_windowsRemote eligible",
+   "location": "United States; New York, USA",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:36:16+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/73518950809248454-offensive-security-consultant-mandiant-consulting-google-cloud",
@@ -1303,7 +1360,8 @@
     "red team",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "140703144240652998": {
    "job_id": "140703144240652998",
@@ -1316,7 +1374,8 @@
    "terms": [
     "security",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "73916226694193862": {
    "job_id": "73916226694193862",
@@ -1329,7 +1388,8 @@
    "terms": [
     "security",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "89726808764621510": {
    "job_id": "89726808764621510",
@@ -1341,13 +1401,14 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/89726808764621510-senior-security-software-engineer-emerging-onprem-ai-infrastructure",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "104542202889151174": {
    "job_id": "104542202889151174",
    "title": "Principal Incident Response Security Consultant, Mandiant, Google Cloud",
    "org": "Google",
-   "location": "California, USA; Arizona, USAlaptop_windowsRemote eligible",
+   "location": "California, USA; Arizona, USA",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:36:16+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/104542202889151174-principal-incident-response-security-consultant-mandiant-google-cloud",
@@ -1358,7 +1419,8 @@
     "incident response",
     "malware",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "140791915845952198": {
    "job_id": "140791915845952198",
@@ -1373,13 +1435,14 @@
     "cybersecurity",
     "threat",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "84373591591658182": {
    "job_id": "84373591591658182",
    "title": "Senior Incident Response Security Consultant, Mandiant, Google Cloud (Hebrew)",
    "org": "Google",
-   "location": "Israellaptop_windowsRemote eligible",
+   "location": "Israel",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:36:16+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/84373591591658182-senior-incident-response-security-consultant-mandiant-google-cloud-hebrew",
@@ -1391,7 +1454,8 @@
     "malware",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "112129040352977606": {
    "job_id": "112129040352977606",
@@ -1405,7 +1469,8 @@
     "security",
     "cybersecurity",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "104024344723628742": {
    "job_id": "104024344723628742",
@@ -1418,13 +1483,14 @@
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "82213246664090310": {
    "job_id": "82213246664090310",
    "title": "Principal Incident Response Security Consultant, Mandiant",
    "org": "Google",
-   "location": "Georgia, USA; Massachusetts, USA; +3 more; +2 morelaptop_windowsRemote eligible",
+   "location": "Georgia, USA; Massachusetts, USA; +3 more; +2 more",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:36:16+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/82213246664090310-principal-incident-response-security-consultant-mandiant",
@@ -1436,7 +1502,8 @@
     "malware",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "107877207413531334": {
    "job_id": "107877207413531334",
@@ -1451,7 +1518,8 @@
     "threat",
     "vulnerability",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": false
   },
   "130683844532544198": {
    "job_id": "130683844532544198",
@@ -1467,7 +1535,8 @@
     "red team",
     "detection",
     "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "94574508286845638": {
    "job_id": "94574508286845638",
@@ -1483,7 +1552,8 @@
     "red team",
     "detection",
     "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "89020647421682374": {
    "job_id": "89020647421682374",
@@ -1497,7 +1567,8 @@
     "security",
     "threat",
     "vulnerability"
-   ]
+   ],
+   "remote_eligible": false
   },
   "134243013063779014": {
    "job_id": "134243013063779014",
@@ -1510,7 +1581,8 @@
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "93619739741299398": {
    "job_id": "93619739741299398",
@@ -1524,7 +1596,8 @@
     "security",
     "cybersecurity",
     "threat"
-   ]
+   ],
+   "remote_eligible": false
   },
   "98050766769398470": {
    "job_id": "98050766769398470",
@@ -1537,7 +1610,8 @@
    "terms": [
     "security",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "84855766095143622": {
    "job_id": "84855766095143622",
@@ -1551,20 +1625,22 @@
     "security",
     "threat",
     "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "128964202977993414": {
    "job_id": "128964202977993414",
    "title": "Security Sales Specialist, Google Cloud",
    "org": "Google",
-   "location": "Atlanta, GA, USA; Raleigh, NC, USA; +6 more; +5 morelaptop_windowsRemote eligible",
+   "location": "Atlanta, GA, USA; Raleigh, NC, USA; +6 more; +5 more",
    "theme": "sales_and_consulting",
    "first_seen_utc": "2026-09-19T12:37:36+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/128964202977993414-security-sales-specialist-google-cloud",
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": true
   },
   "72656262604432070": {
    "job_id": "72656262604432070",
@@ -1577,7 +1653,8 @@
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "117065748777444038": {
    "job_id": "117065748777444038",
@@ -1589,7 +1666,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/117065748777444038-staff-software-engineer-google-one-security-development",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "104960721682342598": {
    "job_id": "104960721682342598",
@@ -1601,7 +1679,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/104960721682342598-program-manager-ii-privacy-safety-and-security-core-systems",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "76249380704658118": {
    "job_id": "76249380704658118",
@@ -1616,7 +1695,8 @@
     "cybersecurity",
     "threat",
     "incident response"
-   ]
+   ],
+   "remote_eligible": false
   },
   "111205174633996998": {
    "job_id": "111205174633996998",
@@ -1631,7 +1711,8 @@
     "cybersecurity",
     "threat",
     "incident response"
-   ]
+   ],
+   "remote_eligible": false
   },
   "120841772354937542": {
    "job_id": "120841772354937542",
@@ -1645,7 +1726,8 @@
     "security",
     "threat",
     "vulnerability"
-   ]
+   ],
+   "remote_eligible": false
   },
   "101269094212215494": {
    "job_id": "101269094212215494",
@@ -1659,7 +1741,8 @@
     "security",
     "cybersecurity",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "75632676014301894": {
    "job_id": "75632676014301894",
@@ -1676,7 +1759,8 @@
     "incident response",
     "malware",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "97558054563652294": {
    "job_id": "97558054563652294",
@@ -1693,7 +1777,8 @@
     "incident response",
     "malware",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "130465947956716230": {
    "job_id": "130465947956716230",
@@ -1706,7 +1791,8 @@
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "81794544261046982": {
    "job_id": "81794544261046982",
@@ -1721,7 +1807,8 @@
     "cybersecurity",
     "threat",
     "vulnerability"
-   ]
+   ],
+   "remote_eligible": false
   },
   "105161435167761094": {
    "job_id": "105161435167761094",
@@ -1736,13 +1823,14 @@
     "incident response",
     "penetration testing",
     "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "142870302060094150": {
    "job_id": "142870302060094150",
    "title": "Staff Software Engineer (AI/ML), Security/Privacy",
    "org": "Google",
-   "location": "M\u00e1laga, Spain",
+   "location": "Málaga, Spain",
    "theme": "security_engineering",
    "first_seen_utc": "2026-09-19T12:39:30+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/142870302060094150-staff-software-engineer-aiml-securityprivacy",
@@ -1750,7 +1838,8 @@
     "security",
     "cybersecurity",
     "malware"
-   ]
+   ],
+   "remote_eligible": false
   },
   "85356947439526598": {
    "job_id": "85356947439526598",
@@ -1763,7 +1852,8 @@
    "terms": [
     "security",
     "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "100397577702122182": {
    "job_id": "100397577702122182",
@@ -1775,7 +1865,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/100397577702122182-software-engineer-chrome-networking-security",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "96438154726122182": {
    "job_id": "96438154726122182",
@@ -1787,7 +1878,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/96438154726122182-software-engineering-manager-gmail-security-and-safety",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "87309454067802822": {
    "job_id": "87309454067802822",
@@ -1799,7 +1891,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/87309454067802822-senior-technical-program-manager-search-ai-security",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "93130024885854918": {
    "job_id": "93130024885854918",
@@ -1814,7 +1907,8 @@
     "cybersecurity",
     "threat",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "91370836346184390": {
    "job_id": "91370836346184390",
@@ -1826,7 +1920,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/91370836346184390-senior-technical-program-manager-cdn-and-edge-security",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "73187890971976390": {
    "job_id": "73187890971976390",
@@ -1840,13 +1935,14 @@
     "security",
     "cybersecurity",
     "threat"
-   ]
+   ],
+   "remote_eligible": false
   },
   "125015659154154182": {
    "job_id": "125015659154154182",
    "title": "Staff Software Engineer, Cloud Security",
    "org": "Google",
-   "location": "M\u00e1laga, Spain",
+   "location": "Málaga, Spain",
    "theme": "security_engineering",
    "first_seen_utc": "2026-09-19T12:39:30+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/125015659154154182-staff-software-engineer-cloud-security",
@@ -1854,7 +1950,8 @@
     "security",
     "threat",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "82664756174824134": {
    "job_id": "82664756174824134",
@@ -1867,7 +1964,8 @@
    "terms": [
     "security",
     "threat"
-   ]
+   ],
+   "remote_eligible": false
   },
   "130896050276704966": {
    "job_id": "130896050276704966",
@@ -1879,7 +1977,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/130896050276704966-software-engineer-iii-securityprivacy-gtech-risk",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "141516598161613510": {
    "job_id": "141516598161613510",
@@ -1892,7 +1991,8 @@
    "terms": [
     "security",
     "threat"
-   ]
+   ],
+   "remote_eligible": false
   },
   "73621548988015302": {
    "job_id": "73621548988015302",
@@ -1904,7 +2004,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/73621548988015302-senior-manager-root-of-trust-security",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "86769603522241222": {
    "job_id": "86769603522241222",
@@ -1916,13 +2017,14 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/86769603522241222-software-engineering-manager-cloud-security-identity-and-access-management",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "136834834700870342": {
    "job_id": "136834834700870342",
    "title": "Senior Software Engineer, AI and Security",
    "org": "Google",
-   "location": "Spainlaptop_windowsRemote eligible",
+   "location": "Spain",
    "theme": "security_engineering",
    "first_seen_utc": "2026-09-19T12:39:30+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/136834834700870342-senior-software-engineer-ai-and-security",
@@ -1930,7 +2032,8 @@
     "security",
     "cybersecurity",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "105623813093237446": {
    "job_id": "105623813093237446",
@@ -1942,7 +2045,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/105623813093237446-product-manager-ii-security-amp-privacy-google-cloud",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "113569430650135238": {
    "job_id": "113569430650135238",
@@ -1955,7 +2059,8 @@
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "120372611602358982": {
    "job_id": "120372611602358982",
@@ -1969,7 +2074,8 @@
     "security",
     "cybersecurity",
     "threat"
-   ]
+   ],
+   "remote_eligible": false
   },
   "123612159404843718": {
    "job_id": "123612159404843718",
@@ -1981,7 +2087,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/123612159404843718-strategy-and-operations-lead-cloud-security",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "122122892916728518": {
    "job_id": "122122892916728518",
@@ -1993,13 +2100,14 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/122122892916728518-product-manager-google-cloud-security",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "117609324133393094": {
    "job_id": "117609324133393094",
    "title": "Cyber Defense Consultant, Mandiant, Google Cloud",
    "org": "Google",
-   "location": "California, USA; Georgia, USA; +4 more; +3 morelaptop_windowsRemote eligible",
+   "location": "California, USA; Georgia, USA; +4 more; +3 more",
    "theme": "sales_and_consulting",
    "first_seen_utc": "2026-09-19T12:41:28+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/117609324133393094-cyber-defense-consultant-mandiant-google-cloud",
@@ -2007,7 +2115,8 @@
     "security",
     "threat",
     "incident response"
-   ]
+   ],
+   "remote_eligible": true
   },
   "86316465145160390": {
    "job_id": "86316465145160390",
@@ -2019,7 +2128,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/86316465145160390-software-engineer-manager-ssd-security-software",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "123383946317570758": {
    "job_id": "123383946317570758",
@@ -2031,7 +2141,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/123383946317570758-senior-software-engineering-manager-hardware-and-infrastructure-platform-security",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "141521453622141638": {
    "job_id": "141521453622141638",
@@ -2043,7 +2154,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/141521453622141638-global-partner-incentives-design-lead-google-cloud-security",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "105050290004075206": {
    "job_id": "105050290004075206",
@@ -2056,13 +2168,14 @@
    "terms": [
     "security",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": false
   },
   "85711220501291718": {
    "job_id": "85711220501291718",
    "title": "Threat Defense Consultant, Mandiant",
    "org": "Google",
-   "location": "Virginia, USAlaptop_windowsRemote eligible",
+   "location": "Virginia, USA",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:41:28+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/85711220501291718-threat-defense-consultant-mandiant",
@@ -2071,7 +2184,8 @@
     "cybersecurity",
     "threat",
     "malware"
-   ]
+   ],
+   "remote_eligible": true
   },
   "128017205638898374": {
    "job_id": "128017205638898374",
@@ -2085,7 +2199,8 @@
     "security",
     "cybersecurity",
     "incident response"
-   ]
+   ],
+   "remote_eligible": false
   },
   "116241276117885638": {
    "job_id": "116241276117885638",
@@ -2098,13 +2213,14 @@
    "terms": [
     "security",
     "threat"
-   ]
+   ],
+   "remote_eligible": false
   },
   "99057174243615430": {
    "job_id": "99057174243615430",
    "title": "Senior Analyst, Mandiant Threat Intelligence Services",
    "org": "Google",
-   "location": "Virginia, USA; Massachusetts, USA; +2 more; +1 morelaptop_windowsRemote eligible",
+   "location": "Virginia, USA; Massachusetts, USA; +2 more; +1 more",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:41:28+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/99057174243615430-senior-analyst-mandiant-threat-intelligence-services",
@@ -2114,7 +2230,8 @@
     "threat",
     "incident response",
     "malware"
-   ]
+   ],
+   "remote_eligible": true
   },
   "73500989256016582": {
    "job_id": "73500989256016582",
@@ -2131,7 +2248,8 @@
     "penetration testing",
     "detection",
     "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "111648248828961478": {
    "job_id": "111648248828961478",
@@ -2148,7 +2266,8 @@
     "incident response",
     "malware",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "128082827370472134": {
    "job_id": "128082827370472134",
@@ -2160,7 +2279,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/128082827370472134-software-engineer-iii-securityprivacy-google-cloud-security-and-privacy",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "125061685097439942": {
    "job_id": "125061685097439942",
@@ -2172,7 +2292,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/125061685097439942-senior-ux-design-engineer-privacy-safety-and-security",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "139928220471304902": {
    "job_id": "139928220471304902",
@@ -2185,13 +2306,14 @@
    "terms": [
     "security",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "127698601743655622": {
    "job_id": "127698601743655622",
    "title": "Threat Operations Lead, Google Defense Intelligence",
    "org": "Google",
-   "location": "District of Columbia, USA; California, USA; +5 more; +4 morelaptop_windowsRemote eligible",
+   "location": "District of Columbia, USA; California, USA; +5 more; +4 more",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:42:43+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/127698601743655622-threat-operations-lead-google-defense-intelligence",
@@ -2199,7 +2321,8 @@
     "security",
     "threat",
     "vulnerability"
-   ]
+   ],
+   "remote_eligible": true
   },
   "82245001504793286": {
    "job_id": "82245001504793286",
@@ -2211,13 +2334,14 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/82245001504793286-technical-account-manager-google-public-sector-national-security",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "75219633841283782": {
    "job_id": "75219633841283782",
    "title": "Senior Analyst, Google Threat Intelligence, Mandiant",
    "org": "Google",
-   "location": "Singaporelaptop_windowsRemote eligible",
+   "location": "Singapore",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:42:43+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/75219633841283782-senior-analyst-google-threat-intelligence-mandiant",
@@ -2227,7 +2351,8 @@
     "threat",
     "incident response",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "88974939305976518": {
    "job_id": "88974939305976518",
@@ -2239,7 +2364,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/88974939305976518-software-engineer-iii-cloud-security-identity-and-access-management",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "139439628514927302": {
    "job_id": "139439628514927302",
@@ -2251,7 +2377,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/139439628514927302-software-engineer-iii-infrastructure-google-cloud-security-and-privacy",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "130877161010537158": {
    "job_id": "130877161010537158",
@@ -2264,7 +2391,8 @@
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "88779167180432070": {
    "job_id": "88779167180432070",
@@ -2276,7 +2404,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/88779167180432070-software-engineer-iii-infrastructure-google-cloud-security-and-privacy",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "142936327518593734": {
    "job_id": "142936327518593734",
@@ -2288,13 +2417,14 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/142936327518593734-staff-software-engineer-infrastructure-google-cloud-security-and-privacy",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "118678805349835462": {
    "job_id": "118678805349835462",
    "title": "Senior Incident Response Consultant, Mandiant (Weekend team)",
    "org": "Google",
-   "location": "United Kingdomlaptop_windowsRemote eligible",
+   "location": "United Kingdom",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:42:43+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/118678805349835462-senior-incident-response-consultant-mandiant-weekend-team",
@@ -2304,7 +2434,8 @@
     "threat",
     "incident response",
     "malware"
-   ]
+   ],
+   "remote_eligible": true
   },
   "96943959065928390": {
    "job_id": "96943959065928390",
@@ -2316,13 +2447,14 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/96943959065928390-product-support-manager-core-account-access-and-security",
    "terms": [
     "security"
-   ]
+   ],
+   "remote_eligible": false
   },
   "140959397021917894": {
    "job_id": "140959397021917894",
    "title": "Lead Cyber Analyst, Threat Intelligence, Mandiant (Bahasa Indonesia)",
    "org": "Google",
-   "location": "Indonesialaptop_windowsRemote eligible",
+   "location": "Indonesia",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:43:55+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/140959397021917894-lead-cyber-analyst-threat-intelligence-mandiant-bahasa-indonesia",
@@ -2333,26 +2465,28 @@
     "incident response",
     "penetration testing",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "102366725718057670": {
    "job_id": "102366725718057670",
    "title": "Product Manager, Cyber Security, DeepMind",
    "org": "DeepMind",
-   "location": "Mountain View, CA, USADeepMind | Mountain View, CA, USAMinimum qualifications Bachelor\u2019s degree in Computer Science, Life Sciences, Bioengineering, a related quantitative/technical field, or equivalent practical experience. 8 years of experience in product management, technical product management, or software engineering, including leading products through the full development lifecycle. 3 years of experience leading cross-functional technical projects from concept through production launch, partnering across engineering, research, or external stakeholders. Experience leading any one production AI/LLM product through lifecycle evaluation, testing, or benchmark deployment. Learn moreshareShare Product Manager, Cyber Security, DeepMind linkCopy linkemailEmail a friendGroup Product Manager, Information and Infrastructure Protectioncorporate_fareGoogleplaceSingapore; Sydney NSW, Australia",
+   "location": "Mountain View, CA, USA",
    "theme": "other_security",
    "first_seen_utc": "2026-09-19T12:43:55+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/102366725718057670-product-manager-cyber-security-deepmind",
    "terms": [
     "security",
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "110728803705070278": {
    "job_id": "110728803705070278",
    "title": "Senior Incident Response Consultant, Mandiant, Google Cloud",
    "org": "Google",
-   "location": "Texas, USA; United Stateslaptop_windowsRemote eligible",
+   "location": "Texas, USA; United States",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:43:55+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/110728803705070278-senior-incident-response-consultant-mandiant-google-cloud",
@@ -2363,13 +2497,14 @@
     "incident response",
     "malware",
     "detection"
-   ]
+   ],
+   "remote_eligible": true
   },
   "117070313253937862": {
    "job_id": "117070313253937862",
    "title": "Research Engineer, Cyber Gemini, DeepMind",
    "org": "DeepMind",
-   "location": "New York, NY, USA; Mountain View, CA, USA; +2 more; +1 moreDeepMind | New York, NY, USA; Mountain View, CA, USA; +2 more; +1 moreMinimum qualifications Bachelor's degree in Computer Science, or a related technical field, or equivalent practical experience. 5 years of experience with large language models (LLM), including pre-training or fine-tuning. Learn moreshareShare Research Engineer, Cyber Gemini, DeepMind linkCopy linkemailEmail a friendSenior Staff Technical Leader, Google SecOpscorporate_fareGoogleplaceSunnyvale, CA, USA",
+   "location": "New York, NY, USA; Mountain View, CA, USA; +2 more; +1 more",
    "theme": "security_engineering",
    "first_seen_utc": "2026-09-19T12:45:33+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/117070313253937862-research-engineer-cyber-gemini-deepmind",
@@ -2378,7 +2513,8 @@
     "cybersecurity",
     "vulnerability",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": false
   },
   "106411382320046790": {
    "job_id": "106411382320046790",
@@ -2393,7 +2529,8 @@
     "threat",
     "malware",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "117212436942987974": {
    "job_id": "117212436942987974",
@@ -2407,7 +2544,8 @@
     "security",
     "threat",
     "detection"
-   ]
+   ],
+   "remote_eligible": false
   },
   "73408733358498502": {
    "job_id": "73408733358498502",
@@ -2421,56 +2559,14 @@
     "cybersecurity",
     "threat",
     "detection"
-   ]
-  },
-  "title:Security Consultant Intern, BS/MS, Summer 2027|Mountain View, CA, USA; Ann Arbor, MI, USA; +30 more; +29 more": {
-   "job_id": "title:Security Consultant Intern, BS/MS, Summer 2027|Mountain View, CA, USA; Ann Arbor, MI, USA; +30 more; +29 more",
-   "title": "Security Consultant Intern, BS/MS, Summer 2027",
-   "org": "Google",
-   "location": "Mountain View, CA, USA; Ann Arbor, MI, USA; +30 more; +29 more",
-   "theme": "sales_and_consulting",
-   "first_seen_utc": "2026-09-19T12:52:58+00:00",
-   "url": null,
-   "terms": [
-    "cybersecurity",
-    "incident response",
-    "vulnerability",
-    "penetration testing"
-   ]
-  },
-  "title:Security Consultant Intern, BS/MS, Summer 2027|Toronto, ON, Canada": {
-   "job_id": "title:Security Consultant Intern, BS/MS, Summer 2027|Toronto, ON, Canada",
-   "title": "Security Consultant Intern, BS/MS, Summer 2027",
-   "org": "Google",
-   "location": "Toronto, ON, Canada",
-   "theme": "sales_and_consulting",
-   "first_seen_utc": "2026-09-19T12:52:58+00:00",
-   "url": null,
-   "terms": [
-    "cybersecurity",
-    "incident response",
-    "vulnerability",
-    "penetration testing"
-   ]
-  },
-  "title:Operational Technology Security Technical Program Manager, Third-Party Data Centers|Moncks Corner, SC, USA; Council Bluffs, IA, USA; +4 more; +3 more": {
-   "job_id": "title:Operational Technology Security Technical Program Manager, Third-Party Data Centers|Moncks Corner, SC, USA; Council Bluffs, IA, USA; +4 more; +3 more",
-   "title": "Operational Technology Security Technical Program Manager, Third-Party Data Centers",
-   "org": "Google",
-   "location": "Moncks Corner, SC, USA; Council Bluffs, IA, USA; +4 more; +3 more",
-   "theme": "other_security",
-   "first_seen_utc": "2026-09-19T12:54:26+00:00",
-   "url": null,
-   "terms": [
-    "cybersecurity",
-    "incident response"
-   ]
+   ],
+   "remote_eligible": false
   },
   "98066832094569158": {
    "job_id": "98066832094569158",
    "title": "Senior Strategic Security Consultant, Mandiant, Google Cloud",
    "org": "Google",
-   "location": "Atlanta, GA, USA; Georgia, USAlaptop_windowsRemote eligible",
+   "location": "Atlanta, GA, USA; Georgia, USA",
    "theme": "sales_and_consulting",
    "first_seen_utc": "2026-09-19T12:57:38+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/98066832094569158-senior-strategic-security-consultant-mandiant-google-cloud",
@@ -2480,19 +2576,21 @@
     "incident response",
     "vulnerability",
     "penetration testing"
-   ]
+   ],
+   "remote_eligible": true
   },
   "123893720280900294": {
    "job_id": "123893720280900294",
    "title": "Security Sales Specialist, SLED, Google Public Sector",
    "org": "Google",
-   "location": "Cambridge, MA, USA; Massachusetts, USA; +2 more; +1 morelaptop_windowsRemote eligible",
+   "location": "Cambridge, MA, USA; Massachusetts, USA; +2 more; +1 more",
    "theme": "sales_and_consulting",
    "first_seen_utc": "2026-09-19T12:57:38+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/123893720280900294-security-sales-specialist-sled-google-public-sector",
    "terms": [
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": true
   },
   "96074194902491846": {
    "job_id": "96074194902491846",
@@ -2504,13 +2602,14 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/96074194902491846-gotomarket-security-lead-google-cloud-japanese",
    "terms": [
     "cybersecurity"
-   ]
+   ],
+   "remote_eligible": false
   },
   "79054229498405574": {
    "job_id": "79054229498405574",
    "title": "Software Engineer III, Google Cloud, Google Threat Intelligence",
    "org": "Google",
-   "location": "M\u00e1laga, Spain",
+   "location": "Málaga, Spain",
    "theme": "threat_intel_and_response",
    "first_seen_utc": "2026-09-19T12:59:30+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/79054229498405574-software-engineer-iii-google-cloud-google-threat-intelligence",
@@ -2519,35 +2618,22 @@
     "threat",
     "incident response",
     "malware"
-   ]
-  },
-  "title:Security Engineering Intern, BS/MS, Summer 2027|Mountain View, CA, USA; Ann Arbor, MI, USA; +30 more; +29 more": {
-   "job_id": "title:Security Engineering Intern, BS/MS, Summer 2027|Mountain View, CA, USA; Ann Arbor, MI, USA; +30 more; +29 more",
-   "title": "Security Engineering Intern, BS/MS, Summer 2027",
-   "org": "Google",
-   "location": "Mountain View, CA, USA; Ann Arbor, MI, USA; +30 more; +29 more",
-   "theme": "security_engineering",
-   "first_seen_utc": "2026-09-19T13:02:17+00:00",
-   "url": null,
-   "terms": [
-    "cybersecurity",
-    "penetration testing",
-    "detection",
-    "cryptography"
-   ]
+   ],
+   "remote_eligible": false
   },
   "104702118480224966": {
    "job_id": "104702118480224966",
    "title": "Senior Security Engineer, AI/ML, National Security, Public Sector",
    "org": "Google",
-   "location": "Washington D.C., DC, USA; Maryland, USAlaptop_windowsRemote eligible",
+   "location": "Washington D.C., DC, USA; Maryland, USA",
    "theme": "security_engineering",
    "first_seen_utc": "2026-09-19T13:05:40+00:00",
    "url": "https://www.google.com/about/careers/applications/jobs/results/104702118480224966-senior-security-engineer-aiml-national-security-public-sector",
    "terms": [
     "cybersecurity",
     "threat"
-   ]
+   ],
+   "remote_eligible": true
   },
   "73658288138265286": {
    "job_id": "73658288138265286",
@@ -2559,33 +2645,8 @@
    "url": "https://www.google.com/about/careers/applications/jobs/results/73658288138265286-executive-business-partner-global-threat-intelligence-group",
    "terms": [
     "threat"
-   ]
-  },
-  "title:Senior Security Engineer, Android Anti-Malware|Kirkland, WA, USA": {
-   "job_id": "title:Senior Security Engineer, Android Anti-Malware|Kirkland, WA, USA",
-   "title": "Senior Security Engineer, Android Anti-Malware",
-   "org": "Google",
-   "location": "Kirkland, WA, USA",
-   "theme": "threat_intel_and_response",
-   "first_seen_utc": "2026-09-19T17:31:14+00:00",
-   "url": null,
-   "terms": [
-    "threat",
-    "vulnerability",
-    "cryptography"
-   ]
-  },
-  "title:Staff Software Engineer (AI/ML), Security/Privacy|M\u00e1laga, Spain": {
-   "job_id": "title:Staff Software Engineer (AI/ML), Security/Privacy|M\u00e1laga, Spain",
-   "title": "Staff Software Engineer (AI/ML), Security/Privacy",
-   "org": "Google",
-   "location": "M\u00e1laga, Spain",
-   "theme": "security_engineering",
-   "first_seen_utc": "2026-09-19T17:31:14+00:00",
-   "url": null,
-   "terms": [
-    "threat"
-   ]
+   ],
+   "remote_eligible": false
   },
   "91762090686980806": {
    "job_id": "91762090686980806",
@@ -2599,7 +2660,8 @@
     "threat",
     "incident response",
     "vulnerability"
-   ]
+   ],
+   "remote_eligible": false
   }
  },
  "possible": {
@@ -2607,10 +2669,11 @@
    "job_id": "80459462267019974",
    "title": "Senior Project Manager, Mandiant Consulting, Google Cloud (English, Spanish, Portuguese)",
    "org": "Google",
-   "location": "Brazil; Mexicolaptop_windowsRemote eligible",
+   "location": "Brazil; Mexico",
    "term": "cybersecurity",
    "page": 1,
-   "url": "https://www.google.com/about/careers/applications/jobs/results/80459462267019974-senior-project-manager-mandiant-consulting-google-cloud-english-spanish-portuguese"
+   "url": "https://www.google.com/about/careers/applications/jobs/results/80459462267019974-senior-project-manager-mandiant-consulting-google-cloud-english-spanish-portuguese",
+   "remote_eligible": true
   },
   "93171810622677702": {
    "job_id": "93171810622677702",
@@ -2619,16 +2682,18 @@
    "location": "New York, NY, USA; Atlanta, GA, USA; +3 more; +2 more",
    "term": "cybersecurity",
    "page": 1,
-   "url": "https://www.google.com/about/careers/applications/jobs/results/93171810622677702-senior-strategic-appsec-consultant-mandiant-google-cloud"
+   "url": "https://www.google.com/about/careers/applications/jobs/results/93171810622677702-senior-strategic-appsec-consultant-mandiant-google-cloud",
+   "remote_eligible": false
   },
   "134119723880063686": {
    "job_id": "134119723880063686",
    "title": "Detection and SOAR Engineer, Mandiant Consulting, Google Cloud",
    "org": "Google",
-   "location": "Canberra ACT, Australia; Melbourne VIC, Australia; +3 more; +2 morelaptop_windowsRemote eligible",
+   "location": "Canberra ACT, Australia; Melbourne VIC, Australia; +3 more; +2 more",
    "term": "cybersecurity",
    "page": 1,
-   "url": "https://www.google.com/about/careers/applications/jobs/results/134119723880063686-detection-and-soar-engineer-mandiant-consulting-google-cloud"
+   "url": "https://www.google.com/about/careers/applications/jobs/results/134119723880063686-detection-and-soar-engineer-mandiant-consulting-google-cloud",
+   "remote_eligible": true
   },
   "103653196198486726": {
    "job_id": "103653196198486726",
@@ -2637,16 +2702,23 @@
    "location": "Tokyo, Japan",
    "term": "cybersecurity",
    "page": 2,
-   "url": "https://www.google.com/about/careers/applications/jobs/results/103653196198486726-consulting-leader-mandiant-japanese-english"
+   "url": "https://www.google.com/about/careers/applications/jobs/results/103653196198486726-consulting-leader-mandiant-japanese-english",
+   "remote_eligible": false
   }
  },
- "total": 178,
+ "total": 170,
  "by_theme_counts": {
-  "security_engineering": 61,
+  "security_engineering": 58,
   "physical_corporate_security": 6,
-  "threat_intel_and_response": 42,
-  "sales_and_consulting": 36,
-  "other_security": 33
+  "threat_intel_and_response": 41,
+  "sales_and_consulting": 34,
+  "other_security": 31
  },
- "updated_utc": "2026-09-19T21:28:17+00:00"
+ "updated_utc": "2026-09-19T21:28:17+00:00",
+ "corrected_utc": "2026-09-19T22:24:31+00:00",
+ "corrections": [
+  "2026-09-20: 8 duplicate title-keyed rows removed (same title+location as a real-id row); the 1 remaining title-keyed row is marked id_missing.",
+  "Description text pasted after the location in 4 DeepMind rows was cut; the location keeps only the real value.",
+  "Icon-font text 'laptop_windowsRemote eligible' removed from 32 locations (31 rows remain after de-duplication) and recorded as remote_eligible=true."
+ ]
 }
