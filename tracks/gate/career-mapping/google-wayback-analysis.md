@@ -84,8 +84,14 @@ Security roughly doubled its share of visible postings between 2019–2021 (~3%)
 6. **New vocabulary since 2024** (used ≥3 times in 2024–26 titles, never 2019–2023):
    cryptography and quantum ("post-quantum" roles), supply chain, kubernetes / virtualization /
    distributed systems, hardware, federated, "agent", DeepMind.
-7. **AI enters security titles only in 2025** (6%, then 4% in 2026), against a wider Google-wide
-   AI share that rose from ~4% (2019–2023) to 12% (2024), 10% (2025), 15% (2026).
+7. **AI enters security titles only in 2025** (6%, then 4% in 2026 by the broad title rule used in the
+   table above; the dedicated AI analysis, after removing one false positive, counts 17 of 322 security
+   postings = 5.3% in 2025 and 5 of 118 = 4.2% in 2026), against a wider Google-wide core AI/ML share of
+   about 2–4% in 2019–2023 rising to 11.1% (2024), 9.8% (2025) and 12.4% (2026).
+   *Correction:* an earlier version of this item quoted ~4% then 12% / 10% / 15% from a broader
+   keyword rule that also counted data-science analytics titles and Google's "Quantum AI" and missed
+   "Aiml" spellings. That rule is superseded **for AI only** by `google-wayback-ai-analysis.md`;
+   the cybersecurity figures in this file are unaffected.
 8. **Physical/corporate security exists throughout but is small** (Data Center Security Manager,
    Campus Security Manager: ~1–7 postings a year). It is tagged separately so it does not
    inflate the cybersecurity numbers. "Resilience" (Global Security & Resiliency Services)
