@@ -1,0 +1,5 @@
+year 2026: n=89 themes={'security_engineering': 42, 'sales_and_consulting': 14, 'other_security': 13, 'threat_intel_and_response': 17, 'physical_corporate_security': 3} terms kept=475 boiler dropped=1 subsumed=63
+sample: [('108826697075172038', 'other_security'), ('73986696906973894', 'other_security'), ('91252549188756166', 'physical_corporate_security'), ('72252590439441094', 'sales_and_consulting'), ('84451641347973830', 'sales_and_consulting'), ('105122619300160198', 'security_engineering'), ('112422480202605254', 'security_engineering'), ('95289251511313094', 'security_engineering'), ('96435610394206918', 'security_engineering'), ('81211251094364870', 'threat_intel_and_response'), ('95624077397369542', 'threat_intel_and_response'), ('79030552585216710', 'threat_intel_and_response')]
+c5_narrative_2026.md: 5 quotes verified verbatim (<=25 words, right job_id and theme); problems: none
+c5_qualitative_2026.md: 20 quotes verified verbatim (<=25 words, right job_id and theme); problems: none
+findings/2026.md written

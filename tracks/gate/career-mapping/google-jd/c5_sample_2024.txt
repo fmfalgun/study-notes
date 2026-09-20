@@ -1,0 +1,252 @@
+# c5 sample for qualitative reading (2024; seed 2024; 13 postings of 100); 'about' cut to 250 chars
+
+=== 75224414351696582 | other_security | Security Analyst | capture 20240414073023
+ABOUT: Trust & Safety team members are tasked with identifying and taking on the biggest problems that challenge the safety and integrity of our products. They use technical know-how, excellent problem-solving skills, user insights, and proactive communicat...
+MIN:
+- Bachelor's degree or equivalent practical experience.
+- 1 year of experience analyzing cyber threats and working with technical and cyber security concepts.
+- Ability to communicate in English fluently.
+PREF:
+- Certification in Security+ or similar Cyber Security/Incident Response.
+- Experience with automation via coding or scripting.
+- Experience analyzing, triaging, and remediating common information security incidents.
+- Understanding of common attacker tactics, tools, and techniques.
+- Ability to work separately, prioritize, and multitask.
+- Excellent problem-solving and investigative skills.
+RESP:
+- Search for anomalous activity via manual hunting at Alphabet scale.
+- Escalate complex/unusual incidents to Detection and Response teams.
+- Lead response efforts to low severity incidents.
+- Support the response to high and medium severity security incidents as directed.
+- Analyze security alerts in Security Information and Event Management (SIEM) and other external alert sources.
+
+=== 121655276993422022 | other_security | Product Manager Enterprise Security Platform | capture 20241101182951
+ABOUT: At Google, we put our users first. The world is always changing, so we need Product Managers who are continuously adapting and excited to work on products that affect millions of people every day.
+In this role, you will work cross-functionally to gui...
+MIN:
+-
+Bachelor's degree or equivalent practical experience.
+- 3 years of experience in product management or related technical role.
+- 1 year of experience taking technical products from conception to launch.
+PREF:
+- Experience with platform development.
+- Experience with Enterprise Software.
+- Experience with Cybersecurity.
+- Experience with AI product development.
+RESP:
+- Identify product solutions to user needs.
+- Define extensions and new product offerings based on user feedback analysis and product requirements gathering.
+- Identify and recommend creative ways to improve on solutions to defined product problems.
+- Work with engineers, user experience peers, other product managers and cross-functional partners across Google for integration and collaboration and are viewed as a technical peer within the group.
+- Build knowledge of the user research, log analysis, and user feedback to refine details of product specifications.
+
+=== 78486981876556486 | physical_corporate_security | Technical Program Manager Physical Security Data Management | capture 20241008014712
+ABOUT: From keeping Googlers safe and secure to managing disruptive events, the ability to anticipate, deter, detect, and act are the pillars of Google’s Global Security and Resilience Services (GSRS) team. As a member of GSRS you will help develop a cultur...
+MIN:
+- Bachelor's degree in Engineering, Technology or equivalent practical experience.
+- 7 years of experience developing technical strategy and managing security in areas including Physical Access Control, Intrusion Detection, Video Management, PSIM, IT Networking, or Construction/Architecture.
+- Experience in technical product management in security-oriented products.
+- Experience gathering requirements from stakeholders, project management from inception to completion and the associated change management.
+- Experience in data-driven business analysis, problem-solving, and strategy development.
+- Experience with project management, cross-functional collaboration and stakeholder influencing.
+PREF:
+- Experience with SQL, dashboarding, and data visualization.
+- Ability to understand and utilize data in a clear and simple way.
+RESP:
+- Work with internal clients, cross-functional partners, and engineering teams to deliver technology against physical security strategies with a focus on scalable growth, automation, risk management, and business process improvement.
+- Support the delivery of data products from strategic product line planning to tactical activities such as gathering business requirements, documenting product data requirements, developing user stories, and creating project, roll-out and communications plans.
+- Identify and track changing business conditions in Google and industries to evolve security strategies and related products for stakeholders.
+- Manage confidential information and safeguard company intellectual property.
+- Provide leadership and strategic guidance of junior colleagues, peers, and stakeholders as a subject matter expert in physical security towards shared business goals and objectives.
+
+=== 139450895942197958 | physical_corporate_security | Senior Security Engineer Data Center Infrastructure Cloud Ciso | capture 20241004171731
+ABOUT: Our Security team works to create and maintain the safest operating environment for Google's users and developers. Security Engineers work with network equipment and actively monitor our systems for attacks and intrusions. In this role, you will also...
+MIN:
+- Bachelor's degree or equivalent practical experience.
+- 5 years of experience with security assessments or security design reviews or threat modeling.
+- 5 years of experience with security engineering, computer and network security and security protocols.
+- 5 years of coding experience in one or more general purpose languages.
+- 3 years of experience in industrial control systems (ICS) and operational technology (OT) security.
+- 1 year of experience leading teams in a technical capacity or leading technical risk analysis in an enterprise environment.
+PREF:
+- OT Security Certifications.
+- Experience with security assessments and pen testing for ICS/OT environments.
+- Familiarity with regulatory and industry standards (e.g., NIST Cybersecurity Framework, ISA/IEC 62443, NERC CIP).
+- Understanding of ICS/OT protocols, architectures, and devices (e.g., Modbus, DNP3, OPC, PLCs, SCADA, RTUs).
+RESP:
+- Conduct comprehensive security assessments of existing ICS/OT environments to identify vulnerabilities, risks, and non-compliance with Google standards.
+- Harden ICS/OT devices, networks, and applications to mitigate potential threats and vulnerabilities.
+- Design and implement security architectures, controls, and processes to enhance the overall security posture of ICS/OT systems.
+- Monitor and evaluate the effectiveness of security controls and processes.
+- Research and recommend new security technologies and solutions to enhance the ICS/OT security program.
+
+=== 96599479318127302 | sales_and_consulting | Customer Engineer Security Small And Medium Business | capture 20241102210807
+ABOUT: The Google Cloud Platform team helps customers transform and build what's next for their business — all with technology built in the cloud. Our products are developed for security, reliability and scalability, running the full stack from infrastructu...
+MIN:
+- Bachelor's degree or equivalent practical experience.
+- 4 years of experience with cloud native architecture in a customer-facing or support role.
+- Experience in cybersecurity matters (e.g. threat detection, malware intelligence, cloud security posture management, Identity and Access Management systems).
+PREF:
+- Master's degree in Computer Science, Engineering, Mathematics, or a technical field.
+- Cloud or Security industry certifications.
+- Experience prospecting, and building and maintaining customer relationships from scratch, with excitement for building Greenfield territories in Enterprise accounts.
+- Experience implementing security solutions for enterprises (e.g., threat detection and hunting, malware intelligence, cloud security posture management, or Identity and Access Management systems).
+- Knowledge of product and solution market trends in the cybersecurity industry (e.g., ransomware, attack frameworks, zero trust, etc.).
+RESP:
+- Work with the team to identify and qualify business opportunities, understand key customer technical objections, and develop the strategy to resolve technical blockers.
+- Share Security expertise to support the technical relationship with customers, including technology advocacy, supporting bid responses, product and solution briefings, proof-of-concept work, and partnering directly with product management to prioritize solutions impacting customer adoption to Google Cloud.
+- Work directly with Google Cloud products to demonstrate and prototype integrations in customer and partner environments.
+- Recommend integration strategies, enterprise architectures, platforms, and application infrastructure required to implement a complete solution on Google Cloud.
+- Travel to customer sites, conferences, and other related events as required, acting as a public advocate for Google Cloud.
+
+=== 85794657230824134 | sales_and_consulting | Security Sales Specialist Google Cloud | capture 20240211070356
+ABOUT: The Google Cloud Platform team helps customers transform and build what's next for their business — all with technology built in the cloud. Our products are engineered for security, reliability and scalability, running the full stack from infrastruct...
+MIN:
+- Bachelor's degree or equivalent practical experience.
+- 7 years of experience in a sales role in the enterprise software or cloud space.
+- 5 years of experience promoting clients in the enterprise cybersecurity or IT field.
+- Ability to travel up to 50% of the time as required.
+PREF:
+- Experience carrying and exceeding strategic business goals in a sales role.
+- Experience starting a territory from scratch, and understanding the security partner ecosystem.
+- Knowledge of product and solution of market trends in cybersecurity and Cloud.
+- Ability to prioritize, plan, and organize sales activity with attention to detail.
+- Ability to build continuous relationships, promoting to C-level executives across security and IT business units, and ensure customer success and adoption leading to customer expansion.
+- Excellent problem-solving, communication, presentation and active listening skills.
+RESP:
+- Construct and execute an effective territory development plan, and provide security products in the territory to new and existing security customers, meeting or exceeding quarterly goals.
+- Develop and drive pipeline, managing process from lead generation to customer onboarding.
+- Build and maintain relationships to influence long-term strategic direction, and act as a trusted advisor to the account.
+- Partner with Marketing, Customer Engineering, Customer Success, Channels and Product, and Engineering teams to understand the customer, and provide excellent prospects and customer experience.
+- Represent the security product suite in regional forecasts and team meetings, and serve as stakeholder to regional Cloud leads, reporting current, accurate and timely forecasting, and business performance in tools.
+
+=== 78793268778672838 | security_engineering | Senior Software Engineer Google Cloud Security And Privacy | capture 20241009225154
+ABOUT: Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond w...
+MIN:
+- Bachelor’s degree or equivalent practical experience.
+- 5 years of experience with software development in one or more programming languages, and with data structures/algorithms.
+- 3 years of experience testing, maintaining, or launching software products, and 1 year of experience with software design and architecture.
+PREF:
+- Master's degree or PhD in Computer Science or related technical field.
+- 1 year of experience in a technical leadership role.
+- Experience developing accessible technologies.
+RESP:
+- Write and test product or system development code.
+- Participate in, or lead design reviews with peers and stakeholders to decide amongst available technologies.
+- Review code developed by other developers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).
+- Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.
+- Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.
+
+=== 133807659284341446 | security_engineering | Cloud Technical Solutions Engineer Security | capture 20240418065024
+ABOUT: As a Technical Solutions Engineer, you will be a part of a global team that provides 24x7 support to help customers seamlessly make the switch to Google Cloud. When customers cannot resolve issues themselves, your job will be to ensure that we have t...
+MIN:
+- Bachelor's degree in Science, Technology, Engineering, Mathematics, or equivalent practical experience in technical support, professional services, software development.
+- 2 years of experience coding in a general purpose language (e.g., Java, C, C++, Python, Shell, Go or JavaScript, etc.) or in system design.
+- 2 years of experience troubleshooting and advocating for customers' needs, and triaging technical issues (e.g., hardware, software, application, operational, process).
+PREF:
+- Experience with AI/ML tools and usage of models that are readily available to meet business needs.
+- Experience with distributed, columnar, and/or analytic oriented databases or distributed data processing frameworks.
+- Experience in data analytics, warehousing, ETL development, data science, or other Big Data applications.
+- Experience with machine learning technologies (e.g., Tensorflow), developing and/or training models or implementing solutions that evoke such models.
+- Understanding of TCP/IP concepts, Unix/Linux basic administration and commands, from Kernel to Shell, file systems, and client-server protocols.
+- Ability to work non-standard hours and differing rotations/shifts.
+RESP:
+- Manage customer problem through effective diagnosis, resolution, or implementation of new investigation tools to increase productivity for customer issues on Google Cloud Platform products.
+- Develop an in-depth understanding of Google's product technology and underlying architectures by troubleshooting, reproducing, and determining the root cause for customer reported issues, and building tools for faster diagnosis.
+- Act as a consultant and subject matter expert for internal stakeholders in engineering, sales, and customer organizations to resolve technical deployment obstacles and improve Google Cloud.
+- Work as part of a team of engineers/consultants that globally ensure 24 hour customer support.
+- Understand customer issues and advocate for their needs with cross-functional teams, including Product and Engineering teams, to find ways to improve the product, and drive high-quality production.
+
+=== 133245967225758406 | security_engineering | Staff Security Engineer | capture 20240609063652
+ABOUT: There's no such thing as a "safe system" - only safer systems. Our Security team works to create and maintain the safest operating environment for Google's users and developers. As a Security Engineer, you help protect network boundaries, keep comput...
+MIN:
+- Bachelor's degree in Computer Science, a related technical field, or equivalent practical experience.
+- 8 years of experience with security assessments, security design reviews, or threat modeling.
+- 8 years of experience with security engineering, computer and network security, and security protocols.
+- 2 years of experience in application-level vulnerability testing and code-level security auditing.
+PREF:
+- Experience in software development working with one or more of the following languages: Python, C, C++, Java, Go.
+- Experience as a vulnerability researcher (e.g., vulnerability write-ups, conference talks, etc).
+- Knowledge of security engineering, computer and network security, authentication, security protocols and applied cryptography.
+RESP:
+- Find and exploit vulnerabilities affecting Google Cloud.
+- Review designs and source code of services and products to uncover application-level vulnerabilities (e.g., low-level, authentication, injection, etc.).
+- Communicate results to security and product teams in form of a technical report.
+- Respond to vulnerabilities with mitigation and hardening.
+
+=== 97575005541278406 | security_engineering | Tech Lead Product Security Engineering | capture 20240821114112
+ABOUT: There's no such thing as a "safe system" - only safer systems. Our Security team works to create and maintain the safest operating environment for Google's users and developers. As a Security Engineer, you help protect network boundaries, keep comput...
+MIN:
+- Bachelor's degree or equivalent practical experience.
+- 10 years of experience with security assessments or security design reviews or threat modeling.
+- 10 years of experience with security engineering, computer and network security and security protocols.
+- 10 years of coding experience in one or more general purpose languages.
+- 10 years of experience leading teams in a technical capacity or leading technical risk analysis in an enterprise environment.
+PREF:
+- Experience with open source security.
+- Experience with low-level security.
+- Understanding of the cloud technologies and risk landscapes, including artificial intelligence, privacy, and security.
+RESP:
+- Act as one of the executive technical leaders for product security across Google Cloud Platform (GCP)/Technical Infrastructure (TI).
+- Own and drive product and infrastructure security initiatives in Cloud and collaborate closely with the broader Google Security community.
+- Drive large, technically complex, cross-functional, multi-quarter, and multi-year security efforts that engineer-away common risks and vulnerability classes.
+- Work closely with tech leads and executive leadership to review technical designs and architectural improvements, while also considering engineering tradeoffs between security, reliability and performance, at Google scale.
+- Leverage deep technical industry expertise to determine innovative security infrastructure improvements at Google scale.
+
+=== 128513480771674822 | threat_intel_and_response | Principal Threat Analyst Strategic Intelligence And Government Mandiant | capture 20241101235517
+ABOUT: This role supports Mandiant’s Advanced Intelligence Access (AIA) program. The AIA program enables customers, via an onsite Cyber Analyst, access to the totality of Mandiant’s Threat Intelligence, including raw data. Each Cyber Analyst ensures the del...
+MIN:
+- Bachelor's degree or equivalent practical experience.
+- 10 years of experience in a customer-facing analytical role in cyber security (e.g., Network Forensics Analyst, Threat Intelligence Analyst).
+- Experience engaging with, and presenting to, technical stakeholders and executive leaders both verbally and in report writing.
+- Active US Government Top Secret/Sensitive Compartmentalized Information (TS/SCI) security clearance with polygraph.
+PREF:
+- 10 years of experience evaluating forensic reports of electronic media, packet capture, log data, malware triage, or enterprise-level information security operations.
+- Experience with Cyber Threat Intelligence (CTI) methodologies and application within cyber security organizations.
+- Experience in deploying and analyzing data from technical security controls (e.g., web proxy, firewalls, IPS, IDS, enterprise antivirus solutions, network analyzers).
+- Experience in the analysis of CTI, supporting monitoring, detection, and response capabilities.
+- Experience with standard network logging formats, network management systems and network security monitoring systems, and security information and event management.
+RESP:
+- Evaluate tools and best practices for tracking advanced threats, tools, techniques, and procedures (TTPs) of attacker’s motivations, and industry and attacker trends.
+- Perform strategic and operational research and analysis of adversarial cyber threats.
+- Correlate intelligence to develop deeper understandings of tracked threat activity.
+- Present strategic intelligence about threat groups, the methodologies they use, and the motivations behind their activity and convey the importance of findings to a variety of audiences.
+- Work with customers to determine their intelligence needs and requirements and prepare and deliver briefings and reports to the customers' executives, security team, and fellow analysts.
+
+=== 129661102509171398 | threat_intel_and_response | Android Malware Analyst | capture 20240815182208
+ABOUT: Security is at the core of Google's design and development process: it is built into the DNA of our products. The same is true of our offices. You're an expert who shares our seriousness about security and our commitment to confidentiality. You'll co...
+MIN:
+- Bachelor's degree or equivalent practical experience.
+- 2 years of experience coding in one or more general purpose languages (e.g., Python, Java, C++).
+- 2 years of experience in security engineering, computer and network security, and security protocols.
+- Experience in one or more of the following: Android reverse engineering (DEX, ARM), malware analysis, threat modeling, incident/emergency response.
+PREF:
+- Master's degree.
+- Experience with Android application development in C++, Java, or Kotlin.
+- Knowledge of security engineering, computer and network security, authentication, security protocols, and applied cryptography.
+RESP:
+- Perform reverse engineering, analyze, and detect malware at scale.
+- Advocate security and secure practices throughout the Google Play and Android ecosystem.
+- Conduct research to identify potential attack vectors against Android.
+- Work with other team members to improve Android Security and Privacy knowledge of malware, and propose methods to detect and mitigate them.
+
+=== 138948966602416838 | threat_intel_and_response | Senior Security Engineer Security Response | capture 20240807220532
+ABOUT: There's no such thing as a "safe system" - only safer systems. Our Security team works to create and maintain the safest operating environment for Google's users and developers. As a Security Engineer, you help protect network boundaries, keep comput...
+MIN:
+- Bachelor's degree or equivalent practical experience.
+- 5 years of experience with Digital Forensics, Incident Response or Incident Management.
+- 5 years of experience with security engineering, computer and network security and security protocols.
+- 5 years of coding experience in one or more general purpose languages.
+PREF:
+- Master’s degree in Computer Science or equivalent practical experience.
+- Experience working with government agreements, government customers, FedRAMP compliance or NIST (National Institute of Standards and Technology).
+- Experience with Digital Forensic analysis.
+- Experience with Python, Go, C/C++ or Java.
+- Understanding of legal, information security and privacy frameworks (e.g., ISO 27001, Safe Harbor Frameworks, GDPR).
+- Excellent organizational, prioritization and multitasking skills.
+RESP:
+- Coordinate and drive resolution on a diverse range of incidents.
+- Support computer forensic needs of incidents.
+- Analyze causes to identify trends and systematic issues.
+- Develop excellence in Incident Response through tools and infrastructure and preparing teams across Google through exercises and training.
+- Manage relationships across the company such as legal, engineering, communications, etc.

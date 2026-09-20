@@ -1,4 +1,4 @@
-# STATE (rewritten 03:22 IST 21 Sep) -- COMMANDS read: [0]..[10]; STOP: none
-phase: C5. C4 (2025 pilot) delivered and reviewed by the parent (numbers verified; ONE method flaw: the degree-line drop also removed 'or 1 year of experience with an advanced degree' requirement lines -> fix, see entry [10]).
-task (entry [10]): fix the degree-line rule; reconcile headline numbers (state method per number); write c4_years.py (year parameter); run 2025 (rerun), 2024, 2026, 2023 (WEAK n=26); findings/YYYY.md, c5_terms_<year>, c5_qualitative_<year>, c5_drift.md (drift only where n>=30 per year; >=10 pp AND >=8 postings). Offline, no network. Then CHECKPOINT 5, AWAITING_DIRECTION, stop until entry [11].
+# STATE (rewritten 03:35 IST 21 Sep) -- COMMANDS read: [0]..[11]; STOP: none
+phase: C6 = final synthesis google-security-jd-trends.md (offline; built only from findings/*.md + c5_drift.md + title-based 2019-2022 in google-wayback-analysis.md). C5 verified and approved by the parent.
+next: write it (<~2500 words, claims table at the end), CHECKPOINT 6, phase DONE / AWAITING_PARENT_REVIEW, stop.
 Every file: 2019-2022 postings are title-based only; descriptions cover postings archived from mid-2023 (capture years 2023-2026).

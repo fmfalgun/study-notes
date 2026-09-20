@@ -1,0 +1,151 @@
+# c5 sample for qualitative reading (2023; seed 2023; 8 postings of 26); 'about' cut to 250 chars
+
+=== 84478466012914374 | other_security | Head Of Digital Customer Success Security Customer Outcomes | capture 20231215182330
+ABOUT: ...
+MIN:
+- 12 years of experience working with clients in the enterprise cybersecurity or IT field.
+- 5 years of experience working in customer success in the enterprise cybersecurity or IT field.
+- 5 years of experience in a leadership role overseeing projects.
+- Ability to travel 30% of the time as required.
+PREF:
+- 3 years of experience developing and implementing new digital customer success programs.
+- Experience helping customers make investments in new technologies and projects based on expected value and ROI.
+- Experience leading large enterprise organizations through a people, process, and technology transformation.
+- Experience building and operating cybersecurity and digital customer success solutions.
+- Deep knowledge of cloud, cybersecurity, the competitive landscape, and Google's suite of cybersecurity products.
+- Product and solution knowledge of market trends in cybersecurity and Cloud.
+RESP:
+
+
+=== 87672345629467334 | sales_and_consulting | Gotomarket Business Development Lead Security And Compliance Solutions | capture 20230828170532
+ABOUT: As the Head of Security Solution Practice for one or more EMEA Sub regions, you will work with a team of sales specialists and go-to-market specialists, bringing your experience and thought leadership to help create a vision and set and execute a go-...
+MIN:
+- Experience in collaborating across organizational boundaries, building relationships, and developing ideas to achieve organizational goals.
+- Experience in communicating topics to an audience with various functional expertise.
+- Experience in a customer-facing role in the enterprise space and translating customer needs into solutions.
+- Ability to travel up to 40% of the time as needed.
+PREF:
+- Experience in Go-To-Market (GTM) strategy planning and execution, business development or technical solutions within the security and cloud domains.
+- Experience with security related matters, as they relate to risk management, cloud adoption, security operation center, and enterprise architectures.
+- Ability to collaborate effectively across organizational boundaries, build relationships, and develop ideas to achieve organizational goals.
+- Ability to speak to C-Suite and in particular CISOs and Information Security/Risk business owners.
+- Excellent business skills (e.g., financial accounting, ROI, TCO, budget planning, organizational design).
+- Excellent presentation skills including public speaking, meeting facilitation, and white boarding.
+RESP:
+- Identify and prioritize security solution for EMEA and sub-regions and contribute to new logo acquisition leveraging security as a door opener with CISOs.
+- Plan and execute demand generation campaigns, opportunities progression initiatives, roadshows, and driving adoption.
+- Define and execute scalable motions to support the technical teams and partners to go live and prove value to customers.
+- Work closely with global solution and product management and functions to develop new offerings and business plays.
+- Collaborate with the regional business leaders, the GCP cloud sellers, and the security specialists technical and promoting organizations.
+
+=== 85870200504623814 | security_engineering | Security Engineering Intern Bsms Summer 2024 | capture 20231212074547
+ABOUT: As a Security Engineer Intern, you help protect network boundaries, keep computer systems and network devices hardened against attacks and provide security services to protect highly sensitive data like passwords and customer information. Security En...
+MIN:
+- Currently pursuing a Bachelor's or Master's degree in Computer Science, Information Security, or related technical field
+- Coding experience with one or more of the following: Python, Go, C++, JavaScript
+- Experience in one or more of the following: network protocols, secure network design, web application/browser security, authentication control, applied cryptography/security protocols, intrusion detection
+PREF:
+- Currently attending a degree program in the US and available to work full time for 12 weeks outside of university term time.
+- In their penultimate academic year or returning to a degree program after completion of the internship.
+- Understanding of technical privacy issues and experience with the software development lifecycle.
+- Excellent communication skills
+RESP:
+- Apply knowledge gained in computer science courses to real-world challenges.
+- Analyze information and evaluate results to choose the best solution to effectively solve challenges.
+- Develop scripts to automate routine tasks.
+- Create and support a productive and innovative team. This includes working with peers, managers, and teams.
+
+=== 80182026012893894 | security_engineering | Information Security Engineer Product Security Engineering Google Cloud | capture 20231009131317
+ABOUT: There's no such thing as a "safe system" - only safer systems. Our Security team works to create and maintain the safest operating environment for Google's users and developers. As a Security Engineer, you help protect network boundaries, keep comput...
+MIN:
+- Experience in Threat Modeling
+- Experience in Code Reviews
+- Experience in Security Assessments
+- Experience in Security Domain
+PREF:
+- Experience building security tooling
+- Experience in automation
+- Experience in C++ dynamic analysis and static code analysis
+- Experience in programming
+- Experience in security testing
+- Experience in consulting with the ability to influence others
+RESP:
+- Utilize understanding in software engineering and its processes to advocate for secure engineering practices throughout Google
+- Identify and engineer technical solutions to help mitigate security vulnerabilities in Cloud services, or prevent bugs to work towards a secure-by-default GCP by switching towards a defensive mindset
+- Communicate and influence Product teams on assessment results (e.g., isolation/sandboxing, least privilege principle, memory corruption, cross-site scripting, authorization/authentication, injection)
+- Conduct vulnerability research with an exploratory mindset to identify novel attack vectors against GCP products and services
+- Perform technical security assessments, code audits, and design reviews on GCP products and underlying technologies
+
+=== 79518963861463750 | security_engineering | Staff Software Engineer Linux Kernel Security | capture 20230812023631
+ABOUT: Google Cloud's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. We're looking for engineers who bring fresh ideas from all areas, including ...
+MIN:
+- Bachelor's degree or equivalent practical experience.
+- 8 years of experience in software development, and with data structures/algorithms.
+- 5 years of experience testing and launching software products, and 3 years of experience with software design and architecture.
+- Experience working on the Linux kernel.
+PREF:
+- Experience with kernel debugging, performance measurement, and tuning in the presence of a complex technical stack.
+- Experience with Linux development tools and workflows (e.g., Git).
+- Experience participating in the upstream Linux kernel community.
+- Ability to work with a diverse team across different time zones.
+RESP:
+- Engage with the open source community to build features for hardening the kernel and eliminate classes of bugs (e.g. Address Space Isolation for hardware/CPU side channels).
+- Help with making security decisions, and review new hardware and OS features for security flaws.
+- Provide vulnerability management for a major Linux distribution.
+- Participate in kCTFs, having found and exploited kernel zero-days.
+
+=== 141710460480037574 | threat_intel_and_response | Cyber Threat Analyst Strategic Intelligence And Government | capture 20231014154542
+ABOUT: Mandiant is a recognized leader in cyber security expertise and has earned the trust of security professionals and company executives around the world. Our unique combination of renowned experience, nation-state grade threat intelligence, machine int...
+MIN:
+- 3 years of experience in a Cyber Threat Intelligence (CTI) role in a customer-facing environment.
+- Experience in stakeholder management (i.e., presenting, reporting to internal audiences including executives).
+- Experience managing and executing variable term projects for customers.
+- US Government Top Secret/Sensitive Compartmented Information Clearance.
+PREF:
+- Experience evaluating host and network forensic reports of electronic media, packet capture, log data analysis, malware triage, and network devices in support of intrusion analysis or enterprise level information security operations.
+- Experience in the consumption, processing, and analysis of tactical Cyber Threat Intelligence (CTI) within an operational environment, supporting monitoring, detection, and response capabilities.
+- Experience deploying and analyzing data from technical security controls to include web proxy, firewalls, IPS, IDS, mail content scanning appliances, enterprise antivirus solutions, network analyzers, and other host-based protection solutions.
+RESP:
+- Perform strategic, tactical, operational research, and analysis of adversarial cyber threats.
+- Correlate intelligence, to develop deeper understandings of tracked threat activity.
+- Evaluate current and emerging tools and best practices for tracking advanced persistent threats, Tools, Techniques, and Procedures (TTPs) of attacker’s motivations, and industry and attacker trends.
+- Work with customers to determine their intelligence needs and requirements. Convey both verbally and in writing the importance of findings for a variety of audiences.
+- Present tactical and strategic intelligence about threat groups, the methodologies they use, and the motivations behind their activity. Prepare and deliver briefings and reports to the client’s executives, security team, or fellow analysts.
+
+=== 105524390365405894 | threat_intel_and_response | Security Engineer Cloud Detection | capture 20230703020136
+ABOUT: Our Security team works to create and maintain the safest operating environment for Google's users and developers. Security Engineers work with network equipment and actively monitor our systems for attacks and intrusions. In this role, you will also...
+MIN:
+- Bachelor's degree or equivalent practical experience.
+- 3 years of experience in cloud security research, network security, intrusion detection systems, or threat intelligence.
+- Experience coding/scripting in one or more languages: Java, C/C++, C#, Objective C, Python, JavaScript or Go.
+- Experience analyzing the security of systems (e.g., penetration testing, vulnerability scanning, threat modeling, etc.).
+PREF:
+- 7 years of relevant work experience, including experience in responding to security problems in target-rich environments, looking at security alerts, front-line analysis and response.
+- Experience programming in one or more of the following: C/C++, C#, Java, JavaScript, Python, Objective C, Go, or similar.
+- Expertise in leading the analysis of large data sets and intrusion detection systems.
+- Expertise with signals development, threat hunting and threat modeling.
+RESP:
+- Participate in a 24/7 global operation that looks after and responds to security events on Google's networks.
+- Perform investigations on a wide variety of events from various sources to determine whether they pose a threat to Google.
+- Participate in large-scale security incidents.
+- Work with teams from around Google to discover new detection capabilities and logging sources.
+
+=== 78684822089671366 | threat_intel_and_response | Associate Consultant Incident Response Mandiant | capture 20231003184940
+ABOUT: As a Mandiant consultant, you’ll get experience with complex problems on a daily basis. We help our clients protect their most sensitive and valuable data through comprehensive and real world scenario testing. In this role, you will quickly assimilat...
+MIN:
+- Bachelor's degree in Computer Science, Information Systems, a related technical field, or equivalent practical experience.
+- 1 year of experience in cyber security in a corporate, academic, or internship environment.
+- Experience with networking and OS concepts.
+PREF:
+- Experience in security competitions, Capture the Flags (CTFs) and/or testing platforms such as Hack the Box, TryHackMe, Overthewire, etc.
+- Experience with cybersecurity and programming.
+- Ability to successfully interface with clients (internal and external) and manage expectations of others.
+- Ability to document and explain technical details in a concise, understandable manner.
+- Strong technical acumen and ability to quickly assimilate new information.
+- Excellent time management skills to balance multiple tasks and priorities.
+RESP:
+- Conduct host forensics, network forensics, log analysis, and malware triage in support of incident response investigations.
+- Develop comprehensive and accurate reports and presentations for both technical and executive audiences.
+- Communicate and discuss findings and strategy with internal stakeholders including leadership and technical team members.
+- Recognize and safely utilize attacker tools, tactics, and procedures.
+- Develop scripts, tools, or methodologies to enhance Mandiant’s incident response processes and capabilities.

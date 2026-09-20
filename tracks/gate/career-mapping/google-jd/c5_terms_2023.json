@@ -1,0 +1,2713 @@
+{
+ "year": "2023",
+ "n": 26,
+ "theme_n": {
+  "threat_intel_and_response": 9,
+  "security_engineering": 10,
+  "sales_and_consulting": 3,
+  "other_security": 4
+ },
+ "rules": {
+  "boiler": 0.9,
+  "min_df": 5,
+  "subsume": 0.8,
+  "weak_n": 30,
+  "degree_rule": "drop lines that START with bachelor/master/phd/doctorate/degree/associate or contain bachelor(')s degree / master(')s degree"
+ },
+ "terms": {
+  "architecture": {
+   "minimum_qualifications": 3,
+   "preferred_qualifications": 3,
+   "responsibilities": 1,
+   "any": 5
+  },
+  "attack": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 2,
+   "responsibilities": 3,
+   "any": 5
+  },
+  "audiences": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 1,
+   "responsibilities": 4,
+   "any": 6
+  },
+  "best": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 0,
+   "responsibilities": 6,
+   "any": 7
+  },
+  "best practices": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 0,
+   "responsibilities": 4,
+   "any": 5
+  },
+  "building": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 6,
+   "responsibilities": 2,
+   "any": 9
+  },
+  "c": {
+   "minimum_qualifications": 3,
+   "preferred_qualifications": 3,
+   "responsibilities": 0,
+   "any": 5
+  },
+  "c#": {
+   "minimum_qualifications": 4,
+   "preferred_qualifications": 2,
+   "responsibilities": 0,
+   "any": 5
+  },
+  "c++": {
+   "minimum_qualifications": 3,
+   "preferred_qualifications": 4,
+   "responsibilities": 0,
+   "any": 7
+  },
+  "capabilities": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 2,
+   "responsibilities": 8,
+   "any": 10
+  },
+  "clients": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 3,
+   "responsibilities": 4,
+   "any": 8
+  },
+  "cloud": {
+   "minimum_qualifications": 4,
+   "preferred_qualifications": 6,
+   "responsibilities": 6,
+   "any": 12
+  },
+  "code": {
+   "minimum_qualifications": 6,
+   "preferred_qualifications": 4,
+   "responsibilities": 3,
+   "any": 7
+  },
+  "code analysis": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 3,
+   "responsibilities": 0,
+   "any": 5
+  },
+  "computer": {
+   "minimum_qualifications": 3,
+   "preferred_qualifications": 2,
+   "responsibilities": 2,
+   "any": 7
+  },
+  "concepts": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 4,
+   "responsibilities": 0,
+   "any": 5
+  },
+  "conduct": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 0,
+   "responsibilities": 6,
+   "any": 6
+  },
+  "consulting": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 4,
+   "responsibilities": 0,
+   "any": 5
+  },
+  "controls": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 3,
+   "responsibilities": 1,
+   "any": 6
+  },
+  "cross": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 3,
+   "responsibilities": 3,
+   "any": 6
+  },
+  "customer": {
+   "minimum_qualifications": 4,
+   "preferred_qualifications": 2,
+   "responsibilities": 11,
+   "any": 12
+  },
+  "cybersecurity": {
+   "minimum_qualifications": 5,
+   "preferred_qualifications": 3,
+   "responsibilities": 4,
+   "any": 7
+  },
+  "data": {
+   "minimum_qualifications": 4,
+   "preferred_qualifications": 4,
+   "responsibilities": 0,
+   "any": 8
+  },
+  "deliver": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 2,
+   "responsibilities": 3,
+   "any": 5
+  },
+  "detection": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 5,
+   "responsibilities": 3,
+   "any": 7
+  },
+  "domain": {
+   "minimum_qualifications": 4,
+   "preferred_qualifications": 1,
+   "responsibilities": 0,
+   "any": 5
+  },
+  "dynamic": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 6,
+   "responsibilities": 0,
+   "any": 6
+  },
+  "engineering": {
+   "minimum_qualifications": 4,
+   "preferred_qualifications": 3,
+   "responsibilities": 5,
+   "any": 11
+  },
+  "engineers": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 0,
+   "responsibilities": 6,
+   "any": 6
+  },
+  "enterprise": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 5,
+   "responsibilities": 1,
+   "any": 6
+  },
+  "executive": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 1,
+   "responsibilities": 5,
+   "any": 5
+  },
+  "following": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 6,
+   "responsibilities": 0,
+   "any": 8
+  },
+  "forensics": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 4,
+   "responsibilities": 2,
+   "any": 5
+  },
+  "functional": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 3,
+   "responsibilities": 2,
+   "any": 6
+  },
+  "gcp": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 1,
+   "responsibilities": 5,
+   "any": 6
+  },
+  "go": {
+   "minimum_qualifications": 4,
+   "preferred_qualifications": 3,
+   "responsibilities": 1,
+   "any": 6
+  },
+  "incident": {
+   "minimum_qualifications": 4,
+   "preferred_qualifications": 4,
+   "responsibilities": 6,
+   "any": 10
+  },
+  "incident response": {
+   "minimum_qualifications": 3,
+   "preferred_qualifications": 3,
+   "responsibilities": 3,
+   "any": 7
+  },
+  "internal": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 3,
+   "responsibilities": 3,
+   "any": 5
+  },
+  "intrusion": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 5,
+   "responsibilities": 0,
+   "any": 6
+  },
+  "issues": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 1,
+   "responsibilities": 5,
+   "any": 6
+  },
+  "java": {
+   "minimum_qualifications": 6,
+   "preferred_qualifications": 3,
+   "responsibilities": 0,
+   "any": 8
+  },
+  "leadership": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 1,
+   "responsibilities": 4,
+   "any": 7
+  },
+  "leading": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 4,
+   "responsibilities": 0,
+   "any": 5
+  },
+  "malware": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 3,
+   "responsibilities": 3,
+   "any": 7
+  },
+  "methodologies": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 2,
+   "responsibilities": 6,
+   "any": 8
+  },
+  "network": {
+   "minimum_qualifications": 6,
+   "preferred_qualifications": 6,
+   "responsibilities": 4,
+   "any": 11
+  },
+  "operations": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 3,
+   "responsibilities": 3,
+   "any": 7
+  },
+  "organizational": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 4,
+   "responsibilities": 1,
+   "any": 5
+  },
+  "people management": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 4,
+   "responsibilities": 0,
+   "any": 5
+  },
+  "platforms": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 5,
+   "responsibilities": 1,
+   "any": 8
+  },
+  "presentation": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 5,
+   "responsibilities": 2,
+   "any": 7
+  },
+  "problems": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 5,
+   "responsibilities": 1,
+   "any": 6
+  },
+  "product": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 2,
+   "responsibilities": 7,
+   "any": 10
+  },
+  "program": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 3,
+   "responsibilities": 5,
+   "any": 7
+  },
+  "programming": {
+   "minimum_qualifications": 3,
+   "preferred_qualifications": 7,
+   "responsibilities": 0,
+   "any": 10
+  },
+  "protocols": {
+   "minimum_qualifications": 4,
+   "preferred_qualifications": 3,
+   "responsibilities": 1,
+   "any": 7
+  },
+  "python": {
+   "minimum_qualifications": 8,
+   "preferred_qualifications": 5,
+   "responsibilities": 0,
+   "any": 12
+  },
+  "research": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 1,
+   "responsibilities": 8,
+   "any": 10
+  },
+  "response": {
+   "minimum_qualifications": 3,
+   "preferred_qualifications": 7,
+   "responsibilities": 4,
+   "any": 11
+  },
+  "reverse engineering": {
+   "minimum_qualifications": 3,
+   "preferred_qualifications": 2,
+   "responsibilities": 1,
+   "any": 6
+  },
+  "scripting": {
+   "minimum_qualifications": 3,
+   "preferred_qualifications": 3,
+   "responsibilities": 3,
+   "any": 9
+  },
+  "secure": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 1,
+   "responsibilities": 4,
+   "any": 6
+  },
+  "security": {
+   "minimum_qualifications": 10,
+   "preferred_qualifications": 15,
+   "responsibilities": 14,
+   "any": 19
+  },
+  "security operations": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 3,
+   "responsibilities": 1,
+   "any": 5
+  },
+  "software": {
+   "minimum_qualifications": 4,
+   "preferred_qualifications": 4,
+   "responsibilities": 4,
+   "any": 10
+  },
+  "software development": {
+   "minimum_qualifications": 3,
+   "preferred_qualifications": 4,
+   "responsibilities": 0,
+   "any": 6
+  },
+  "sources": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 1,
+   "responsibilities": 5,
+   "any": 6
+  },
+  "tasks": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 2,
+   "responsibilities": 3,
+   "any": 5
+  },
+  "term": {
+   "minimum_qualifications": 1,
+   "preferred_qualifications": 3,
+   "responsibilities": 1,
+   "any": 5
+  },
+  "testing": {
+   "minimum_qualifications": 3,
+   "preferred_qualifications": 6,
+   "responsibilities": 0,
+   "any": 9
+  },
+  "threat": {
+   "minimum_qualifications": 6,
+   "preferred_qualifications": 6,
+   "responsibilities": 4,
+   "any": 11
+  },
+  "threat modeling": {
+   "minimum_qualifications": 4,
+   "preferred_qualifications": 3,
+   "responsibilities": 0,
+   "any": 6
+  },
+  "time": {
+   "minimum_qualifications": 4,
+   "preferred_qualifications": 5,
+   "responsibilities": 2,
+   "any": 11
+  },
+  "towards": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 0,
+   "responsibilities": 5,
+   "any": 5
+  },
+  "utilize": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 0,
+   "responsibilities": 5,
+   "any": 5
+  },
+  "value": {
+   "minimum_qualifications": 0,
+   "preferred_qualifications": 1,
+   "responsibilities": 4,
+   "any": 5
+  },
+  "vulnerability": {
+   "minimum_qualifications": 2,
+   "preferred_qualifications": 1,
+   "responsibilities": 5,
+   "any": 7
+  },
+  "windows": {
+   "minimum_qualifications": 3,
+   "preferred_qualifications": 2,
+   "responsibilities": 0,
+   "any": 5
+  }
+ },
+ "terms_by_theme": {
+  "architecture": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   }
+  },
+  "attack": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 3,
+    "any": 4
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   }
+  },
+  "audiences": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 4,
+    "any": 4
+   }
+  },
+  "best": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 2,
+    "any": 2
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 2,
+    "any": 2
+   }
+  },
+  "best practices": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 2,
+    "any": 2
+   }
+  },
+  "building": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 3,
+    "responsibilities": 1,
+    "any": 4
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   }
+  },
+  "c": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 2
+   }
+  },
+  "c#": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 4,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 5
+   }
+  },
+  "c++": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 3,
+    "preferred_qualifications": 4,
+    "responsibilities": 0,
+    "any": 7
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   }
+  },
+  "capabilities": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 6,
+    "any": 8
+   }
+  },
+  "clients": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 2,
+    "any": 4
+   }
+  },
+  "cloud": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 3,
+    "responsibilities": 0,
+    "any": 3
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 2,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 4,
+    "any": 4
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 3
+   }
+  },
+  "code": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 4,
+    "preferred_qualifications": 3,
+    "responsibilities": 3,
+    "any": 4
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 3
+   }
+  },
+  "code analysis": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 3,
+    "responsibilities": 0,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 2
+   }
+  },
+  "computer": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 2,
+    "any": 4
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 3,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 3
+   }
+  },
+  "concepts": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 2
+   }
+  },
+  "conduct": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 3,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 2,
+    "any": 2
+   }
+  },
+  "consulting": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 3,
+    "responsibilities": 0,
+    "any": 4
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   }
+  },
+  "controls": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   }
+  },
+  "cross": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 3,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   }
+  },
+  "customer": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 0,
+    "responsibilities": 3,
+    "any": 3
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 2,
+    "any": 2
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 5,
+    "any": 5
+   }
+  },
+  "cybersecurity": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 1,
+    "responsibilities": 2,
+    "any": 3
+   }
+  },
+  "data": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 3,
+    "preferred_qualifications": 3,
+    "responsibilities": 0,
+    "any": 6
+   }
+  },
+  "deliver": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 3,
+    "any": 3
+   }
+  },
+  "detection": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 3,
+    "responsibilities": 2,
+    "any": 3
+   }
+  },
+  "domain": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 3,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   }
+  },
+  "dynamic": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 3,
+    "responsibilities": 0,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   }
+  },
+  "engineering": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 2,
+    "responsibilities": 4,
+    "any": 6
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 3,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 4
+   }
+  },
+  "engineers": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 5,
+    "any": 5
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   }
+  },
+  "enterprise": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   }
+  },
+  "executive": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 5,
+    "any": 5
+   }
+  },
+  "following": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 3
+   }
+  },
+  "forensics": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 2,
+    "responsibilities": 2,
+    "any": 3
+   }
+  },
+  "functional": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   }
+  },
+  "gcp": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 3,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   }
+  },
+  "go": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 3
+   }
+  },
+  "incident": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 3,
+    "responsibilities": 1,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 4,
+    "any": 4
+   }
+  },
+  "incident response": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 2,
+    "any": 2
+   }
+  },
+  "internal": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 2,
+    "responsibilities": 3,
+    "any": 4
+   }
+  },
+  "intrusion": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 3,
+    "responsibilities": 0,
+    "any": 3
+   }
+  },
+  "issues": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 3,
+    "any": 3
+   }
+  },
+  "java": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 4,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 5
+   }
+  },
+  "leadership": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 3,
+    "any": 4
+   }
+  },
+  "leading": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   }
+  },
+  "malware": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 3,
+    "any": 4
+   }
+  },
+  "methodologies": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 5,
+    "any": 5
+   }
+  },
+  "network": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 3,
+    "responsibilities": 0,
+    "any": 4
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 3,
+    "preferred_qualifications": 2,
+    "responsibilities": 3,
+    "any": 6
+   }
+  },
+  "operations": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 2
+   }
+  },
+  "organizational": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   }
+  },
+  "people management": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   }
+  },
+  "platforms": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 4
+   }
+  },
+  "presentation": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 3,
+    "responsibilities": 2,
+    "any": 5
+   }
+  },
+  "problems": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 4,
+    "responsibilities": 0,
+    "any": 4
+   }
+  },
+  "product": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 2,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 3,
+    "any": 5
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   }
+  },
+  "program": {
+   "other_security": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 1,
+    "responsibilities": 2,
+    "any": 3
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 2,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   }
+  },
+  "programming": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 4,
+    "responsibilities": 0,
+    "any": 5
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 3,
+    "responsibilities": 0,
+    "any": 5
+   }
+  },
+  "protocols": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 2,
+    "responsibilities": 1,
+    "any": 4
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 2
+   }
+  },
+  "python": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 4,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 5
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 4,
+    "preferred_qualifications": 3,
+    "responsibilities": 0,
+    "any": 6
+   }
+  },
+  "research": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 2,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 4,
+    "any": 4
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 2,
+    "any": 3
+   }
+  },
+  "response": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 4,
+    "responsibilities": 2,
+    "any": 5
+   }
+  },
+  "reverse engineering": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 3,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 4
+   }
+  },
+  "scripting": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 3,
+    "any": 5
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 3
+   }
+  },
+  "secure": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 4,
+    "any": 6
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   }
+  },
+  "security": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 3,
+    "any": 3
+   },
+   "security_engineering": {
+    "minimum_qualifications": 7,
+    "preferred_qualifications": 7,
+    "responsibilities": 6,
+    "any": 9
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 5,
+    "responsibilities": 4,
+    "any": 5
+   }
+  },
+  "security operations": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   }
+  },
+  "software": {
+   "other_security": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 3,
+    "responsibilities": 4,
+    "any": 7
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   }
+  },
+  "software development": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 3,
+    "responsibilities": 0,
+    "any": 4
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   }
+  },
+  "sources": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 3,
+    "any": 4
+   }
+  },
+  "tasks": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 2,
+    "any": 4
+   }
+  },
+  "term": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 1,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 1
+   }
+  },
+  "testing": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 4,
+    "responsibilities": 0,
+    "any": 6
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 2
+   }
+  },
+  "threat": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 3,
+    "preferred_qualifications": 1,
+    "responsibilities": 1,
+    "any": 5
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 3,
+    "responsibilities": 3,
+    "any": 3
+   }
+  },
+  "threat modeling": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 3,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 2
+   }
+  },
+  "time": {
+   "other_security": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 2
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 2,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 3
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 2,
+    "responsibilities": 1,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 2,
+    "responsibilities": 0,
+    "any": 3
+   }
+  },
+  "towards": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 3,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   }
+  },
+  "utilize": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 3,
+    "any": 3
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 2,
+    "any": 2
+   }
+  },
+  "value": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 3,
+    "any": 3
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 1,
+    "any": 1
+   }
+  },
+  "vulnerability": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "security_engineering": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 5,
+    "any": 5
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 1,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 1
+   }
+  },
+  "windows": {
+   "other_security": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "sales_and_consulting": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 1,
+    "responsibilities": 0,
+    "any": 1
+   },
+   "security_engineering": {
+    "minimum_qualifications": 0,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 0
+   },
+   "threat_intel_and_response": {
+    "minimum_qualifications": 3,
+    "preferred_qualifications": 0,
+    "responsibilities": 0,
+    "any": 3
+   }
+  }
+ },
+ "regex_metrics": {
+  "bachelor_req": {
+   "ALL": 13,
+   "other_security": 2,
+   "sales_and_consulting": 1,
+   "security_engineering": 5,
+   "threat_intel_and_response": 5
+  },
+  "adv_pref": {
+   "ALL": 2,
+   "other_security": 1,
+   "sales_and_consulting": 0,
+   "security_engineering": 1,
+   "threat_intel_and_response": 0
+  },
+  "adv_req": {
+   "ALL": 3,
+   "other_security": 0,
+   "sales_and_consulting": 1,
+   "security_engineering": 2,
+   "threat_intel_and_response": 0
+  },
+  "advdeg_pref": {
+   "ALL": 0,
+   "other_security": 0,
+   "sales_and_consulting": 0,
+   "security_engineering": 0,
+   "threat_intel_and_response": 0
+  },
+  "cert_pref": {
+   "ALL": 4,
+   "other_security": 1,
+   "sales_and_consulting": 0,
+   "security_engineering": 1,
+   "threat_intel_and_response": 2
+  },
+  "cert_req": {
+   "ALL": 0,
+   "other_security": 0,
+   "sales_and_consulting": 0,
+   "security_engineering": 0,
+   "threat_intel_and_response": 0
+  },
+  "clearance_req": {
+   "ALL": 2,
+   "other_security": 0,
+   "sales_and_consulting": 0,
+   "security_engineering": 1,
+   "threat_intel_and_response": 1
+  },
+  "travel_req": {
+   "ALL": 4,
+   "other_security": 1,
+   "sales_and_consulting": 2,
+   "security_engineering": 0,
+   "threat_intel_and_response": 1
+  },
+  "python_req": {
+   "ALL": 8,
+   "other_security": 0,
+   "sales_and_consulting": 0,
+   "security_engineering": 4,
+   "threat_intel_and_response": 4
+  },
+  "cpp_req": {
+   "ALL": 5,
+   "other_security": 0,
+   "sales_and_consulting": 0,
+   "security_engineering": 3,
+   "threat_intel_and_response": 2
+  },
+  "java_req": {
+   "ALL": 6,
+   "other_security": 0,
+   "sales_and_consulting": 0,
+   "security_engineering": 2,
+   "threat_intel_and_response": 4
+  },
+  "swdev_req": {
+   "ALL": 3,
+   "other_security": 1,
+   "sales_and_consulting": 0,
+   "security_engineering": 2,
+   "threat_intel_and_response": 0
+  },
+  "proglang_req": {
+   "ALL": 3,
+   "other_security": 0,
+   "sales_and_consulting": 0,
+   "security_engineering": 1,
+   "threat_intel_and_response": 2
+  },
+  "netforensics_req": {
+   "ALL": 1,
+   "other_security": 0,
+   "sales_and_consulting": 0,
+   "security_engineering": 0,
+   "threat_intel_and_response": 1
+  },
+  "ir_req": {
+   "ALL": 3,
+   "other_security": 1,
+   "sales_and_consulting": 2,
+   "security_engineering": 0,
+   "threat_intel_and_response": 0
+  },
+  "ir_pref": {
+   "ALL": 3,
+   "other_security": 0,
+   "sales_and_consulting": 0,
+   "security_engineering": 2,
+   "threat_intel_and_response": 1
+  },
+  "malware_req": {
+   "ALL": 2,
+   "other_security": 1,
+   "sales_and_consulting": 0,
+   "security_engineering": 0,
+   "threat_intel_and_response": 1
+  },
+  "cloud_req": {
+   "ALL": 4,
+   "other_security": 0,
+   "sales_and_consulting": 1,
+   "security_engineering": 1,
+   "threat_intel_and_response": 2
+  },
+  "cybersec_req": {
+   "ALL": 5,
+   "other_security": 1,
+   "sales_and_consulting": 2,
+   "security_engineering": 0,
+   "threat_intel_and_response": 2
+  },
+  "threatintel_pref": {
+   "ALL": 1,
+   "other_security": 0,
+   "sales_and_consulting": 0,
+   "security_engineering": 0,
+   "threat_intel_and_response": 1
+  },
+  "swe_tpl_req": {
+   "ALL": 2,
+   "other_security": 0,
+   "sales_and_consulting": 0,
+   "security_engineering": 2,
+   "threat_intel_and_response": 0
+  },
+  "sec_tpl_req": {
+   "ALL": 0,
+   "other_security": 0,
+   "sales_and_consulting": 0,
+   "security_engineering": 0,
+   "threat_intel_and_response": 0
+  },
+  "ai_ml_any": {
+   "ALL": 0,
+   "other_security": 0,
+   "sales_and_consulting": 0,
+   "security_engineering": 0,
+   "threat_intel_and_response": 0
+  }
+ },
+ "dropped_boilerplate": []
+}

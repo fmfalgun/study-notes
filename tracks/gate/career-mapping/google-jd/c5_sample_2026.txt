@@ -1,0 +1,234 @@
+# c5 sample for qualitative reading (2026; seed 2026; 12 postings of 89); 'about' cut to 250 chars
+
+=== 108826697075172038 | other_security | Technical Program Manager III Security And Compliance Google Cloud | capture 20260219115937
+ABOUT: A problem isn’t truly solved until it’s solved for all. That’s why Googlers build products that help create opportunities for everyone, whether down the street or across the globe. As a Technical Program Manager at Google, you’ll use your technical e...
+MIN:
+- Bachelor's degree in a technical field or equivalent practical experience.
+- 5 years of experience in program management.
+- Experience identifying and mitigating compliance risks.
+- Experience in managing programs involving security development, vulnerability management, or other security protocols.
+PREF:
+- 5 years of experience managing cross-functional or cross-team projects.
+- Experience with control frameworks, including risk assessment, compliance testing, monitoring, and governance.
+- Experience in the operationalization or development of scalable solutions and structure within a complex environment.
+- Excellent attention to detail with a strong analytic capacity.
+RESP:
+- Serve as a trusted advisor to Cloud leadership for guidance on technology risk-related questions such as identity and access management, change management, software development lifecycle, network security, data loss prevention, incident management, and vulnerability management.
+- Work with engineering organizations to identify, develop, document, and test controls for design and operating effectiveness in coordination with the Cloud controls team.
+- Establish and sustain relationships with Cloud and Engineering stakeholders at operational and executive leadership levels, communicating risk and compliance topics and collaborating to improve risk management processes.
+- Support the regulatory affairs and stakeholder engagement teams during audits and examinations, identify both qualitative and quantitative metrics that can be leveraged to measure effectiveness, and drive improvements to the technology risk program.
+
+=== 73986696906973894 | other_security | Technical Program Manager Security | capture 20260711212733
+ABOUT: A problem isn’t truly solved until it’s solved for all. That’s why Googlers build products that help create opportunities for everyone, whether down the street or across the globe. As a Technical Program Manager at Google, you’ll use your technical e...
+MIN:
+- Bachelor's degree in a technical field, or equivalent practical experience.
+- 2 years of experience in program management.
+- Experience working and partnering with enterprise security or software development teams.
+PREF:
+- 5 years of experience in technical program management.
+- 2 years of experience managing cross-functional or cross-team projects.
+- Experience using quantitative analysis to inform decisions and proficiency in data analytics.
+- Experience using AI and seek opportunities to use AI/ML technologies to lead improvements across programs.
+RESP:
+- Collaborate with engineering, product management, and client teams to deliver risk mitigation efforts that support Google’s use of public cloud infrastructure.
+- Work closely with Security Engineering and Software Engineering teams and ensure ongoing alignment in service of the overall Security and Business goals.
+- Apply technical expertise to foster alignment, oversee dependencies, define project scope, guide prioritization, and facilitate execution across teams.
+- Deploy program management frameworks and tools to optimize execution, establish priorities, monitor milestones, and coordinate interdependencies.
+- Cultivate partnerships with essential stakeholders and Product Area leads, establishing communication structures to manage evolving priorities, track program health, and address risks.
+
+=== 91252549188756166 | physical_corporate_security | Data Center Security Manager | capture 20260801192228
+ABOUT: As a Data Center Security Manager, you deliver full pieces of a project and make significant contributions with minimal guidance. You use your knowledge of security technology, data analysis, and data visualization to plan efforts of a team responsib...
+MIN:
+- Bachelor's degree or equivalent practical experience.
+- 5 years of experience coordinating or managing resources for data center locations, and leading operational or project based work and tasks.
+- 5 years of experience leading physical security operations, threat management, or project-based security work, and coordinating or managing resources for data center locations.
+- Experience with physical security technologies, including CCTV, access control, incident management systems, and security operations centers.
+- Ability to communicate in English and German fluently to support local stakeholders.
+PREF:
+- Master's degree in Criminal Justice or a related field.
+- 4 years of experience developing and deploying processes to mitigate risk.
+- 2 years of experience coordinating or leading security, and experience planning security operations or strategy for security programs.
+- 2 years of experience with data center technologies, infrastructure, and methodologies.
+- 2 years of experience managing incidents and crises.
+RESP:
+- Implement established compliance processes aligned with Compliance, Strategy, and Risk Management (CSRM) policies, standards, guidelines, and relevant legal or regulatory requirements.
+- Manage the security related costs through budget, forecasting, and invoice control for the assigned campus, assist management with financial analysis and input to financial decisions for security requirements.
+- Provide after-hours on-call management support and participate in emergent, large-scale event response or crisis management when needed.
+- Be responsible for the compliance, security and risk management program at the data center campus or related infrastructure which includes managing site security incidents, escalations, guard contract management and all other physical security related issues.
+
+=== 72252590439441094 | sales_and_consulting | Security Sales Specialist III Google Cloud | capture 20260823011656
+ABOUT: The Google Cloud Platform team helps customers transform and build what's next for their business — all with technology built in the cloud. Our products are developed for security, reliability and scalability, running the full stack from infrastructu...
+MIN:
+- Bachelor's degree or equivalent practical experience.
+- 10 years of experience in a sales role in the enterprise software or cloud space.
+- Experience selling to clients in the enterprise cybersecurity or IT field.
+PREF:
+- Experience carrying and exceeding strategic business goals in a sales role.
+- Experience supporting long-term executive relationships, and developing territories/accounts from scratch, while ensuring customer success, adoption and expansion.
+- Experience prioritizing, planning, and organizing solution-based sales activity within complex sales cycles, including qualifying high value accounts and leveraging our partner ecosystem.
+- Experience working with internal/external teams, including account teams, technical leads, procurement, and legal, to inventory existing software estate, build business cases for transformation with implementation plans, and close agreements.
+- Knowledge of market trends, products, and solutions in Cloud and cybersecurity.
+RESP:
+- Build relationships with customers as a subject matter expert and trusted advisor, managing complex business cycles, identifying solution use cases, and influencing long-term strategic direction of accounts.
+- Deliver against quota and achieve or exceed strategic business and growth goals while forecasting and reporting your territory’s business.
+- Work with Google accounts and cross-functional teams (e.g. Customer Engineering, Marketing, Customer Success, Product, Engineering, Channels) to develop go-to-market strategies, drive pipeline and business growth, close agreements, understand the customer, and provide excellent prospect and customer experience.
+- Construct and execute an effective territory development plan.
+- Work with multiple customers and opportunities simultaneously, understanding each customer’s technology footprint and strategy, growth plans, business drivers, participants, and how they can transform their business using our technologies.
+
+=== 84451641347973830 | sales_and_consulting | Regional Iot Operations And Cyber Security Specialist | capture 20260607162954
+ABOUT: Google's projects, like our users, span the globe and require leaders to keep the big picture in focus while being able to navigate into unique engineering, system reliability, and cyber security challenges.
+As a Regional Internet of Things (IoT) Ope...
+MIN:
+- Bachelor's degree in Building Engineering, Electrical and Electronics Engineering, Controls, IT, or equivalent practical experience.
+- 8 years of experience defining and leading cross country programs in system operations, lifecycle management, and cyber security for an operational technology (OT) or IoT portfolio.
+- Experience in procurement and vendor management, including negotiating Service Level Agreements (SLAs)/Service Level Objectives (SLOs).
+- Experience in incident response and vulnerability management.
+PREF:
+- Industry certification in cybersecurity or IoT/smart building technologies.
+- Ability to balance OT and smart building engineering (HVAC, lighting, Fault Detection and Diagnostics (FDD), Waste management, kitchen systems, fitness machines) with applied cyber security principles (network segmentation, encryption, access and identity).
+- Ability to serve as the final approval point for escalated technical, operational or cyber security issues along with excellent problem-solving and critical thinking skills.
+- Excellent stakeholder management and communication skills with the ability to represent the organization internally and externally.
+RESP:
+- Define regional architecture and vendor approach (including SLAs). Ensure the availability, reliability, and life cycle management via maintenance.
+- Operationalize global IoT strategies including fostering a data-driven security culture through training and tracking key performance metrics (uptime and patch compliance). Act as the regional authority for cyber risk acceptance and compliance, ensuring all IoT systems remain compliant.
+- Own regional vulnerability and patch management programs. Drive corrective actions for IoT security incidents, mitigating risk within defined Service Level Objectives (SLOs) for critical systems (building management, health, food).
+- Lead regional procurement, ensuring new IoT devices adhere to Security-by-Design policies and pass functionality reviews.
+- Develop "Smart Building" ecosystems. Utilize IoT infrastructure, Predictive Maintenance, and data analytics to maximize asset life cycles and advance Sustainability goals.
+
+=== 105122619300160198 | security_engineering | Distinguished Security Engineer Cyber And AI Cloud Security | capture 20260216155039
+ABOUT: As the Distinguished Security Engineer, Cyber and AI, you will be a premier technical authority and a key partner to the leadership of Google Cloud Security. You will be responsible for defining and driving the long-term vision at the intersection of...
+MIN:
+- PhD in Computer Science, Electrical Engineering, or a related technical field, or equivalent practical experience.
+- 15 years of experience in cybersecurity, artificial intelligence, or a related research and development field.
+- Experience in research and innovation including publications in relevant venues (e.g., S&P, CCS, USENIX Security, NeurIPS, ICML), patents, or industry-adopted technologies.
+PREF:
+- Experience building and deploying large-scale machine learning systems for security applications (e.g., intrusion detection, malware analysis, fraud prevention).
+- Experience as an international expert in the application of AI/ML to cybersecurity challenges.
+- Deep expertise in cloud computing environments and the unique security challenges of enterprise-scale cloud platforms.
+- Knowledge of Google's security products, services, and underlying infrastructure.
+- Exceptional ability to communicate complex technical concepts to both deeply technical and executive audiences.
+- Ability to lead and influence in a large, cross-functional environment to drive research from conception to real-world impact.
+RESP:
+- Lead and conduct groundbreaking research in the application of AI/ML to cybersecurity, including areas like threat detection, automated response, vulnerability analysis, and security data science.
+- Partner with other Google Security leaders to set the long-term technical and research strategy for AI-driven security within the Google Cloud Security organization.
+- Design, prototype, and guide the development of novel systems and algorithms to address complex, large-scale security problems.
+- Act as a key technical advisor to the VP/GM of Google Cloud Security and other senior executives on emerging threats, technological trends, and strategic research investments.
+- Partner with product and engineering teams to ensure the successful translation of research innovations into impactful customer value through Google Cloud Security products and services.
+
+=== 112422480202605254 | security_engineering | Senior Software Engineer Pdeio Security | capture 20260130095501
+ABOUT: Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond w...
+MIN:
+- Bachelor's degree or equivalent practical experience.
+- 5 years of experience with software development in one or more programming languages.
+- 3 years of experience testing, maintaining, or launching software products, and 1 year of experience with software design and architecture.
+PREF:
+- Master's degree or PhD in Computer Science or related technical field.
+- Experience in software security (e.g. assessing security risk involving technical infrastructure or distributed client software).
+- Experience in software supply chain.
+- Experience developing AI agents and building tooling for internal developers.
+- Experience working on Android or Chromium.
+- Experience with software development in Java, Golang, Python.
+RESP:
+- Research, design and develop software, tooling, processes and configuration to protect all parts of our supply chain against insider accounts and third-party dependency risks.
+- Participate in team planning and strategy with ideas, proposals, and initiatives to strengthen supply chain security i.e. to protect source code, builds, and tools from changes, to audit critical infrastructure access.
+- Perform security reviews and design engagements with a set of stakeholders from across Chrome, ChromeOS and Android.
+- Develop chain-of-custody verification and autonomous agents to grow the security efforts and verify the integrity of automated code modifications.
+- Build intelligent UX into our access control management to prevent and mitigate misconfiguration.
+
+=== 95289251511313094 | security_engineering | Senior Security Engineer | capture 20260731012054
+ABOUT: There's no such thing as a "safe system" - only safer systems. Our Security team works to create and maintain the safest operating environment for Google's users and developers. As a Security Engineer, you help protect network boundaries, keep comput...
+MIN:
+- Bachelor's degree or equivalent practical experience.
+- 5 years of experience with security assessments or security design reviews or threat modeling.
+- 5 years of experience with security engineering, computer and network security and security protocols.
+- 5 years of coding experience in one or more general purpose languages.
+- 4 years of practical experience with digital forensic analysis.
+PREF:
+- Experience with the current threat landscape including common attack types and malware capabilities.
+- Experience with security of two or more operating systems (e.g., Android, Linux, Mac OS X, Windows).
+- Experience with reverse engineering or firmware analysis.
+- Experience with, and detailed understanding of, digital forensics and incident response tools such as GRR, Plaso (log2timeline), The Sleuth Kit (TSK), libyal, or alternatives like Guidance Encase, AccessData FTK, X-Ways Forensics, Cellebrite, Crowdstrike Falcon, Volatility, Mandiant MIR, etc.
+RESP:
+- Perform investigations on a wide variety of security and privacy events from various sources to determine whether they pose a threat to Google.
+- Participate in large-scale security and privacy incidents, write incident reports, and participate in post-mortems.
+- Participate in internal training to make sure forensic best practices are followed.
+- Work with teams from around Google to discover new investigative and forensics capabilities.
+- Develop internal and Open Source tools used to respond to incidents (e.g., digital forensic toolkits) to support Google’s unique environment.
+
+=== 96435610394206918 | security_engineering | Software Engineer Cloud Sql Security | capture 20260402163445
+ABOUT: Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond w...
+MIN:
+- Bachelor’s degree or equivalent practical experience.
+- 2 years of experience with software development or 1 year of experience with an advanced degree in an industry setting.
+- 2 years of experience with developing large-scale infrastructure, distributed systems or networks, or experience with compute technologies, storage or hardware architecture.
+- Experience building and architecting scalable software systems using Java.
+- Experience designing and implementing security measures within software development life-cycles.
+PREF:
+- Master's degree or PhD in Computer Science or related technical fields.
+- 2 years of experience with data structures and algorithms.
+- Experience in kernel development and architecting and developing distributed systems.
+- Experience with database kernel internals and system-level security, including hardening database engines or implementing low-level security and privacy features.
+- Experience managing data storage solutions or securing complex system architectures.
+- Experience developing accessible technologies.
+RESP:
+- Write product or system development code.
+- Review code developed by other developers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).
+- Innovate, design, and build functionality to achieve industry leading security capabilities (e.g., threat detection, security management).
+- Design and develop solutions for security/privacy/compliance features.
+
+=== 81211251094364870 | threat_intel_and_response | Security Engineer Red Team | capture 20260316154623
+ABOUT: In this role, you will be responsible for providing cybersecurity consulting services and support to the clients, including assessing and advising clients on both technical and process-based controls for all manner of environments. You will have to p...
+MIN:
+- Bachelor's degree in Computer Science, Information Systems, Cybersecurity or a related technical field or equivalent practical experience.
+- Certifications related to offensive security, such as OSCE, OSEP, OSEE, OSCP, CCSAS, CCT INF or relevant SANS courses.
+- Experience in creating security tools.
+- Experience in four or more of the following: network protocols, threat intelligence analysis, system and network administration, project management, developing applications, technical incident response processes, source code review, and reverse engineering.
+PREF:
+- Experience working with local sales and management teams in driving consulting business generation, scoping or client management.
+- Experience in creating security tools and understanding of the underlying programming languages such as Python, C# etc.
+- Excellent communication, collaboration, and public speaking skills.
+RESP:
+- Interface with clients to address concerns, issues, or escalations, track and drive to closure any issues that impact the engagements and its value to clients.
+- Advise clients on security best practices for remediating discovered issues.
+- Collaborate with internal teams to expand capabilities to deliver further value to clients.
+- Perform offensive technical cyber security engagements of varied nature.
+
+=== 95624077397369542 | threat_intel_and_response | Senior Incident Response Consultant Public Sector | capture 20260512164706
+ABOUT: Our Security team works to create and maintain the safest operating environment for Google's users and developers. Security Engineers work with network equipment and actively monitor our systems for attacks and intrusions. In this role, you will also...
+MIN:
+- Bachelor's degree or equivalent practical experience.
+- 5 years of experience with security assessments or security design reviews or threat modeling.
+- 5 years of experience with security engineering, computer and network security and security protocols.
+- 5 years of coding experience in one or more general purpose languages.
+- Must possess an active Top Secret security clearance.
+PREF:
+- Experience in implementation and design of enterprise security architecture, security controls, and best practices.
+- Experience in cloud incident response and digital forensics.
+- Ability to lead clients in strategic conversations with an executive presence.
+- Ability to travel up to 20% of the time.
+- Excellent time management skills to balance time among multiple tasks and mentor staff as needed.
+RESP:
+- Identify security issues and implement and design security controls, tools, and services to improve security systems and processes.
+- Conduct host forensics, network forensics, log analysis, and malware triage in support of incident response investigations
+- Recognize and codify attacker tools, tactics, and procedures (TTPs) and indicators of compromise (IOCs) that can be applied to current and future investigations.
+- Collaborate with internal and customer teams to investigate and contain incidents.
+
+=== 79030552585216710 | threat_intel_and_response | Incident Response Security Consultant Mandiant Google Cloud English | capture 20260111165652
+ABOUT: As an Incident Response Consultant, you will provide industry leading incident response, assessment, transformation, managed detection and response, and training services with in-depth tactical support. You will help organizations effectively detect ...
+MIN:
+- Bachelor's degree in Computer Science, Information Systems, Cybersecurity, a related technical field, or equivalent practical experience.
+- 3 years of investigative experience with network forensics, malware triage analysis, cloud forensics, or disk and memory forensics.
+- 3 years of experience working in end to end incident response investigations, analysis, or containment actions.
+- Ability to travel up to 30% of the time as required.
+- Ability to communicate in English fluently to work with internal partners and customer teams.
+PREF:
+- Experience in cloud incident response or forensics.
+- Experience in security competitions, Capture the Flags (CTFs) or testing platforms such as hack the box, tryhackme, overthewire, etc.
+- Ability to communicate investigative findings and strategies to technical staff, executive leadership, legal counsel, and internal and external clients.
+- Excellent time and project management skills.
+RESP:
+- Collaborate with internal and customer teams to investigate and contain incidents.
+- Recognize and codify attacker Tools, Tactics, and Procedures (TTPs) and Indicators of Compromise (IOCs) that can be applied to current and future investigations.
+- Conduct host forensics, network forensics, log analysis, and malware triage in support of incident response investigations.
+- Participate in client-facing incident response engagements, examine cloud, endpoint, and network based sources of evidence, and investigate and contain incidents.
+- Build scripts, tools, or methodologies to enhance mandiant’s incident investigation processes and capabilities.
