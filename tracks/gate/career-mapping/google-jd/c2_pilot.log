@@ -1,0 +1,30 @@
+[    0s] pilot start: 27 postings
+[    5s]   1/27 202306 Security Abuse Analyst Safe Browsing Trust An
+[    5s]   2/27 202307 Security Engineer Cloud Detection
+[    5s]   3/27 202308 Cyber Defense Analyst Mandiant Google Cloud
+[    5s]   4/27 202308 Gotomarket Business Development Lead Security
+[   11s]   5/27 202309 Security Engineering Manager Malware Mandiant
+[   21s]   6/27 202309 Cyber Security Engineer Public Sector
+[   32s]   7/27 202310 Senior Security Engineer Product Security Eng
+[   41s]   8/27 202310 Information Security Engineer Product Securit
+[   51s]   9/27 202310 Senior Security Engineer
+[   57s]   10/27 202311 Security Consultant Intern Bsms Summer 2024
+[   65s]   11/27 202311 Technical Program Manager Cloud Security
+[   88s]   12/27 202311 Cyber Threat Analyst
+[   95s]   13/27 202312 Security Sales Specialist Cloud Public Sector
+[  125s]   14/27 202312 Practice Leader Cyber Crisis Communications
+[  138s]   15/27 202404 Cloud Engineer Security
+[  143s]   16/27 202409 Security Engineer Hardwarefirmware
+[  151s]   17/27 202410 Incident Response Security Consultant Mandian
+[  163s]   18/27 202502 Security Consultant Architect Mandiant Sts Go
+[  181s]   19/27 202504 Cloud Security Engagement Consultant
+[  189s]   20/27 202510 Technical Program Manager Security Systems De
+[  197s]   21/27 202510 Data Center Security Manager English French
+[  206s]   22/27 202511 Program Manager II Cyber Threat Intelligence 
+[  217s]   23/27 202512 Security Engineer Data Center Platforms Techn
+[  217s]   24/27 202601 Security Engineer Technical Lead Identity
+[  230s]   25/27 202602 Senior Strategic Cyber Security Operations Co
+[  236s]   26/27 202603 Senior Product Manager Security Google Distri
+[  245s]   27/27 202609 Security Engineer Pso
+[  245s] RESULT {"status": "complete", "stored": 22, "ledgered": {"parse_failed": 5}, "remaining": 0, "total_targets": 27, "requests": 31} | cache hits 4 | live requests 27
+[  245s] PILOT COMPLETE

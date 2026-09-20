@@ -1,0 +1,508 @@
+[
+ {
+  "job_id": "72637654841074374",
+  "first_month": "201909",
+  "theme": "security_engineering",
+  "title": "Software Engineer Security Phd University Graduate",
+  "n_captures": 1,
+  "attempts": [
+   {
+    "path": "raw_id_",
+    "timestamp": "20190919050245",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20190919050245id_/https://careers.google.com/jobs/results/72637654841074374-software-engineer-security-phd-university-graduate/?company=Google&company=Google%20Fiber&company=YouTube&degree=DOCTORATE&degree=MASTERS&employment_type=FULL_TIME&hl=en_US&jlo=en_US&location=New%20York,%20USA&location=Pittsburgh,%20PA,%20USA&location=Seattle,%20WA,%20USA&location=Washington%20D.C.,%20DC,%20USA&page=2&q=software%20engineering&sort_by=relevance",
+    "bytes": 5020,
+    "secs": 1.2,
+    "html_chars": 5020,
+    "text_chars": 14,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 0,
+    "has_app_root_only": false
+   },
+   {
+    "path": "playback",
+    "timestamp": "20190919050245",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20190919050245/https://careers.google.com/jobs/results/72637654841074374-software-engineer-security-phd-university-graduate/?company=Google&company=Google%20Fiber&company=YouTube&degree=DOCTORATE&degree=MASTERS&employment_type=FULL_TIME&hl=en_US&jlo=en_US&location=New%20York,%20USA&location=Pittsburgh,%20PA,%20USA&location=Seattle,%20WA,%20USA&location=Washington%20D.C.,%20DC,%20USA&page=2&q=software%20engineering&sort_by=relevance",
+    "bytes": 19911,
+    "secs": 2.0,
+    "html_chars": 19911,
+    "text_chars": 595,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 0,
+    "has_app_root_only": false
+   }
+  ]
+ },
+ {
+  "job_id": "87337235348628166",
+  "first_month": "202008",
+  "theme": "threat_intel_and_response",
+  "title": "Security Engineer Detection",
+  "n_captures": 2,
+  "attempts": [
+   {
+    "path": "raw_id_",
+    "timestamp": "20200803131344",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20200803131344id_/https://careers.google.com/jobs/results/87337235348628166-security-engineer-detection/",
+    "bytes": 2332,
+    "secs": 1.2,
+    "html_chars": 2222,
+    "text_chars": 2217,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 0,
+    "has_app_root_only": false
+   },
+   {
+    "path": "playback",
+    "timestamp": "20200803131344",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20200803131344/https://careers.google.com/jobs/results/87337235348628166-security-engineer-detection/",
+    "bytes": 19232,
+    "secs": 1.6,
+    "html_chars": 19232,
+    "text_chars": 282,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 81,
+    "has_app_root_only": false
+   }
+  ]
+ },
+ {
+  "job_id": "143192771528663750",
+  "first_month": "202110",
+  "theme": "sales_and_consulting",
+  "title": "Regional Security Specialist",
+  "n_captures": 1,
+  "attempts": [
+   {
+    "path": "raw_id_",
+    "timestamp": "20211022223242",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20211022223242id_/https://careers.google.com/jobs/results/143192771528663750-regional-security-specialist/?src=Online%2FJob%20Board%2Findeed&utm_campaign=freeaggr",
+    "bytes": 9101,
+    "secs": 2.4,
+    "html_chars": 9101,
+    "text_chars": 35,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 81,
+    "has_app_root_only": false
+   },
+   {
+    "path": "playback",
+    "timestamp": "20211022223242",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20211022223242/https://careers.google.com/jobs/results/143192771528663750-regional-security-specialist/?src=Online%2FJob%20Board%2Findeed&utm_campaign=freeaggr",
+    "bytes": 21529,
+    "secs": 1.5,
+    "html_chars": 21529,
+    "text_chars": 340,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 81,
+    "has_app_root_only": false
+   }
+  ]
+ },
+ {
+  "job_id": "75492552733532870",
+  "first_month": "202211",
+  "theme": "other_security",
+  "title": "Senior Product Manager Core Privacy Safety And Security",
+  "n_captures": 5,
+  "attempts": [
+   {
+    "path": "raw_id_",
+    "timestamp": "20221121170318",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20221121170318id_/https://careers.google.com/jobs/results/75492552733532870-senior-product-manager-core-privacy-safety-and-security/",
+    "bytes": 10016,
+    "secs": 1.6,
+    "html_chars": 10016,
+    "text_chars": 75,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 149,
+    "has_app_root_only": false
+   },
+   {
+    "path": "playback",
+    "timestamp": "20221121170318",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20221121170318/https://careers.google.com/jobs/results/75492552733532870-senior-product-manager-core-privacy-safety-and-security/",
+    "bytes": 22205,
+    "secs": 1.7,
+    "html_chars": 22205,
+    "text_chars": 365,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 127,
+    "has_app_root_only": false
+   }
+  ]
+ },
+ {
+  "job_id": "117526844791497414",
+  "first_month": "202202",
+  "theme": "security_engineering",
+  "title": "Security Engineer Intern 2022",
+  "n_captures": 8,
+  "attempts": [
+   {
+    "path": "raw_id_",
+    "timestamp": "20220215125433",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20220215125433id_/https://careers.google.com/jobs/results/117526844791497414-security-engineer-intern-2022/?company=Google&company=YouTube&jex=ENTRY_LEVEL&jlo=en_US&q=Privacy%20Security%20Engineer",
+    "bytes": 9217,
+    "secs": 2.0,
+    "html_chars": 9217,
+    "text_chars": 47,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 121,
+    "has_app_root_only": false
+   },
+   {
+    "path": "playback",
+    "timestamp": "20220215125433",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20220215125433/https://careers.google.com/jobs/results/117526844791497414-security-engineer-intern-2022/?company=Google&company=YouTube&jex=ENTRY_LEVEL&jlo=en_US&q=Privacy%20Security%20Engineer",
+    "bytes": 22084,
+    "secs": 2.0,
+    "html_chars": 22084,
+    "text_chars": 401,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 99,
+    "has_app_root_only": false
+   }
+  ]
+ },
+ {
+  "job_id": "120158552707736262",
+  "first_month": "202303",
+  "theme": "threat_intel_and_response",
+  "title": "Security Intelligence Engineer Intern Summer 2023",
+  "n_captures": 3,
+  "attempts": [
+   {
+    "path": "raw_id_",
+    "timestamp": "20230327185950",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20230327185950id_/https://careers.google.com/jobs/results/120158552707736262-security-intelligence-engineer-intern-summer-2023/?company=Google&company=YouTube&q=Privacy%20Security%20Engineer",
+    "bytes": 9864,
+    "secs": 3.6,
+    "html_chars": 9864,
+    "text_chars": 67,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 141,
+    "has_app_root_only": false
+   },
+   {
+    "path": "playback",
+    "timestamp": "20230327185950",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20230327185950/https://careers.google.com/jobs/results/120158552707736262-security-intelligence-engineer-intern-summer-2023/?company=Google&company=YouTube&q=Privacy%20Security%20Engineer",
+    "bytes": 22641,
+    "secs": 1.7,
+    "html_chars": 22641,
+    "text_chars": 400,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 119,
+    "has_app_root_only": false
+   }
+  ]
+ },
+ {
+  "job_id": "123720645239284422",
+  "first_month": "202305",
+  "theme": "sales_and_consulting",
+  "title": "Security Sales Specialist Virustotal Google Cloud",
+  "n_captures": 1,
+  "attempts": [
+   {
+    "path": "raw_id_",
+    "timestamp": "20230522201744",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20230522201744id_/https://careers.google.com/jobs/results/123720645239284422-security-sales-specialist-virustotal-google-cloud/",
+    "bytes": 3383,
+    "secs": 1.2,
+    "html_chars": 3198,
+    "text_chars": 1974,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 0,
+    "has_app_root_only": false
+   },
+   {
+    "path": "playback",
+    "timestamp": "20230522201744",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20230522201744/https://careers.google.com/jobs/results/123720645239284422-security-sales-specialist-virustotal-google-cloud/",
+    "bytes": 21939,
+    "secs": 1.9,
+    "html_chars": 21939,
+    "text_chars": 338,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 120,
+    "has_app_root_only": false
+   }
+  ]
+ },
+ {
+  "job_id": "128122647163609798",
+  "first_month": "202403",
+  "theme": "other_security",
+  "title": "Strategic Services Function Manager Cyber Security",
+  "n_captures": 4,
+  "attempts": [
+   {
+    "path": "raw_id_",
+    "timestamp": "20240326140831",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20240326140831id_/https://www.google.com/about/careers/applications/jobs/results/128122647163609798-strategic-services-function-manager-cyber-security?has_remote=true",
+    "bytes": 152880,
+    "secs": 2.3,
+    "html_chars": 144782,
+    "text_chars": 117619,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 0,
+    "has_app_root_only": false
+   },
+   {
+    "path": "playback",
+    "timestamp": "20240326140831",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20240326140831/https://www.google.com/about/careers/applications/jobs/results/128122647163609798-strategic-services-function-manager-cyber-security?has_remote=true",
+    "bytes": 1060224,
+    "secs": 4.8,
+    "html_chars": 1060066,
+    "text_chars": 7404,
+    "markers": [
+     "About the job",
+     "Minimum qualifications",
+     "Preferred qualifications",
+     "Responsibilities",
+     "Qualifications"
+    ],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 0,
+    "has_app_root_only": false
+   }
+  ]
+ },
+ {
+  "job_id": "97575005541278406",
+  "first_month": "202408",
+  "theme": "security_engineering",
+  "title": "Tech Lead Product Security Engineering",
+  "n_captures": 4,
+  "attempts": [
+   {
+    "path": "raw_id_",
+    "timestamp": "20240821114112",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20240821114112id_/https://www.google.com/about/careers/applications/jobs/results/97575005541278406-tech-lead-product-security-engineering?has_remote=true&location=Addison%2C%20TX%2C%20USA",
+    "bytes": 151459,
+    "secs": 2.7,
+    "html_chars": 143321,
+    "text_chars": 120222,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 0,
+    "has_app_root_only": false
+   },
+   {
+    "path": "playback",
+    "timestamp": "20240821114112",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20240821114112/https://www.google.com/about/careers/applications/jobs/results/97575005541278406-tech-lead-product-security-engineering?has_remote=true&location=Addison%2C%20TX%2C%20USA",
+    "bytes": 1059683,
+    "secs": 5.6,
+    "html_chars": 1059504,
+    "text_chars": 9207,
+    "markers": [
+     "About the job",
+     "Minimum qualifications",
+     "Preferred qualifications",
+     "Responsibilities",
+     "Qualifications"
+    ],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 0,
+    "has_app_root_only": false
+   }
+  ]
+ },
+ {
+  "job_id": "115154534803612358",
+  "first_month": "202510",
+  "theme": "threat_intel_and_response",
+  "title": "Associate Red Team Security Consultant Mandiant Google Cloud",
+  "n_captures": 1,
+  "attempts": [
+   {
+    "path": "raw_id_",
+    "timestamp": "20251005032255",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20251005032255id_/https://www.google.com/about/careers/applications/jobs/results/115154534803612358-associate-red-team-security-consultant-mandiant-google-cloud",
+    "bytes": 163937,
+    "secs": 2.7,
+    "html_chars": 155352,
+    "text_chars": 129745,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 0,
+    "has_app_root_only": false
+   },
+   {
+    "path": "playback",
+    "timestamp": "20251005032255",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20251005032255/https://www.google.com/about/careers/applications/jobs/results/115154534803612358-associate-red-team-security-consultant-mandiant-google-cloud",
+    "bytes": 1115458,
+    "secs": 5.7,
+    "html_chars": 1115314,
+    "text_chars": 8512,
+    "markers": [
+     "About the job",
+     "Minimum qualifications",
+     "Preferred qualifications",
+     "Responsibilities",
+     "Qualifications"
+    ],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 0,
+    "has_app_root_only": false
+   }
+  ]
+ },
+ {
+  "job_id": "98977302934627014",
+  "first_month": "202501",
+  "theme": "sales_and_consulting",
+  "title": "Senior Cyber Security Consultant Public Sector",
+  "n_captures": 2,
+  "attempts": [
+   {
+    "path": "raw_id_",
+    "timestamp": "20250118132849",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20250118132849id_/https://www.google.com/about/careers/applications/jobs/results/98977302934627014-senior-cyber-security-consultant-public-sector?has_remote=true",
+    "bytes": 1043153,
+    "secs": 6.4,
+    "html_chars": 1042908,
+    "text_chars": 8645,
+    "markers": [
+     "About the job",
+     "Minimum qualifications",
+     "Preferred qualifications",
+     "Responsibilities",
+     "Qualifications"
+    ],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 0,
+    "has_app_root_only": false
+   }
+  ]
+ },
+ {
+  "job_id": "97606019684672198",
+  "first_month": "202609",
+  "theme": "other_security",
+  "title": "Technical Security And Compliance Analyst",
+  "n_captures": 3,
+  "attempts": [
+   {
+    "path": "raw_id_",
+    "timestamp": "20260916023617",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20260916023617id_/https://www.google.com/about/careers/applications/jobs/results/97606019684672198-technical-security-and-compliance-analyst/",
+    "bytes": 173523,
+    "secs": 2.1,
+    "html_chars": 164303,
+    "text_chars": 132297,
+    "markers": [],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 0,
+    "has_app_root_only": false
+   },
+   {
+    "path": "playback",
+    "timestamp": "20260916023617",
+    "ok": true,
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20260916023617/https://www.google.com/about/careers/applications/jobs/results/97606019684672198-technical-security-and-compliance-analyst/",
+    "bytes": 1179877,
+    "secs": 5.2,
+    "html_chars": 1179712,
+    "text_chars": 9103,
+    "markers": [
+     "About the job",
+     "Minimum qualifications",
+     "Preferred qualifications",
+     "Responsibilities",
+     "Qualifications"
+    ],
+    "json_ld": 0,
+    "json_ld_has_description": false,
+    "meta_description_chars": 1705,
+    "has_app_root_only": false
+   }
+  ]
+ }
+]

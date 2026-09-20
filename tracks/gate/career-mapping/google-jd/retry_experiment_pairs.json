@@ -1,0 +1,164 @@
+[
+ {
+  "job_id": "72637654841074374",
+  "ts": "20190919050245",
+  "url": "https://careers.google.com/jobs/results/72637654841074374-software-engineer-security-phd-university-graduate/?company=Google&company=Google%20Fiber&company=YouTube&degree=DOCTORATE&degree=MASTERS&employment_type=FULL_TIME&hl=en_US&jlo=en_US&location=New%20York,%20USA&location=Pittsburgh,%20PA,%20USA&location=Seattle,%20WA,%20USA&location=Washington%20D.C.,%20DC,%20USA&page=2&q=software%20engineering&sort_by=relevance",
+  "origin": "c1_first_capture",
+  "c1_wire_bytes": 5020,
+  "c1_decoded_len": 5020,
+  "c1_text_chars": 14
+ },
+ {
+  "job_id": "87337235348628166",
+  "ts": "20200803131344",
+  "url": "https://careers.google.com/jobs/results/87337235348628166-security-engineer-detection/",
+  "origin": "c1_first_capture",
+  "c1_wire_bytes": 2332,
+  "c1_decoded_len": 2222,
+  "c1_text_chars": 2217
+ },
+ {
+  "job_id": "143192771528663750",
+  "ts": "20211022223242",
+  "url": "https://careers.google.com/jobs/results/143192771528663750-regional-security-specialist/?src=Online%2FJob%20Board%2Findeed&utm_campaign=freeaggr",
+  "origin": "c1_first_capture",
+  "c1_wire_bytes": 9101,
+  "c1_decoded_len": 9101,
+  "c1_text_chars": 35
+ },
+ {
+  "job_id": "75492552733532870",
+  "ts": "20221121170318",
+  "url": "https://careers.google.com/jobs/results/75492552733532870-senior-product-manager-core-privacy-safety-and-security/",
+  "origin": "c1_first_capture",
+  "c1_wire_bytes": 10016,
+  "c1_decoded_len": 10016,
+  "c1_text_chars": 75
+ },
+ {
+  "job_id": "117526844791497414",
+  "ts": "20220215125433",
+  "url": "https://careers.google.com/jobs/results/117526844791497414-security-engineer-intern-2022/?company=Google&company=YouTube&jex=ENTRY_LEVEL&jlo=en_US&q=Privacy%20Security%20Engineer",
+  "origin": "c1_first_capture",
+  "c1_wire_bytes": 9217,
+  "c1_decoded_len": 9217,
+  "c1_text_chars": 47
+ },
+ {
+  "job_id": "120158552707736262",
+  "ts": "20230327185950",
+  "url": "https://careers.google.com/jobs/results/120158552707736262-security-intelligence-engineer-intern-summer-2023/?company=Google&company=YouTube&q=Privacy%20Security%20Engineer",
+  "origin": "c1_first_capture",
+  "c1_wire_bytes": 9864,
+  "c1_decoded_len": 9864,
+  "c1_text_chars": 67
+ },
+ {
+  "job_id": "123720645239284422",
+  "ts": "20230522201744",
+  "url": "https://careers.google.com/jobs/results/123720645239284422-security-sales-specialist-virustotal-google-cloud/",
+  "origin": "c1_first_capture",
+  "c1_wire_bytes": 3383,
+  "c1_decoded_len": 3198,
+  "c1_text_chars": 1974
+ },
+ {
+  "job_id": "107547677308134086",
+  "ts": "20211214210916",
+  "url": "https://careers.google.com/jobs/results/107547677308134086-security-solutions-engineer-google-cloud/",
+  "origin": "c1_alt_last_capture",
+  "c1_wire_bytes": null,
+  "c1_decoded_len": 9272,
+  "c1_text_chars": 58
+ },
+ {
+  "job_id": "128674889679676102",
+  "ts": "20230311151108",
+  "url": "https://careers.google.com/jobs/results/128674889679676102-cloud-security-engineer-professional-service/?company=Google&company=YouTube&distance=50&jld=20&location=Kirkland,%20WA,%20USA&location=New%20York,%20NY,%20USA&location=Sunnyvale,%20CA,%20USA&location=Z%C3%BCrich,%20Switzerland&q=%22Software%20Engineer,%20Security%22%20OR%20%20%22Information%20Security%20Engineer%22%20OR%20%22Security%20Engineer,%20Infrastructure%20Protection%22%20OR%20%22Security%20Engineer%22%20OR%20%22Security%20Engineer,%20Detection%22%20OR%20%22Information%20Security%20Incident%20Response%20Engineer%22",
+  "origin": "c1_alt_last_capture",
+  "c1_wire_bytes": null,
+  "c1_decoded_len": 9839,
+  "c1_text_chars": 62
+ },
+ {
+  "job_id": "139765941031314118",
+  "ts": "20230123002816",
+  "url": "https://careers.google.com/jobs/results/139765941031314118-security-engineer-intern-2023/",
+  "origin": "c1_alt_last_capture",
+  "c1_wire_bytes": null,
+  "c1_decoded_len": 9765,
+  "c1_text_chars": 35
+ },
+ {
+  "job_id": "88880772020085446",
+  "ts": "20230603140437",
+  "url": "https://careers.google.com/jobs/results/88880772020085446-security-specialist-solutions-engineering-google-cloud/?location=Seattle,%20WA,%20USA&q=",
+  "origin": "c1_alt_last_capture",
+  "c1_wire_bytes": null,
+  "c1_decoded_len": 9618,
+  "c1_text_chars": 35
+ },
+ {
+  "job_id": "83356565886640838",
+  "ts": "20220120042123",
+  "url": "https://careers.google.com/jobs/results/83356565886640838-trust-lead-security-and-privacy-maps/",
+  "origin": "c1_alt_last_capture",
+  "c1_wire_bytes": null,
+  "c1_decoded_len": 9257,
+  "c1_text_chars": 55
+ },
+ {
+  "job_id": "115163971847103174",
+  "ts": "20230321072248",
+  "url": "https://careers.google.com/jobs/results/115163971847103174-security-sales-specialist-google-cloud/",
+  "origin": "c1_alt_last_capture",
+  "c1_wire_bytes": null,
+  "c1_decoded_len": 9648,
+  "c1_text_chars": 35
+ },
+ {
+  "job_id": "6307860410728448",
+  "ts": "20190303095023",
+  "url": "https://careers.google.com/jobs/results/6307860410728448-information-security-engineer/",
+  "origin": "new_untried",
+  "c1_wire_bytes": null,
+  "c1_decoded_len": null,
+  "c1_text_chars": null
+ },
+ {
+  "job_id": "97234465190748870",
+  "ts": "20201110043835",
+  "url": "https://careers.google.com/jobs/results/97234465190748870-security-specialist/?src=Online/Social/Googler_share&utm_campaign=Googler_share&utm_medium=Social&utm_source=online",
+  "origin": "new_untried",
+  "c1_wire_bytes": null,
+  "c1_decoded_len": null,
+  "c1_text_chars": null
+ },
+ {
+  "job_id": "120144492419261126",
+  "ts": "20210222230816",
+  "url": "https://careers.google.com/jobs/results/120144492419261126-security-engineer-information-security-and-privacy-incident-response/?hl=en_US&jlo=en_US&q=Privacy",
+  "origin": "new_untried",
+  "c1_wire_bytes": null,
+  "c1_decoded_len": null,
+  "c1_text_chars": null
+ },
+ {
+  "job_id": "121584673814913734",
+  "ts": "20221201210326",
+  "url": "https://careers.google.com/jobs/results/121584673814913734-information-security-engineer-waze/",
+  "origin": "new_untried",
+  "c1_wire_bytes": null,
+  "c1_decoded_len": null,
+  "c1_text_chars": null
+ },
+ {
+  "job_id": "115918607264686790",
+  "ts": "20220630192058",
+  "url": "https://careers.google.com/jobs/results/115918607264686790-security-engineer-vulnerability-management-programs-engineering/",
+  "origin": "new_untried",
+  "c1_wire_bytes": null,
+  "c1_decoded_len": null,
+  "c1_text_chars": null
+ }
+]
