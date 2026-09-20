@@ -1,0 +1,342 @@
+[
+ {
+  "job_id": "104653237904122566",
+  "theme": "sales_and_consulting",
+  "stored_ts": "20231216204528",
+  "latest_ts": "20250727040149",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/104653237904122566-security-sales-specialist-cloud-public-sector",
+  "gap_days": 589,
+  "span_days_all_new_captures": 589,
+  "n_new_captures": 5
+ },
+ {
+  "job_id": "115990305787781830",
+  "theme": "sales_and_consulting",
+  "stored_ts": "20231103180617",
+  "latest_ts": "20250416022211",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/115990305787781830-security-consultant-intern-bsms-summer-2024?_ga=1.248878913.757191645.1454522507&q=%22Security%20Engineer%22%0A%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB,",
+  "gap_days": 530,
+  "span_days_all_new_captures": 530,
+  "n_new_captures": 6
+ },
+ {
+  "job_id": "84478466012914374",
+  "theme": "other_security",
+  "stored_ts": "20231215182330",
+  "latest_ts": "20250724135103",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/84478466012914374-head-of-digital-customer-success-security-customer-outcomes",
+  "gap_days": 587,
+  "span_days_all_new_captures": 587,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "93128906493567686",
+  "theme": "threat_intel_and_response",
+  "stored_ts": "20231216095043",
+  "latest_ts": "20250727011655",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/93128906493567686-security-engineering-manager-malware-mandiant?has_remote=true",
+  "gap_days": 589,
+  "span_days_all_new_captures": 589,
+  "n_new_captures": 6
+ },
+ {
+  "job_id": "98651581534085830",
+  "theme": "security_engineering",
+  "stored_ts": "20231009131249",
+  "latest_ts": "20250218171019",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/98651581534085830-security-engineer-intern-2024",
+  "gap_days": 498,
+  "span_days_all_new_captures": 498,
+  "n_new_captures": 2
+ },
+ {
+  "job_id": "101435338655703750",
+  "theme": "security_engineering",
+  "stored_ts": "20240609073042",
+  "latest_ts": "20250723112621",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/101435338655703750-cloud-security-architect-mandiant-cloud-and-infrastructure",
+  "gap_days": 409,
+  "span_days_all_new_captures": 409,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "103788214350684870",
+  "theme": "other_security",
+  "stored_ts": "20240523060542",
+  "latest_ts": "20250723144915",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/103788214350684870-general-manager-cybersecurity-google-public-sector",
+  "gap_days": 426,
+  "span_days_all_new_captures": 426,
+  "n_new_captures": 3
+ },
+ {
+  "job_id": "108179638217253574",
+  "theme": "security_engineering",
+  "stored_ts": "20240131010613",
+  "latest_ts": "20250122003935",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/108179638217253574-security-operations-engineering-manager",
+  "gap_days": 357,
+  "span_days_all_new_captures": 357,
+  "n_new_captures": 2
+ },
+ {
+  "job_id": "109244784341590726",
+  "theme": "sales_and_consulting",
+  "stored_ts": "20240821115707",
+  "latest_ts": "20250723015435",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/109244784341590726-strategic-security-consultant-mandiant-google-cloud?has_remote=true&page=2",
+  "gap_days": 336,
+  "span_days_all_new_captures": 336,
+  "n_new_captures": 7
+ },
+ {
+  "job_id": "114666832257786566",
+  "theme": "threat_intel_and_response",
+  "stored_ts": "20240914022646",
+  "latest_ts": "20250723015355",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/114666832257786566-senior-red-team-security-consultant-mandiant-google-cloud",
+  "gap_days": 312,
+  "span_days_all_new_captures": 312,
+  "n_new_captures": 5
+ },
+ {
+  "job_id": "117334491206165190",
+  "theme": "threat_intel_and_response",
+  "stored_ts": "20240919021150",
+  "latest_ts": "20250723015430",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/117334491206165190-associate-red-team-security-consultant-mandiant-google-cloud",
+  "gap_days": 307,
+  "span_days_all_new_captures": 307,
+  "n_new_captures": 6
+ },
+ {
+  "job_id": "117497528131166918",
+  "theme": "sales_and_consulting",
+  "stored_ts": "20241207144503",
+  "latest_ts": "20251009205854",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/117497528131166918-cybersecurity-delivery-lead-consultant-mandiant-google-cloud?ref=trueup&has_remote=true",
+  "gap_days": 306,
+  "span_days_all_new_captures": 306,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "118760731263804102",
+  "theme": "sales_and_consulting",
+  "stored_ts": "20240523061939",
+  "latest_ts": "20250723112632",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/118760731263804102-security-sales-specialist-google-public-sector?has_remote=true",
+  "gap_days": 426,
+  "span_days_all_new_captures": 426,
+  "n_new_captures": 3
+ },
+ {
+  "job_id": "119615475591062214",
+  "theme": "threat_intel_and_response",
+  "stored_ts": "20240919093917",
+  "latest_ts": "20250723015433",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/119615475591062214-senior-threat-analyst-strategic-intelligence-and-government-cloud?has_remote=true",
+  "gap_days": 307,
+  "span_days_all_new_captures": 307,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "125499115453719238",
+  "theme": "security_engineering",
+  "stored_ts": "20240821115233",
+  "latest_ts": "20250722210846",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/125499115453719238-cloud-security-platform-engineer-google-public-sector?has_remote=true&location=Addison%2C%20TX%2C%20USA",
+  "gap_days": 335,
+  "span_days_all_new_captures": 335,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "126802944440836806",
+  "theme": "other_security",
+  "stored_ts": "20240211064150",
+  "latest_ts": "20250722201029",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/126802944440836806-cyber-defense-analyst-mandiant-google-cloud?has_remote=true&location=United%20States",
+  "gap_days": 527,
+  "span_days_all_new_captures": 527,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "128122647163609798",
+  "theme": "other_security",
+  "stored_ts": "20240326140831",
+  "latest_ts": "20250728150807",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/128122647163609798-strategic-services-function-manager-cyber-security?has_remote=true",
+  "gap_days": 489,
+  "span_days_all_new_captures": 489,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "129034052182123206",
+  "theme": "threat_intel_and_response",
+  "stored_ts": "20241003132714",
+  "latest_ts": "20250723015431",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/129034052182123206-incident-response-security-consultant-mandiant-google-public-sector",
+  "gap_days": 293,
+  "span_days_all_new_captures": 293,
+  "n_new_captures": 3
+ },
+ {
+  "job_id": "133245967225758406",
+  "theme": "security_engineering",
+  "stored_ts": "20240609063652",
+  "latest_ts": "20250723112630",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/133245967225758406-staff-security-engineer?has_remote=true",
+  "gap_days": 409,
+  "span_days_all_new_captures": 409,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "139203733117379270",
+  "theme": "other_security",
+  "stored_ts": "20240323154940",
+  "latest_ts": "20250725045916",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/139203733117379270-cyber-security-instructor-mandiant-google-cloud",
+  "gap_days": 489,
+  "span_days_all_new_captures": 489,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "142594657786700486",
+  "theme": "sales_and_consulting",
+  "stored_ts": "20240821115017",
+  "latest_ts": "20250722210804",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/142594657786700486-security-engineer-consultant-mandiant",
+  "gap_days": 335,
+  "span_days_all_new_captures": 335,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "76335261478200006",
+  "theme": "sales_and_consulting",
+  "stored_ts": "20240609073042",
+  "latest_ts": "20250723112655",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/76335261478200006-partner-engineer-security-google-cloud?has_remote=true&page=2",
+  "gap_days": 409,
+  "span_days_all_new_captures": 409,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "78048771430064838",
+  "theme": "security_engineering",
+  "stored_ts": "20240609073059",
+  "latest_ts": "20250723112834",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/78048771430064838-staff-software-developer-chat-platform-infrastructure-and-security",
+  "gap_days": 409,
+  "span_days_all_new_captures": 409,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "78119957895750342",
+  "theme": "sales_and_consulting",
+  "stored_ts": "20240821115853",
+  "latest_ts": "20250722211007",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/78119957895750342-cybersecurity-delivery-manager-consultant-mandiant-google-cloud?has_remote=true&location=Addison%2C%20TX%2C%20USA",
+  "gap_days": 335,
+  "span_days_all_new_captures": 335,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "78715231236170438",
+  "theme": "other_security",
+  "stored_ts": "20240821115125",
+  "latest_ts": "20250722210805",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/78715231236170438-cloud-security-platform-analyst-google-public-sector?has_remote=true&location=Addison%2C%20TX%2C%20USA",
+  "gap_days": 335,
+  "span_days_all_new_captures": 335,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "80428128450552518",
+  "theme": "other_security",
+  "stored_ts": "20241212103309",
+  "latest_ts": "20251011110955",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/80428128450552518-technical-program-manager-iii-security-google-cloud?location=Toronto,%20ON,%20Canada",
+  "gap_days": 303,
+  "span_days_all_new_captures": 303,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "80766167636943558",
+  "theme": "threat_intel_and_response",
+  "stored_ts": "20240211064158",
+  "latest_ts": "20250722200943",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/80766167636943558-incident-response-consultant-mandiant-google-cloud",
+  "gap_days": 527,
+  "span_days_all_new_captures": 527,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "85794657230824134",
+  "theme": "sales_and_consulting",
+  "stored_ts": "20240211070356",
+  "latest_ts": "20250722200909",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/85794657230824134-security-sales-specialist-google-cloud?has_remote=true&location=United%20States",
+  "gap_days": 527,
+  "span_days_all_new_captures": 527,
+  "n_new_captures": 3
+ },
+ {
+  "job_id": "87081614760125126",
+  "theme": "physical_corporate_security",
+  "stored_ts": "20241204062229",
+  "latest_ts": "20250810154400",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/87081614760125126-data-center-security-manager-technical-infrastructure",
+  "gap_days": 249,
+  "span_days_all_new_captures": 249,
+  "n_new_captures": 2
+ },
+ {
+  "job_id": "87141952635445958",
+  "theme": "threat_intel_and_response",
+  "stored_ts": "20240211070404",
+  "latest_ts": "20250722200927",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/87141952635445958-technical-threat-intelligence-analyst-industrial-control-systems",
+  "gap_days": 527,
+  "span_days_all_new_captures": 527,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "93673789297959622",
+  "theme": "sales_and_consulting",
+  "stored_ts": "20240312011040",
+  "latest_ts": "20250727225609",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/93673789297959622-security-consultant-mandiant-google-cloud",
+  "gap_days": 502,
+  "span_days_all_new_captures": 502,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "94964760843297478",
+  "theme": "threat_intel_and_response",
+  "stored_ts": "20240821115443",
+  "latest_ts": "20250722210845",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/94964760843297478-cyber-defense-detection-engineer-mandiant-google-cloud",
+  "gap_days": 335,
+  "span_days_all_new_captures": 335,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "97575005541278406",
+  "theme": "security_engineering",
+  "stored_ts": "20240821114112",
+  "latest_ts": "20250722210930",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/97575005541278406-tech-lead-product-security-engineering",
+  "gap_days": 335,
+  "span_days_all_new_captures": 335,
+  "n_new_captures": 4
+ },
+ {
+  "job_id": "109000573054788294",
+  "theme": "threat_intel_and_response",
+  "stored_ts": "20250822150055",
+  "latest_ts": "20260303190534",
+  "latest_url": "https://www.google.com/about/careers/applications/jobs/results/109000573054788294-incident-response-consultant-cyber-security-english-japanese?q=Incident+Response+Consultant",
+  "gap_days": 193,
+  "span_days_all_new_captures": 193,
+  "n_new_captures": 5
+ }
+]
