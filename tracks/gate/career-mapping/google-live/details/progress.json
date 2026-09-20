@@ -1,15 +1,15 @@
 {
- "updated": "2026-09-20T16:04:04+05:30",
- "status": "RUNNING",
+ "updated": "2026-09-20T16:30:37+05:30",
+ "status": "BATCH_DONE",
  "note": "",
  "roles_total": 170,
  "roles_with_url": 169,
  "no_id_skipped": 1,
- "done": 148,
+ "done": 169,
  "failed": 0,
- "pending": 21,
+ "pending": 0,
  "this_run": {
-  "done": 22,
+  "done": 43,
   "of": 43
  }
 }
