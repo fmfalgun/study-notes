@@ -1,0 +1,26 @@
+2026-09-20T00:19:08+05:30 ledgered old-only (no requests): {'status': 'complete', 'stored': 0, 'ledgered': {'parse_failed': 5, 'old_spa_shell': 321}, 'remaining': 0, 'total_targets': 321, 'requests': 0}
+2026-09-20T00:19:08+05:30 start; stored 22 remaining 535
+2026-09-20T00:56:36+05:30 chunk {'status': 'complete', 'stored': 20, 'ledgered': {'old_spa_shell': 321, 'parse_failed': 5, 'search_fallback_page': 5}, 'remaining': 0, 'total_targets': 25, 'requests': 28}
+2026-09-20T01:38:16+05:30 chunk {'status': 'complete', 'stored': 22, 'ledgered': {'old_spa_shell': 321, 'parse_failed': 5, 'search_fallback_page': 7, 'http_404': 1}, 'remaining': 0, 'total_targets': 25, 'requests': 26}
+2026-09-20T02:25:35+05:30 chunk {'status': 'complete', 'stored': 17, 'ledgered': {'old_spa_shell': 321, 'parse_failed': 5, 'search_fallback_page': 15, 'http_404': 1}, 'remaining': 0, 'total_targets': 25, 'requests': 31}
+2026-09-20T03:14:43+05:30 chunk {'status': 'complete', 'stored': 15, 'ledgered': {'old_spa_shell': 321, 'search_fallback_page': 25, 'parse_failed': 5, 'http_404': 1}, 'remaining': 0, 'total_targets': 25, 'requests': 32}
+2026-09-20T03:58:10+05:30 chunk {'status': 'complete', 'stored': 20, 'ledgered': {'old_spa_shell': 321, 'search_fallback_page': 29, 'parse_failed': 6, 'http_404': 1}, 'remaining': 0, 'total_targets': 25, 'requests': 29}
+2026-09-20T04:40:02+05:30 chunk {'status': 'complete', 'stored': 21, 'ledgered': {'old_spa_shell': 321, 'search_fallback_page': 33, 'parse_failed': 6, 'http_404': 1}, 'remaining': 0, 'total_targets': 25, 'requests': 28}
+2026-09-20T05:28:23+05:30 chunk {'status': 'complete', 'stored': 17, 'ledgered': {'search_fallback_page': 41, 'old_spa_shell': 321, 'parse_failed': 6, 'http_404': 1}, 'remaining': 0, 'total_targets': 25, 'requests': 32}
+2026-09-20T06:06:48+05:30 chunk {'status': 'complete', 'stored': 22, 'ledgered': {'search_fallback_page': 44, 'old_spa_shell': 321, 'parse_failed': 6, 'http_404': 1}, 'remaining': 0, 'total_targets': 25, 'requests': 26}
+2026-09-20T07:03:44+05:30 chunk {'status': 'complete', 'stored': 20, 'ledgered': {'search_fallback_page': 49, 'old_spa_shell': 321, 'parse_failed': 6, 'http_404': 1}, 'remaining': 0, 'total_targets': 25, 'requests': 32}
+2026-09-20T08:17:22+05:30 chunk {'status': 'paused_throttled', 'stored': 0, 'ledgered': {'search_fallback_page': 50, 'old_spa_shell': 321, 'parse_failed': 6, 'http_404': 1}, 'remaining': 24, 'total_targets': 25, 'requests': 2}
+2026-09-20T10:02:27+05:30 chunk {'status': 'complete', 'stored': 14, 'ledgered': {'search_fallback_page': 61, 'old_spa_shell': 321, 'parse_failed': 6, 'http_404': 1}, 'remaining': 0, 'total_targets': 25, 'requests': 32}
+2026-09-20T10:50:33+05:30 chunk {'status': 'complete', 'stored': 20, 'ledgered': {'search_fallback_page': 66, 'old_spa_shell': 321, 'parse_failed': 6, 'http_404': 1}, 'remaining': 0, 'total_targets': 25, 'requests': 31}
+2026-09-20T11:38:05+05:30 chunk {'status': 'complete', 'stored': 16, 'ledgered': {'search_fallback_page': 75, 'old_spa_shell': 321, 'parse_failed': 6, 'http_404': 1}, 'remaining': 0, 'total_targets': 25, 'requests': 27}
+2026-09-20T12:27:58+05:30 chunk {'status': 'complete', 'stored': 12, 'ledgered': {'search_fallback_page': 87, 'old_spa_shell': 321, 'parse_failed': 6, 'http_404': 2}, 'remaining': 0, 'total_targets': 25, 'requests': 32}
+2026-09-20T13:15:52+05:30 chunk {'status': 'complete', 'stored': 17, 'ledgered': {'search_fallback_page': 95, 'old_spa_shell': 321, 'http_404': 2, 'parse_failed': 6}, 'remaining': 0, 'total_targets': 25, 'requests': 32}
+2026-09-20T14:01:50+05:30 chunk {'status': 'complete', 'stored': 18, 'ledgered': {'search_fallback_page': 102, 'old_spa_shell': 321, 'http_404': 2, 'parse_failed': 6}, 'remaining': 0, 'total_targets': 25, 'requests': 26}
+2026-09-20T15:26:01+05:30 chunk {'status': 'complete', 'stored': 17, 'ledgered': {'search_fallback_page': 110, 'old_spa_shell': 321, 'http_404': 2, 'parse_failed': 6}, 'remaining': 0, 'total_targets': 25, 'requests': 28}
+2026-09-20T16:19:24+05:30 chunk {'status': 'complete', 'stored': 19, 'ledgered': {'search_fallback_page': 115, 'old_spa_shell': 321, 'http_404': 3, 'parse_failed': 6}, 'remaining': 0, 'total_targets': 25, 'requests': 29}
+2026-09-20T17:11:07+05:30 chunk {'status': 'complete', 'stored': 18, 'ledgered': {'search_fallback_page': 122, 'old_spa_shell': 321, 'http_404': 3, 'parse_failed': 6}, 'remaining': 0, 'total_targets': 25, 'requests': 32}
+2026-09-20T18:04:15+05:30 chunk {'status': 'complete', 'stored': 20, 'ledgered': {'search_fallback_page': 127, 'old_spa_shell': 321, 'http_404': 3, 'parse_failed': 6}, 'remaining': 0, 'total_targets': 25, 'requests': 28}
+2026-09-20T18:55:48+05:30 chunk {'status': 'complete', 'stored': 17, 'ledgered': {'search_fallback_page': 135, 'old_spa_shell': 321, 'http_404': 3, 'parse_failed': 6}, 'remaining': 0, 'total_targets': 25, 'requests': 28}
+2026-09-20T20:23:32+05:30 chunk {'status': 'complete', 'stored': 18, 'ledgered': {'search_fallback_page': 140, 'old_spa_shell': 321, 'http_404': 5, 'parse_failed': 6}, 'remaining': 0, 'total_targets': 25, 'requests': 30}
+2026-09-20T20:47:23+05:30 chunk {'status': 'complete', 'stored': 7, 'ledgered': {'search_fallback_page': 142, 'old_spa_shell': 321, 'http_404': 5, 'parse_failed': 6}, 'remaining': 0, 'total_targets': 9, 'requests': 9}
+2026-09-20T20:47:25+05:30 MAIN RUN DONE
