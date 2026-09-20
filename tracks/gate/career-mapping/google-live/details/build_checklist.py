@@ -29,7 +29,7 @@ LEX = {
   "Malware analysis / reverse engineering": r"malware|reverse engineer\w*",
   "Penetration testing / red team / offensive": r"penetration test\w*|pen ?test\w*|red team\w*|offensive security|adversar\w+ (?:simulation|emulation)|exploit\w*",
   "Vulnerability research / management": r"vulnerabilit\w+|fuzzing|bug bount\w+",
-  "Threat intelligence": r"threat intel\w*|cyber threat|threat actors?|apt\b",
+  "Threat intelligence": r"threat intel\w*|cyber threat|threat actors?|\bapts?\b",
   "Detection engineering / SIEM / SOAR / SOC": r"detection engineering|\bsiem\b|\bsoar\b|\bsoc\b|security operations|detection and response|threat detection",
   "Application security / secure code review": r"application security|appsec|secure code|code review|owasp|web application",
   "Cloud security": r"cloud security|cloud (?:infrastructure|platform)s?|cloud computing|cloud environments?",
@@ -47,7 +47,7 @@ LEX = {
   "Python": r"\bpython\b",
   "Java (not JavaScript)": r"\bjava\b(?!script)",
   "C++ / C/C++": r"c\+\+|\bc/c\+\+",
-  "Go": r"\bgolang\b|(?:python|java|c\+\+|rust|javascript|bash)[^.\n]{0,40}\bGo\b|\bGo\b[^.\n]{0,30}(?:python|java|c\+\+|rust)",
+  "Go": r"\bgolang\b|(?-i:(?:Python|Java|C\+\+|Rust|Kotlin|JavaScript)[^.\n]{0,30}\bGo\b|\bGo\b[^.\n]{0,30}(?:Python|Java|C\+\+|Rust|Kotlin))",   # case-sensitive: "go" is an English word
   "JavaScript / TypeScript": r"javascript|typescript",
   "Rust": r"\brust\b",
   "SQL": r"\bsql\b",

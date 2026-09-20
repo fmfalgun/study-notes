@@ -1,0 +1,65 @@
+{
+ "n": 169,
+ "counts": {
+  "Data structures / algorithms": {
+   "roles_any": 20,
+   "in_minimum": 4
+  },
+  "Coding in general-purpose language": {
+   "roles_any": 86,
+   "in_minimum": 68
+  },
+  "C / C++ / systems languages (memory-level)": {
+   "roles_any": 37,
+   "in_minimum": 25
+  },
+  "Operating systems / kernel / Linux internals": {
+   "roles_any": 21,
+   "in_minimum": 8
+  },
+  "Networking (TCP/IP, DNS, protocols)": {
+   "roles_any": 56,
+   "in_minimum": 40
+  },
+  "Cryptography / PKI / TLS": {
+   "roles_any": 18,
+   "in_minimum": 3
+  },
+  "Databases / SQL": {
+   "roles_any": 17,
+   "in_minimum": 10
+  },
+  "Compilers / program & static analysis / fuzzing": {
+   "roles_any": 7,
+   "in_minimum": 1
+  },
+  "Reverse engineering / assembly / exploitation": {
+   "roles_any": 29,
+   "in_minimum": 4
+  },
+  "Computer architecture / hardware / firmware / secure boot": {
+   "roles_any": 29,
+   "in_minimum": 11
+  },
+  "Distributed systems / concurrency / scale": {
+   "roles_any": 45,
+   "in_minimum": 10
+  },
+  "Math / statistics / probability": {
+   "roles_any": 9,
+   "in_minimum": 2
+  },
+  "Machine learning / AI": {
+   "roles_any": 63,
+   "in_minimum": 17
+  },
+  "Threat modeling / secure design": {
+   "roles_any": 54,
+   "in_minimum": 27
+  },
+  "Automata / regex / parsing": {
+   "roles_any": 1,
+   "in_minimum": 0
+  }
+ }
+}

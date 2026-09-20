@@ -37,8 +37,8 @@ Built by `details/build_checklist.py` from `details/roles/*.json` (sections coun
 | Identity and access management | 33 | 19.5% | 11 | 20 | 10 | security_engineering 20, sales_and_consulting 6, threat_intel_and_response 5 |
 | Malware analysis / reverse engineering | 33 | 19.5% | 16 | 15 | 15 | threat_intel_and_response 23, security_engineering 6, sales_and_consulting 4 |
 | Application security / secure code review | 31 | 18.3% | 15 | 16 | 13 | security_engineering 11, threat_intel_and_response 11, sales_and_consulting 5 |
-| Threat intelligence | 30 | 17.8% | 6 | 10 | 22 | threat_intel_and_response 14, security_engineering 8, sales_and_consulting 4 |
 | Privacy / data protection | 27 | 16.0% | 11 | 8 | 14 | security_engineering 11, other_security 7, threat_intel_and_response 6 |
+| Threat intelligence | 25 | 14.8% | 6 | 10 | 16 | threat_intel_and_response 14, sales_and_consulting 4, other_security 4 |
 | Cryptography | 17 | 10.1% | 3 | 14 | 1 | security_engineering 11, sales_and_consulting 4, threat_intel_and_response 2 |
 | Trust and safety / abuse | 11 | 6.5% | 2 | 7 | 6 | security_engineering 4, threat_intel_and_response 3, sales_and_consulting 3 |
 

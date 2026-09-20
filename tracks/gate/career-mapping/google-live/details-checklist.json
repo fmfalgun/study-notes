@@ -309,16 +309,16 @@
    {
     "item": "Threat intelligence",
     "group": "COMMON",
-    "roles_any": 30,
-    "pct_any": 17.8,
+    "roles_any": 25,
+    "pct_any": 14.8,
     "in_minimum": 6,
     "in_preferred": 10,
-    "in_responsibilities": 22,
+    "in_responsibilities": 16,
     "themes": {
      "threat_intel_and_response": 14,
-     "security_engineering": 8,
      "sales_and_consulting": 4,
-     "other_security": 4
+     "other_security": 4,
+     "security_engineering": 3
     },
     "example_roles": []
    },
