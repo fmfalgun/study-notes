@@ -1,0 +1,42 @@
+{
+ "checked_at_utc": "2026-09-19T21:28:18+00:00",
+ "total_pages_security": 71,
+ "pages": {
+  "20": {
+   "listings": 20,
+   "tagged": 0,
+   "tagged_titles": [],
+   "new_roles": 0
+  },
+  "35": {
+   "listings": 20,
+   "tagged": 0,
+   "tagged_titles": [],
+   "new_roles": 0
+  },
+  "50": {
+   "listings": 20,
+   "tagged": 0,
+   "tagged_titles": [],
+   "new_roles": 0
+  },
+  "65": {
+   "listings": 20,
+   "tagged": 0,
+   "tagged_titles": [],
+   "new_roles": 0
+  },
+  "71": {
+   "listings": 3,
+   "tagged": 0,
+   "tagged_titles": [],
+   "new_roles": 0
+  }
+ },
+ "roles_before_deep": 178,
+ "stop_rule_safe": true,
+ "rewalk": {},
+ "roles_before": 178,
+ "roles_after": 178,
+ "roles_added": 0
+}

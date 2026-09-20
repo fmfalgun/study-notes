@@ -1,0 +1,90 @@
+{
+ "done_terms": [
+  "security",
+  "cybersecurity",
+  "threat",
+  "incident response",
+  "vulnerability",
+  "malware",
+  "red team",
+  "penetration testing",
+  "detection",
+  "cryptography"
+ ],
+ "term_stats": {
+  "security": {
+   "pages": 13,
+   "jobs_matched": 1409,
+   "new_roles": 164,
+   "tagged_titles_seen": 165,
+   "stop_reason": "zero security-tagged titles on page 13"
+  },
+  "cybersecurity": {
+   "pages": 10,
+   "jobs_matched": 235,
+   "new_roles": 10,
+   "tagged_titles_seen": 105,
+   "stop_reason": "zero security-tagged titles on page 10"
+  },
+  "threat": {
+   "pages": 9,
+   "jobs_matched": 163,
+   "new_roles": 4,
+   "tagged_titles_seen": 100,
+   "stop_reason": "zero security-tagged titles on page 9"
+  },
+  "incident response": {
+   "pages": 6,
+   "jobs_matched": 721,
+   "new_roles": 0,
+   "tagged_titles_seen": 57,
+   "stop_reason": "zero security-tagged titles on page 6"
+  },
+  "vulnerability": {
+   "pages": 3,
+   "jobs_matched": 49,
+   "new_roles": 0,
+   "tagged_titles_seen": 34,
+   "stop_reason": "reached last page (3 pages)"
+  },
+  "malware": {
+   "pages": 3,
+   "jobs_matched": 59,
+   "new_roles": 0,
+   "tagged_titles_seen": 27,
+   "stop_reason": "reached last page (3 pages)"
+  },
+  "red team": {
+   "pages": 2,
+   "jobs_matched": 33,
+   "new_roles": 0,
+   "tagged_titles_seen": 16,
+   "stop_reason": "reached last page (2 pages)"
+  },
+  "penetration testing": {
+   "pages": 10,
+   "jobs_matched": 182,
+   "new_roles": 0,
+   "tagged_titles_seen": 62,
+   "stop_reason": "zero security-tagged titles on page 10"
+  },
+  "detection": {
+   "pages": 11,
+   "jobs_matched": 851,
+   "new_roles": 0,
+   "tagged_titles_seen": 63,
+   "stop_reason": "zero security-tagged titles on page 11"
+  },
+  "cryptography": {
+   "pages": 4,
+   "jobs_matched": 950,
+   "new_roles": 0,
+   "tagged_titles_seen": 17,
+   "stop_reason": "zero security-tagged titles on page 4"
+  }
+ },
+ "cur_term": null,
+ "next_page": 1,
+ "phase2_done": true,
+ "probe_after_pause": false
+}
