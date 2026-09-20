@@ -88,8 +88,19 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--count", type=int, default=20)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--fast", action="store_true",
+                    help="user-approved 2026-09-20: start-to-start 40-56 s (about 2 h for 149 roles), <=80 loads/h; drops back to the slow 180-360 s / 12 per h rules "
+                         "for the rest of the run at the FIRST throttle, block or empty/unparsed response")
     args = ap.parse_args()
     ROLES.mkdir(parents=True, exist_ok=True)
+    slow = {"on": not args.fast}
+
+    def set_pace():
+        if slow["on"]:
+            cl.MIN_GAP, cl.MAX_GAP, cl.HOURLY_CAP, gap = 180, 360, 12, 180
+        else:
+            cl.MIN_GAP, cl.MAX_GAP, cl.HOURLY_CAP, gap = 40, 56, 80, 40
+        return gap
     seq, _ = order()
     done, failed = state()
     todo = [r for r in seq if r["job_id"] not in done and r["job_id"] not in failed][:args.count]
@@ -107,7 +118,7 @@ def main():
             log("STOP file"); progress("STOPPED", batch_done=ok_count, batch_size=len(todo)); return
         waits = 0
         while True:
-            res = cl.live_load(role["url"], "detail", 0, kind="detail", follow_links=0, scan_page_text=False)
+            res = cl.live_load(role["url"], "detail", 0, kind="detail", follow_links=0, scan_page_text=False, min_gap=set_pace())
             if res.get("offline"):
                 waits += 1
                 log("offline", res["marker"], "wait", waits)
@@ -136,6 +147,9 @@ def main():
         else:
             reason = "blocked_or_throttled" if (entry["blocked"] or entry["throttled"]) else "no_description_parsed"
             fail(role["job_id"], reason, {"page_text_chars": len(text), "error": entry["error"], "raw_file": res.get("raw_file")})
+            if not slow["on"]:
+                slow["on"] = True
+                log("FAST MODE OFF: bad/empty response -> slow rules (180-360 s, 12/h) for the rest of this run")
             log(f"[{i+1}/{len(todo)}] FAILED {role['job_id']} {reason} text_chars={len(text)}")
             if len(text) < 2000 and any(m in text.lower() for m in cl.BLOCK_MARKERS):
                 s = cl.load_state(); s["paused_until"] = time.time() + cl.BLOCK_PAUSE; cl.save_state(s)
