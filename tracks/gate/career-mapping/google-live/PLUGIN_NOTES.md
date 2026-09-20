@@ -1,4 +1,4 @@
-# PLUGIN_NOTES: google_live (UNREGISTERED draft, for the user's review)
+# PLUGIN_NOTES: google_live (REGISTERED 21 Sep 2026 after the user's review: state saved after every page, 3-term default accepted; full suite 544 passed)
 
 Files (web-scrap, uncommitted): `plugins/job_search/google_live.py`, `tests/test_google_live.py` (24 tests, no network,
 run only that file: `.venv/bin/python3 -m pytest tests/test_google_live.py -q`).

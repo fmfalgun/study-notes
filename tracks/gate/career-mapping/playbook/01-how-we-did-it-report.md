@@ -52,7 +52,7 @@ Location: `../no-github-remote/web-scrap` (Python, venv at `.venv`). Captured da
 | | `wayback_google_jobs.py` | Posting URLs -> job id + title slug -> year-by-year security shares |
 | | `wayback_google_ai.py` | Strict AI classification with a versioned rule set |
 | | `wayback_google_details.py` | Parse description pages; resumable download into shards + ledger |
-| | `google_live.py` | Slow live search crawl (currently **written and tested but not registered**, awaiting your review) |
+| | `google_live.py` | Slow live search crawl (registered 21 Sep 2026 as `google_live_security_roles`; state saved after every page; 3-term default) |
 | Helpers kept in the notes tree | `google-live/crawl_lib.py`, `details_download.py`, `build_checklist.py`; `google-jd/c3_download.py`, `c4_years.py`; `google-ai/c4_generate.py` | Worker scripts (pacing, batching, analysis) |
 
 Operations are registered in `plugins/job_search/__init__.py` as `REGISTRY[name] = {"kind": "scrape"|"analyze", "run": fn, "timeout": s}`.
