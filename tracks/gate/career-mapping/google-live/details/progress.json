@@ -1,0 +1,15 @@
+{
+ "updated": "2026-09-20T07:40:18+05:30",
+ "status": "BATCH_DONE",
+ "note": "",
+ "roles_total": 170,
+ "roles_with_url": 169,
+ "no_id_skipped": 1,
+ "done": 20,
+ "failed": 0,
+ "pending": 149,
+ "this_run": {
+  "done": 20,
+  "of": 20
+ }
+}
