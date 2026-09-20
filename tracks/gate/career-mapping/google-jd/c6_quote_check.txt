@@ -1,0 +1,2 @@
+google-security-jd-trends.md: 9 quotes verified verbatim against stored shard text (<=25 words, right job_id and theme); problems: none
+numbers: every numeric token appears literally in the allowed source files (findings/2023-2026.md, c5_drift.md, c5_method.md, google-wayback-analysis.md, google-live/details-checklist.md), except 409 = 26+100+194+89 and list numbers
