@@ -1,0 +1,637 @@
+{
+ "borderline": [
+  {
+   "id": "102312238991188678",
+   "year": "2025",
+   "title": "Android Studio Engineer AI Benchmark Tooling"
+  },
+  {
+   "id": "102875600573604550",
+   "year": "2024",
+   "title": "Staff Software Developer Front End Applied AI"
+  },
+  {
+   "id": "103415109820261062",
+   "year": "2025",
+   "title": "Product Policy Specialist Generative AI"
+  },
+  {
+   "id": "103521244988482246",
+   "year": "2024",
+   "title": "Software Engineer Fullstack Conversational AI Learnx"
+  },
+  {
+   "id": "103939834631856838",
+   "year": "2025",
+   "title": "Operations Manager GENAI Trust And Safety Youtube"
+  },
+  {
+   "id": "104619659705098950",
+   "year": "2025",
+   "title": "Vendor Operations Manager GENAI"
+  },
+  {
+   "id": "106449491866854086",
+   "year": "2025",
+   "title": "Aiml Research Practice Principal Executive Recruiting"
+  },
+  {
+   "id": "106735438139400902",
+   "year": "2026",
+   "title": "Product Marketing Manager Retail Ads Agentic Commerce"
+  },
+  {
+   "id": "110103223229915846",
+   "year": "2025",
+   "title": "Senior Staff UX Design Manager GENAI Creation Youtube"
+  },
+  {
+   "id": "110638522183885510",
+   "year": "2025",
+   "title": "Senior Policy Specialist Product And Generative AI Solutions"
+  },
+  {
+   "id": "110890348581921478",
+   "year": "2024",
+   "title": "UX Designer Core Machine Learning"
+  },
+  {
+   "id": "111036121158165190",
+   "year": "2023",
+   "title": "Business And Marketing Data Scientist Applied Machine Learning"
+  },
+  {
+   "id": "111674623663186630",
+   "year": "2023",
+   "title": "Senior Product Marketing Manager Generative AI Youtube"
+  },
+  {
+   "id": "112361447240934086",
+   "year": "2025",
+   "title": "Data Center Operations Manager Machine Learning Travel"
+  },
+  {
+   "id": "114757743713100486",
+   "year": "2025",
+   "title": "UX Lead Youtube GENAI Lab"
+  },
+  {
+   "id": "117166641082442438",
+   "year": "2025",
+   "title": "Senior Software Engineer Front End Google Cloud AI"
+  },
+  {
+   "id": "121682393269445318",
+   "year": "2024",
+   "title": "Generative AI Product Marketing Manager Search Marketing"
+  },
+  {
+   "id": "123261096864686790",
+   "year": "2025",
+   "title": "Escalations Analyst Search And Generative AI"
+  },
+  {
+   "id": "126734308336378566",
+   "year": "2025",
+   "title": "Senior Technical Program Manager Marketing Engineering Aiml"
+  },
+  {
+   "id": "129576716082258630",
+   "year": "2025",
+   "title": "Software Developer III Gemini Code Assist Full Stack"
+  },
+  {
+   "id": "134030950429270726",
+   "year": "2025",
+   "title": "Product Policy Lead Generative AI"
+  },
+  {
+   "id": "135752299367539398",
+   "year": "2026",
+   "title": "Interaction Designer Android AI Experiences"
+  },
+  {
+   "id": "136153304760492742",
+   "year": "2025",
+   "title": "Escalations Analyst Trust And Safety Search GENAI"
+  },
+  {
+   "id": "136532672192094918",
+   "year": "2024",
+   "title": "Software Developer III Front End Google Cloud AI"
+  },
+  {
+   "id": "137295691429880518",
+   "year": "2022",
+   "title": "Business And Marketing Data Scientist Applied Machine Learning"
+  },
+  {
+   "id": "137678762387874502",
+   "year": "2026",
+   "title": "Internal Communications Manager GENAI And Chief AI Architect"
+  },
+  {
+   "id": "139578907056579270",
+   "year": "2025",
+   "title": "GENAI Vendor Operations Manager"
+  },
+  {
+   "id": "74857643427930822",
+   "year": "2025",
+   "title": "Staff Software Engineer Gemini Enterprise Mobile&"
+  },
+  {
+   "id": "77297144714666694",
+   "year": "2022",
+   "title": "Technical Program Manager Finance Machine Learning"
+  },
+  {
+   "id": "79887840181134022",
+   "year": "2024",
+   "title": "Senior Software Engineer Full Stack Google Cloud AI"
+  },
+  {
+   "id": "82151235959825094",
+   "year": "2025",
+   "title": "Product Policy Lead GENAI"
+  },
+  {
+   "id": "82572771011240646",
+   "year": "2024",
+   "title": "Software Engineer III Full Stack Google Cloud AI"
+  },
+  {
+   "id": "83762152759796422",
+   "year": "2022",
+   "title": "Software Engineer III Front End Google Cloud Platform AI And Industry Solutions"
+  },
+  {
+   "id": "83839416251884230",
+   "year": "2024",
+   "title": "Architecture Technical Writer Aiml"
+  },
+  {
+   "id": "86295525870969542",
+   "year": "2025",
+   "title": "Software Engineer Chrome Web AI Platform"
+  },
+  {
+   "id": "90320768818127558",
+   "year": "2026",
+   "title": "Program Manager Aiml Finance Data And Analytics"
+  },
+  {
+   "id": "96178076253070022",
+   "year": "2025",
+   "title": "Software Engineer Android AI Core"
+  },
+  {
+   "id": "96754294752977606",
+   "year": "2025",
+   "title": "Staff Software Engineer Front End Gemini Cloud Assist"
+  },
+  {
+   "id": "97146474826998470",
+   "year": "2026",
+   "title": "Business And Marketing Data Scientist Applied Machine Learning"
+  },
+  {
+   "id": "99338225394295494",
+   "year": "2025",
+   "title": "Group Product Manager Compliance And Policy Generative AI"
+  }
+ ],
+ "domain_nonborderline": [
+  {
+   "id": "108089114626007750",
+   "year": "2021",
+   "title": "Communications Manager Health Artificial Intelligence"
+  },
+  {
+   "id": "141886930246607558",
+   "year": "2021",
+   "title": "Public Policy Manager Cloud AI And Industry Solutions"
+  },
+  {
+   "id": "83480531284435654",
+   "year": "2022",
+   "title": "UX Lead Responsible AI Scalable Tooling"
+  },
+  {
+   "id": "83904604418253510",
+   "year": "2022",
+   "title": "AI Google Cloud Consultant Telecommunications Professional Services"
+  },
+  {
+   "id": "91020698794762950",
+   "year": "2023",
+   "title": "Head Of AI And Emerging Tech Policy Government Affairs And Public Policy"
+  },
+  {
+   "id": "98289252059488966",
+   "year": "2024",
+   "title": "UX Researcher Google Cloud Applied AI"
+  },
+  {
+   "id": "136421537860199110",
+   "year": "2024",
+   "title": "AI Writer"
+  },
+  {
+   "id": "77826576565052102",
+   "year": "2024",
+   "title": "Senior Technical Writer Artificial Intelligence"
+  },
+  {
+   "id": "91162651513496262",
+   "year": "2024",
+   "title": "UX Researcher Google Cloud Conversational AI"
+  },
+  {
+   "id": "120722374176711366",
+   "year": "2025",
+   "title": "AI Policy Manager Government Affairs And Public Policy"
+  },
+  {
+   "id": "138942372009386694",
+   "year": "2025",
+   "title": "AI External Communications Manager"
+  },
+  {
+   "id": "136379661885022918",
+   "year": "2025",
+   "title": "Partner Operations Manager Users And Products Gemini"
+  },
+  {
+   "id": "110980297696125638",
+   "year": "2025",
+   "title": "Product Counsel Google Cloud AI"
+  },
+  {
+   "id": "139387456473440966",
+   "year": "2025",
+   "title": "Senior Software Development Manager AI Customer Support Integrations"
+  },
+  {
+   "id": "131339079676502726",
+   "year": "2025",
+   "title": "Regulatory Counsel Content And AI"
+  },
+  {
+   "id": "95526894199284422",
+   "year": "2026",
+   "title": "AI Ethics And Safety Policy Researcher Deepmind"
+  },
+  {
+   "id": "126805863162618566",
+   "year": "2026",
+   "title": "Senior Finance Manager AI Transformation Program"
+  },
+  {
+   "id": "139081920955720390",
+   "year": "2026",
+   "title": "Technical Writer AI Hardware"
+  }
+ ],
+ "work": [
+  {
+   "id": "95356913316700870",
+   "year": "2019",
+   "title": "Machine Learning Specialist Google Cloud Customer Engineering"
+  },
+  {
+   "id": "125032413551043270",
+   "year": "2019",
+   "title": "Machine Learning Software Engineer Google Health"
+  },
+  {
+   "id": "104611577665069766",
+   "year": "2019",
+   "title": "Senior Software Engineer Machine Learning"
+  },
+  {
+   "id": "125501319340270278",
+   "year": "2019",
+   "title": "Software Engineer Machine Learning"
+  },
+  {
+   "id": "80352218508600006",
+   "year": "2019",
+   "title": "Software Engineer Machine Learning"
+  },
+  {
+   "id": "143422536596497094",
+   "year": "2020",
+   "title": "Customer Engineer Artificial Intelligence Contact Center Cloud"
+  },
+  {
+   "id": "77356975324570310",
+   "year": "2020",
+   "title": "Research Scientist Google AI"
+  },
+  {
+   "id": "86819918550311622",
+   "year": "2020",
+   "title": "Technical Curriculum Developer Machine Learning Google Cloud"
+  },
+  {
+   "id": "114978277497414342",
+   "year": "2020",
+   "title": "Google AI Resident 2020 Start Fixed Term Employee"
+  },
+  {
+   "id": "105249386297991878",
+   "year": "2020",
+   "title": "Research Scientist Google AI"
+  },
+  {
+   "id": "74418774968541894",
+   "year": "2020",
+   "title": "Enterprise Aiml Technical Specialist Google Cloud"
+  },
+  {
+   "id": "97028961843716806",
+   "year": "2020",
+   "title": "Customer Engineer Machine Learning Google Cloud"
+  },
+  {
+   "id": "79668394086802118",
+   "year": "2021",
+   "title": "Developer Advocate Emerging AI Solutions"
+  },
+  {
+   "id": "106621576809456326",
+   "year": "2021",
+   "title": "Software Engineer Machine Learning"
+  },
+  {
+   "id": "133380468927013574",
+   "year": "2021",
+   "title": "Conversational AI Strategic Engineer Professional Services Google Cloud"
+  },
+  {
+   "id": "119617503253930694",
+   "year": "2021",
+   "title": "Vice President Product Management Machine Learning"
+  },
+  {
+   "id": "86234921216942790",
+   "year": "2021",
+   "title": "Software Engineer Machine Learning Search"
+  },
+  {
+   "id": "99888572523258566",
+   "year": "2021",
+   "title": "Customer Solutions Consultant Machine Learning Google Cloud"
+  },
+  {
+   "id": "83799700043375302",
+   "year": "2021",
+   "title": "Research Scientist Natural Language Processing"
+  },
+  {
+   "id": "84012042286965446",
+   "year": "2021",
+   "title": "Software Engineer Lll Computer Vision And Machine Learning"
+  },
+  {
+   "id": "78120125821002438",
+   "year": "2022",
+   "title": "Software Engineer III Machine Learning Research Google Research"
+  },
+  {
+   "id": "138681036327264966",
+   "year": "2022",
+   "title": "Software Engineer III Machine Learning Apparel Team"
+  },
+  {
+   "id": "116868738159911622",
+   "year": "2022",
+   "title": "Product Manager Machine Learning Trust And Safety Youtube"
+  },
+  {
+   "id": "115185941343019718",
+   "year": "2022",
+   "title": "Senior Staff Software Engineer Kubernetes ML Experience"
+  },
+  {
+   "id": "79558504521573062",
+   "year": "2022",
+   "title": "Software Engineer III Machine Learning Google Cloud Platforms"
+  },
+  {
+   "id": "88247418715284166",
+   "year": "2022",
+   "title": "Software Engineer III Machine Learning Core"
+  },
+  {
+   "id": "111882998548177606",
+   "year": "2022",
+   "title": "Program Manager Health AI Research"
+  },
+  {
+   "id": "87751397883159238",
+   "year": "2022",
+   "title": "Software Engineer III Machine Learning Google Research"
+  },
+  {
+   "id": "108337425366819526",
+   "year": "2023",
+   "title": "Customer Engineering Manager Aiml Google Cloud"
+  },
+  {
+   "id": "114200577161732806",
+   "year": "2023",
+   "title": "Senior Software Engineer Machine Learning Core"
+  },
+  {
+   "id": "87083165924893382",
+   "year": "2023",
+   "title": "Software Engineer III Machine Learning Google Research"
+  },
+  {
+   "id": "134333242267312838",
+   "year": "2023",
+   "title": "Staff Software Engineer Machine Learning Google Cloud Platform AI And Industry Solutions"
+  },
+  {
+   "id": "72888175598412486",
+   "year": "2023",
+   "title": "Research Scientist Conversational AI English"
+  },
+  {
+   "id": "143597892381090502",
+   "year": "2023",
+   "title": "Senior Software Engineer Machine Learning Bard"
+  },
+  {
+   "id": "106540995635487430",
+   "year": "2023",
+   "title": "Staff Software Developer Google Cloud Platform AI And Industry Solutions"
+  },
+  {
+   "id": "121127033741681350",
+   "year": "2023",
+   "title": "Group Product Manager Applied Research Solutions Machine Learning"
+  },
+  {
+   "id": "93242124488581830",
+   "year": "2024",
+   "title": "Software Engineer Google Cloud Infrastructure Tpu"
+  },
+  {
+   "id": "93764160308814534",
+   "year": "2024",
+   "title": "Software Engineer Machine Learning Google Ads"
+  },
+  {
+   "id": "114558814495089350",
+   "year": "2024",
+   "title": "Field Solutions Developer I Generative AI Google Cloud"
+  },
+  {
+   "id": "81768439030391494",
+   "year": "2024",
+   "title": "Staff Software Engineer Aiml Natural Language Processing Google Ads"
+  },
+  {
+   "id": "103082303760016070",
+   "year": "2024",
+   "title": "Research Scientist Gemini"
+  },
+  {
+   "id": "130946730028868294",
+   "year": "2024",
+   "title": "Software Engineer III Machine Learning Google Ads"
+  },
+  {
+   "id": "96492191202845382",
+   "year": "2024",
+   "title": "Senior Software Engineer Machine Learning Core"
+  },
+  {
+   "id": "82328078201561798",
+   "year": "2024",
+   "title": "Senior Software Engineer Machine Learning Gemini"
+  },
+  {
+   "id": "116548260817969862",
+   "year": "2025",
+   "title": "Group Product Manager AI And Advanced Analytics Bigquery"
+  },
+  {
+   "id": "91384801734337222",
+   "year": "2025",
+   "title": "Senior Software Engineer Aiml GENAI Youtube"
+  },
+  {
+   "id": "105959517165888198",
+   "year": "2025",
+   "title": "Senior Software Engineer AI Fitness Health Coach Fitbit"
+  },
+  {
+   "id": "89257523105669830",
+   "year": "2025",
+   "title": "Artificial Intelligence Sales Specialist III"
+  },
+  {
+   "id": "138468571305910982",
+   "year": "2025",
+   "title": "Distinguished Engineer Developer AI"
+  },
+  {
+   "id": "126800561965015750",
+   "year": "2025",
+   "title": "Gemini Specialist Higher Education"
+  },
+  {
+   "id": "81705141329109702",
+   "year": "2025",
+   "title": "Senior Staff Software Engineer Serverless AI"
+  },
+  {
+   "id": "117604080833962694",
+   "year": "2025",
+   "title": "Senior Software Engineer Infrastructure Google Cloud AI"
+  },
+  {
+   "id": "104598827637318342",
+   "year": "2026",
+   "title": "Principal Engineering Analyst Responsible AI Testing"
+  },
+  {
+   "id": "115945541212218054",
+   "year": "2026",
+   "title": "Software Engineer III Performance AI And Infrastructure"
+  },
+  {
+   "id": "126988379509138118",
+   "year": "2026",
+   "title": "Software Engineer Gdc AI Applications And Agents"
+  },
+  {
+   "id": "130317672968528582",
+   "year": "2026",
+   "title": "Software Engineer III Aiml Search Ads"
+  },
+  {
+   "id": "102736566257885894",
+   "year": "2026",
+   "title": "Software Engineer Xr Geometry ML"
+  },
+  {
+   "id": "101069594491265734",
+   "year": "2026",
+   "title": "AI Engineer Google Cloud Consulting"
+  },
+  {
+   "id": "113026970005971654",
+   "year": "2026",
+   "title": "Senior Research Scientist Google Cloud AI"
+  },
+  {
+   "id": "136468491338162886",
+   "year": "2026",
+   "title": "Software Engineer AI Quality And Benchmarks"
+  }
+ ],
+ "pools": {
+  "borderline": 40,
+  "domain_nonborderline": 64,
+  "work": 1281
+ },
+ "judgements": {
+  "rubric": "domain = function unrelated to AI expertise (marketing, comms, legal, policy/gov affairs, HR/recruiting, finance, design/UX/writing, ops/support/escalations/enforcement) OR generic front-end/full-stack/mobile/web engineering where AI is only a label; work = builds/researches/deploys/sells/consults/governs AI (incl. PM/TPM, AI GTM, AI ethics/safety research). Single judge = the rule's author, unblinded.",
+  "B_rule_wrong_should_be_work_idx": [
+   0,
+   11,
+   13,
+   24,
+   28,
+   34,
+   35,
+   36,
+   38,
+   39
+  ],
+  "B_marginal_kept_domain_idx": [
+   3,
+   18,
+   19,
+   27
+  ],
+  "D_rule_wrong_idx": [
+   3,
+   13,
+   15
+  ],
+  "D_wrong_due_to_regex_bug_idx": [
+   3
+  ],
+  "K_ambiguous_ai_is_team_label_idx": [
+   34,
+   51
+  ],
+  "K_clear_domain_miss_idx": []
+ }
+}

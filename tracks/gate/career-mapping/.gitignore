@@ -1,0 +1,5 @@
+__pycache__/
+.live.lock
+.commands_seen
+.cmd_mtime
+*.tmp

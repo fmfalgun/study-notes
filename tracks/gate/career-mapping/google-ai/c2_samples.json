@@ -1,0 +1,1658 @@
+{
+ "precision_sample": [
+  {
+   "id": "104611577665069766",
+   "year": "2019",
+   "title": "Senior Software Engineer Machine Learning",
+   "judgement": "Y"
+  },
+  {
+   "id": "125501319340270278",
+   "year": "2019",
+   "title": "Software Engineer Machine Learning",
+   "judgement": "Y"
+  },
+  {
+   "id": "95356913316700870",
+   "year": "2019",
+   "title": "Machine Learning Specialist Google Cloud Customer Engineering",
+   "judgement": "Y"
+  },
+  {
+   "id": "125032413551043270",
+   "year": "2019",
+   "title": "Machine Learning Software Engineer Google Health",
+   "judgement": "Y"
+  },
+  {
+   "id": "80352218508600006",
+   "year": "2019",
+   "title": "Software Engineer Machine Learning",
+   "judgement": "Y"
+  },
+  {
+   "id": "95393364066607814",
+   "year": "2020",
+   "title": "Computational Linguist Google Assistant Natural Language Understanding",
+   "judgement": "Y"
+  },
+  {
+   "id": "131071769256567494",
+   "year": "2020",
+   "title": "Sales Engineer Machine Learning Retail Google Cloud",
+   "judgement": "Y"
+  },
+  {
+   "id": "108354457575531206",
+   "year": "2020",
+   "title": "Staff Software Engineer Machine Learning Search And Assistant",
+   "judgement": "Y"
+  },
+  {
+   "id": "108931952603472582",
+   "year": "2020",
+   "title": "Staff Research Software Engineer Conversational Artificial Intelligence",
+   "judgement": "Y"
+  },
+  {
+   "id": "121779746376688326",
+   "year": "2020",
+   "title": "Senior Machine Learning Analyst",
+   "judgement": "Y"
+  },
+  {
+   "id": "86819918550311622",
+   "year": "2020",
+   "title": "Technical Curriculum Developer Machine Learning Google Cloud",
+   "judgement": "Y"
+  },
+  {
+   "id": "97028961843716806",
+   "year": "2020",
+   "title": "Customer Engineer Machine Learning Google Cloud",
+   "judgement": "Y"
+  },
+  {
+   "id": "105249386297991878",
+   "year": "2020",
+   "title": "Research Scientist Google AI",
+   "judgement": "Y"
+  },
+  {
+   "id": "120050893862118086",
+   "year": "2020",
+   "title": "Research Software Engineer Machine Learning",
+   "judgement": "Y"
+  },
+  {
+   "id": "143422536596497094",
+   "year": "2020",
+   "title": "Customer Engineer Artificial Intelligence Contact Center Cloud",
+   "judgement": "Y"
+  },
+  {
+   "id": "6731630733623296",
+   "year": "2020",
+   "title": "Software Engineer Youtube Machine Learning",
+   "judgement": "Y"
+  },
+  {
+   "id": "77356975324570310",
+   "year": "2020",
+   "title": "Research Scientist Google AI",
+   "judgement": "Y"
+  },
+  {
+   "id": "100398956237726406",
+   "year": "2021",
+   "title": "Asic Rtl Design Engineer Machine Learning Accelerators",
+   "judgement": "Y"
+  },
+  {
+   "id": "105267798977979078",
+   "year": "2021",
+   "title": "Machine Learning Performance Engineer",
+   "judgement": "Y"
+  },
+  {
+   "id": "89611579831526086",
+   "year": "2021",
+   "title": "Software Engineer Machine Learning",
+   "judgement": "Y"
+  },
+  {
+   "id": "88427693197927110",
+   "year": "2021",
+   "title": "AI Principles And Ethics Associate",
+   "judgement": "Y"
+  },
+  {
+   "id": "81398087982949062",
+   "year": "2021",
+   "title": "Director People AI Research",
+   "judgement": "Y"
+  },
+  {
+   "id": "86234921216942790",
+   "year": "2021",
+   "title": "Software Engineer Machine Learning Search",
+   "judgement": "Y"
+  },
+  {
+   "id": "122490584670577350",
+   "year": "2021",
+   "title": "Software Engineer Machine Learning Pixel Camera",
+   "judgement": "Y"
+  },
+  {
+   "id": "83282576556335814",
+   "year": "2021",
+   "title": "Software Engineer Machine Learning Robustness And Privacy Research",
+   "judgement": "Y"
+  },
+  {
+   "id": "103996643159745222",
+   "year": "2021",
+   "title": "Research Scientist Aiml Social Computing",
+   "judgement": "Y"
+  },
+  {
+   "id": "132293312980624070",
+   "year": "2021",
+   "title": "Head Of Health AI Business Development Google Health",
+   "judgement": "Y"
+  },
+  {
+   "id": "83344177288356550",
+   "year": "2021",
+   "title": "Strategic Cloud Engineer Machine Learning And Big Data",
+   "judgement": "Y"
+  },
+  {
+   "id": "89839598143709894",
+   "year": "2021",
+   "title": "Software Engineer Machine Learning Next Billion Users",
+   "judgement": "Y"
+  },
+  {
+   "id": "111882998548177606",
+   "year": "2022",
+   "title": "Program Manager Health AI Research",
+   "judgement": "Y"
+  },
+  {
+   "id": "83762152759796422",
+   "year": "2022",
+   "title": "Software Engineer III Front End Google Cloud Platform AI And Industry Solutions",
+   "judgement": "D"
+  },
+  {
+   "id": "109219532158968518",
+   "year": "2022",
+   "title": "Software Engineer III Machine Learning Ar",
+   "judgement": "Y"
+  },
+  {
+   "id": "128396177818165958",
+   "year": "2022",
+   "title": "Senior Software Engineer Embedded ML Augmented Reality Os",
+   "judgement": "Y"
+  },
+  {
+   "id": "136995771783226054",
+   "year": "2022",
+   "title": "Software Engineer Machine Learning Search",
+   "judgement": "Y"
+  },
+  {
+   "id": "107153818111615686",
+   "year": "2022",
+   "title": "Software Developer III Machine Learning Google Workspace",
+   "judgement": "Y"
+  },
+  {
+   "id": "89598359783776966",
+   "year": "2022",
+   "title": "Software Engineer III Machine Learning Pixel Camera",
+   "judgement": "Y"
+  },
+  {
+   "id": "106163608502575814",
+   "year": "2022",
+   "title": "Senior Software Engineer Machine Learning Search",
+   "judgement": "Y"
+  },
+  {
+   "id": "94442305101931206",
+   "year": "2022",
+   "title": "Software Engineer III Machine Learning Google Ads",
+   "judgement": "Y"
+  },
+  {
+   "id": "100206787094815430",
+   "year": "2022",
+   "title": "Senior Software Engineer Machine Learning Google Health",
+   "judgement": "Y"
+  },
+  {
+   "id": "100329722883252934",
+   "year": "2022",
+   "title": "Software Engineer Machine Learning Google Assistant",
+   "judgement": "Y"
+  },
+  {
+   "id": "97799231273607878",
+   "year": "2022",
+   "title": "Conversational AI Program Manager Google Cloud",
+   "judgement": "Y"
+  },
+  {
+   "id": "121127033741681350",
+   "year": "2023",
+   "title": "Group Product Manager Applied Research Solutions Machine Learning",
+   "judgement": "Y"
+  },
+  {
+   "id": "127053446495773382",
+   "year": "2023",
+   "title": "Software Engineer III Machine Learning Google Cloud Platform AI And Industry Solutions",
+   "judgement": "Y"
+  },
+  {
+   "id": "114200577161732806",
+   "year": "2023",
+   "title": "Senior Software Engineer Machine Learning Core",
+   "judgement": "Y"
+  },
+  {
+   "id": "109567353072558790",
+   "year": "2023",
+   "title": "Software Engineer ML",
+   "judgement": "Y"
+  },
+  {
+   "id": "81320707893404358",
+   "year": "2023",
+   "title": "Group Product Manager Machine Learning Infrastructure General Solutions",
+   "judgement": "Y"
+  },
+  {
+   "id": "137949818673603270",
+   "year": "2023",
+   "title": "Senior Software Engineer Machine Learning Commerce",
+   "judgement": "Y"
+  },
+  {
+   "id": "126659056979845830",
+   "year": "2023",
+   "title": "Staff Software Engineer Machine Learning Youtube",
+   "judgement": "Y"
+  },
+  {
+   "id": "102424154927440582",
+   "year": "2023",
+   "title": "Senior Product Manager Core Machine Learning ML Accelerators",
+   "judgement": "Y"
+  },
+  {
+   "id": "73956310342607558",
+   "year": "2023",
+   "title": "Tpu Silicon Architect Machine Learning Accelerator",
+   "judgement": "Y"
+  },
+  {
+   "id": "91108384310207174",
+   "year": "2023",
+   "title": "Staff Software Engineer Machine Learning Labs",
+   "judgement": "Y"
+  },
+  {
+   "id": "90556165986886342",
+   "year": "2023",
+   "title": "Senior Staff ML Tech Lead Google Health",
+   "judgement": "Y"
+  },
+  {
+   "id": "83234373689582278",
+   "year": "2023",
+   "title": "Staff Software Engineer Machine Learning Google Cloud",
+   "judgement": "Y"
+  },
+  {
+   "id": "130545286454878918",
+   "year": "2024",
+   "title": "Research Scientist Speech Language And Machine Learning",
+   "judgement": "Y"
+  },
+  {
+   "id": "114558814495089350",
+   "year": "2024",
+   "title": "Field Solutions Developer I Generative AI Google Cloud",
+   "judgement": "Y"
+  },
+  {
+   "id": "109448509807043270",
+   "year": "2024",
+   "title": "Vice President Software Development Applied AI",
+   "judgement": "Y"
+  },
+  {
+   "id": "111921903116919494",
+   "year": "2024",
+   "title": "Vice President Product Management Core Machine Learning",
+   "judgement": "Y"
+  },
+  {
+   "id": "130520714443662022",
+   "year": "2024",
+   "title": "Data Scientist Generative AI Google Cloud",
+   "judgement": "Y"
+  },
+  {
+   "id": "126638506450526918",
+   "year": "2024",
+   "title": "Research Engineer Computer Vision Google Research",
+   "judgement": "Y"
+  },
+  {
+   "id": "105713051793007302",
+   "year": "2024",
+   "title": "Cloud AI Engineer",
+   "judgement": "Y"
+  },
+  {
+   "id": "92631531597505222",
+   "year": "2024",
+   "title": "Software Engineer III Machine Learning Gemini",
+   "judgement": "Y"
+  },
+  {
+   "id": "130284251126866630",
+   "year": "2024",
+   "title": "Software Developer II Aimachine Learning Applied AI",
+   "judgement": "Y"
+  },
+  {
+   "id": "95126294798181062",
+   "year": "2024",
+   "title": "Staff Research Scientist Gemini",
+   "judgement": "Y"
+  },
+  {
+   "id": "87335979399946950",
+   "year": "2024",
+   "title": "Soc Power And Performance Lead Tpu Google Cloud",
+   "judgement": "Y"
+  },
+  {
+   "id": "126475213847044806",
+   "year": "2024",
+   "title": "Engineering Director Machine Learning Lineage And Governance",
+   "judgement": "Y"
+  },
+  {
+   "id": "92105655153763014",
+   "year": "2025",
+   "title": "Software Engineer III Aiml GENAI Google Ads",
+   "judgement": "Y"
+  },
+  {
+   "id": "105826180661158598",
+   "year": "2025",
+   "title": "Senior Staff Software Engineer Cloud Specialized Generative AI",
+   "judgement": "Y"
+  },
+  {
+   "id": "91023251924230854",
+   "year": "2025",
+   "title": "Senior Software Engineer Aiml Geo Streetview",
+   "judgement": "Y"
+  },
+  {
+   "id": "95840685885661894",
+   "year": "2025",
+   "title": "Software Engineer III Aiml Core",
+   "judgement": "Y"
+  },
+  {
+   "id": "137661685195252422",
+   "year": "2025",
+   "title": "Staff Software Engineer Generative AI Google Cloud AI",
+   "judgement": "Y"
+  },
+  {
+   "id": "121570692964459206",
+   "year": "2025",
+   "title": "Software Engineer Phd Early Career Campus Machine Learning Systems And Cloud AI Gpu Performance 2025 Start",
+   "judgement": "Y"
+  },
+  {
+   "id": "121892104761680582",
+   "year": "2025",
+   "title": "Senior Marketing Analyst Gemini English",
+   "judgement": "D"
+  },
+  {
+   "id": "79970344714019526",
+   "year": "2025",
+   "title": "Research Scientist Earth AI",
+   "judgement": "Y"
+  },
+  {
+   "id": "103939834631856838",
+   "year": "2025",
+   "title": "Operations Manager GENAI Trust And Safety Youtube",
+   "judgement": "D"
+  },
+  {
+   "id": "99338225394295494",
+   "year": "2025",
+   "title": "Group Product Manager Compliance And Policy Generative AI",
+   "judgement": "Y"
+  },
+  {
+   "id": "124233235130393286",
+   "year": "2025",
+   "title": "Government Affairs And Public Policy Manager AI And State Management",
+   "judgement": "D"
+  },
+  {
+   "id": "113759136050488006",
+   "year": "2025",
+   "title": "Vertex AI Product Manager",
+   "judgement": "Y"
+  },
+  {
+   "id": "107889918906114758",
+   "year": "2026",
+   "title": "Senior Product Engineer Machine Learning Accelerators",
+   "judgement": "Y"
+  },
+  {
+   "id": "91566308797096646",
+   "year": "2026",
+   "title": "Group Product Manager Generative AI Google Cloud",
+   "judgement": "Y"
+  },
+  {
+   "id": "79915828392141510",
+   "year": "2026",
+   "title": "Senior Leadership Technical Program Manager Core ML",
+   "judgement": "Y"
+  },
+  {
+   "id": "89316122012066502",
+   "year": "2026",
+   "title": "AI Sales Specialist Google Public Sector",
+   "judgement": "Y"
+  },
+  {
+   "id": "72146795899036358",
+   "year": "2026",
+   "title": "Customer Engineer Generative AI English Portuguese",
+   "judgement": "Y"
+  },
+  {
+   "id": "76175433346753222",
+   "year": "2026",
+   "title": "Software Engineer III Aiml Search Ads",
+   "judgement": "Y"
+  },
+  {
+   "id": "128465046341591750",
+   "year": "2026",
+   "title": "Senior AI Sales Specialist Google Cloud Japanese",
+   "judgement": "Y"
+  },
+  {
+   "id": "140633268511744710",
+   "year": "2026",
+   "title": "Senior Machine Learning Engineer GENAI Google Cloud",
+   "judgement": "Y"
+  },
+  {
+   "id": "89872784502465222",
+   "year": "2026",
+   "title": "Software Engineering Manager Site Reliability Engineering Gemini Enterprise Agent Platform Google Cloud",
+   "judgement": "Y"
+  },
+  {
+   "id": "141274000691995334",
+   "year": "2026",
+   "title": "Software Engineer III GENAI Data Operations Research Xr",
+   "judgement": "Y"
+  },
+  {
+   "id": "128492627916923590",
+   "year": "2026",
+   "title": "Senior Software Engineer Ads Bidding ML",
+   "judgement": "Y"
+  },
+  {
+   "id": "106346148746142406",
+   "year": "2026",
+   "title": "Senior Applied Aiml Engineer",
+   "judgement": "Y"
+  },
+  {
+   "id": "121087619067978438",
+   "year": "2025",
+   "title": "Software Engineer III Aiml GENAI Google Applied AI",
+   "judgement": "Y"
+  },
+  {
+   "id": "74418774968541894",
+   "year": "2020",
+   "title": "Enterprise Aiml Technical Specialist Google Cloud",
+   "judgement": "Y"
+  },
+  {
+   "id": "117166641082442438",
+   "year": "2025",
+   "title": "Senior Software Engineer Front End Google Cloud AI",
+   "judgement": "D"
+  },
+  {
+   "id": "134087406230872774",
+   "year": "2025",
+   "title": "Software Engineer III Ads Aiml",
+   "judgement": "Y"
+  },
+  {
+   "id": "91258238403519174",
+   "year": "2023",
+   "title": "Senior Staff Software Engineer Machine Learning Google Research",
+   "judgement": "Y"
+  },
+  {
+   "id": "73296264841568966",
+   "year": "2025",
+   "title": "Head Of Capacity Management Machine Learning Fleet",
+   "judgement": "Y"
+  },
+  {
+   "id": "83904604418253510",
+   "year": "2022",
+   "title": "AI Google Cloud Consultant Telecommunications Professional Services",
+   "judgement": "Y"
+  },
+  {
+   "id": "123261096864686790",
+   "year": "2025",
+   "title": "Escalations Analyst Search And Generative AI",
+   "judgement": "D"
+  },
+  {
+   "id": "122332690157314758",
+   "year": "2026",
+   "title": "Data And AI Consultant",
+   "judgement": "Y"
+  },
+  {
+   "id": "109298751194964678",
+   "year": "2022",
+   "title": "Staff Software Engineer Machine Learning Google Assistant",
+   "judgement": "Y"
+  },
+  {
+   "id": "89679279459050182",
+   "year": "2024",
+   "title": "Machine Learning Software Engineer Silicon",
+   "judgement": "Y"
+  }
+ ],
+ "precision_result": {
+  "strict_pct": 86.3,
+  "strict_halfwidth": 9.9,
+  "lenient_pct": 100.0,
+  "n": 100,
+  "pop": 1385,
+  "judgement_counts": {
+   "Y": 94,
+   "D": 6
+  }
+ },
+ "recall_W": [
+  {
+   "id": "91033140885103302",
+   "title": "Senior Staff Data Scientist Manager Research Search Verticals"
+  },
+  {
+   "id": "96020705681777350",
+   "title": "Analytical Talent Consultant Talent Intelligence And Insights"
+  },
+  {
+   "id": "132846674876736198",
+   "title": "Staff Software Engineer Google Assistant"
+  },
+  {
+   "id": "115821595630412486",
+   "title": "Director Standards Research And Advocacy Climate Team"
+  },
+  {
+   "id": "76773932694151878",
+   "title": "UX Research Manager Health Experiences Fitbit"
+  },
+  {
+   "id": "6589667970580480",
+   "title": "Data Scientist Engineering"
+  },
+  {
+   "id": "138943780848837318",
+   "title": "Research Scientist Intern"
+  },
+  {
+   "id": "128476215672480454",
+   "title": "Research Data Scientist Cloud Product Analytics"
+  },
+  {
+   "id": "74999661263233734",
+   "title": "Pre Doctoral Researcher"
+  },
+  {
+   "id": "139002058437993158",
+   "title": "Senior Software Engineer Google Assistant"
+  },
+  {
+   "id": "102173172916200134",
+   "title": "Staff Data Scientist Product"
+  },
+  {
+   "id": "115667124648583878",
+   "title": "Student Researcher Bs 2023"
+  },
+  {
+   "id": "134083664894927558",
+   "title": "Data Scientist Product Support Platform Data Science"
+  },
+  {
+   "id": "83026958134190790",
+   "title": "Head Of Customer Intelligence Lab Google Cloud"
+  },
+  {
+   "id": "78421288592253638",
+   "title": "Systems Research Engineer Technical Infrastructure Google Cloud"
+  },
+  {
+   "id": "4628947804553216",
+   "title": "Chercheur Scientifique Intelligence Artificielle Google"
+  },
+  {
+   "id": "115423296945562310",
+   "title": "Senior Staff Software Engineer Accelerators Systems Software Architect"
+  },
+  {
+   "id": "107565516570141382",
+   "title": "Staff Data Scientist Product"
+  },
+  {
+   "id": "122353211779490502",
+   "title": "Mixedmethods Senior UX Researcher"
+  },
+  {
+   "id": "129548506737058502",
+   "title": "Quantitative UX Researcher Retail Ads Consumer"
+  },
+  {
+   "id": "73880899296338630",
+   "title": "Quantitative UX Researcher Google Cloud Security"
+  },
+  {
+   "id": "121845437207323334",
+   "title": "Data Scientist Research Ads Metrics"
+  },
+  {
+   "id": "142622660690354886",
+   "title": "Data Scientist Ads Metrics"
+  },
+  {
+   "id": "81369794913149638",
+   "title": "Legal Assistant Corporate"
+  },
+  {
+   "id": "79726425535324870",
+   "title": "Data Scientist"
+  },
+  {
+   "id": "88261462459327174",
+   "title": "Senior Product Data Scientist Pixel"
+  },
+  {
+   "id": "126287035372577478",
+   "title": "Clinician Scientist Health Research Google Health"
+  },
+  {
+   "id": "136751982938333894",
+   "title": "Head Of Product Partnerships Google Assistant"
+  },
+  {
+   "id": "98163024447054534",
+   "title": "Senior Staff Research Scientist Google Research"
+  },
+  {
+   "id": "84409297902936774",
+   "title": "Research Scientist Paradigms Of Intelligence"
+  },
+  {
+   "id": "81889334608700102",
+   "title": "Strategy And Operations Senior Associate Research And Core"
+  },
+  {
+   "id": "140474497663673030",
+   "title": "Senior Data Scientist Product Android App Safety"
+  },
+  {
+   "id": "78196685794091718",
+   "title": "Senior Quantitative UX Researcher Google Ads"
+  },
+  {
+   "id": "127191927136101062",
+   "title": "Research Data Scientist Youtube Creator"
+  },
+  {
+   "id": "86758989007594182",
+   "title": "Soc Modeling Engineer Google Cloud"
+  },
+  {
+   "id": "72749321040077510",
+   "title": "Mechatronics Engineer"
+  },
+  {
+   "id": "95097927656972998",
+   "title": "Software Engineer III Human Perception And Synthesis Ar"
+  },
+  {
+   "id": "125674652321096390",
+   "title": "Product Manager Lead Fitbit Health Research Infrastructure"
+  },
+  {
+   "id": "103327121151009478",
+   "title": "Senior Intelligence Analyst"
+  },
+  {
+   "id": "118265336582546118",
+   "title": "Senior Analyst Strategic Intelligence And Government"
+  },
+  {
+   "id": "140500223645360838",
+   "title": "Senior Data Scientist"
+  },
+  {
+   "id": "75688596717085382",
+   "title": "Technical Program Manager Google Speech Recognition"
+  },
+  {
+   "id": "88754257781498566",
+   "title": "Product Analyst Google Assistant Data Science"
+  },
+  {
+   "id": "85301980330631878",
+   "title": "Software Engineer II Engineering Productivity Google Assistant"
+  },
+  {
+   "id": "93026775197459142",
+   "title": "Software Engineer III Infrastructure Google Assistant"
+  },
+  {
+   "id": "108893173343756998",
+   "title": "Program Manager Mobile Google Assistant"
+  },
+  {
+   "id": "135531749441446598",
+   "title": "Senior Data Scientist Product Google Play"
+  },
+  {
+   "id": "131362297313403590",
+   "title": "Language Manager Bahasa Indonesia"
+  },
+  {
+   "id": "120923284108649158",
+   "title": "Research Scientist Brain Google Research"
+  },
+  {
+   "id": "123154473032786630",
+   "title": "Marketing Data Scientist"
+  },
+  {
+   "id": "134332549284405958",
+   "title": "Data Scientist"
+  },
+  {
+   "id": "122484198117122758",
+   "title": "Senior UX Researcher Core"
+  },
+  {
+   "id": "129277247038071494",
+   "title": "Senior Data Scientist Research Reliability Analytics"
+  },
+  {
+   "id": "109948625580106438",
+   "title": "Senior Software Engineer Threat Intelligence"
+  },
+  {
+   "id": "126267683896206022",
+   "title": "Lead Group Product Manager Data Protection Foundations"
+  },
+  {
+   "id": "98556746164773574",
+   "title": "Research Intern 2022"
+  },
+  {
+   "id": "84348668349424326",
+   "title": "Mechatronics Engineer Data Center Automation Electrical Engineering"
+  },
+  {
+   "id": "131417780650943174",
+   "title": "Senior UX Research Manager Geo"
+  },
+  {
+   "id": "103340634112172742",
+   "title": "Data Scientist Engineering"
+  },
+  {
+   "id": "108473667903464134",
+   "title": "Student Researcher Phd 2023"
+  },
+  {
+   "id": "101033997668098758",
+   "title": "Data Scientist Research Search Experiments"
+  },
+  {
+   "id": "80141703708582598",
+   "title": "Staff Software Engineer Frontend Google Agentspace"
+  },
+  {
+   "id": "131669955956351686",
+   "title": "Hardware Research Manager Augmented Reality"
+  },
+  {
+   "id": "74595809733026502",
+   "title": "Research Intern Phd Summer 2023"
+  },
+  {
+   "id": "76239503397659334",
+   "title": "Research Intern Phd Summer 2024"
+  },
+  {
+   "id": "109902066775663302",
+   "title": "Data Scientist II Product"
+  },
+  {
+   "id": "89449945811034822",
+   "title": "Senior Quantitative UX Researcher Material Design"
+  },
+  {
+   "id": "75533898034881222",
+   "title": "Policy Enforcement Manager Hate Speech Youtube Spanish"
+  },
+  {
+   "id": "87572842903675590",
+   "title": "Data Scientist Content Safety Platform"
+  },
+  {
+   "id": "143069327606588102",
+   "title": "User Experience Research Intern Ms Summer 2025"
+  },
+  {
+   "id": "134163293806699206",
+   "title": "Data Scientist Research Search Ads"
+  },
+  {
+   "id": "96690122824524486",
+   "title": "Product Data Scientist Reliability Analytics"
+  },
+  {
+   "id": "89312028237144774",
+   "title": "Staff Quantitative UX Researcher Data Analytics Google Ads"
+  },
+  {
+   "id": "124108268963275462",
+   "title": "Networking Performance Modeling Architect Google Cloud"
+  },
+  {
+   "id": "79051338408698566",
+   "title": "HR Program Specialist Integrity Multiple Languages"
+  },
+  {
+   "id": "106809202015380166",
+   "title": "Television And Film Lead Partnership Enablement Youtube"
+  },
+  {
+   "id": "135197328777585350",
+   "title": "Policy Lead Hate Speech Youtube Trust Safety"
+  },
+  {
+   "id": "102545143061455558",
+   "title": "Research Intern Phd Summer 2021"
+  },
+  {
+   "id": "120048129299882694",
+   "title": "Senior Analyst Mandiant Intelligence"
+  },
+  {
+   "id": "79760225013244614",
+   "title": "Language Manager Localization Thai"
+  },
+  {
+   "id": "121482959426331334",
+   "title": "Business Data Scientist"
+  },
+  {
+   "id": "81754810746839750",
+   "title": "Gpu Performance Modeling Engineer"
+  },
+  {
+   "id": "75293290556990150",
+   "title": "Research Intern Msc 2021"
+  },
+  {
+   "id": "108944832308617926",
+   "title": "Predoctoral Researcher University Graduate Fixedterm Contract 2024 Starts"
+  },
+  {
+   "id": "94539870399013574",
+   "title": "Data Scientist Product Waze"
+  },
+  {
+   "id": "135180668834325190",
+   "title": "Lead Product Manager Climate And Energy Research"
+  },
+  {
+   "id": "80439376768574150",
+   "title": "Nisq Application Research Scientist"
+  },
+  {
+   "id": "104983250396422854",
+   "title": "Data Scientist"
+  },
+  {
+   "id": "132320319716106950",
+   "title": "Principal Threat Analyst Gtig Intelligence Delivery Mandiant"
+  },
+  {
+   "id": "95932997886190278",
+   "title": "Senior Quantitative UX Researcher"
+  },
+  {
+   "id": "118432938101482182",
+   "title": "Principal Threat Analyst Mandiant Gtig Intelligence Delivery"
+  },
+  {
+   "id": "95418167439827654",
+   "title": "Staff Software Engineer Blockchain Google Research"
+  },
+  {
+   "id": "135194533366244038",
+   "title": "Staff Software Engineer Infrastructure Google Research"
+  },
+  {
+   "id": "112681575071523526",
+   "title": "Product Manager Silicon Speech"
+  },
+  {
+   "id": "74067015372808902",
+   "title": "Senior Software Engineer Mobile Android Google Assistant"
+  },
+  {
+   "id": "141480756242195142",
+   "title": "Clinical Scientist Epidemiology Google Health"
+  },
+  {
+   "id": "135707648216441542",
+   "title": "Staff Data Scientist Applied Research Search Platforms"
+  },
+  {
+   "id": "73077975544668870",
+   "title": "Senior Research Scientist Quantum AI Practical Techniques"
+  },
+  {
+   "id": "109805570191434438",
+   "title": "Senior Manager Business Intelligence And Data Infrastructure Youtube"
+  },
+  {
+   "id": "84091885510894278",
+   "title": "Data Scientist Intern Phd Summer 2022"
+  }
+ ],
+ "recall_R": [
+  {
+   "id": "93459772193284806",
+   "title": "Software Engineering Intern Bs Fall 2021"
+  },
+  {
+   "id": "106347142356282630",
+   "title": "User Experience Designer"
+  },
+  {
+   "id": "98163132414730950",
+   "title": "Student Training In Engineering Program Step 2021"
+  },
+  {
+   "id": "116644655570789062",
+   "title": "Digital Strategist Google Customer Solutions"
+  },
+  {
+   "id": "143042652101583558",
+   "title": "Software Developer Intern Ms Summer 2025"
+  },
+  {
+   "id": "121798928013107910",
+   "title": "Software Engineer Google Cloud Computing Cloud Learning Services"
+  },
+  {
+   "id": "111190660159021766",
+   "title": "Commercial Counsel Public Sector Google Cloud"
+  },
+  {
+   "id": "135481599792685766",
+   "title": "Senior Data Transformation Lead Large Customer Sales"
+  },
+  {
+   "id": "94245612878209734",
+   "title": "Customer Learning Lead Google Cloud English Spanish Or Portuguese"
+  },
+  {
+   "id": "120353972954243782",
+   "title": "Soc Design Engineer"
+  },
+  {
+   "id": "90871665348485830",
+   "title": "Software Engineer III Front End Google Cloud"
+  },
+  {
+   "id": "128586736857948870",
+   "title": "Software Engineer II Site Reliability Engineering Cloud"
+  },
+  {
+   "id": "99182724956201670",
+   "title": "Sustainability Marketing Program Manager"
+  },
+  {
+   "id": "114080813491856070",
+   "title": "Data Center Facilities Technician Electrical"
+  },
+  {
+   "id": "98144795072832198",
+   "title": "Software Engineer III Google Cloud Networking"
+  },
+  {
+   "id": "101054092849095366",
+   "title": "Director News Partnerships Latam Region"
+  },
+  {
+   "id": "87545150269465286",
+   "title": "System Administrator"
+  },
+  {
+   "id": "133722505926845126",
+   "title": "Cloud Field Sales Manager Google Public Sector"
+  },
+  {
+   "id": "92270453518672582",
+   "title": "Administrative Business Partner II"
+  },
+  {
+   "id": "118514822472966854",
+   "title": "Wearables Design Manager Consumer Hardware"
+  },
+  {
+   "id": "125559048972968646",
+   "title": "Director Of Marketing Google Search Trust"
+  },
+  {
+   "id": "137319377392280262",
+   "title": "Data Center Electrical Engineer Google Data Centers"
+  },
+  {
+   "id": "76218844661588678",
+   "title": "Data Center Water Sustainability Technical Program Manager"
+  },
+  {
+   "id": "104605089296982726",
+   "title": "Embedded Test Engineer"
+  },
+  {
+   "id": "137758161569227462",
+   "title": "Group Product Manager Google Beam"
+  },
+  {
+   "id": "124078118504669894",
+   "title": "Technical Writer Google Cloud Databases"
+  },
+  {
+   "id": "101021018813801158",
+   "title": "Enterprise Account Executive Hcls Google Cloud English German"
+  },
+  {
+   "id": "83549498350936774",
+   "title": "Go To Market Strategy And Planning Manager Google Cloud"
+  },
+  {
+   "id": "80548679106077382",
+   "title": "Software Engineer II Full Stack Youtube Channel Memberships"
+  },
+  {
+   "id": "74545656527495878",
+   "title": "Internal Developer Relations Technical Writer"
+  },
+  {
+   "id": "124955872716563142",
+   "title": "Senior Security Engineer Product Security Engineering Cloud Ciso"
+  },
+  {
+   "id": "99605575297311430",
+   "title": "System Automation Engineer Cloud Demo Platform"
+  },
+  {
+   "id": "104143541149541062",
+   "title": "Cloud Sales Resident Cloud Academy Early Career English"
+  },
+  {
+   "id": "79007518635762374",
+   "title": "Staff Software Engineer Mobile Android Google Nest"
+  },
+  {
+   "id": "105861201029669574",
+   "title": "Head Of Government And Public Sector Google Cloud"
+  },
+  {
+   "id": "77183687522689734",
+   "title": "Staff Software Engineer"
+  },
+  {
+   "id": "129049862845932230",
+   "title": "Data Center Technician III Server Operations"
+  },
+  {
+   "id": "82117572509475526",
+   "title": "Product Marketing Manager Google Kubernetes Engine"
+  },
+  {
+   "id": "105912589583557318",
+   "title": "Program Manager Solutions And Go To Market Geo Sustainability"
+  },
+  {
+   "id": "106189640307745478",
+   "title": "HR Business Partner People Operations"
+  },
+  {
+   "id": "101213403478926022",
+   "title": "Cloud Consultant Infrastructure Google Cloud Professional Services"
+  },
+  {
+   "id": "142445440841720518",
+   "title": "Data Center Technician Intern 2026"
+  },
+  {
+   "id": "106371341138961094",
+   "title": "Delivery Lead Customer Training Program"
+  },
+  {
+   "id": "74388400020300486",
+   "title": "Customer Success Manager Google Cloud"
+  },
+  {
+   "id": "122277801951666886",
+   "title": "Software Engineer Android Files And Storage Early Career"
+  },
+  {
+   "id": "117439512805548742",
+   "title": "Data Analytics Sales Specialist"
+  },
+  {
+   "id": "125659698392113862",
+   "title": "Policy Development Manager Trust And Safety Youtube"
+  },
+  {
+   "id": "126202795054244550",
+   "title": "Technical Solutions Specialist Manager Billing Google Cloud"
+  },
+  {
+   "id": "84478292855268038",
+   "title": "Senior Staff Software Engineer Google Cloud Business Platforms"
+  },
+  {
+   "id": "130333886134526662",
+   "title": "Senior Software Engineer Gps Locations"
+  },
+  {
+   "id": "106240266024690374",
+   "title": "Software Engineer III Google Ads Youtube"
+  },
+  {
+   "id": "116629707551580870",
+   "title": "Environmental Health And Safety Regional Manager Data Center"
+  },
+  {
+   "id": "84482307582239430",
+   "title": "Engineering Manager"
+  },
+  {
+   "id": "90251226855154374",
+   "title": "Program Manager Regional Data Center Delivery"
+  },
+  {
+   "id": "120054729691538118",
+   "title": "Customer Engineer Infrastructure Modernization Google Cloud"
+  },
+  {
+   "id": "77667384090862278",
+   "title": "Software Engineer Engineering Productivity Fitbit"
+  },
+  {
+   "id": "108213408194536134",
+   "title": "Senior Software Engineer Platforms And Ecosystem Flutter"
+  },
+  {
+   "id": "74782808414790342",
+   "title": "Physical Design Engineer Google Cloud"
+  },
+  {
+   "id": "132147838759903942",
+   "title": "Cloud Consultant Professional Services Google Cloud English Italian"
+  },
+  {
+   "id": "134077947102274246",
+   "title": "Strategy And Operations Associate II Smb Google Cloud"
+  },
+  {
+   "id": "99836623062999750",
+   "title": "Software Engineering Manager II Big Query Google Cloud"
+  },
+  {
+   "id": "85091474001011398",
+   "title": "Product Manager"
+  },
+  {
+   "id": "73570574908957382",
+   "title": "Product Solutions Engineer"
+  },
+  {
+   "id": "101573623518503622",
+   "title": "Solutions Engineer Google For Education English Spanishportuguese"
+  },
+  {
+   "id": "107652790995559110",
+   "title": "Account Manager"
+  },
+  {
+   "id": "140704834478056134",
+   "title": "Product Marketing Manager Devices And Services"
+  },
+  {
+   "id": "77303562503103174",
+   "title": "Manager End To End Systems Engineering Health"
+  },
+  {
+   "id": "141668831794733766",
+   "title": "Field Sales Representative"
+  },
+  {
+   "id": "86723387704910534",
+   "title": "Software Engineer"
+  },
+  {
+   "id": "103788214350684870",
+   "title": "General Manager Cybersecurity Google Public Sector"
+  },
+  {
+   "id": "81273301470454470",
+   "title": "Software Engineer III Google Ads"
+  },
+  {
+   "id": "140771797313168070",
+   "title": "Cloud Engineer II Application Modernization Technical Delivery"
+  },
+  {
+   "id": "122699570594357958",
+   "title": "Legal Support Litigation English Portuguese"
+  },
+  {
+   "id": "77401267965436614",
+   "title": "Staff Software Engineer Geo"
+  },
+  {
+   "id": "123843103581708998",
+   "title": "Program Manager Supply Chain Sustainability Net Zero"
+  },
+  {
+   "id": "95821211658789574",
+   "title": "Market Responsibility Specialist Youtube Trust And Safety Korean"
+  },
+  {
+   "id": "74298364650234566",
+   "title": "Customer Engineer Data Analytics Financial Services Google Cloud"
+  },
+  {
+   "id": "82310166459884230",
+   "title": "Software Engineer III"
+  },
+  {
+   "id": "74497393919173318",
+   "title": "Key Account Executive"
+  },
+  {
+   "id": "115044372650566342",
+   "title": "Software Engineer II Ios Google Notifications"
+  },
+  {
+   "id": "94028104000774854",
+   "title": "Technical Program Manager Wan Infrastructure And Capacity Delivery"
+  },
+  {
+   "id": "90865516565930694",
+   "title": "Test Engineer Pixel Test Engineering"
+  },
+  {
+   "id": "138060108373336774",
+   "title": "Policy Specialist"
+  },
+  {
+   "id": "115100232183620294",
+   "title": "Technical Lead Chrome Identity"
+  },
+  {
+   "id": "79997977795404486",
+   "title": "Gtm Sales Specialist Databases Google Cloud"
+  },
+  {
+   "id": "115487895266960070",
+   "title": "Senior Account Executive New Business Sales Google Customer Solutions"
+  },
+  {
+   "id": "138392286244283078",
+   "title": "Accountant II Technical Infrastructure Google Cloud"
+  },
+  {
+   "id": "75640308708057798",
+   "title": "Group Product Manager"
+  },
+  {
+   "id": "93673789297959622",
+   "title": "Security Consultant Mandiant Google Cloud"
+  },
+  {
+   "id": "72862868818535110",
+   "title": "Engineering Manager Dsdn Ggn Wanforms"
+  },
+  {
+   "id": "104878274315723462",
+   "title": "Staff Software Engineer"
+  },
+  {
+   "id": "125515775743009478",
+   "title": "Security Engineer Cloud Enterprise Infrastructure Protection"
+  },
+  {
+   "id": "119659252961682118",
+   "title": "Security Sales Specialist Virus Total"
+  },
+  {
+   "id": "141103349781930694",
+   "title": "Data Center Controls Engineer Scada Advanced Controls Engineering"
+  },
+  {
+   "id": "93867647971533510",
+   "title": "Software Engineer II Google Threat"
+  },
+  {
+   "id": "107347062590186182",
+   "title": "Inclusive Strategist Science Technology Engineering And Math"
+  },
+  {
+   "id": "87247115738063558",
+   "title": "Software Engineer Google Wallet"
+  },
+  {
+   "id": "102728583006298822",
+   "title": "Technical Program Manager Pixel Carrier"
+  },
+  {
+   "id": "116085563370414790",
+   "title": "Customer Engineer Vmware Google Cloud English Spanish"
+  },
+  {
+   "id": "122767486473904838",
+   "title": "Software Engineer"
+  },
+  {
+   "id": "94213473369498310",
+   "title": "Program Manager"
+  },
+  {
+   "id": "83826509160030918",
+   "title": "Firmware Engineer Battery And Charging Pixel"
+  },
+  {
+   "id": "73084097179591366",
+   "title": "Quantitative Strategist Growth Lab"
+  },
+  {
+   "id": "139463367677878982",
+   "title": "Mba Intern Summer 2021"
+  },
+  {
+   "id": "98129121350951622",
+   "title": "Software Engineer Phd Early Career Campus Systems And Infrastructure 2025 Start"
+  },
+  {
+   "id": "96188713259672262",
+   "title": "Product Manager I Content Publishing Youtube Studio"
+  },
+  {
+   "id": "104652012485780166",
+   "title": "Industry Manager Large Customer Sales English"
+  },
+  {
+   "id": "134111197061358278",
+   "title": "Senior Account Representative Sa360 Search Design System"
+  },
+  {
+   "id": "77784309299061446",
+   "title": "Staff Software Engineer Front End Google Cloud Security And Privacy"
+  },
+  {
+   "id": "127986809285026502",
+   "title": "Developer Relations Engineer Privacy Sandbox On Android"
+  },
+  {
+   "id": "128260066680677062",
+   "title": "Senior Manager Government Affairs Public Policy Google Workspace"
+  },
+  {
+   "id": "75119971434144454",
+   "title": "Product Security Engineer Devices And Services"
+  },
+  {
+   "id": "127269709562159814",
+   "title": "Senior Manager Competition Policy"
+  },
+  {
+   "id": "118714741492196038",
+   "title": "Staff Product Design Engineer Pixel Watch"
+  },
+  {
+   "id": "119586005280793286",
+   "title": "Operations Technician Data Center English"
+  },
+  {
+   "id": "102764036522681030",
+   "title": "Senior Business Systems Analyst Manager Customer Support Cloud"
+  },
+  {
+   "id": "124168975910085318",
+   "title": "Strategy And Operations Lead Apac Customer Engineering"
+  },
+  {
+   "id": "92847960544420550",
+   "title": "Lead Naming And Brand Architecture Google Cloud"
+  },
+  {
+   "id": "115925526259868358",
+   "title": "Product Specialist Policy Global Customer Care English Japanese"
+  },
+  {
+   "id": "138153731194528454",
+   "title": "Software Engineer"
+  },
+  {
+   "id": "88985354050118342",
+   "title": "Sales Engineer Smart Analytics Google Cloud"
+  },
+  {
+   "id": "108369218029658822",
+   "title": "Digital Marketing Strategist"
+  },
+  {
+   "id": "139720065445438150",
+   "title": "Test Engineer Fitbit"
+  },
+  {
+   "id": "104981114489053894",
+   "title": "Software Engineering Intern Google Public Sector Summer 2026"
+  },
+  {
+   "id": "74034126383915718",
+   "title": "Site Reliability Manager Software"
+  },
+  {
+   "id": "117527214190142150",
+   "title": "Technical Solutions Engineer Google Health Partner Engineering"
+  },
+  {
+   "id": "133336803720471238",
+   "title": "Search Executive And Internal Communications Manager"
+  },
+  {
+   "id": "90457593215886022",
+   "title": "Global Partner Marketing Manager Google Cloud"
+  },
+  {
+   "id": "121194165934400198",
+   "title": "Advisory Business Partner Lead Extended Workforce Solutions"
+  },
+  {
+   "id": "113572742506128070",
+   "title": "Data Center Technician II Third Shift"
+  },
+  {
+   "id": "81253265594819270",
+   "title": "Product Marketing Manager Seo Growth Lab"
+  },
+  {
+   "id": "131799980676391622",
+   "title": "Digital Marketing Strategist Customer Success Acceleration Russian"
+  },
+  {
+   "id": "124011050499482310",
+   "title": "Cloud Integration Architect I Professional Services Google Cloud"
+  },
+  {
+   "id": "127301077969052358",
+   "title": "Silicon Engineering Intern 2024"
+  },
+  {
+   "id": "128081643832255174",
+   "title": "Field Sales Manager Google Cloud"
+  },
+  {
+   "id": "83950403508413126",
+   "title": "UX Interaction Designer Google Cloud"
+  },
+  {
+   "id": "126623176185520838",
+   "title": "Software Engineer III Google Cloud Business Platforms"
+  },
+  {
+   "id": "92847469961847494",
+   "title": "UX Writer"
+  },
+  {
+   "id": "136562832526189254",
+   "title": "Data Center Technician Council Bluffs"
+  },
+  {
+   "id": "135077988830978758",
+   "title": "Software Developer Augmented Reality System Software"
+  },
+  {
+   "id": "112317902180229830",
+   "title": "Enterprise Cloud Customer Engineering Manager Application Modernization"
+  },
+  {
+   "id": "98072256925573830",
+   "title": "Head Of Regulatory Policy Google Health"
+  },
+  {
+   "id": "89341780935221958",
+   "title": "Industry Solutions Lead II Retail Google Cloud"
+  },
+  {
+   "id": "125896245521588934",
+   "title": "Big Data And Analytics Consultant Google Cloud"
+  },
+  {
+   "id": "78527431301833414",
+   "title": "Senior Software Engineer Performance Platforms Infrastructure Engineering"
+  },
+  {
+   "id": "92999782133310150",
+   "title": "Pursuit Lead Manager Google Cloud Consulting"
+  },
+  {
+   "id": "123457298853962438",
+   "title": "Product Manager Google Cloud"
+  },
+  {
+   "id": "128113144808514246",
+   "title": "Associate Product Counsel Google Products And Data Legal"
+  },
+  {
+   "id": "78108128767288006",
+   "title": "Government Affairs And Public Policy Manager And Lead Youtube"
+  },
+  {
+   "id": "81783929989669574",
+   "title": "Go To Market Specialist Security And Compliance Google Cloud"
+  }
+ ],
+ "recall_pools": {
+  "W": 1371,
+  "R": 15431
+ },
+ "recall_judgements": {
+  "W_strict_positive_idx": [
+   15
+  ],
+  "W_ambiguous_idx": [
+   16,
+   29,
+   48,
+   61,
+   81
+  ],
+  "R_positive_idx": [],
+  "rubric": "positive = the title itself (no outside knowledge of Google team names) names AI/ML work that the strict CORE rules miss. Speech/translate/Assistant/ranking/perception/Quantum AI/DeepMind-only are excluded by decision. Ambiguous = plausible AI/ML work but only via team/product knowledge (Accelerators, Paradigms of Intelligence, Brain, Agentspace, GPU perf modeling). Single judge (the worker), no second rater."
+ },
+ "recall_result": {
+  "missed_W_strict": [
+   14,
+   2,
+   75
+  ],
+  "missed_W_incl_ambiguous": [
+   82,
+   38,
+   171
+  ],
+  "missed_R_upper_bound": 309,
+  "recall_central_strict_pct": 99.0,
+  "recall_central_with_ambiguous_pct": 94.4,
+  "recall_floor_pct": 74.3
+ },
+ "exact_overlap": {
+  "published": 1524,
+  "core": 1385,
+  "overlap": 1119
+ }
+}
