@@ -261,3 +261,49 @@
 [*] Throwaway browser closed, profile wiped.
 2026-09-20T10:07:38+05:30 FAST MODE OFF: bad/empty response -> slow rules (180-360 s, 12/h) for the rest of this run
 2026-09-20T10:07:38+05:30 [65/148] FAILED 142106050210734790 no_description_parsed text_chars=579
+
+[*] Throwaway browser closed, profile wiped.
+2026-09-20T10:13:03+05:30 [66/148] stored 81819018058441414 sections=['minimum_qualifications', 'preferred_qualifications', 'about', 'responsibilities'] chars=2123
+
+[*] Throwaway browser closed, profile wiped.
+2026-09-20T10:16:43+05:30 [67/148] stored 141521453622141638 sections=['minimum_qualifications', 'preferred_qualifications', 'about', 'responsibilities'] chars=3063
+
+[*] Throwaway browser closed, profile wiped.
+2026-09-20T10:22:21+05:30 [68/148] stored 128617590527271622 sections=['minimum_qualifications', 'preferred_qualifications', 'about', 'responsibilities'] chars=3237
+
+[*] Throwaway browser closed, profile wiped.
+2026-09-20T10:26:46+05:30 [69/148] stored 73500989256016582 sections=['minimum_qualifications', 'preferred_qualifications', 'about', 'responsibilities'] chars=3891
+
+[*] Throwaway browser closed, profile wiped.
+2026-09-20T10:30:52+05:30 [70/148] stored 82664756174824134 sections=['minimum_qualifications', 'preferred_qualifications', 'about', 'responsibilities'] chars=3684
+
+[*] Throwaway browser closed, profile wiped.
+2026-09-20T10:34:01+05:30 [71/148] stored 73187890971976390 sections=['minimum_qualifications', 'preferred_qualifications', 'about', 'responsibilities'] chars=3619
+
+[*] Throwaway browser closed, profile wiped.
+2026-09-20T10:38:17+05:30 [72/148] stored 130683844532544198 sections=['minimum_qualifications', 'preferred_qualifications', 'about', 'responsibilities'] chars=2946
+
+[*] Throwaway browser closed, profile wiped.
+2026-09-20T10:42:32+05:30 [73/148] stored 73518950809248454 sections=['minimum_qualifications', 'preferred_qualifications', 'about', 'responsibilities'] chars=2524
+
+[*] Throwaway browser closed, profile wiped.
+2026-09-20T10:46:55+05:30 [74/148] stored 84432797715833542 sections=['minimum_qualifications', 'preferred_qualifications', 'about', 'responsibilities'] chars=3382
+
+[*] Throwaway browser closed, profile wiped.
+2026-09-20T10:50:01+05:30 [75/148] stored 80747767315473094 sections=['minimum_qualifications', 'preferred_qualifications', 'about', 'responsibilities'] chars=2611
+
+[*] Throwaway browser closed, profile wiped.
+2026-09-20T10:55:04+05:30 [76/148] stored 130800413166183110 sections=['minimum_qualifications', 'preferred_qualifications', 'about', 'responsibilities'] chars=3068
+
+[*] Throwaway browser closed, profile wiped.
+2026-09-20T10:58:19+05:30 [77/148] stored 73658288138265286 sections=['minimum_qualifications', 'preferred_qualifications', 'about', 'responsibilities'] chars=3061
+
+[*] Throwaway browser closed, profile wiped.
+2026-09-20T11:02:26+05:30 [78/148] stored 87309454067802822 sections=['minimum_qualifications', 'preferred_qualifications', 'about', 'responsibilities'] chars=3995
+
+[*] Throwaway browser closed, profile wiped.
+2026-09-20T11:11:01+05:30 [79/148] FAILED 82245001504793286 blocked_or_throttled text_chars=0
+2026-09-20T11:35:44+05:30 batch start: 71 roles
+
+[*] Throwaway browser closed, profile wiped.
+2026-09-20T11:36:12+05:30 [1/71] stored 142106050210734790 sections=['minimum_qualifications', 'preferred_qualifications', 'about', 'responsibilities'] chars=4421

@@ -1,15 +1,15 @@
 {
- "updated": "2026-09-20T10:07:38+05:30",
+ "updated": "2026-09-20T11:36:12+05:30",
  "status": "RUNNING",
  "note": "",
  "roles_total": 170,
  "roles_with_url": 169,
  "no_id_skipped": 1,
- "done": 85,
- "failed": 1,
- "pending": 83,
+ "done": 99,
+ "failed": 0,
+ "pending": 70,
  "this_run": {
-  "done": 64,
-  "of": 148
+  "done": 1,
+  "of": 71
  }
 }
