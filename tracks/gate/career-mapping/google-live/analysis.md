@@ -66,8 +66,8 @@ against a badly ordered result list, `security` was re-loaded at pages 20, 35, 5
 last page): 0 tagged titles on each, 0 new roles. Recall by this test: no sign of missed roles deeper in the list.
 
 **Known blind spot:** the tagger only sees titles. 4 titles that look security-related but carry no security
-keyword are kept apart as "possible" (three Mandiant consulting roles: a Strategic AppSec consultant, a
-Detection and SOAR engineer, a Consulting Leader, plus a Senior Project Manager, Mandiant Consulting).
+keyword are kept apart as "possible" (all four are Mandiant consulting roles: a Senior Strategic AppSec Consultant, a
+Detection and SOAR Engineer, a Consulting Leader, and a Senior Project Manager).
 They are **not** in the 170. If they count, the total is 174.
 
 ## Live roles vs the Wayback 2026 archive (titles only)
@@ -95,8 +95,8 @@ say nothing about skills. Causes stay inference.
 
 The crawl was meant to be slow. It was slow but **not uniformly as slow as later rules require**:
 
-- Gaps between loads: minimum 59 s, median 252 s; 27 of 82 gaps were under 180 s. The 180 to 360 s gap rule
-  was tightened after the first hours, so the early `security` pages ran at 63 to 171 s.
+- Gaps between loads: minimum 59 s, median 252 s; 27 of 82 gaps were under 180 s. The crawler's 180 to 360 s gap
+  rule is what the plugin now enforces; the early `security` pages ran at 63 to 171 s, i.e. faster than that rule.
 - The busiest hour was 20 loads (12:00 UTC hour, which began at 12:24), above the later 12 loads/hour cap.
 - The longest gap was about 2 hours (offline period and machine reboot).
 - No block, captcha or throttle was recorded on any load; no robots.txt request was made.
