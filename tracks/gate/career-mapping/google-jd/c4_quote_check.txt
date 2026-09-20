@@ -1,0 +1,3 @@
+c4_narrative_2025.md: 5 quotes verified verbatim; problems: none
+c4_qualitative_2025.md: 24 quotes verified verbatim; problems: none
+findings/2025.md written
