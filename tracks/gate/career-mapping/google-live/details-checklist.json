@@ -1,0 +1,1097 @@
+{
+ "roles_with_description": 169,
+ "themes": {
+  "physical_corporate_security": 6,
+  "security_engineering": 57,
+  "sales_and_consulting": 34,
+  "threat_intel_and_response": 41,
+  "other_security": 31
+ },
+ "categories": {
+  "Skills and practices": [
+   {
+    "item": "Network security / protocols",
+    "group": "MANDATORY",
+    "roles_any": 56,
+    "pct_any": 33.1,
+    "in_minimum": 40,
+    "in_preferred": 23,
+    "in_responsibilities": 2,
+    "themes": {
+     "security_engineering": 24,
+     "threat_intel_and_response": 14,
+     "sales_and_consulting": 12,
+     "other_security": 5,
+     "physical_corporate_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Security engineering / secure design",
+    "group": "MANDATORY",
+    "roles_any": 48,
+    "pct_any": 28.4,
+    "in_minimum": 37,
+    "in_preferred": 8,
+    "in_responsibilities": 15,
+    "themes": {
+     "security_engineering": 27,
+     "sales_and_consulting": 8,
+     "threat_intel_and_response": 8,
+     "other_security": 5
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Security assessments / design reviews",
+    "group": "COMMON",
+    "roles_any": 45,
+    "pct_any": 26.6,
+    "in_minimum": 25,
+    "in_preferred": 10,
+    "in_responsibilities": 23,
+    "themes": {
+     "security_engineering": 30,
+     "threat_intel_and_response": 9,
+     "sales_and_consulting": 4,
+     "other_security": 2
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Threat modeling / risk assessment",
+    "group": "COMMON",
+    "roles_any": 45,
+    "pct_any": 26.6,
+    "in_minimum": 25,
+    "in_preferred": 18,
+    "in_responsibilities": 21,
+    "themes": {
+     "security_engineering": 18,
+     "other_security": 11,
+     "threat_intel_and_response": 7,
+     "physical_corporate_security": 5,
+     "sales_and_consulting": 4
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Incident response",
+    "group": "COMMON",
+    "roles_any": 43,
+    "pct_any": 25.4,
+    "in_minimum": 21,
+    "in_preferred": 20,
+    "in_responsibilities": 16,
+    "themes": {
+     "threat_intel_and_response": 22,
+     "security_engineering": 7,
+     "other_security": 6,
+     "sales_and_consulting": 6,
+     "physical_corporate_security": 2
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Detection engineering / SIEM / SOAR / SOC",
+    "group": "COMMON",
+    "roles_any": 51,
+    "pct_any": 30.2,
+    "in_minimum": 19,
+    "in_preferred": 32,
+    "in_responsibilities": 20,
+    "themes": {
+     "sales_and_consulting": 13,
+     "other_security": 11,
+     "security_engineering": 11,
+     "threat_intel_and_response": 10,
+     "physical_corporate_security": 6
+    },
+    "example_roles": []
+   },
+   {
+    "item": "AI / machine learning",
+    "group": "COMMON",
+    "roles_any": 64,
+    "pct_any": 37.9,
+    "in_minimum": 17,
+    "in_preferred": 51,
+    "in_responsibilities": 43,
+    "themes": {
+     "security_engineering": 26,
+     "sales_and_consulting": 13,
+     "other_security": 13,
+     "threat_intel_and_response": 12
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Digital forensics / investigations",
+    "group": "COMMON",
+    "roles_any": 42,
+    "pct_any": 24.9,
+    "in_minimum": 17,
+    "in_preferred": 31,
+    "in_responsibilities": 27,
+    "themes": {
+     "threat_intel_and_response": 24,
+     "security_engineering": 8,
+     "sales_and_consulting": 5,
+     "physical_corporate_security": 3,
+     "other_security": 2
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Data analysis / SQL / analytics",
+    "group": "COMMON",
+    "roles_any": 36,
+    "pct_any": 21.3,
+    "in_minimum": 17,
+    "in_preferred": 15,
+    "in_responsibilities": 12,
+    "themes": {
+     "sales_and_consulting": 11,
+     "security_engineering": 9,
+     "other_security": 8,
+     "threat_intel_and_response": 6,
+     "physical_corporate_security": 2
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Automation / scripting",
+    "group": "COMMON",
+    "roles_any": 67,
+    "pct_any": 39.6,
+    "in_minimum": 16,
+    "in_preferred": 34,
+    "in_responsibilities": 33,
+    "themes": {
+     "threat_intel_and_response": 23,
+     "security_engineering": 21,
+     "sales_and_consulting": 16,
+     "other_security": 6,
+     "physical_corporate_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Malware analysis / reverse engineering",
+    "group": "COMMON",
+    "roles_any": 33,
+    "pct_any": 19.5,
+    "in_minimum": 16,
+    "in_preferred": 15,
+    "in_responsibilities": 15,
+    "themes": {
+     "threat_intel_and_response": 23,
+     "security_engineering": 6,
+     "sales_and_consulting": 4
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Penetration testing / red team / offensive",
+    "group": "COMMON",
+    "roles_any": 35,
+    "pct_any": 20.7,
+    "in_minimum": 15,
+    "in_preferred": 27,
+    "in_responsibilities": 19,
+    "themes": {
+     "threat_intel_and_response": 14,
+     "security_engineering": 11,
+     "sales_and_consulting": 6,
+     "other_security": 3,
+     "physical_corporate_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Application security / secure code review",
+    "group": "COMMON",
+    "roles_any": 31,
+    "pct_any": 18.3,
+    "in_minimum": 15,
+    "in_preferred": 16,
+    "in_responsibilities": 13,
+    "themes": {
+     "security_engineering": 11,
+     "threat_intel_and_response": 11,
+     "sales_and_consulting": 5,
+     "other_security": 4
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Vulnerability research / management",
+    "group": "COMMON",
+    "roles_any": 46,
+    "pct_any": 27.2,
+    "in_minimum": 11,
+    "in_preferred": 29,
+    "in_responsibilities": 29,
+    "themes": {
+     "security_engineering": 23,
+     "other_security": 8,
+     "threat_intel_and_response": 8,
+     "sales_and_consulting": 5,
+     "physical_corporate_security": 2
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Compliance / GRC / audit",
+    "group": "COMMON",
+    "roles_any": 42,
+    "pct_any": 24.9,
+    "in_minimum": 11,
+    "in_preferred": 25,
+    "in_responsibilities": 30,
+    "themes": {
+     "other_security": 13,
+     "sales_and_consulting": 12,
+     "security_engineering": 9,
+     "physical_corporate_security": 5,
+     "threat_intel_and_response": 3
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Identity and access management",
+    "group": "COMMON",
+    "roles_any": 33,
+    "pct_any": 19.5,
+    "in_minimum": 11,
+    "in_preferred": 20,
+    "in_responsibilities": 10,
+    "themes": {
+     "security_engineering": 20,
+     "sales_and_consulting": 6,
+     "threat_intel_and_response": 5,
+     "other_security": 2
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Privacy / data protection",
+    "group": "COMMON",
+    "roles_any": 27,
+    "pct_any": 16.0,
+    "in_minimum": 11,
+    "in_preferred": 8,
+    "in_responsibilities": 14,
+    "themes": {
+     "security_engineering": 11,
+     "other_security": 7,
+     "threat_intel_and_response": 6,
+     "sales_and_consulting": 3
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Cloud security",
+    "group": "COMMON",
+    "roles_any": 52,
+    "pct_any": 30.8,
+    "in_minimum": 9,
+    "in_preferred": 34,
+    "in_responsibilities": 23,
+    "themes": {
+     "security_engineering": 19,
+     "threat_intel_and_response": 15,
+     "sales_and_consulting": 13,
+     "other_security": 5
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Threat intelligence",
+    "group": "COMMON",
+    "roles_any": 30,
+    "pct_any": 17.8,
+    "in_minimum": 6,
+    "in_preferred": 10,
+    "in_responsibilities": 22,
+    "themes": {
+     "threat_intel_and_response": 14,
+     "security_engineering": 8,
+     "sales_and_consulting": 4,
+     "other_security": 4
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Cryptography",
+    "group": "COMMON",
+    "roles_any": 17,
+    "pct_any": 10.1,
+    "in_minimum": 3,
+    "in_preferred": 14,
+    "in_responsibilities": 1,
+    "themes": {
+     "security_engineering": 11,
+     "sales_and_consulting": 4,
+     "threat_intel_and_response": 2
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Trust and safety / abuse",
+    "group": "COMMON",
+    "roles_any": 11,
+    "pct_any": 6.5,
+    "in_minimum": 2,
+    "in_preferred": 7,
+    "in_responsibilities": 6,
+    "themes": {
+     "security_engineering": 4,
+     "threat_intel_and_response": 3,
+     "sales_and_consulting": 3,
+     "other_security": 1
+    },
+    "example_roles": []
+   }
+  ],
+  "Technology": [
+   {
+    "item": "Python",
+    "group": "COMMON",
+    "roles_any": 47,
+    "pct_any": 27.8,
+    "in_minimum": 26,
+    "in_preferred": 20,
+    "in_responsibilities": 2,
+    "themes": {
+     "security_engineering": 22,
+     "threat_intel_and_response": 11,
+     "sales_and_consulting": 10,
+     "other_security": 3,
+     "physical_corporate_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "C++ / C/C++",
+    "group": "COMMON",
+    "roles_any": 35,
+    "pct_any": 20.7,
+    "in_minimum": 25,
+    "in_preferred": 10,
+    "in_responsibilities": 0,
+    "themes": {
+     "security_engineering": 19,
+     "threat_intel_and_response": 9,
+     "sales_and_consulting": 5,
+     "other_security": 2
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Go",
+    "group": "COMMON",
+    "roles_any": 31,
+    "pct_any": 18.3,
+    "in_minimum": 24,
+    "in_preferred": 6,
+    "in_responsibilities": 1,
+    "themes": {
+     "security_engineering": 20,
+     "sales_and_consulting": 5,
+     "threat_intel_and_response": 4,
+     "physical_corporate_security": 1,
+     "other_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Java (not JavaScript)",
+    "group": "COMMON",
+    "roles_any": 18,
+    "pct_any": 10.7,
+    "in_minimum": 13,
+    "in_preferred": 5,
+    "in_responsibilities": 0,
+    "themes": {
+     "security_engineering": 11,
+     "sales_and_consulting": 3,
+     "threat_intel_and_response": 2,
+     "other_security": 1,
+     "physical_corporate_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Android / iOS / mobile",
+    "group": "COMMON",
+    "roles_any": 19,
+    "pct_any": 11.2,
+    "in_minimum": 12,
+    "in_preferred": 8,
+    "in_responsibilities": 16,
+    "themes": {
+     "threat_intel_and_response": 13,
+     "security_engineering": 5,
+     "other_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Hardware / firmware / silicon",
+    "group": "COMMON",
+    "roles_any": 29,
+    "pct_any": 17.2,
+    "in_minimum": 11,
+    "in_preferred": 14,
+    "in_responsibilities": 18,
+    "themes": {
+     "security_engineering": 18,
+     "other_security": 5,
+     "sales_and_consulting": 3,
+     "threat_intel_and_response": 2,
+     "physical_corporate_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "SQL",
+    "group": "COMMON",
+    "roles_any": 12,
+    "pct_any": 7.1,
+    "in_minimum": 9,
+    "in_preferred": 3,
+    "in_responsibilities": 0,
+    "themes": {
+     "other_security": 4,
+     "security_engineering": 4,
+     "sales_and_consulting": 3,
+     "threat_intel_and_response": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Linux / Unix",
+    "group": "COMMON",
+    "roles_any": 13,
+    "pct_any": 7.7,
+    "in_minimum": 6,
+    "in_preferred": 7,
+    "in_responsibilities": 1,
+    "themes": {
+     "threat_intel_and_response": 5,
+     "sales_and_consulting": 3,
+     "security_engineering": 3,
+     "other_security": 2
+    },
+    "example_roles": []
+   },
+   {
+    "item": "JavaScript / TypeScript",
+    "group": "COMMON",
+    "roles_any": 8,
+    "pct_any": 4.7,
+    "in_minimum": 6,
+    "in_preferred": 2,
+    "in_responsibilities": 0,
+    "themes": {
+     "security_engineering": 6,
+     "threat_intel_and_response": 1,
+     "sales_and_consulting": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Endpoint / EDR tools",
+    "group": "COMMON",
+    "roles_any": 10,
+    "pct_any": 5.9,
+    "in_minimum": 3,
+    "in_preferred": 6,
+    "in_responsibilities": 1,
+    "themes": {
+     "threat_intel_and_response": 7,
+     "other_security": 1,
+     "sales_and_consulting": 1,
+     "physical_corporate_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Databases / big data",
+    "group": "COMMON",
+    "roles_any": 7,
+    "pct_any": 4.1,
+    "in_minimum": 3,
+    "in_preferred": 2,
+    "in_responsibilities": 3,
+    "themes": {
+     "security_engineering": 4,
+     "other_security": 2,
+     "sales_and_consulting": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Rust",
+    "group": "COMMON",
+    "roles_any": 7,
+    "pct_any": 4.1,
+    "in_minimum": 2,
+    "in_preferred": 6,
+    "in_responsibilities": 0,
+    "themes": {
+     "threat_intel_and_response": 4,
+     "security_engineering": 2,
+     "other_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Kubernetes / containers",
+    "group": "COMMON",
+    "roles_any": 7,
+    "pct_any": 4.1,
+    "in_minimum": 2,
+    "in_preferred": 5,
+    "in_responsibilities": 2,
+    "themes": {
+     "threat_intel_and_response": 2,
+     "security_engineering": 2,
+     "other_security": 2,
+     "sales_and_consulting": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Infrastructure as code / DevOps",
+    "group": "ROLE-SPECIFIC",
+    "roles_any": 4,
+    "pct_any": 2.4,
+    "in_minimum": 2,
+    "in_preferred": 2,
+    "in_responsibilities": 0,
+    "themes": {
+     "security_engineering": 3,
+     "other_security": 1
+    },
+    "example_roles": [
+     "Staff Security Engineer, Cloud",
+     "Senior Security Engineer, AutoVM, Cloud Usage Taskforce",
+     "Group Product Manager, Agentic Code Security",
+     "Security Platform Engineer, Google Cloud Public Sector"
+    ]
+   },
+   {
+    "item": "Chrome / browser",
+    "group": "ROLE-SPECIFIC",
+    "roles_any": 3,
+    "pct_any": 1.8,
+    "in_minimum": 1,
+    "in_preferred": 1,
+    "in_responsibilities": 2,
+    "themes": {
+     "security_engineering": 2,
+     "other_security": 1
+    },
+    "example_roles": [
+     "Software Engineer, Chrome Networking Security",
+     "Technical Program Manager, Product Security PMO",
+     "Security Engineering Intern, BS/MS, Summer 2027"
+    ]
+   },
+   {
+    "item": "Windows / Active Directory",
+    "group": "COMMON",
+    "roles_any": 5,
+    "pct_any": 3.0,
+    "in_minimum": 0,
+    "in_preferred": 5,
+    "in_responsibilities": 0,
+    "themes": {
+     "sales_and_consulting": 3,
+     "threat_intel_and_response": 1,
+     "security_engineering": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "SIEM products (Splunk, Chronicle, etc.)",
+    "group": "ROLE-SPECIFIC",
+    "roles_any": 2,
+    "pct_any": 1.2,
+    "in_minimum": 0,
+    "in_preferred": 2,
+    "in_responsibilities": 0,
+    "themes": {
+     "sales_and_consulting": 1,
+     "security_engineering": 1
+    },
+    "example_roles": [
+     "Security Consultant, SOAR, Mandiant, Google Cloud",
+     "Security Engineer, Google Cloud (Japanese, English)"
+    ]
+   },
+   {
+    "item": "Pentest / analysis tools (Burp, Metasploit, Ghidra, IDA, YARA)",
+    "group": "ROLE-SPECIFIC",
+    "roles_any": 1,
+    "pct_any": 0.6,
+    "in_minimum": 0,
+    "in_preferred": 1,
+    "in_responsibilities": 0,
+    "themes": {
+     "threat_intel_and_response": 1
+    },
+    "example_roles": [
+     "Security Engineer, Google Threat Intelligence"
+    ]
+   },
+   {
+    "item": "AWS",
+    "group": "not seen",
+    "roles_any": 0,
+    "pct_any": 0.0,
+    "in_minimum": 0,
+    "in_preferred": 0,
+    "in_responsibilities": 0,
+    "themes": {},
+    "example_roles": []
+   },
+   {
+    "item": "Azure",
+    "group": "not seen",
+    "roles_any": 0,
+    "pct_any": 0.0,
+    "in_minimum": 0,
+    "in_preferred": 0,
+    "in_responsibilities": 0,
+    "themes": {},
+    "example_roles": []
+   }
+  ],
+  "Certifications": [
+   {
+    "item": "Any 'certification' mentioned",
+    "group": "COMMON",
+    "roles_any": 39,
+    "pct_any": 23.1,
+    "in_minimum": 2,
+    "in_preferred": 36,
+    "in_responsibilities": 2,
+    "themes": {
+     "threat_intel_and_response": 22,
+     "sales_and_consulting": 8,
+     "other_security": 6,
+     "security_engineering": 2,
+     "physical_corporate_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "GIAC / SANS (GCIH, GCIA, GCFA, GCFE, GPEN, GSEC...)",
+    "group": "COMMON",
+    "roles_any": 17,
+    "pct_any": 10.1,
+    "in_minimum": 1,
+    "in_preferred": 16,
+    "in_responsibilities": 0,
+    "themes": {
+     "threat_intel_and_response": 14,
+     "sales_and_consulting": 2,
+     "other_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "CCSP / cloud security certification",
+    "group": "COMMON",
+    "roles_any": 16,
+    "pct_any": 9.5,
+    "in_minimum": 1,
+    "in_preferred": 15,
+    "in_responsibilities": 0,
+    "themes": {
+     "threat_intel_and_response": 12,
+     "other_security": 2,
+     "sales_and_consulting": 2
+    },
+    "example_roles": []
+   },
+   {
+    "item": "CISSP",
+    "group": "COMMON",
+    "roles_any": 11,
+    "pct_any": 6.5,
+    "in_minimum": 1,
+    "in_preferred": 10,
+    "in_responsibilities": 0,
+    "themes": {
+     "threat_intel_and_response": 4,
+     "sales_and_consulting": 3,
+     "other_security": 3,
+     "physical_corporate_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "CISM / CISA / CRISC (ISACA)",
+    "group": "COMMON",
+    "roles_any": 8,
+    "pct_any": 4.7,
+    "in_minimum": 1,
+    "in_preferred": 7,
+    "in_responsibilities": 0,
+    "themes": {
+     "threat_intel_and_response": 4,
+     "other_security": 2,
+     "sales_and_consulting": 2
+    },
+    "example_roles": []
+   },
+   {
+    "item": "CompTIA Security+ / similar",
+    "group": "ROLE-SPECIFIC",
+    "roles_any": 3,
+    "pct_any": 1.8,
+    "in_minimum": 1,
+    "in_preferred": 3,
+    "in_responsibilities": 0,
+    "themes": {
+     "sales_and_consulting": 2,
+     "threat_intel_and_response": 1
+    },
+    "example_roles": [
+     "Incident Response Engineer, UK Security Operations, Hampshire",
+     "Security Consultant, SOAR, Mandiant, Google Cloud",
+     "Security Engineering Technology Specialist"
+    ]
+   },
+   {
+    "item": "CEH",
+    "group": "ROLE-SPECIFIC",
+    "roles_any": 2,
+    "pct_any": 1.2,
+    "in_minimum": 1,
+    "in_preferred": 1,
+    "in_responsibilities": 0,
+    "themes": {
+     "threat_intel_and_response": 1,
+     "sales_and_consulting": 1
+    },
+    "example_roles": [
+     "Incident Response Engineer, UK Security Operations, Hampshire",
+     "Customer Engineer, Google Cloud Security"
+    ]
+   },
+   {
+    "item": "OSCP / OSCE / OSEP / OSED / OSWE (Offensive Security)",
+    "group": "COMMON",
+    "roles_any": 11,
+    "pct_any": 6.5,
+    "in_minimum": 0,
+    "in_preferred": 11,
+    "in_responsibilities": 0,
+    "themes": {
+     "threat_intel_and_response": 9,
+     "security_engineering": 1,
+     "other_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Cisco (CCNA / CCNP)",
+    "group": "ROLE-SPECIFIC",
+    "roles_any": 2,
+    "pct_any": 1.2,
+    "in_minimum": 0,
+    "in_preferred": 2,
+    "in_responsibilities": 0,
+    "themes": {
+     "sales_and_consulting": 2
+    },
+    "example_roles": [
+     "Security Consultant, SOAR, Mandiant, Google Cloud",
+     "Security Engineering Technology Specialist"
+    ]
+   },
+   {
+    "item": "PMP / project-management certification",
+    "group": "ROLE-SPECIFIC",
+    "roles_any": 1,
+    "pct_any": 0.6,
+    "in_minimum": 0,
+    "in_preferred": 1,
+    "in_responsibilities": 0,
+    "themes": {
+     "other_security": 1
+    },
+    "example_roles": [
+     "Cyber Security Auditor, Internal Audit"
+    ]
+   }
+  ],
+  "Experience, education and other requirements": [
+   {
+    "item": "Bachelor's degree or equivalent practical experience",
+    "group": "MANDATORY",
+    "roles_any": 160,
+    "pct_any": 94.7,
+    "in_minimum": 159,
+    "in_preferred": 2,
+    "in_responsibilities": 0,
+    "themes": {
+     "security_engineering": 54,
+     "threat_intel_and_response": 40,
+     "sales_and_consulting": 32,
+     "other_security": 31,
+     "physical_corporate_security": 3
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Coding experience (general purpose languages)",
+    "group": "MANDATORY",
+    "roles_any": 86,
+    "pct_any": 50.9,
+    "in_minimum": 68,
+    "in_preferred": 18,
+    "in_responsibilities": 11,
+    "themes": {
+     "security_engineering": 50,
+     "threat_intel_and_response": 18,
+     "sales_and_consulting": 10,
+     "other_security": 7,
+     "physical_corporate_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Bachelor's in CS / security / technical field",
+    "group": "MANDATORY",
+    "roles_any": 61,
+    "pct_any": 36.1,
+    "in_minimum": 61,
+    "in_preferred": 1,
+    "in_responsibilities": 0,
+    "themes": {
+     "threat_intel_and_response": 23,
+     "other_security": 15,
+     "security_engineering": 13,
+     "sales_and_consulting": 10
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Customer-facing / consulting / sales",
+    "group": "MANDATORY",
+    "roles_any": 122,
+    "pct_any": 72.2,
+    "in_minimum": 47,
+    "in_preferred": 64,
+    "in_responsibilities": 103,
+    "themes": {
+     "security_engineering": 34,
+     "sales_and_consulting": 34,
+     "threat_intel_and_response": 32,
+     "other_security": 19,
+     "physical_corporate_security": 3
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Written and verbal communication / presenting",
+    "group": "COMMON",
+    "roles_any": 96,
+    "pct_any": 56.8,
+    "in_minimum": 28,
+    "in_preferred": 70,
+    "in_responsibilities": 58,
+    "themes": {
+     "threat_intel_and_response": 29,
+     "sales_and_consulting": 28,
+     "other_security": 21,
+     "security_engineering": 16,
+     "physical_corporate_security": 2
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Leading teams / technical leadership",
+    "group": "COMMON",
+    "roles_any": 47,
+    "pct_any": 27.8,
+    "in_minimum": 25,
+    "in_preferred": 18,
+    "in_responsibilities": 9,
+    "themes": {
+     "security_engineering": 28,
+     "threat_intel_and_response": 10,
+     "other_security": 4,
+     "sales_and_consulting": 4,
+     "physical_corporate_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Cross-functional collaboration / stakeholders",
+    "group": "COMMON",
+    "roles_any": 99,
+    "pct_any": 58.6,
+    "in_minimum": 23,
+    "in_preferred": 34,
+    "in_responsibilities": 74,
+    "themes": {
+     "security_engineering": 29,
+     "sales_and_consulting": 26,
+     "other_security": 23,
+     "threat_intel_and_response": 17,
+     "physical_corporate_security": 4
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Travel required",
+    "group": "COMMON",
+    "roles_any": 33,
+    "pct_any": 19.5,
+    "in_minimum": 23,
+    "in_preferred": 2,
+    "in_responsibilities": 10,
+    "themes": {
+     "threat_intel_and_response": 18,
+     "sales_and_consulting": 9,
+     "security_engineering": 4,
+     "physical_corporate_security": 1,
+     "other_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Program / project management",
+    "group": "COMMON",
+    "roles_any": 32,
+    "pct_any": 18.9,
+    "in_minimum": 18,
+    "in_preferred": 16,
+    "in_responsibilities": 3,
+    "themes": {
+     "threat_intel_and_response": 13,
+     "other_security": 11,
+     "security_engineering": 4,
+     "sales_and_consulting": 3,
+     "physical_corporate_security": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Language fluency (non-English + English)",
+    "group": "COMMON",
+    "roles_any": 53,
+    "pct_any": 31.4,
+    "in_minimum": 17,
+    "in_preferred": 22,
+    "in_responsibilities": 22,
+    "themes": {
+     "sales_and_consulting": 18,
+     "other_security": 13,
+     "threat_intel_and_response": 12,
+     "security_engineering": 8,
+     "physical_corporate_security": 2
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Security clearance",
+    "group": "COMMON",
+    "roles_any": 11,
+    "pct_any": 6.5,
+    "in_minimum": 11,
+    "in_preferred": 2,
+    "in_responsibilities": 0,
+    "themes": {
+     "security_engineering": 4,
+     "threat_intel_and_response": 3,
+     "sales_and_consulting": 2,
+     "other_security": 2
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Master's / PhD (preferred)",
+    "group": "COMMON",
+    "roles_any": 53,
+    "pct_any": 31.4,
+    "in_minimum": 6,
+    "in_preferred": 47,
+    "in_responsibilities": 0,
+    "themes": {
+     "security_engineering": 31,
+     "sales_and_consulting": 10,
+     "other_security": 6,
+     "threat_intel_and_response": 4,
+     "physical_corporate_security": 2
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Public sector / government",
+    "group": "COMMON",
+    "roles_any": 21,
+    "pct_any": 12.4,
+    "in_minimum": 5,
+    "in_preferred": 12,
+    "in_responsibilities": 12,
+    "themes": {
+     "sales_and_consulting": 7,
+     "other_security": 6,
+     "threat_intel_and_response": 4,
+     "security_engineering": 4
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Data structures and algorithms",
+    "group": "COMMON",
+    "roles_any": 20,
+    "pct_any": 11.8,
+    "in_minimum": 4,
+    "in_preferred": 16,
+    "in_responsibilities": 0,
+    "themes": {
+     "security_engineering": 15,
+     "threat_intel_and_response": 4,
+     "sales_and_consulting": 1
+    },
+    "example_roles": []
+   },
+   {
+    "item": "Security competitions / CTFs",
+    "group": "COMMON",
+    "roles_any": 12,
+    "pct_any": 7.1,
+    "in_minimum": 0,
+    "in_preferred": 12,
+    "in_responsibilities": 0,
+    "themes": {
+     "threat_intel_and_response": 12
+    },
+    "example_roles": []
+   }
+  ]
+ },
+ "max_years_in_minimum_qualifications": {
+  "0": 4,
+  "1": 2,
+  "2": 19,
+  "3": 7,
+  "4": 1,
+  "5": 66,
+  "6": 7,
+  "7": 4,
+  "8": 33,
+  "10": 20,
+  "12": 1,
+  "15": 5
+ }
+}

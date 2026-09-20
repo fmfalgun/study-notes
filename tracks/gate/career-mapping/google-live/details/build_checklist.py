@@ -16,7 +16,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 OUT = HERE.parent
-SECS = ("minimum_qualifications", "preferred_qualifications", "responsibilities", "about")
+SECS = ("minimum_qualifications", "preferred_qualifications", "responsibilities")   # NOT "about": that is Google boilerplate ("Google Cloud", "customers")
 I = re.I
 
 LEX = {
@@ -57,7 +57,6 @@ LEX = {
   "Chrome / browser": r"chrome|browser",
   "Kubernetes / containers": r"kubernetes|\bk8s\b|docker|container\w*|\bgke\b",
   "Infrastructure as code / DevOps": r"terraform|infrastructure as code|ci/cd|devops",
-  "Google Cloud (GCP)": r"google cloud|\bgcp\b",
   "AWS": r"\baws\b|amazon web services",
   "Azure": r"\bazure\b",
   "Endpoint / EDR tools": r"\bedr\b|endpoint (?:detection|security|protection)|crowdstrike|carbon black|sentinelone",
@@ -137,7 +136,7 @@ def main():
             th = collections.Counter(r["theme"] for r in hit)
             items.append({"item": name, "group": grp, "roles_any": n_any, "pct_any": round(100 * n_any / n, 1),
                           "in_minimum": per["minimum_qualifications"], "in_preferred": per["preferred_qualifications"],
-                          "in_responsibilities": per["responsibilities"], "in_about": per["about"],
+                          "in_responsibilities": per["responsibilities"],
                           "themes": dict(th.most_common()),
                           "example_roles": [r["title"] for r in hit[:4]] if grp == "ROLE-SPECIFIC" else []})
         out["categories"][cat] = sorted(items, key=lambda x: (-x["in_minimum"], -x["roles_any"]))
@@ -150,10 +149,11 @@ def main():
     (OUT / "details-checklist.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
 
     L = [f"# Checklist from the job descriptions of Google's live security roles ({n} roles, 19-20 Sep 2026)", "",
-         "Built by `details/build_checklist.py` from `details/roles/*.json` (sections: minimum qualifications, preferred qualifications, responsibilities, about the job).", "",
+         "Built by `details/build_checklist.py` from `details/roles/*.json` (sections counted: minimum qualifications, preferred qualifications, responsibilities; the About-the-job boilerplate is ignored because it names Google Cloud and customers in every posting).", "",
          "## How to read this", "",
          f"- Denominator: **{n} roles** that have a stored description (169 live roles have a link; 1 role has no id and was not fetched). Themes: " + ", ".join(f"{k} {v}" for k, v in themes.most_common()) + ".",
          "- **MANDATORY** = the item is in the *minimum qualifications* of at least 20% of roles (Google's minimum qualifications are its stated requirements). **COMMON** = in 5 or more roles in any section but below that bar. **ROLE-SPECIFIC** = in 1 to 4 roles (the roles are named).",
+         "- MANDATORY is measured against ALL roles, so role-family items (customer-facing, travel, language) can be mandatory overall because a fifth of roles are sales/consulting; check the 'Main themes' column. Google Cloud / GCP is left out as a technology: it is the employer's product name in almost every posting. AWS and Azure appear in no posting.",
          "- Counts are roles, not mentions. It is keyword matching: a hit means the phrase is in the posting, not how deep the need is. Preferred qualifications are wishes, not requirements. This is a one-day snapshot of open roles, not a hiring trend.", ""]
     for cat, items in out["categories"].items():
         L += [f"## {cat}", ""]
