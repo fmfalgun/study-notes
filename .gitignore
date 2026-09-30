@@ -15,3 +15,10 @@ tools/homelab-experiments/*/*/script/results/
 
 # Real generated key material from the key-generation study exercise — never commit private keys
 sets/cybersecurity-developer-vpn-tor-siem/00-prerequisite-foundations/generated-keys/
+
+# GATE previous-year papers — large binaries, official public exam PDFs (not personal material,
+# just heavy). The zips are 100% redundant with the extracted PDFs. The text cache is regenerable
+# from the PDFs via tools/gate-paper-classifier/. Analysis built from these IS tracked normally.
+tracks/gate/topics/prev-papers/
+tracks/gate/*.zip
+tools/gate-paper-classifier/extracted-text-cache/
