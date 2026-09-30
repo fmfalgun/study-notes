@@ -25,7 +25,9 @@ signal itself; "handled" doesn't survive because the handler function's code no 
 
 **Try it** (fish):
 ```fish
-trap 2>&1 | head -3   # fish has no `trap` builtin the bash way -- see the function-based form below
+trap 2>&1 | head -3   # fish's trap IS a real command (bash-compat function, not a true builtin) --
+                      # bare here it's asking "list registered traps"; expect exit 1 + no output
+                      # since nothing's registered *through trap* yet (not a crash -- see below)
 function on_usr1 --on-signal USR1
     echo "caught SIGUSR1"
 end
