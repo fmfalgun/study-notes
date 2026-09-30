@@ -1,0 +1,623 @@
+[
+  {
+    "year": 2018,
+    "shift": "",
+    "question": 13,
+    "subcluster": [
+      "Data Link Layer",
+      "Network Layer",
+      "Transport Layer"
+    ],
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: ethernet, ipv6, mac, mac address, port number, sequence number"
+  },
+  {
+    "year": 2018,
+    "shift": "",
+    "question": 14,
+    "subcluster": "Transport Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: round trip time, tcp"
+  },
+  {
+    "year": 2018,
+    "shift": "",
+    "question": 25,
+    "subcluster": "Transport Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "matched: sequence number, tcp"
+  },
+  {
+    "year": 2018,
+    "shift": "",
+    "question": 54,
+    "subcluster": [
+      "Network Layer",
+      "Transport Layer"
+    ],
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: fragmentation, ipv4, tcp"
+  },
+  {
+    "year": 2018,
+    "shift": "",
+    "question": 55,
+    "subcluster": [
+      "Data Link Layer",
+      "Network Layer"
+    ],
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: ethernet, nat"
+  },
+  {
+    "year": 2022,
+    "shift": "",
+    "question": 22,
+    "subcluster": [
+      "Application Layer",
+      "Data Link Layer"
+    ],
+    "type": "numerical",
+    "confidence": "high",
+    "note": "matched: ethernet, firewall"
+  },
+  {
+    "year": 2022,
+    "shift": "",
+    "question": 35,
+    "subcluster": "Application Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: dns"
+  },
+  {
+    "year": 2022,
+    "shift": "",
+    "question": 55,
+    "subcluster": "Network Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "matched: cidr, next hop, routing table"
+  },
+  {
+    "year": 2022,
+    "shift": "",
+    "question": 57,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: distance vector, routing table"
+  },
+  {
+    "year": 2022,
+    "shift": "",
+    "question": 60,
+    "subcluster": "Transport Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: sequence number, tcp"
+  },
+  {
+    "year": 2022,
+    "shift": "",
+    "question": 65,
+    "subcluster": "Network Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "matched: nat"
+  },
+  {
+    "year": 2023,
+    "shift": "",
+    "question": 17,
+    "subcluster": "Data Link Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "matched: stop-and-wait"
+  },
+  {
+    "year": 2023,
+    "shift": "",
+    "question": 25,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: ospf"
+  },
+  {
+    "year": 2023,
+    "shift": "",
+    "question": 50,
+    "subcluster": "Transport Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: sequence number, tcp"
+  },
+  {
+    "year": 2023,
+    "shift": "",
+    "question": 52,
+    "subcluster": [
+      "Application Layer",
+      "Network Layer",
+      "Transport Layer"
+    ],
+    "type": "numerical",
+    "confidence": "high",
+    "note": "matched: dns, http, ip address, round trip time, rtt, tcp"
+  },
+  {
+    "year": 2023,
+    "shift": "",
+    "question": 65,
+    "subcluster": "Network Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "matched: forwarding table"
+  },
+  {
+    "year": 2024,
+    "shift": "CS1",
+    "question": 16,
+    "subcluster": [
+      "Application Layer",
+      "Network Layer",
+      "Transport Layer"
+    ],
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: dns, http, ip address, syn, tcp, tcp connection"
+  },
+  {
+    "year": 2024,
+    "shift": "CS1",
+    "question": 29,
+    "subcluster": "Transport Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: ack, acknowledgement number, sequence number, syn, tcp"
+  },
+  {
+    "year": 2024,
+    "shift": "CS1",
+    "question": 31,
+    "subcluster": [
+      "Data Link Layer",
+      "Network Layer"
+    ],
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: checksum, nat, network address translation"
+  },
+  {
+    "year": 2024,
+    "shift": "CS1",
+    "question": 58,
+    "subcluster": "Network Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "matched: forwarding table, ip address, next hop"
+  },
+  {
+    "year": 2024,
+    "shift": "CS1",
+    "question": 65,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: datagram"
+  },
+  {
+    "year": 2024,
+    "shift": "CS2",
+    "question": 23,
+    "subcluster": [
+      "Data Link Layer",
+      "Network Layer",
+      "Transport Layer"
+    ],
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: ethernet, ip address, mac, mac address, tcp, tcp connection"
+  },
+  {
+    "year": 2024,
+    "shift": "CS2",
+    "question": 28,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: datagram, fragmentation, ipv4"
+  },
+  {
+    "year": 2024,
+    "shift": "CS2",
+    "question": 32,
+    "subcluster": [
+      "Data Link Layer",
+      "Network Layer"
+    ],
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: checksum, ip address, ttl"
+  },
+  {
+    "year": 2024,
+    "shift": "CS2",
+    "question": 37,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: cidr"
+  },
+  {
+    "year": 2024,
+    "shift": "CS2",
+    "question": 38,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: ip addresses"
+  },
+  {
+    "year": 2024,
+    "shift": "CS2",
+    "question": 54,
+    "subcluster": "Transport Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "matched: rtt, tcp, tcp connection, window size"
+  },
+  {
+    "year": 2024,
+    "shift": "CS2",
+    "question": 55,
+    "subcluster": "Data Link Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: ethernet"
+  },
+  {
+    "year": 2025,
+    "shift": "CS1",
+    "question": 16,
+    "subcluster": [
+      "Data Link Layer",
+      "Fundamentals & Physical Layer",
+      "Transport Layer"
+    ],
+    "type": "numerical",
+    "confidence": "high",
+    "note": "matched: framing, osi layer, transport layer"
+  },
+  {
+    "year": 2025,
+    "shift": "CS1",
+    "question": 22,
+    "subcluster": "Transport Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: ack, syn, tcp, tcp connection"
+  },
+  {
+    "year": 2025,
+    "shift": "CS1",
+    "question": 40,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: ip address, routing table"
+  },
+  {
+    "year": 2025,
+    "shift": "CS1",
+    "question": 51,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: fragmentation"
+  },
+  {
+    "year": 2025,
+    "shift": "CS1",
+    "question": 57,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: ipv4"
+  },
+  {
+    "year": 2025,
+    "shift": "CS2",
+    "question": 16,
+    "subcluster": [
+      "Network Layer",
+      "Transport Layer"
+    ],
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: arp, tcp, tcp segment"
+  },
+  {
+    "year": 2025,
+    "shift": "CS2",
+    "question": 17,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: distance vector, link state routing"
+  },
+  {
+    "year": 2025,
+    "shift": "CS2",
+    "question": 18,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: datagram, icmp, ipv4, ospf, rip"
+  },
+  {
+    "year": 2025,
+    "shift": "CS2",
+    "question": 23,
+    "subcluster": [
+      "Data Link Layer",
+      "Network Layer",
+      "Transport Layer"
+    ],
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: ethernet, ipv4, udp"
+  },
+  {
+    "year": 2025,
+    "shift": "CS2",
+    "question": 36,
+    "subcluster": "Data Link Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "matched: stop-and-wait"
+  },
+  {
+    "year": 2026,
+    "shift": "CS1",
+    "question": 18,
+    "subcluster": "Transport Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: tcp, tcp connection"
+  },
+  {
+    "year": 2026,
+    "shift": "CS1",
+    "question": 19,
+    "subcluster": [
+      "Application Layer",
+      "Transport Layer"
+    ],
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: http, tcp, tcp connection"
+  },
+  {
+    "year": 2026,
+    "shift": "CS1",
+    "question": 44,
+    "subcluster": "Transport Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: congestion control, round-trip time, tcp"
+  },
+  {
+    "year": 2026,
+    "shift": "CS1",
+    "question": 45,
+    "subcluster": [
+      "Data Link Layer",
+      "Transport Layer"
+    ],
+    "type": "numerical",
+    "confidence": "high",
+    "note": "matched: sliding window, window size"
+  },
+  {
+    "year": 2026,
+    "shift": "CS1",
+    "question": 56,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: cidr, ip addresses"
+  },
+  {
+    "year": 2026,
+    "shift": "CS2",
+    "question": 22,
+    "subcluster": "Application Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: dhcp, ftp, http, smtp"
+  },
+  {
+    "year": 2026,
+    "shift": "CS2",
+    "question": 43,
+    "subcluster": "Data Link Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: crc, error detection"
+  },
+  {
+    "year": 2026,
+    "shift": "CS2",
+    "question": 58,
+    "subcluster": "Transport Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "matched: congestion control, tcp, tcp connection"
+  },
+  {
+    "year": 2026,
+    "shift": "CS2",
+    "question": 65,
+    "subcluster": "Transport Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "matched: sequence number"
+  },
+  {
+    "year": 2019,
+    "shift": "",
+    "question": 16,
+    "subcluster": "Application Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "email protocols SMTP/POP3/IMAP/MIME - verified via direct PDF read"
+  },
+  {
+    "year": 2019,
+    "shift": "",
+    "question": 28,
+    "subcluster": "Network Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "subnetting via subnet mask - verified via direct PDF read"
+  },
+  {
+    "year": 2019,
+    "shift": "",
+    "question": 29,
+    "subcluster": [
+      "Data Link Layer",
+      "Network Layer"
+    ],
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "ARP request, MAC address resolution - verified via direct PDF read (question number \u00b11 uncertain, not cross-checked against a printed Q-label)"
+  },
+  {
+    "year": 2019,
+    "shift": "",
+    "question": 49,
+    "subcluster": "Data Link Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "LAN design with Ethernet switches - verified via direct PDF read"
+  },
+  {
+    "year": 2020,
+    "shift": "",
+    "question": 15,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "router functionality / IP packet forwarding statements - verified via direct PDF read"
+  },
+  {
+    "year": 2020,
+    "shift": "",
+    "question": 25,
+    "subcluster": [
+      "Application Layer",
+      "Transport Layer"
+    ],
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "HTTP non-persistent connections / TCP connections needed - verified via direct PDF read"
+  },
+  {
+    "year": 2020,
+    "shift": "",
+    "question": 38,
+    "subcluster": "Network Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "CIDR route aggregation numerical - verified via direct PDF read"
+  },
+  {
+    "year": 2020,
+    "shift": "",
+    "question": 55,
+    "subcluster": "Transport Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "TCP congestion window computation numerical - verified via direct PDF read"
+  },
+  {
+    "year": 2021,
+    "shift": "Set-1",
+    "question": 8,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "ARP request/reply MAC address broadcast statements - verified via direct PDF read"
+  },
+  {
+    "year": 2021,
+    "shift": "Set-1",
+    "question": 44,
+    "subcluster": "Transport Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "TCP server crash/reboot behavior - verified via direct PDF read"
+  },
+  {
+    "year": 2021,
+    "shift": "Set-1",
+    "question": 45,
+    "subcluster": "Network Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "TCP/IP fragmentation, MTU numerical - verified via direct PDF read"
+  },
+  {
+    "year": 2021,
+    "shift": "Set-1",
+    "question": 49,
+    "subcluster": "Data Link Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "sliding window flow-control numerical - verified via direct PDF read"
+  },
+  {
+    "year": 2021,
+    "shift": "Set-2",
+    "question": 7,
+    "subcluster": "Transport Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "TCP 3-way handshake SYN/ACK numbers - verified via direct PDF read"
+  },
+  {
+    "year": 2021,
+    "shift": "Set-2",
+    "question": 34,
+    "subcluster": "Data Link Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "CRC error-detecting scheme checkbit numerical - verified via direct PDF read"
+  },
+  {
+    "year": 2021,
+    "shift": "Set-2",
+    "question": 45,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "distance vector routing algorithm numerical - verified via direct PDF read"
+  },
+  {
+    "year": 2021,
+    "shift": "Set-2",
+    "question": 54,
+    "subcluster": "Data Link Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "pure ALOHA throughput numerical - verified via direct PDF read"
+  }
+]

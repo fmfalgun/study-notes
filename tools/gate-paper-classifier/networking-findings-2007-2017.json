@@ -1,0 +1,587 @@
+[
+  {
+    "year": 2007,
+    "shift": null,
+    "question": 19,
+    "subcluster": "Application Layer protocols (DNS/HTTP/SMTP/Telnet, match-type)",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "multi-protocol identification/matching question"
+  },
+  {
+    "year": 2007,
+    "shift": null,
+    "question": 34,
+    "subcluster": "Transport Layer - Multiplexing",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2007,
+    "shift": null,
+    "question": 46,
+    "subcluster": "Transport Layer - TCP segment/header",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2007,
+    "shift": null,
+    "question": 52,
+    "subcluster": "Transport Layer - TCP segment/header",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2007,
+    "shift": null,
+    "question": 68,
+    "subcluster": "Data Link Layer - LAN/subnetting/CRC/token ring",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "likely subnetting numerical, old-syllabus token-ring content since dropped from current topic map"
+  },
+  {
+    "year": 2007,
+    "shift": null,
+    "question": 70,
+    "subcluster": "Transport Layer - TCP/sliding window + BGP mention",
+    "type": "numerical",
+    "confidence": "medium",
+    "note": "BGP is not in current topic map's Network Layer sub-clusters - flagged as syllabus drift"
+  },
+  {
+    "year": 2008,
+    "shift": null,
+    "question": 14,
+    "subcluster": "Transport Layer - TCP",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2008,
+    "shift": null,
+    "question": 17,
+    "subcluster": "Transport Layer - Socket API",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2008,
+    "shift": null,
+    "question": 59,
+    "subcluster": "Network/Transport Layer - Subnetting + TCP congestion control",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2009,
+    "shift": null,
+    "question": 47,
+    "subcluster": "Data Link Layer - CRC / Transport - sequence numbers",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2009,
+    "shift": null,
+    "question": 55,
+    "subcluster": "Data Link Layer - Sliding Window Protocol (window size, ack)",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2010,
+    "shift": null,
+    "question": 17,
+    "subcluster": "Network Layer - datagram",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2010,
+    "shift": null,
+    "question": 47,
+    "subcluster": "Network Layer - IP Addressing",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2010,
+    "shift": null,
+    "question": 50,
+    "subcluster": "Network Layer - Distance Vector Routing",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2011,
+    "shift": null,
+    "question": 30,
+    "subcluster": "Transport Layer - TCP segment",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2011,
+    "shift": null,
+    "question": 50,
+    "subcluster": "Network Layer - Distance Vector Routing",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2011,
+    "shift": null,
+    "question": 61,
+    "subcluster": "Application Layer protocols (FTP/HTTP/ICMP/IMAP/POP3/SMTP, match-type) + Firewall",
+    "type": "conceptual",
+    "confidence": "medium",
+    "note": "dense multi-label hit, likely a match-the-protocol-to-layer or identify-the-odd-one-out question"
+  },
+  {
+    "year": 2012,
+    "shift": null,
+    "question": 3,
+    "subcluster": "Transport Layer - TCP segment/header",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "shift": null,
+    "question": 10,
+    "subcluster": "Network/Transport - datagram, TCP segment",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "shift": null,
+    "question": 22,
+    "subcluster": "Transport/Application - TCP/UDP/SMTP",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "shift": null,
+    "question": 34,
+    "subcluster": "Network Layer - CIDR / IP Addressing",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "shift": null,
+    "question": 44,
+    "subcluster": "Physical/Data Link - Propagation delay",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "shift": null,
+    "question": 45,
+    "subcluster": "Transport Layer - TCP window size",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "shift": null,
+    "question": 47,
+    "subcluster": "Transport Layer - TCP segment/header",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "shift": null,
+    "question": 48,
+    "subcluster": "Transport Layer - TCP segment/header",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2012,
+    "shift": null,
+    "question": 49,
+    "subcluster": "Transport Layer - TCP segment/header",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "shift": null,
+    "question": 5,
+    "subcluster": "Transport Layer - Multiplexing",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "shift": null,
+    "question": 12,
+    "subcluster": "Application/Transport - DNS/TCP/UDP",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "shift": null,
+    "question": 16,
+    "subcluster": "Transport Layer - TCP segment/header",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "shift": null,
+    "question": 36,
+    "subcluster": "Data Link Layer - Ethernet/LAN",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "shift": null,
+    "question": 37,
+    "subcluster": "Network/Transport - datagram, sequence numbers",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "shift": null,
+    "question": 47,
+    "subcluster": "Transport Layer - TCP segment/header",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2013,
+    "shift": null,
+    "question": 49,
+    "subcluster": "Transport Layer - TCP segment/header",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2014,
+    "shift": null,
+    "question": 20,
+    "subcluster": "Transport Layer - TCP segment/header",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2014,
+    "shift": null,
+    "question": 23,
+    "subcluster": "Network Layer - Distance Vector vs Link State Routing",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2014,
+    "shift": null,
+    "question": 24,
+    "subcluster": "Application/Transport - DNS/HTTP/TCP",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2014,
+    "shift": null,
+    "question": 27,
+    "subcluster": "Transport Layer - TCP segment/header",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2014,
+    "shift": null,
+    "question": 28,
+    "subcluster": "Data Link Layer - Sliding Window (Selective Repeat)",
+    "type": "numerical",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2014,
+    "shift": null,
+    "question": 45,
+    "subcluster": "Transport Layer - Multiplexing",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "year": 2014,
+    "shift": null,
+    "question": 55,
+    "subcluster": "Data Link Layer - Token Ring",
+    "type": "conceptual",
+    "confidence": "medium",
+    "note": "token ring is old-syllabus content, not in current topic map's Data Link Layer sub-clusters"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-1",
+    "question": 23,
+    "subcluster": "Transport Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "TCP connection properties (full-duplex, selective ACK, message streams) - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-1",
+    "question": 26,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "IP header field not modified by router - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-1",
+    "question": 27,
+    "subcluster": "Application Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "protocol pairs using multiple TCP connections (HTTP/FTP/SMTP/TELNET) - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-1",
+    "question": 36,
+    "subcluster": "Data Link Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "stop-and-wait protocol frame size for 50% link utilization - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-1",
+    "question": 39,
+    "subcluster": "Data Link Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "LAN collision probability, multiple access - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-2",
+    "question": 33,
+    "subcluster": "Transport Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "UNIX socket API call order (bind/listen/accept/recv) - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-2",
+    "question": 34,
+    "subcluster": "Data Link Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "stop-and-wait protocol propagation delay numerical - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-2",
+    "question": 35,
+    "subcluster": "Application Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "HTTP cookies statements - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-2",
+    "question": 36,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "IP routing table longest prefix matching - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-2",
+    "question": 37,
+    "subcluster": "Network Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "UDP/IP fragmentation, MTU, offset field - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-2",
+    "question": 38,
+    "subcluster": "Transport Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "TCP window scale option numerical - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-3",
+    "question": 18,
+    "subcluster": "Application Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "web server relative URL / base href configuration - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-3",
+    "question": 19,
+    "subcluster": "Transport Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "TCP connection properties statements - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-3",
+    "question": 35,
+    "subcluster": "Data Link Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "CSMA/CD network signal speed numerical - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-3",
+    "question": 46,
+    "subcluster": "Network Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "IP subnetting /27 last host address numerical - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-3",
+    "question": 47,
+    "subcluster": "Data Link Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "Go-Back-N sliding window sequence number field size numerical - verified via direct PDF read"
+  },
+  {
+    "year": 2015,
+    "shift": "Session-3",
+    "question": 56,
+    "subcluster": "Network Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "packet switch propagation/forwarding delay numerical - verified via direct PDF read"
+  },
+  {
+    "year": 2017,
+    "shift": "CS1",
+    "question": 14,
+    "subcluster": "Transport Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "TCP connection close, FIN-WAIT state - verified via direct PDF read"
+  },
+  {
+    "year": 2017,
+    "shift": "CS1",
+    "question": 32,
+    "subcluster": "Data Link Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "CRC error-checking generator polynomial - verified via direct PDF read"
+  },
+  {
+    "year": 2017,
+    "shift": "CS1",
+    "question": 45,
+    "subcluster": "Data Link Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "Stop-and-Wait ARQ transmission efficiency numerical - verified via direct PDF read"
+  },
+  {
+    "year": 2017,
+    "shift": "CS2",
+    "question": 9,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "RIP/OSPF routing protocol statements - verified via direct PDF read"
+  },
+  {
+    "year": 2017,
+    "shift": "CS2",
+    "question": 18,
+    "subcluster": "Transport Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "UNIX socket API call order (bind/listen/accept/recv) - verified via direct PDF read"
+  },
+  {
+    "year": 2017,
+    "shift": "CS2",
+    "question": 20,
+    "subcluster": "Network Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "IPv4 record route option field - verified via direct PDF read"
+  },
+  {
+    "year": 2017,
+    "shift": "CS2",
+    "question": 34,
+    "subcluster": "Data Link Layer",
+    "type": "conceptual",
+    "confidence": "high",
+    "note": "Hamming distance / error-correction code - verified via direct PDF read"
+  },
+  {
+    "year": 2017,
+    "shift": "CS2",
+    "question": 35,
+    "subcluster": "Transport Layer",
+    "type": "numerical",
+    "confidence": "high",
+    "note": "transmission/propagation delay numerical - verified via direct PDF read"
+  }
+]
