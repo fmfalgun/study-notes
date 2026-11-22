@@ -115,85 +115,85 @@ Ordered by combined weight: GATE tier/score first, Google minimum-requirement co
 
 | Book | Score | Section | Path |
 |---|---|---|---|
-| Attacking Network Protocols — Hacker's Guide to Capture, Analysis, Exploitation | 7/10 | 3 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Attacking Network Protocols A Hacker's Guide to Capture, Analysis, and Exploitation.pdf` |
-| Nmap Network Exploration and Security Auditing Cookbook, 2nd Ed | 7/10 | 3 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Nmap Network Exploration and Security Auditing Cookbook - Second Edition.pdf` |
-| Applied Network Security Monitoring | 8/10 | 3 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Applied Network Security Monitoring.pdf` |
-| Network Security Through Data Analysis, 2nd Ed | 7/10 | 3 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Network Security Through Data Analysis, 2nd Edition.pdf` |
-| Cisco Press — Penetration Testing and Network Defense | 7/10 | 3 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Cisco Press - Penetration Testing and Network Defense.pdf` |
-| Network Layer — Forouzan (slides) | 5/10 | 3 | `../hardisk/hdd/disk/course/WEEK-14/Dr. Nitin kumar/Network-Layer-Forouzan.pdf` |
-| Wireshark Top Filters (quick ref) | 7/10 | 12 | `../hardisk/hdd/disk/course/WEEK-4/Wireshark Top Filters.pdf` |
-| SILENCE ON THE WIRE — Passive Reconnaissance and Indirect Attacks | 6/10 | 3 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/SILENCE ON THE WIRE A Field Guide to Passive Reconnaissance and Indirect Attacks.pdf` |
-| Cryptography and Network Security — Principles and Practice, 7th Global Ed | 6/10 | 13 | `../hardisk/hdd/old_files/downloads/Download/cryptography-and-network-security_-principles-and-practice-7th-global-edition.pdf` |
-| Elementary Cryptanalysis (227 pg) | 7/10 | 13 | `../hardisk/hdd/old_files/downloads/Download/(New mathematical library 22) Sinkov, Abraham - Elementary cryptanalysis-Cambridge University Press [distributor], Mathematical Association of America (2009).pdf` |
-| Cryptography (31 pg) | 7/10 | 13 | `../hardisk/hdd/disk/course/New folder/Prasad Docs/20. Cryptography.pdf` |
-| Cryptography and Network Security 5/e — William Stallings | 9/10 | 13 | `../hardisk/hdd/old_files/coursework/2_sem/1 NCS/notes/1 introduction new.pdf` |
-| Operating System Security — Jaeger (236 pg) | 7/10 | 13 | `../hardisk/hdd/old_files/books/Jaeger - Operating System Security-ebook.pdf` |
-| Linux Essentials for Cybersecurity | 6/10 | 14 | `../hardisk/hdd/old_files/books/Linux Essentials for Cybersecurity.pdf` |
-| Penetration Testing with the Bash Shell | 8/10 | 14 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Penetration Testing with the Bash Shell.pdf` |
-| Buffer Overflow Attacks — Detect, Exploit, Prevent | 5/10 | 5 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Buffer Overflow Attacks -  Detect, Exploit, Prevent.pdf` |
-| The Shellcoder's Handbook — Discovering and Exploiting Security Holes | 6/10 | 5 | `../hardisk/hdd/old_files/books/The Shellcoder's Handbook Discovering and Exploiting Security Holes ( PDFDrive ).pdf` |
-| Reverse Engineering for Beginners | 5/10 | 5 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Reverse Engineering for Beginners.pdf` |
-| Rootkits and Bootkits — Reversing Modern Malware (No Starch, 2019) | 6/10 | 5 | `../hardisk/hdd/old_files/books/Alex Matrosov, Eugene Rodionov, Sergey Bratus - Rootkits and Bootkits_ Reversing Modern Malware and Next Generation Threats-No Starch Press (2019).pdf` |
-| Gray Hat Hacking, 4th Ed | 6/10 | 2 | `../hardisk/hdd/old_files/books/Gray_Hat_Hacking_4th_Edition.pdf` |
-| Coding for Penetration Testers — Building Better Tools | 6/10 | 2 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Coding for Penetration Testers_ Building Better Tools.pdf` |
-| Python Penetration Testing Essentials | 5/10 | 2 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Python Penetration Testing Essentials.pdf` |
-| Learning Python Web Penetration Testing | 6/10 | 1 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Learning Python Web Penetration Testing.pdf` |
-| A Practical Guide to TPM 2.0 (375 pg) | 7/10 | 8 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/A Practical Guide to TPM 2.0_ Using the New Trusted Platform Module in the New Age of Security.pdf` |
-| Hardware IP Security and Trust | 6/10 | 8 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Hardware IP Security and Trust.pdf` |
-| The Hardware Hacker | 8/10 | 8 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/The Hardware Hacker.pdf` |
-| Hacking The Xbox (hardware security) | 8/10 | 8 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Hacking The Xbox.pdf` |
-| Security and Privacy in Internet of Things — Models, Algorithms, Implementations | 7/10 | 8 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Security and Privacy in Internet of Things (IoTs) - Models, Algorithms and Implementations.pdf` |
-| SQL Injection (22 pg) | 7/10 | 1 | `../hardisk/hdd/disk/course/New folder/Prasad Docs/15. SQL Injection (1).pdf` |
-| Securing SQL Server — Protecting Your Database from Attackers | 5/10 | 1 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Securing SQL Server Protecting Your Database from Attackers 3rd Edition.pdf` |
-| Database Forensics (220 pg) | 7/10 | 6 | `../hardisk/hdd/old_files/coursework/1_sem/3_DF/Misc Part 2/Database Forensics.pdf` |
-| The Web Application Hacker's Handbook, 2nd Ed | 8/10 | 1 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/The Web Application Hackers Handbook (2nd Edition).pdf` |
-| Malware Analyst's Cookbook (2011) | 6/10 | 5 | `../hardisk/hdd/old_files/coursework/2_sem/3_REMA/Books/2011_Malware Analysts Cookbook.pdf` |
-| Hacking Exposed Malware & Rootkits | 6/10 | 5 | `../hardisk/hdd/old_files/books/Hacking exposed malware & rootkits_ malware & rootkits security secrets & solutions ( PDFDrive.com ).pdf` |
-| Malware Analysis and Detection Engineering | 8/10 | 5 | `../hardisk/hdd/disk/course/WEEK-4/Malware Analysis and Detection Engineering.pdf` |
-| Cybersecurity — Attack and Defense Strategies (Red + Blue Team) | 8/10 | 2 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Cybersecurity – Attack and Defense Strategies Infrastructure security with Red Team and Blue Team tactics.pdf` |
-| Intelligence-Driven Incident Response | 6/10 | 6 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Intelligence-Driven Incident Response.pdf` |
-| Computer Incident Response and Forensics Team Management | 8/10 | 6 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Computer Incident Response and Forensics Team Management - Conducting a Succesful Incident Response.pdf` |
-| Mastering Splunk | 7/10 | 10 | `../hardisk/hdd/disk/course/WEEK-24/CEH/mastering-splunk.pdf` |
-| File System Forensic Analysis — Brian Carrier (382 pg) | 7/10 | 6 | `../hardisk/hdd/old_files/coursework/1_sem/3_DF/Misc Part 2/info_file_system_forensic_analysis.pdf` |
-| Computer Forensics — Investigating Hard Disks, File & Operating Systems (240 pg) | 8/10 | 6 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Computer Forensics - Investigating Hard Disks, File & Operating Systems.pdf` |
-| Handbook of Digital Forensics and Investigation | 7/10 | 6 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Handbook of Digital Forensics and Investigation.pdf` |
-| Mastering Modern Web Penetration Testing (298 pg) | 8/10 | 1 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Mastering Modern Web Penetration Testing.pdf` |
-| The Browser Hacker's Handbook | 6/10 | 1 | `../hardisk/hdd/old_files/books/The Browser Hacker's Handbook ( PDFDrive ).pdf` |
-| Real-World Bug Hunting — A Field Guide to Web Hacking | 5/10 | 1 | `../hardisk/hdd/old_files/books/Real-World Bug Hunting A Field Guide to Web Hacking Real-World Bug Hunting A Field Guide to Web Hacking.pdf` |
-| Collaborative Cyber Threat Intelligence — Detecting and Responding to Advanced Attacks | 8/10 | 9 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Collaborative Cyber Threat Intelligence Detecting and Responding to Advanced Cyber Attacks at the National Level.pdf` |
-| Practical Cyber Intelligence | 7/10 | 9 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Practical Cyber Intelligence.pdf` |
-| Open Source Intelligence Methods and Tools | 7/10 | 9 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Open Source Intelligence Methods and Tools.pdf` |
-| Mastering Machine Learning for Penetration Testing | 8/10 | 2 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Mastering Machine Learning for Penetration Testing.pdf` |
-| Malware Data Science — Attack Detection and Attribution (No Starch) | 5/10 | 5 | `../hardisk/hdd/old_files/books/Joshua Saxe, Hillary Sanders - Malware Data Science_ Attack Detection and Attribution-No Starch Press (2018).pdf` |
-| Penetration Testing — A Hands-on Intro to Hacking, Georgia Weidman (531 pg) | 8/10 | 2 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Penetration Testing - A hands-on introduction to Hacking.pdf` |
-| The Hacker Playbook 2 — Practical Guide to Penetration Testing | 8/10 | 2 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/The Hacker Playbook 2- Practical Guide To Penetration Testing.pdf` |
-| Metasploit — The Penetration Tester's Guide | 6/10 | 2 | `../hardisk/hdd/disk/course/WEEK-23/Security_Study_Material/Metasploit The Penetration Tester's Guide.pdf` |
-| CEH v13 — Certified Ethical Hacker (latest, 80MB) | 8/10 | 12 | `../hardisk/hdd/disk/course/WEEK-24/CEH/CEH v13.pdf` |
-| SANS SEC542 — Web App Penetration Testing, Day 2 | 8/10 | 12 | `../hardisk/hdd/disk/course/WEEK-15/SANS Web VAPT/sans 542-Day2.pdf` |
+| Attacking Network Protocols — Hacker's Guide to Capture, Analysis, Exploitation | 7/10 | 3 | `Attacking Network Protocols A Hacker's Guide to Capture, Analysis, and Exploitation.pdf` |
+| Nmap Network Exploration and Security Auditing Cookbook, 2nd Ed | 7/10 | 3 | `Nmap Network Exploration and Security Auditing Cookbook - Second Edition.pdf` |
+| Applied Network Security Monitoring | 8/10 | 3 | `Applied Network Security Monitoring.pdf` |
+| Network Security Through Data Analysis, 2nd Ed | 7/10 | 3 | `Network Security Through Data Analysis, 2nd Edition.pdf` |
+| Cisco Press — Penetration Testing and Network Defense | 7/10 | 3 | `Cisco Press - Penetration Testing and Network Defense.pdf` |
+| Network Layer — Forouzan (slides) | 5/10 | 3 | `Network-Layer-Forouzan.pdf` |
+| Wireshark Top Filters (quick ref) | 7/10 | 12 | `Wireshark Top Filters.pdf` |
+| SILENCE ON THE WIRE — Passive Reconnaissance and Indirect Attacks | 6/10 | 3 | `SILENCE ON THE WIRE A Field Guide to Passive Reconnaissance and Indirect Attacks.pdf` |
+| Cryptography and Network Security — Principles and Practice, 7th Global Ed | 6/10 | 13 | `cryptography-and-network-security_-principles-and-practice-7th-global-edition.pdf` |
+| Elementary Cryptanalysis (227 pg) | 7/10 | 13 | `(New mathematical library 22) Sinkov, Abraham - Elementary cryptanalysis-Cambridge University Press [distributor], Mathematical Association of America (2009).pdf` |
+| Cryptography (31 pg) | 7/10 | 13 | `20. Cryptography.pdf` |
+| Cryptography and Network Security 5/e — William Stallings | 9/10 | 13 | `1 introduction new.pdf` |
+| Operating System Security — Jaeger (236 pg) | 7/10 | 13 | `Jaeger - Operating System Security-ebook.pdf` |
+| Linux Essentials for Cybersecurity | 6/10 | 14 | `Linux Essentials for Cybersecurity.pdf` |
+| Penetration Testing with the Bash Shell | 8/10 | 14 | `Penetration Testing with the Bash Shell.pdf` |
+| Buffer Overflow Attacks — Detect, Exploit, Prevent | 5/10 | 5 | `Buffer Overflow Attacks -  Detect, Exploit, Prevent.pdf` |
+| The Shellcoder's Handbook — Discovering and Exploiting Security Holes | 6/10 | 5 | `The Shellcoder's Handbook Discovering and Exploiting Security Holes ( PDFDrive ).pdf` |
+| Reverse Engineering for Beginners | 5/10 | 5 | `Reverse Engineering for Beginners.pdf` |
+| Rootkits and Bootkits — Reversing Modern Malware (No Starch, 2019) | 6/10 | 5 | `Alex Matrosov, Eugene Rodionov, Sergey Bratus - Rootkits and Bootkits_ Reversing Modern Malware and Next Generation Threats-No Starch Press (2019).pdf` |
+| Gray Hat Hacking, 4th Ed | 6/10 | 2 | `Gray_Hat_Hacking_4th_Edition.pdf` |
+| Coding for Penetration Testers — Building Better Tools | 6/10 | 2 | `Coding for Penetration Testers_ Building Better Tools.pdf` |
+| Python Penetration Testing Essentials | 5/10 | 2 | `Python Penetration Testing Essentials.pdf` |
+| Learning Python Web Penetration Testing | 6/10 | 1 | `Learning Python Web Penetration Testing.pdf` |
+| A Practical Guide to TPM 2.0 (375 pg) | 7/10 | 8 | `A Practical Guide to TPM 2.0_ Using the New Trusted Platform Module in the New Age of Security.pdf` |
+| Hardware IP Security and Trust | 6/10 | 8 | `Hardware IP Security and Trust.pdf` |
+| The Hardware Hacker | 8/10 | 8 | `The Hardware Hacker.pdf` |
+| Hacking The Xbox (hardware security) | 8/10 | 8 | `Hacking The Xbox.pdf` |
+| Security and Privacy in Internet of Things — Models, Algorithms, Implementations | 7/10 | 8 | `Security and Privacy in Internet of Things (IoTs) - Models, Algorithms and Implementations.pdf` |
+| SQL Injection (22 pg) | 7/10 | 1 | `15. SQL Injection (1).pdf` |
+| Securing SQL Server — Protecting Your Database from Attackers | 5/10 | 1 | `Securing SQL Server Protecting Your Database from Attackers 3rd Edition.pdf` |
+| Database Forensics (220 pg) | 7/10 | 6 | `Database Forensics.pdf` |
+| The Web Application Hacker's Handbook, 2nd Ed | 8/10 | 1 | `The Web Application Hackers Handbook (2nd Edition).pdf` |
+| Malware Analyst's Cookbook (2011) | 6/10 | 5 | `2011_Malware Analysts Cookbook.pdf` |
+| Hacking Exposed Malware & Rootkits | 6/10 | 5 | `Hacking exposed malware & rootkits_ malware & rootkits security secrets & solutions ( PDFDrive.com ).pdf` |
+| Malware Analysis and Detection Engineering | 8/10 | 5 | `Malware Analysis and Detection Engineering.pdf` |
+| Cybersecurity — Attack and Defense Strategies (Red + Blue Team) | 8/10 | 2 | `Cybersecurity – Attack and Defense Strategies Infrastructure security with Red Team and Blue Team tactics.pdf` |
+| Intelligence-Driven Incident Response | 6/10 | 6 | `Intelligence-Driven Incident Response.pdf` |
+| Computer Incident Response and Forensics Team Management | 8/10 | 6 | `Computer Incident Response and Forensics Team Management - Conducting a Succesful Incident Response.pdf` |
+| Mastering Splunk | 7/10 | 10 | `mastering-splunk.pdf` |
+| File System Forensic Analysis — Brian Carrier (382 pg) | 7/10 | 6 | `info_file_system_forensic_analysis.pdf` |
+| Computer Forensics — Investigating Hard Disks, File & Operating Systems (240 pg) | 8/10 | 6 | `Computer Forensics - Investigating Hard Disks, File & Operating Systems.pdf` |
+| Handbook of Digital Forensics and Investigation | 7/10 | 6 | `Handbook of Digital Forensics and Investigation.pdf` |
+| Mastering Modern Web Penetration Testing (298 pg) | 8/10 | 1 | `Mastering Modern Web Penetration Testing.pdf` |
+| The Browser Hacker's Handbook | 6/10 | 1 | `The Browser Hacker's Handbook ( PDFDrive ).pdf` |
+| Real-World Bug Hunting — A Field Guide to Web Hacking | 5/10 | 1 | `Real-World Bug Hunting A Field Guide to Web Hacking Real-World Bug Hunting A Field Guide to Web Hacking.pdf` |
+| Collaborative Cyber Threat Intelligence — Detecting and Responding to Advanced Attacks | 8/10 | 9 | `Collaborative Cyber Threat Intelligence Detecting and Responding to Advanced Cyber Attacks at the National Level.pdf` |
+| Practical Cyber Intelligence | 7/10 | 9 | `Practical Cyber Intelligence.pdf` |
+| Open Source Intelligence Methods and Tools | 7/10 | 9 | `Open Source Intelligence Methods and Tools.pdf` |
+| Mastering Machine Learning for Penetration Testing | 8/10 | 2 | `Mastering Machine Learning for Penetration Testing.pdf` |
+| Malware Data Science — Attack Detection and Attribution (No Starch) | 5/10 | 5 | `Joshua Saxe, Hillary Sanders - Malware Data Science_ Attack Detection and Attribution-No Starch Press (2018).pdf` |
+| Penetration Testing — A Hands-on Intro to Hacking, Georgia Weidman (531 pg) | 8/10 | 2 | `Penetration Testing - A hands-on introduction to Hacking.pdf` |
+| The Hacker Playbook 2 — Practical Guide to Penetration Testing | 8/10 | 2 | `The Hacker Playbook 2- Practical Guide To Penetration Testing.pdf` |
+| Metasploit — The Penetration Tester's Guide | 6/10 | 2 | `Metasploit The Penetration Tester's Guide.pdf` |
+| CEH v13 — Certified Ethical Hacker (latest, 80MB) | 8/10 | 12 | `CEH v13.pdf` |
+| SANS SEC542 — Web App Penetration Testing, Day 2 | 8/10 | 12 | `sans 542-Day2.pdf` |
 
 ### Not in the reading list, found on disk
 
 | Book | Path |
 |---|---|
-| Tanenbaum - Computer Networks | `../hardisk/hdd/old_files/books/Andrew S. Tanenbaum - Computer Networks.pdf` |
-| CCNA 200-301 Official Cert Guide Vol 1 (Cisco Press) | `../hardisk/hdd/old_files/books/12381imguf_CiscoPress-CCNA-200-301-Official-Cert-Guide-Volume-1.pdf` |
-| CCNA 200-301 Vol 2 | `../hardisk/hdd/old_files/books/ccna-200-301-vol.-2.pdf` |
-| Hacking: The Art of Exploitation, 2nd Ed | `../hardisk/hdd/old_files/books/Hacking - The Art of Exploitation_2nd Ed.pdf` |
-| Rootkits: Subverting the Windows Kernel | `../hardisk/hdd/old_files/books/Rootkits - Subverting the Windows Kernel.pdf` |
-| Hands-On System Programming with Linux | `../hardisk/hdd/old_files/books/Hands-On System Programming With Linux Explore Linux System Programming Interfaces, Theory, And Practice ( PDFDrive.com ).pdf` |
-| C++ Primer | `../hardisk/hdd/old_files/books/CPPPrimer.pdf` |
-| A Complete Guide to Standard C++ Algorithms | `../hardisk/hdd/old_files/books/a_complete_guide_to_standard_cpp_algorithms_v1_0_1.pdf` |
-| Black Hat Python | `../hardisk/hdd/old_files/books/Black Hat Python_ Python Programming for Hackers and Pentesters ( PDFDrive.com ).pdf` |
-| Black Hat Go | `../hardisk/hdd/old_files/books/Black_Hat_Go.pdf` |
-| Gray Hat Python | `../hardisk/hdd/old_files/books/Gray_Hat_Python_Python_Programming.pdf` |
-| Go in Action | `../hardisk/hdd/old_files/books/Go in Action.pdf` |
-| Hacking Secret Ciphers with Python | `../hardisk/hdd/old_files/books/Hacking Secret Ciphers With Python By @TheCyberLeak.pdf` |
-| Computer Organization and Design, RISC-V Ed (Patterson & Hennessy) | `../hardisk/pendrive-aug-26/summary/Book Materials/The.Morgan.Kaufmann.Series.in.Computer.Architecture.and.Design.David.A.Patterson.John.L.Hennessy.-.Computer.Organization.and.Design.RISC-V.Edition_.The.Hardware.Software.Interface-Morgan.Kaufmann.pdf` |
-| Computer Architecture, 6th Ed, RISC-V | `../hardisk/pendrive-aug-26/summary/Book Materials/Computer_Architecture_6th_Edition_RISC_V.pdf` |
-| Digital Design: A Systems Approach (Dally & Harting) | `../hardisk/pendrive-aug-26/summary/Book Materials/William J. Dally, R. Curtis Harting - Digital Design_ A Systems Approach-Cambridge University Press (2012).pdf` |
-| The RISC-V Reader | `../hardisk/pendrive-aug-26/summary/Book Materials/David Patterson_ Andrew Waterman - The RISC-V Reader_ An Open Architecture Atlas-Strawberry Canyon LLC (2017).pdf` |
-| Post-Quantum Cryptography Application Research Report 2023 | `../hardisk/pendrive-aug-26/summary/Post-Quantum_Cryptography_Application_Research_Report_2023_CAICT-2023.pdf` |
-| GATE 2023 question paper PDF (docs/GATE2023) | `../hardisk/hdd/old_files/docs/GATE2023/C425K74questionPaper.pdf` |
+| Tanenbaum - Computer Networks | `Andrew S. Tanenbaum - Computer Networks.pdf` |
+| CCNA 200-301 Official Cert Guide Vol 1 (Cisco Press) | `12381imguf_CiscoPress-CCNA-200-301-Official-Cert-Guide-Volume-1.pdf` |
+| CCNA 200-301 Vol 2 | `ccna-200-301-vol.-2.pdf` |
+| Hacking: The Art of Exploitation, 2nd Ed | `Hacking - The Art of Exploitation_2nd Ed.pdf` |
+| Rootkits: Subverting the Windows Kernel | `Rootkits - Subverting the Windows Kernel.pdf` |
+| Hands-On System Programming with Linux | `Hands-On System Programming With Linux Explore Linux System Programming Interfaces, Theory, And Practice ( PDFDrive.com ).pdf` |
+| C++ Primer | `CPPPrimer.pdf` |
+| A Complete Guide to Standard C++ Algorithms | `a_complete_guide_to_standard_cpp_algorithms_v1_0_1.pdf` |
+| Black Hat Python | `Black Hat Python_ Python Programming for Hackers and Pentesters ( PDFDrive.com ).pdf` |
+| Black Hat Go | `Black_Hat_Go.pdf` |
+| Gray Hat Python | `Gray_Hat_Python_Python_Programming.pdf` |
+| Go in Action | `Go in Action.pdf` |
+| Hacking Secret Ciphers with Python | `Hacking Secret Ciphers With Python By @TheCyberLeak.pdf` |
+| Computer Organization and Design, RISC-V Ed (Patterson & Hennessy) | `The.Morgan.Kaufmann.Series.in.Computer.Architecture.and.Design.David.A.Patterson.John.L.Hennessy.-.Computer.Organization.and.Design.RISC-V.Edition_.The.Hardware.Software.Interface-Morgan.Kaufmann.pdf` |
+| Computer Architecture, 6th Ed, RISC-V | `Computer_Architecture_6th_Edition_RISC_V.pdf` |
+| Digital Design: A Systems Approach (Dally & Harting) | `William J. Dally, R. Curtis Harting - Digital Design_ A Systems Approach-Cambridge University Press (2012).pdf` |
+| The RISC-V Reader | `David Patterson_ Andrew Waterman - The RISC-V Reader_ An Open Architecture Atlas-Strawberry Canyon LLC (2017).pdf` |
+| Post-Quantum Cryptography Application Research Report 2023 | `Post-Quantum_Cryptography_Application_Research_Report_2023_CAICT-2023.pdf` |
+| GATE 2023 question paper PDF (docs/GATE2023) | `C425K74questionPaper.pdf` |
 
 ### Not found on disk
 
